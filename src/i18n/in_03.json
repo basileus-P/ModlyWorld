@@ -1,0 +1,1122 @@
+[
+{
+"id": 714,
+"kind": "s",
+"text": "kalbėtis: Debesėlis (egzaminas)"
+},
+{
+"id": 715,
+"kind": "s",
+"text": "atidaryti narvą"
+},
+{
+"id": 716,
+"kind": "s",
+"text": "kalbėtis: Žvaigždikė"
+},
+{
+"id": 717,
+"kind": "s",
+"text": "Gelbėjimo ratas rankoje"
+},
+{
+"id": 718,
+"kind": "s",
+"text": "Prieik prie ežero kranto ir spausk E"
+},
+{
+"id": 719,
+"kind": "s",
+"text": "Daugiau prie sirupo be suaugusių neisiu. Pažadu!"
+},
+{
+"id": 720,
+"kind": "s",
+"text": "Penketas! Mama pakabino mano egzaminą ant debesies šaldytuvo."
+},
+{
+"id": 721,
+"kind": "s",
+"text": "Buuu… Šiandien matematikos egzaminas, o aš nieko nemoku! Visi skaičiai man atrodo kaip debesys."
+},
+{
+"id": 722,
+"kind": "s",
+"text": "Gal… gal tu galėtum jį padaryti už mane? Reikia bent 5 teisingų iš 6. Mokytoja nežiūri!"
+},
+{
+"id": 723,
+"kind": "s",
+"text": "Kai užaugsiu, būsiu vagių gaudytoja. Kaip tu!"
+},
+{
+"id": 724,
+"kind": "s",
+"text": "Narvą saugo vagys – trenk jiems (<kbd>LMB</kbd>), kai prieisi"
+},
+{
+"id": 725,
+"kind": "s",
+"text": "Mažas vienaragis iš Vaivorykščių Pasaulio. Karalienės dovana."
+},
+{
+"id": 726,
+"kind": "s",
+"text": "Vaivorykštė!"
+},
+{
+"id": 727,
+"kind": "s",
+"text": "Vaivorykštukas"
+},
+{
+"id": 728,
+"kind": "s",
+"text": "Vaivorykštukas keliauja su tavimi!"
+},
+{
+"id": 729,
+"kind": "s",
+"text": "Tavo naujas vienaragis augintinis. I – visi gyvūnai"
+},
+{
+"id": 730,
+"kind": "s",
+"text": "Su tavimi jau 5 gyvūnai – jis laukia kolekcijoje (I)"
+},
+{
+"id": 731,
+"kind": "s",
+"text": "Įmesk ragą į Ledinį Ežerėlį Ledo Saloje"
+},
+{
+"id": 732,
+"kind": "s",
+"text": "Įšok į spalvotą vandenį Ledo Saloje"
+},
+{
+"id": 733,
+"kind": "s",
+"text": "Pasikalbėk su Vienaragių Karaliene"
+},
+{
+"id": 734,
+"kind": "s",
+"text": "Grįžk pas Karalienę atsiimti apdovanojimo"
+},
+{
+"id": 735,
+"kind": "s",
+"text": "Mesk ratą skęstančiam (E prie kranto)"
+},
+{
+"id": 736,
+"kind": "s",
+"text": "Paimk gelbėjimo ratą prie Sirupo Ežero"
+},
+{
+"id": 737,
+"kind": "s",
+"text": "Padaryk egzaminą už Debesėlį Debesų Mokykloje"
+},
+{
+"id": 738,
+"kind": "t",
+"text": "Išvaikyk vagis (liko ${RW.thieves.length}) ir išlaisvink Žvaigždikę"
+},
+{
+"id": 739,
+"kind": "s",
+"text": "Atidaryk narvą"
+},
+{
+"id": 740,
+"kind": "s",
+"text": "Grįžk į Vaivorykščių Pasaulį per spalvotą vandenį Ledo Saloje"
+},
+{
+"id": 741,
+"kind": "t",
+"text": "${arrow}<div><div class=\"qt\">Paslaptis: Vaivorykščių Pasaulis</div><div class=\"qs\">${step}${dist}</div></div>"
+},
+{
+"id": 742,
+"kind": "s",
+"text": "Žaliasis"
+},
+{
+"id": 743,
+"kind": "s",
+"text": "Toks, koks esi. Mažas, plonas ir žalias."
+},
+{
+"id": 744,
+"kind": "s",
+"text": "Kepuraitė"
+},
+{
+"id": 745,
+"kind": "s",
+"text": "Raudona kepurė su snapeliu. Nuo saulės ir nuo meteoritų (ne)."
+},
+{
+"id": 746,
+"kind": "s",
+"text": "Katės ausytės"
+},
+{
+"id": 747,
+"kind": "s",
+"text": "Dvi ausytės ir ūsai. Šunys tave vaikysis."
+},
+{
+"id": 748,
+"kind": "s",
+"text": "Virėjas"
+},
+{
+"id": 749,
+"kind": "s",
+"text": "Aukšta balta kepurė ir prijuostė – kaip „Skanus maistas“ virtuvėje."
+},
+{
+"id": 750,
+"kind": "s",
+"text": "Plati kepurė ir raudona skarelė. Ji-ha!"
+},
+{
+"id": 751,
+"kind": "s",
+"text": "Trikampė skrybėlė, akies raištis ir dryžuoti marškiniai. Arrr!"
+},
+{
+"id": 752,
+"kind": "s",
+"text": "Nindzė"
+},
+{
+"id": 753,
+"kind": "s",
+"text": "Visas juodas, su raudonu galvos raiščiu. Tavęs niekas nemato. Beveik."
+},
+{
+"id": 754,
+"kind": "s",
+"text": "Gobtuvas su spygliais ir uodega. Rrrr!"
+},
+{
+"id": 755,
+"kind": "s",
+"text": "Sidabrinis šalmas su plunksna ir šarvai."
+},
+{
+"id": 756,
+"kind": "s",
+"text": "Visas sidabrinis, su antena ir mirksinčia lempute. Bip bup."
+},
+{
+"id": 757,
+"kind": "s",
+"text": "Baltas kostiumas ir stiklinis šalmas. Tinka Marsui."
+},
+{
+"id": 758,
+"kind": "s",
+"text": "Auksinė karūna ir raudonas apsiaustas. Visi turi nusilenkti."
+},
+{
+"id": 759,
+"kind": "s",
+"text": "Vaivorykštinis ragas, uodega ir maikė. Šio kostiumo nenupirksi – jį gali tik užsitarnauti."
+},
+{
+"id": 760,
+"kind": "s",
+"text": "Kostiumą pakeisti gali bet kada kostiumų kioske aikštėje"
+},
+{
+"id": 761,
+"kind": "s",
+"text": "KOSTIUMŲ KIOSKAS"
+},
+{
+"id": 762,
+"kind": "s",
+"text": "Kostiumų kioskas"
+},
+{
+"id": 763,
+"kind": "s",
+"text": "persirengti – kostiumų kioskas"
+},
+{
+"id": 764,
+"kind": "s",
+"text": "Dėvi"
+},
+{
+"id": 765,
+"kind": "t",
+"text": "Dabar dėvi: ${(SKINS.find(s => s.id === skinNow) || SKINS[0]).name} · turi ${skinOwned.length} iš ${SKINS.length}"
+},
+{
+"id": 766,
+"kind": "s",
+"text": "Šis kostiumas – paslaptis"
+},
+{
+"id": 767,
+"kind": "s",
+"text": "Jo nenupirksi. Sako, jį duoda kažkokia karalienė labai spalvotame pasaulyje…"
+},
+{
+"id": 768,
+"kind": "s",
+"text": "mėlynai"
+},
+{
+"id": 769,
+"kind": "s",
+"text": "rožiškai"
+},
+{
+"id": 770,
+"kind": "s",
+"text": "žaliai"
+},
+{
+"id": 771,
+"kind": "s",
+"text": "oranžiškai"
+},
+{
+"id": 772,
+"kind": "s",
+"text": "violetiškai"
+},
+{
+"id": 773,
+"kind": "s",
+"text": "SIENŲ DAŽYMAS"
+},
+{
+"id": 774,
+"kind": "s",
+"text": "Sienų dažymo dirbtuvė"
+},
+{
+"id": 775,
+"kind": "s",
+"text": "pradėti sienų dažymo darbą"
+},
+{
+"id": 776,
+"kind": "s",
+"text": "baigti dažymo darbą"
+},
+{
+"id": 777,
+"kind": "s",
+"text": "Sienų dažytojas!"
+},
+{
+"id": 778,
+"kind": "s",
+"text": "Seki didžiulę raudoną rodyklę ir nudažyk tą namą. Per vieną darbą – tik 3 namai. Kuo greičiau – tuo daugiau pinigų"
+},
+{
+"id": 779,
+"kind": "t",
+"text": "Nudažei namų: ${PJ.jobs} · uždirbai ${PJ.earned} €"
+},
+{
+"id": 780,
+"kind": "t",
+"text": "Naujas užsakymas: nudažyk namą ${PJ.colorName}!"
+},
+{
+"id": 781,
+"kind": "t",
+"text": "Seki didžiulę raudoną rodyklę · ${Math.round(dist)} m · laikas ${mmss(PJ.limit)}"
+},
+{
+"id": 782,
+"kind": "t",
+"text": "Dažyk ${PJ.colorName} · liko <b>${PJ.t >= 0 ? mmss(PJ.t) : 'vėluoji!'}</b> · sienos ${done}/4 · uždirbta <b>${PJ.earned} €</b>"
+},
+{
+"id": 783,
+"kind": "t",
+"text": "Nudažyta! +${pay} €"
+},
+{
+"id": 784,
+"kind": "t",
+"text": "Nudažyta, bet per vėlai… +${pay} €"
+},
+{
+"id": 785,
+"kind": "t",
+"text": "Likęs laikas ${mmss(left)} – kuo greičiau, tuo daugiau. Rodyklė jau rodo kitą namą!"
+},
+{
+"id": 786,
+"kind": "s",
+"text": "Kitą kartą skubėk! Rodyklė rodo naują namą"
+},
+{
+"id": 787,
+"kind": "s",
+"text": "Darbas baigtas – 3 namai nudažyti!"
+},
+{
+"id": 788,
+"kind": "t",
+"text": "Uždirbai ${PJ.earned} €. Norėsi dar – grįžk į dirbtuvę ir pradėk naują darbą"
+},
+{
+"id": 789,
+"kind": "s",
+"text": "Mažasis… pažvelk į dangų virš Begalinės Dykumos. Ten kabo svetimas laivas – ATEIVIAI!"
+},
+{
+"id": 790,
+"kind": "s",
+"text": "Jie siurbia į savo lėkštę karvę. Vargšė karvė ore jau trečią dieną ir sako, kad jai svaigsta galva."
+},
+{
+"id": 791,
+"kind": "s",
+"text": "Naujas įsakymas: NUGALĖK ATEIVIUS. Mano salėje kažkur paslėptas snaiperio šautuvas – suradęs, pamatysi. Numušk lėkštę ir atvesk karvę pas mane."
+},
+{
+"id": 792,
+"kind": "s",
+"text": "Šautuvas paslėptas čia, mano salėje. Pasidairyk prie kristalų, pačiame krašte."
+},
+{
+"id": 793,
+"kind": "s",
+"text": "Lėkštė kabo virš Begalinės Dykumos. Dešinys pelės mygtukas – taikiklis, kairys – šūvis. Trys taiklūs šūviai, ir ji kris."
+},
+{
+"id": 794,
+"kind": "s",
+"text": "Karvė saugi! Atvesk ją čia, per vartus aikštėje. Ji labai nori tau padėkoti."
+},
+{
+"id": 795,
+"kind": "s",
+"text": "Karvė padovanojo tau traktorių? Puiku. Prikabink ateivių lėkštę (Space) ir nuvilk ją į muziejų – tegul kaba po lubomis."
+},
+{
+"id": 796,
+"kind": "s",
+"text": "Ateivių lėkštė kabo muziejuje, karvė ganosi mano salėje, o ateiviai… sako, išsigando ir išskrido namo. Gerai padirbėta."
+},
+{
+"id": 797,
+"kind": "s",
+"text": "Įsakymas #6: Nugalėk ateivius"
+},
+{
+"id": 798,
+"kind": "s",
+"text": "Surask snaiperio šautuvą Kūrėjo Salėje"
+},
+{
+"id": 799,
+"kind": "s",
+"text": "Radai snaiperio šautuvą!"
+},
+{
+"id": 800,
+"kind": "s",
+"text": "Ateivių lėkštė – virš Begalinės Dykumos. Dešinys pelės mygtukas – taikiklis, kairys – šūvis"
+},
+{
+"id": 801,
+"kind": "s",
+"text": "Ateiviai išsigando ir išskrido namo!"
+},
+{
+"id": 802,
+"kind": "s",
+"text": "Karvė nusileido – pakalbink ją (E)"
+},
+{
+"id": 803,
+"kind": "t",
+"text": "Pataikei! Lėkštei liko ${ufo.hp} ${ufo.hp === 1 ? 'smūgis' : 'smūgiai'}"
+},
+{
+"id": 804,
+"kind": "s",
+"text": "NUMUŠEI ATEIVIŲ LĖKŠTĘ!"
+},
+{
+"id": 805,
+"kind": "s",
+"text": "Karvė leidžiasi žemyn…"
+},
+{
+"id": 806,
+"kind": "s",
+"text": "pakalbinti karvę"
+},
+{
+"id": 807,
+"kind": "s",
+"text": "Mūūū!"
+},
+{
+"id": 808,
+"kind": "s",
+"text": "Mūū!"
+},
+{
+"id": 809,
+"kind": "s",
+"text": "Mūūū… Žemė! Tikra žemė po kanopomis! Tris dienas sukausi ore kaip skalbinys."
+},
+{
+"id": 810,
+"kind": "s",
+"text": "Tu mane išgelbėjai? Mažas žalias žmogeliukas su šautuvu? Mūū, kaip įdomu."
+},
+{
+"id": 811,
+"kind": "s",
+"text": "Nuvesk mane pas Kūrėją. Ten saugu. O aš tau atsidėkosiu – turiu kai ką labai didelio ir labai žalio."
+},
+{
+"id": 812,
+"kind": "s",
+"text": "Karvė seka paskui tave"
+},
+{
+"id": 813,
+"kind": "s",
+"text": "Nuvesk ją per Kūrėjo vartus aikštėje"
+},
+{
+"id": 814,
+"kind": "s",
+"text": "Mūū…"
+},
+{
+"id": 815,
+"kind": "s",
+"text": "Kur ateiviai?"
+},
+{
+"id": 816,
+"kind": "s",
+"text": "Mūū! Kokia graži salė! Liksiu čia gyventi – žolė čia šviečia!"
+},
+{
+"id": 817,
+"kind": "s",
+"text": "Kaip ir žadėjau: štai mano traktorius. Didelis, žalias ir labai stiprus. Jis tavo!"
+},
+{
+"id": 818,
+"kind": "s",
+"text": "Su juo gali nutempti tą ateivių lėkštę į muziejų. Prisiartink traktoriumi ir spausk Space – prikabinsi."
+},
+{
+"id": 819,
+"kind": "s",
+"text": "Gavai traktorių!"
+},
+{
+"id": 820,
+"kind": "s",
+"text": "F – iškviesk traktorių, nuvažiuok prie lėkštės dykumoje ir spausk Space"
+},
+{
+"id": 821,
+"kind": "s",
+"text": "Mūū. Čia žolė šviečia ir niekas manęs nesiurbia į dangų. Tobula."
+},
+{
+"id": 822,
+"kind": "s",
+"text": "Kaip sekasi mano traktoriui? Neužmiršk jo tepti. Mūū."
+},
+{
+"id": 823,
+"kind": "s",
+"text": "Kartais sapnuoju ateivius. Bet čia, pas Kūrėją, nebijau."
+},
+{
+"id": 824,
+"kind": "s",
+"text": "Karvės dovana. Lėtas, bet tempia viską. Space – prikabinti / atkabinti."
+},
+{
+"id": 825,
+"kind": "s",
+"text": "Atkabinai lėkštę"
+},
+{
+"id": 826,
+"kind": "s",
+"text": "Space – prikabinti vėl"
+},
+{
+"id": 827,
+"kind": "s",
+"text": "Per toli nuo lėkštės"
+},
+{
+"id": 828,
+"kind": "s",
+"text": "Privažiuok arčiau ir spausk Space"
+},
+{
+"id": 829,
+"kind": "s",
+"text": "Lėkštė prikabinta!"
+},
+{
+"id": 830,
+"kind": "s",
+"text": "Tempk ją į muziejų Pradžios Mieste"
+},
+{
+"id": 831,
+"kind": "s",
+"text": "Įsakymas #6 įvykdytas!"
+},
+{
+"id": 832,
+"kind": "s",
+"text": "Ateivių lėkštė dabar kabo po muziejaus lubomis. Apdovanojimas: 600 €"
+},
+{
+"id": 833,
+"kind": "s",
+"text": "Ateivių lėkštė"
+},
+{
+"id": 834,
+"kind": "s",
+"text": "Numušta virš Begalinės Dykumos ir atitempta traktoriumi. Ateiviai paliko ją ir išskrido namo. Lemputės kartais dar sumirksi – sargai sako, kad lėkštė svajoja apie žvaigždes."
+},
+{
+"id": 835,
+"kind": "s",
+"text": "Surask snaiperio šautuvą – prie kristalų, krašte"
+},
+{
+"id": 836,
+"kind": "s",
+"text": "Eik pas Kūrėją – šautuvas jo salėje"
+},
+{
+"id": 837,
+"kind": "s",
+"text": "Numušk lėkštę virš Begalinės Dykumos · RMB – taikiklis, LMB – šūvis"
+},
+{
+"id": 838,
+"kind": "s",
+"text": "Nuvesk karvę pas Kūrėją (vartai aikštėje)"
+},
+{
+"id": 839,
+"kind": "s",
+"text": "Pakalbink karvę dykumoje"
+},
+{
+"id": 840,
+"kind": "s",
+"text": "Privažiuok prie lėkštės ir spausk Space"
+},
+{
+"id": 841,
+"kind": "s",
+"text": "F – iškviesk traktorių ir važiuok prie lėkštės"
+},
+{
+"id": 842,
+"kind": "s",
+"text": "Tempk lėkštę į muziejų Pradžios Mieste"
+},
+{
+"id": 843,
+"kind": "t",
+"text": "${arrow}<div><div class=\"qt\">Įsakymas #6: Nugalėk ateivius</div><div class=\"qs\">${step}${dist}</div></div>"
+},
+{
+"id": 844,
+"kind": "s",
+"text": "Pakelk galvą, mažasis. Matai tą didelį debesį virš miesto? Ten stovi Debesų Karaliaus pilis."
+},
+{
+"id": 845,
+"kind": "s",
+"text": "Karalius liūdi – jo sūnus, Debesų Princas, dingo. Bet į debesis be sparnų nepateksi."
+},
+{
+"id": 846,
+"kind": "s",
+"text": "Naujas įsakymas: DEBESŲ PRINCAS. Po visą pasaulį prie kelių išbarstytos 50 plunksnų. Surink jas – kostiumų kioske už jas gausi sparnus."
+},
+{
+"id": 847,
+"kind": "t",
+"text": "Plunksnų turi ${Q8.got.length} iš ${FEATHERS_N}. Jos šviečia prie kelių – rodyklė parodys artimiausią."
+},
+{
+"id": 848,
+"kind": "s",
+"text": "Visos plunksnos! Nueik į kostiumų kioską aikštėje ir iškeisk jas į sparnus."
+},
+{
+"id": 849,
+"kind": "s",
+"text": "Su sparnais skrisk į debesį virš miesto: Space – pašokti, o ore spausk Space vėl ir vėl – mojuosi sparnais."
+},
+{
+"id": 850,
+"kind": "s",
+"text": "Princas – Marso debesyje. Skrisk aukštyn, vis aukštyn, pro patį dangų."
+},
+{
+"id": 851,
+"kind": "s",
+"text": "Karaliaus dovana – stebuklingas debesėlis. Nunešk jį į muziejų."
+},
+{
+"id": 852,
+"kind": "s",
+"text": "Debesų Karalius vėl laimingas, o tu skraidai su debesų kuprine. Danguje dabar – tavo keliai."
+},
+{
+"id": 853,
+"kind": "s",
+"text": "Įsakymas #7: Debesų Princas"
+},
+{
+"id": 854,
+"kind": "s",
+"text": "Surink 50 plunksnų – jos šviečia prie kelių visame pasaulyje"
+},
+{
+"id": 855,
+"kind": "s",
+"text": "Visos 50 plunksnų!"
+},
+{
+"id": 856,
+"kind": "s",
+"text": "Nueik į kostiumų kioską aikštėje ir nusipirk sparnus"
+},
+{
+"id": 857,
+"kind": "t",
+"text": "Plunksnų: ${Q8.got.length} / ${FEATHERS_N}"
+},
+{
+"id": 858,
+"kind": "s",
+"text": "Rodyklė rodo artimiausią"
+},
+{
+"id": 859,
+"kind": "s",
+"text": "Balti plunksnų sparnai. Ore spausk Space vėl ir vėl – skrisi. Laikyk Space – sklandysi."
+},
+{
+"id": 860,
+"kind": "s",
+"text": "Debesų kuprinė"
+},
+{
+"id": 861,
+"kind": "s",
+"text": "Reaktyvinė kuprinė iš debesų. Laikyk Space – kyli aukštyn, Shift – greičiau."
+},
+{
+"id": 862,
+"kind": "s",
+"text": "DEBESŲ PILIS"
+},
+{
+"id": 863,
+"kind": "s",
+"text": "Debesų Pilis"
+},
+{
+"id": 864,
+"kind": "s",
+"text": "įeiti į Debesų Pilį"
+},
+{
+"id": 865,
+"kind": "s",
+"text": "Debesų Karalius"
+},
+{
+"id": 866,
+"kind": "s",
+"text": "Kaip tu čia patekai be sparnų?! …Na, sveikas. Mano sūnus dingo. Pasikalbėk su Kūrėju."
+},
+{
+"id": 867,
+"kind": "s",
+"text": "Žaliasis keliautojas – su sparnais! Pagaliau!"
+},
+{
+"id": 868,
+"kind": "s",
+"text": "Mano sūnus, Debesų Princas, žaisdamas nuplaukė per toli… Vėjas jį nunešė iki pat MARSO. Jis sėdi ant mažo debesėlio prie raudonosios planetos ir verkia."
+},
+{
+"id": 869,
+"kind": "s",
+"text": "Skrisk aukštyn, vis aukštyn – pro patį dangų. Kai skrisi pakankamai aukštai, pasieksi Marso debesį. Parnešk man sūnų!"
+},
+{
+"id": 870,
+"kind": "s",
+"text": "Skrisk į Marso debesį!"
+},
+{
+"id": 871,
+"kind": "s",
+"text": "Kilk aukštyn, kol aukštis pasieks 90 m virš žemės"
+},
+{
+"id": 872,
+"kind": "s",
+"text": "SŪNAU! Mano mažasis debesėli! Tu grįžai!"
+},
+{
+"id": 873,
+"kind": "s",
+"text": "Ačiū tau, drąsusis. Imk – tai stebuklingas debesėlis iš mano pilies. Jis niekada neištirpsta."
+},
+{
+"id": 874,
+"kind": "s",
+"text": "Nunešk jį į savo pasaulio muziejų – tegul visi mato debesų stebuklą. O muziejus tau atsilygins – štai pamatysi."
+},
+{
+"id": 875,
+"kind": "s",
+"text": "Gavai stebuklingą debesėlį!"
+},
+{
+"id": 876,
+"kind": "s",
+"text": "Skrisk aukštyn, vis aukštyn! Mano sūnus prie Marso."
+},
+{
+"id": 877,
+"kind": "s",
+"text": "Mano sūnus vėl namie, o tu – visada laukiamas Debesų Pilyje."
+},
+{
+"id": 878,
+"kind": "s",
+"text": "Įsakymas #7 įvykdytas! Apdovanojimas: 700 €"
+},
+{
+"id": 879,
+"kind": "s",
+"text": "Sako, Debesų Pilies 2 aukšte, tualete, kažkas paliko kuprines…"
+},
+{
+"id": 880,
+"kind": "s",
+"text": "ŽEMYN – NAMO"
+},
+{
+"id": 881,
+"kind": "s",
+"text": "Prie Raudonosios planetos"
+},
+{
+"id": 882,
+"kind": "s",
+"text": "Tylu. Po kojomis – rožinis debesis, apačioje – Marsas."
+},
+{
+"id": 883,
+"kind": "s",
+"text": "Tu nuskridai iki Marso!"
+},
+{
+"id": 884,
+"kind": "s",
+"text": "Ant debesies kažkas verkia… Debesų Princas!"
+},
+{
+"id": 885,
+"kind": "s",
+"text": "Rožinis debesis prie Marso"
+},
+{
+"id": 886,
+"kind": "s",
+"text": "Grįžai prie Debesų Pilies"
+},
+{
+"id": 887,
+"kind": "s",
+"text": "Nuvesk princą pas Karalių"
+},
+{
+"id": 888,
+"kind": "s",
+"text": "Debesų Princas"
+},
+{
+"id": 889,
+"kind": "s",
+"text": "Buuu… vėjas mane atpūtė iki pat Marso, o aš nemoku skristi atgal…"
+},
+{
+"id": 890,
+"kind": "s",
+"text": "Tave atsiuntė tėtis? Tikrai? Ura! Aš skrisiu paskui tave!"
+},
+{
+"id": 891,
+"kind": "s",
+"text": "Įženk į šviečiantį ratą – grįši namo"
+},
+{
+"id": 892,
+"kind": "s",
+"text": "<kbd>E</kbd> skristi žemyn – namo"
+},
+{
+"id": 893,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su Debesų Princu"
+},
+{
+"id": 894,
+"kind": "t",
+"text": "Plunksnos: <b>${Q8.got.length}/${FEATHERS_N}</b> – ieškok prie kelių"
+},
+{
+"id": 895,
+"kind": "s",
+"text": "Nusipirk sparnus kostiumų kioske aikštėje"
+},
+{
+"id": 896,
+"kind": "s",
+"text": "Skrisk į Debesų Pilį virš miesto (Space ore – mojuoti)"
+},
+{
+"id": 897,
+"kind": "s",
+"text": "Užsidėk sparnus kostiumų kioske ir skrisk į debesį"
+},
+{
+"id": 898,
+"kind": "s",
+"text": "Surask Debesų Princą"
+},
+{
+"id": 899,
+"kind": "t",
+"text": "Skrisk aukštyn į Marso debesį · aukštis ${alt}/90 m"
+},
+{
+"id": 900,
+"kind": "s",
+"text": "Įženk į šviečiantį ratą – namo"
+},
+{
+"id": 901,
+"kind": "s",
+"text": "Nuvesk princą pas Debesų Karalių"
+},
+{
+"id": 902,
+"kind": "s",
+"text": "Nunešk debesėlį į muziejų"
+},
+{
+"id": 903,
+"kind": "t",
+"text": "${arrow}<div><div class=\"qt\">Įsakymas #7: Debesų Princas</div><div class=\"qs\">${step}${dist}</div></div>"
+},
+{
+"id": 904,
+"kind": "s",
+"text": "Užsidėti"
+},
+{
+"id": 905,
+"kind": "s",
+"text": "Debesų Pilyje"
+},
+{
+"id": 906,
+"kind": "t",
+"text": "${Math.min(Q8.got.length, FEATHERS_N)}/${FEATHERS_N} plunksnų"
+},
+{
+"id": 907,
+"kind": "s",
+"text": "Gavai sparnus už 50 plunksnų!"
+},
+{
+"id": 908,
+"kind": "s",
+"text": "Space – pašokti, ore spausk Space vėl ir vėl – skrisi. Skrisk į Debesų Pilį virš miesto"
+},
+{
+"id": 909,
+"kind": "s",
+"text": "Reikia 50 plunksnų"
+},
+{
+"id": 910,
+"kind": "t",
+"text": "Turi ${Q8.got.length}. Jas rasi prie kelių – kai Kūrėjas duos įsakymą"
+},
+{
+"id": 911,
+"kind": "s",
+"text": "Šie sparnai – paslaptis"
+},
+{
+"id": 912,
+"kind": "s",
+"text": "Sako, juos gali gauti tik iš labai piktos mamos Marse… jei ją labai dažnai pažadinsi"
+},
+{
+"id": 913,
+"kind": "s",
+"text": "Šios kuprinės nenupirksi"
+},
+{
+"id": 914,
+"kind": "s",
+"text": "Debesų Pilyje, 2 aukšte, tualete – kiekvienas pasidėjo savo kuprinę prie savo tualeto…"
+},
+{
+"id": 915,
+"kind": "s",
+"text": "Kūrėjas pakvietė mus pagyventi čia. Debesų pilis – gerai, bet čia mano sūnus turi draugų!"
+},
+{
+"id": 916,
+"kind": "s",
+"text": "Kai mano berniukas pasiklydo, maniau, kad daugiau niekada nebūsiu laimingas. Ačiū tau, žaliasis."
+},
+{
+"id": 917,
+"kind": "s",
+"text": "Žiūrėk, kaip aš moku skraidyti! …Na, tik truputį. Bet į Marsą daugiau nebeskrisiu!"
+},
+{
+"id": 918,
+"kind": "s",
+"text": "Tu mano didvyris! Kai užaugsiu, būsiu toks pat drąsus debesis kaip tu."
+},
+{
+"id": 919,
+"kind": "s",
+"text": "Oi! Nukritai iš per aukštai…"
+},
+{
+"id": 920,
+"kind": "s",
+"text": "Guli ant žemės ir matai žvaigždutes. Spausk Space, kad atsistotum"
+},
+{
+"id": 921,
+"kind": "s",
+"text": "Atsikėlei!"
+},
+{
+"id": 922,
+"kind": "s",
+"text": "Kitą kartą leiskis atsargiau"
+},
+{
+"id": 923,
+"kind": "s",
+"text": "Bandymų pasaulis: turi VISKĄ!"
+},
+{
+"id": 924,
+"kind": "t",
+"text": "${CARS.length} mašinų (F), ${ANIMALS.length} gyvūnų (I), ${SKINS.length} kostiumų ir sparnai su kuprine (kostiumų kioskas)"
+},
+{
+"id": 925,
+"kind": "s",
+"text": "Nueik į muziejų Pradžios Mieste…"
+},
+{
+"id": 926,
+"kind": "s",
+"text": "Sidabrinis skafandras, didžiulės juodos akys ir dvi antenos. Iškrito iš ateivių lėkštės."
+},
+{
+"id": 927,
+"kind": "s",
+"text": "Ateivių šuo"
+},
+{
+"id": 928,
+"kind": "s",
+"text": "Žalias šuo su antena. Kartais pagauna radijo bangas iš kosmoso."
+},
+{
+"id": 929,
+"kind": "s",
+"text": "Antenėlis"
+},
+{
+"id": 930,
+"kind": "s",
+"text": "Kas čia?! Iš lubų leidžiasi kažkas mažo…"
+},
+{
+"id": 931,
+"kind": "s",
+"text": "Mažas pistoletas su parašiutu!"
+},
+{
+"id": 932,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti mažą pistoletą"
+},
+{
+"id": 933,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti ateivių rūbus"
+},
+{
+"id": 934,
+"kind": "s",
+"text": "<kbd>E</kbd> paglostyti žalią šunį su antena"
+},
+{
+"id": 935,
+"kind": "s",
+"text": "<kbd>LMB</kbd> šauti į ateivių lėkštę po lubomis"
+},
+{
+"id": 936,
+"kind": "s",
+"text": "Mažas ateivių pistoletas!"
+},
+{
+"id": 937,
+"kind": "s",
+"text": "Pažiūrėk aukštyn… gal juo galima pašaudyti į lėkštę? (pelės mygtukas)"
+}
+]

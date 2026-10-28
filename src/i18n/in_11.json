@@ -1,0 +1,912 @@
+[
+{
+"id": 2252,
+"kind": "s",
+"text": "Bandymų pasaulis: sukimas"
+},
+{
+"id": 2253,
+"kind": "s",
+"text": "Gaudyk daiktus ir nešk į Sukimo stotį (už knygos)"
+},
+{
+"id": 2254,
+"kind": "s",
+"text": "Fiu? Dar ne visiems! Mano pasaulis vis dar sukasi per greitai…"
+},
+{
+"id": 2255,
+"kind": "s",
+"text": "Taip… Tu padėjai VISIEMS. Visiems, tik ne man. ✨"
+},
+{
+"id": 2256,
+"kind": "s",
+"text": "Aš tavęs laukiau labai seniai. Mano žvaigždutės jau skrenda tavęs pasiimti!"
+},
+{
+"id": 2257,
+"kind": "s",
+"text": "Fiuuu! Tik saugokis – jos įsakymai patys sunkiausi!"
+},
+{
+"id": 2258,
+"kind": "s",
+"text": "…Mane šaukia? Papasakok grupei, kam tu padėjai. Ir kam – ne."
+},
+{
+"id": 2259,
+"kind": "s",
+"text": "✨ Atskrenda žvaigždutės!"
+},
+{
+"id": 2260,
+"kind": "s",
+"text": "Žvaigždžių Dievė tavęs laukia"
+},
+{
+"id": 2261,
+"kind": "s",
+"text": "Sveikas Žvaigždžių mieste! Čia viskas šviečia – net naktį, nes naktis čia niekada nebūna tamsi!"
+},
+{
+"id": 2262,
+"kind": "s",
+"text": "Aš gyvenu tame aukštame name su žvaigždute ant stogo. Kiekvieną vakarą ji šypsosi."
+},
+{
+"id": 2263,
+"kind": "s",
+"text": "Mūsų Dievė atrodo kaip skeletas… bet ji labai gera! Jos plaukai švyti kaip Paukščių Takas."
+},
+{
+"id": 2264,
+"kind": "s",
+"text": "Ar žinai, kad mes, žvaigždutės, gimstame kaip kibirkštėlės? Paskui užaugam ir šviečiam!"
+},
+{
+"id": 2265,
+"kind": "s",
+"text": "Dievė turi PENKIS įsakymus. Visi sako, kad jie neįmanomai sunkūs… Brr!"
+},
+{
+"id": 2266,
+"kind": "s",
+"text": "Dzin-dzin! Mūsų mieste niekas nevaikšto lėtai – visi šokinėja!"
+},
+{
+"id": 2267,
+"kind": "s",
+"text": "Žvaigždžių miške medžiai auga iš šviesos. Lapai – kaip kristalai!"
+},
+{
+"id": 2268,
+"kind": "s",
+"text": "Šie vaisiai – mažos žvaigždutės. Jei pakratysi medį, jos pabyra! …Nekratyk, prašau."
+},
+{
+"id": 2269,
+"kind": "s",
+"text": "Miške labai tylu. Girdi? Medžiai skamba kaip varpeliai."
+},
+{
+"id": 2270,
+"kind": "s",
+"text": "Aš čia pasiklydau prieš šimtą metų. Bet man patinka!"
+},
+{
+"id": 2271,
+"kind": "s",
+"text": "Žvaigždžių urve gyvena patys seniausi kristalai. Jie prisimena visas istorijas."
+},
+{
+"id": 2272,
+"kind": "s",
+"text": "Ššš… Urve reikia kalbėti tyliai, kitaip kristalai pabunda."
+},
+{
+"id": 2273,
+"kind": "s",
+"text": "Kažkas giliai urve… Dievė sako, kad ten prasideda vienas iš jos įsakymų. Bet aš bijau eiti."
+},
+{
+"id": 2274,
+"kind": "s",
+"text": "Čia tamsiau nei visur kitur. Todėl mes šviečiam dar stipriau!"
+},
+{
+"id": 2275,
+"kind": "s",
+"text": "Žvaigždžių miškas"
+},
+{
+"id": 2276,
+"kind": "s",
+"text": "Žvaigždžių urvas"
+},
+{
+"id": 2277,
+"kind": "s",
+"text": "ŽVAIGŽDŽIŲ DIEVĖ"
+},
+{
+"id": 2278,
+"kind": "s",
+"text": "★ 5 ĮSAKYMAI ★"
+},
+{
+"id": 2279,
+"kind": "s",
+"text": "Žvaigždžių Dievės – patys sunkiausi"
+},
+{
+"id": 2280,
+"kind": "s",
+"text": "Įvykdyta ✔"
+},
+{
+"id": 2281,
+"kind": "s",
+"text": "Žvaigždė"
+},
+{
+"id": 2282,
+"kind": "s",
+"text": "Žvaigždžių Dievės namai"
+},
+{
+"id": 2283,
+"kind": "s",
+"text": "Milžiniška žvaigždė: didelis miestas, Žvaigždžių miškas ir urvas. Čia gyvena mažos žvaigždutės."
+},
+{
+"id": 2284,
+"kind": "s",
+"text": "Tu ant MILŽINIŠKOS ŽVAIGŽDĖS!"
+},
+{
+"id": 2285,
+"kind": "s",
+"text": "Žvaigždžių Dievė laukia miesto viduryje (E)"
+},
+{
+"id": 2286,
+"kind": "s",
+"text": "Giliai po žvaigžde. Tamsu, tylu – nė vienos žvaigždutės. Tik kristalai ir akmenys."
+},
+{
+"id": 2287,
+"kind": "s",
+"text": "Giliai po žeme. Čia nėra nė vienos žvaigždutės…"
+},
+{
+"id": 2288,
+"kind": "s",
+"text": "Žvaigždutė"
+},
+{
+"id": 2289,
+"kind": "s",
+"text": "Mano penki įsakymai laukia. Jie sunkūs… bet tu – ypatingas."
+},
+{
+"id": 2290,
+"kind": "s",
+"text": "Nebijok mano kaulų, mažasis. Aš esu tokia pat sena kaip pačios žvaigždės."
+},
+{
+"id": 2291,
+"kind": "s",
+"text": "Ar jau buvai mano urve? Ir miške? Viskas čia šviečia mano šviesa."
+},
+{
+"id": 2292,
+"kind": "s",
+"text": "Mano žvaigždutės skraido aplink mane, nes joms šilta prie manęs."
+},
+{
+"id": 2293,
+"kind": "s",
+"text": "Pagaliau… Sveikas ant mano MILŽINIŠKOS ŽVAIGŽDĖS, žaliasis."
+},
+{
+"id": 2294,
+"kind": "s",
+"text": "Taip, aš – skeletas. Esu tokia sena, kaip pačios žvaigždės. Bet mano plaukai vis dar švyti – kaip Paukščių Takas."
+},
+{
+"id": 2295,
+"kind": "s",
+"text": "Tu padėjai visiems dievams: Kūrėjui, Jūrų Dievui, Saulės Dievei, Laiko Dievui, Griaustinio Dievui ir Vėjo Dievui. Visiems, tik ne man."
+},
+{
+"id": 2296,
+"kind": "s",
+"text": "Čia, ant mano žvaigždės, yra didelis miestas, Žvaigždžių miškas ir Žvaigždžių urvas. O gyvena čia mažos žvaigždutės – mano vaikai."
+},
+{
+"id": 2297,
+"kind": "s",
+"text": "Aš turiu PENKIS įsakymus. Jie patys sunkiausi visuose pasauliuose. Ne visi didvyriai juos įvykdo…"
+},
+{
+"id": 2298,
+"kind": "s",
+"text": "Bet pirma – apsižvalgyk. Kai būsi pasiruošęs, ateik pas mane. ✨"
+},
+{
+"id": 2299,
+"kind": "s",
+"text": "5 įsakymų lenta"
+},
+{
+"id": 2300,
+"kind": "t",
+"text": "Įvykdyta: ${Q24.done} iš 5. Žvaigždžių Dievės įsakymai – patys sunkiausi."
+},
+{
+"id": 2301,
+"kind": "s",
+"text": "Oi! Nukritai nuo žvaigždės!"
+},
+{
+"id": 2302,
+"kind": "s",
+"text": "Žvaigždutės tave pagavo ir parnešė atgal"
+},
+{
+"id": 2303,
+"kind": "s",
+"text": "<kbd>E</kbd> lipti žemyn į Žvaigždžių urvą"
+},
+{
+"id": 2304,
+"kind": "s",
+"text": "<kbd>E</kbd> lipti aukštyn virvių kopėčiomis"
+},
+{
+"id": 2305,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su žvaigždute · pelė – pakutenti"
+},
+{
+"id": 2306,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su Žvaigždžių Dieve"
+},
+{
+"id": 2307,
+"kind": "s",
+"text": "<kbd>E</kbd> skaityti 5 įsakymų lentą"
+},
+{
+"id": 2308,
+"kind": "s",
+"text": "Bandymų pasaulis: Vėjas nurimo"
+},
+{
+"id": 2309,
+"kind": "s",
+"text": "P → Dievų grupė → parašyk „aš padėjau visiems dievams, tik ne Žvaigždžių Dievei“"
+},
+{
+"id": 2310,
+"kind": "s",
+"text": "Neužtenka pinigų stiklainiui…"
+},
+{
+"id": 2311,
+"kind": "s",
+"text": "Maišymo aparatas"
+},
+{
+"id": 2312,
+"kind": "s",
+"text": "Radai DEGTUKĄ! 🔥"
+},
+{
+"id": 2313,
+"kind": "s",
+"text": "Tu pasiruošęs? Gerai. Štai mano PIRMASIS įsakymas: UGNIES KAMUOLYS."
+},
+{
+"id": 2314,
+"kind": "s",
+"text": "Giliai mano urve slepiasi senas MAIŠYMO APARATAS. Surask jį."
+},
+{
+"id": 2315,
+"kind": "s",
+"text": "Tau reikės DEGTUKO. Jis visada būna ŽVAIGŽDŽIŲ MIŠKE. Ieškok tarp šviečiančių medžių!"
+},
+{
+"id": 2316,
+"kind": "s",
+"text": "Reikės ir STIKLAINIO – nusipirk jį telefonu, parduotuvėje „Kaka“."
+},
+{
+"id": 2317,
+"kind": "s",
+"text": "Ir svarbiausia – 5 ŽVAIGŽDŽIŲ PLAUKAI. Kalbinkis su mano žvaigždutėmis ir siūlyk joms pinigų. Kai kurios sutiks… o kai kurios – ne."
+},
+{
+"id": 2318,
+"kind": "s",
+"text": "Sumaišyk viską aparate, išgerk eliksyrą – ir ugnis bus tavo. ✨"
+},
+{
+"id": 2319,
+"kind": "s",
+"text": "1 įsakymas: Ugnies kamuolys"
+},
+{
+"id": 2320,
+"kind": "t",
+"text": "Ugnies kamuolys dar laukia. ${fireLeft()}"
+},
+{
+"id": 2321,
+"kind": "s",
+"text": "surask maišymo aparatą (urve)"
+},
+{
+"id": 2322,
+"kind": "s",
+"text": "surask degtuką (Žvaigždžių miške)"
+},
+{
+"id": 2323,
+"kind": "s",
+"text": "nusipirk stiklainį (P → Kaka)"
+},
+{
+"id": 2324,
+"kind": "t",
+"text": "žvaigždžių plaukai ${Q25.hairs}/5"
+},
+{
+"id": 2325,
+"kind": "s",
+"text": "Dar reikia: "
+},
+{
+"id": 2326,
+"kind": "s",
+"text": "Viską turi! Eik prie maišymo aparato urve."
+},
+{
+"id": 2327,
+"kind": "s",
+"text": "Aš tau jau daviau savo plaukelį! Saugok jį. ✨"
+},
+{
+"id": 2328,
+"kind": "s",
+"text": "Ne ne ne! Sakiau – savo plaukelių neparduodu!"
+},
+{
+"id": 2329,
+"kind": "s",
+"text": "Hmpf. Paklausk kitos žvaigždutės."
+},
+{
+"id": 2330,
+"kind": "s",
+"text": "Mano plaukeliai – mano šviesa. Ne!"
+},
+{
+"id": 2331,
+"kind": "t",
+"text": "„${k.line}“ — Pasiūlyti ${price} € už vieną žvaigždės plaukelį?"
+},
+{
+"id": 2332,
+"kind": "t",
+"text": "Tu neturi ${price} €… Grįžk, kai turėsi!"
+},
+{
+"id": 2333,
+"kind": "s",
+"text": "Gerai! Še, mano plaukelis – jis šviečia kaip spindulys! ✨"
+},
+{
+"id": 2334,
+"kind": "s",
+"text": "Sutinku! Tik nesakyk mamai. Še!"
+},
+{
+"id": 2335,
+"kind": "s",
+"text": "Oho, tiek pinigų! Imk plaukelį!"
+},
+{
+"id": 2336,
+"kind": "t",
+"text": " (Plaukų: ${Q25.hairs}/5)"
+},
+{
+"id": 2337,
+"kind": "s",
+"text": "Ne! Nė už jokius pinigus!"
+},
+{
+"id": 2338,
+"kind": "s",
+"text": "Ne-a. Mano plaukeliai – ne pardavimui."
+},
+{
+"id": 2339,
+"kind": "s",
+"text": "Hmm… ne. Man jie per gražūs."
+},
+{
+"id": 2340,
+"kind": "s",
+"text": "Radai seną MAIŠYMO APARATĄ! Burbuliuoja ir dūsta…"
+},
+{
+"id": 2341,
+"kind": "s",
+"text": "Maišai eliksyrą…"
+},
+{
+"id": 2342,
+"kind": "s",
+"text": "Degtukas, stiklainis ir 5 žvaigždžių plaukai"
+},
+{
+"id": 2343,
+"kind": "s",
+"text": "Eliksyras paruoštas! Jis karštas ir burbuliuoja oranžine ugnimi. Išgerti?"
+},
+{
+"id": 2344,
+"kind": "s",
+"text": "Paspausk E prie aparato, kai būsi pasiruošęs gerti"
+},
+{
+"id": 2345,
+"kind": "s",
+"text": "Išgerti ugnies eliksyrą?"
+},
+{
+"id": 2346,
+"kind": "s",
+"text": "Tavo UGNIES KAMUOLYS visada bus klavišas 1. Paspausk bet kurį klavišą, kad tęstum."
+},
+{
+"id": 2347,
+"kind": "s",
+"text": "Paspausk klavišą"
+},
+{
+"id": 2348,
+"kind": "s",
+"text": "1 ĮSAKYMAS ĮVYKDYTAS!"
+},
+{
+"id": 2349,
+"kind": "s",
+"text": "Ugnies kamuolys – klavišas 1"
+},
+{
+"id": 2350,
+"kind": "s",
+"text": "Išbandyk!"
+},
+{
+"id": 2351,
+"kind": "t",
+"text": "Spausk 1 – ir iš tavo rankų išskris ugnies kamuolys. Veikia visur!"
+},
+{
+"id": 2352,
+"kind": "t",
+"text": "🔥 1 įsakymas: Ugnies kamuolys<br>${c(Q25.mixer)} aparatas · ${c(Q25.match)} degtukas · ${c(Q25.jar)} stiklainis · ${c(Q25.hairs >= 5)} plaukai ${Q25.hairs}/5"
+},
+{
+"id": 2353,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti degtuką"
+},
+{
+"id": 2354,
+"kind": "s",
+"text": "<kbd>E</kbd> išgerti eliksyrą"
+},
+{
+"id": 2355,
+"kind": "s",
+"text": "<kbd>E</kbd> maišyti eliksyrą"
+},
+{
+"id": 2356,
+"kind": "s",
+"text": "<kbd>E</kbd> apžiūrėti maišymo aparatą"
+},
+{
+"id": 2357,
+"kind": "s",
+"text": "<kbd>E</kbd> pasiūlyti pinigų už žvaigždės plaukelį"
+},
+{
+"id": 2358,
+"kind": "s",
+"text": "Bandymų pasaulis: ugnies kamuolys"
+},
+{
+"id": 2359,
+"kind": "s",
+"text": "Viską turi – eik prie aparato urve"
+},
+{
+"id": 2360,
+"kind": "s",
+"text": "Radai TELEPORTO UOGĄ! Raudona, su žaliais lapeliais ir oranžine T raide. Ji vos vos virpa – lyg norėtų kur nors dingti…"
+},
+{
+"id": 2361,
+"kind": "t",
+"text": "Žingsnis įvykdytas – jau ${Q26.step} iš ${TP_STEPS}! Uoga dingo iš tavo rankų… ir atsirado ant Teleportacijos kampo – ant vieno žvaigždės kampo!"
+},
+{
+"id": 2362,
+"kind": "s",
+"text": "Ugnis jau tavo. Bet tai buvo lengviausias įsakymas…"
+},
+{
+"id": 2363,
+"kind": "s",
+"text": "Mano ANTRASIS įsakymas: TELEPORTACIJA. Tu išmoksi akimirksniu dingti ir atsirasti kitur."
+},
+{
+"id": 2364,
+"kind": "t",
+"text": "Tai ilgas kelias – net ${TP_STEPS} žingsniai."
+},
+{
+"id": 2365,
+"kind": "s",
+"text": "Pirmas žingsnis: kažkur mano požeminiame urve auga TELEPORTO UOGA. Ji raudona, su žaliais lapeliais ir oranžine T raide. Surask ją!"
+},
+{
+"id": 2366,
+"kind": "s",
+"text": "2 įsakymas: Teleportacija"
+},
+{
+"id": 2367,
+"kind": "t",
+"text": "Žingsnis 1 iš ${TP_STEPS}: surask Teleporto uogą urve"
+},
+{
+"id": 2368,
+"kind": "s",
+"text": "Teleporto uoga vis dar slepiasi mano urve. Ieškok už akmenų…"
+},
+{
+"id": 2369,
+"kind": "s",
+"text": "Kitas žingsnis: TELEPORTO AUGALAS. Jį parduoda „Kaka“ – bet labai brangiai, net 3000 €. Taupyk!"
+},
+{
+"id": 2370,
+"kind": "t",
+"text": "Kiekvienas rastas daiktas atsiranda ant mano žvaigždės kampo – Teleportacijos kampe. Jau ${Q26.step} iš ${TP_STEPS}."
+},
+{
+"id": 2371,
+"kind": "t",
+"text": "Dar vienas žingsnis: SUSIPAINIOJUSI SLYVA. Ji auga Žvaigždžių miške, ant seno Painiavų medžio. Juodi vijokliai ją laiko… Bet tu juk turi UGNĮ, ar ne? (${keyLabel(Q25.key) || 'tavo klavišas'})"
+},
+{
+"id": 2372,
+"kind": "s",
+"text": "Ir be LEIDIMO teleportuotis negalima! Eik į LEIDIMŲ BIURĄ miesto centre – ponia Antspaudė tau viską paaiškins."
+},
+{
+"id": 2373,
+"kind": "s",
+"text": "O dabar – sunkiau. Už mano sosto yra PAVOJAUS ZONA. Ten šokinėja spalvoti laidai, o viduryje, narve, guli TELEPORTO KELIŲ KORTELĖ. Skraidyti ten negalima… tik šokinėti. Sėkmės!"
+},
+{
+"id": 2374,
+"kind": "s",
+"text": "Ir pats sunkiausias: VIOLETINIŲ SPINDULIŲ MĖGINTUVĖLIS. Tuščias mėgintuvėlis laukia prie maišymo aparato urve. O spinduliai… jie patys TELEPORTUOJASI. Pagauti juos beveik neįmanoma."
+},
+{
+"id": 2375,
+"kind": "s",
+"text": "O dar sunkiau – TELEPORTO ANKŠTIS. Jos 7 sėklos guli ant skraidančių akmenų ANKŠČIŲ BOKŠTE, kuris kyla į dangų. Ten skraidyti negalima – tik šokinėti. Ir jei nukrisi – visos sėklos sugrįš atgal!"
+},
+{
+"id": 2376,
+"kind": "s",
+"text": "Ir paskutinis, aštuntas žingsnis: PORTALŲ LENKTYNĖS. Kai Teleportacijos kampe bus 7 daiktai, stok į jo vidurį ir spausk E. Atsiras 8 portalai – kiekvieną turi pasiekti, kol nespėjo užgesti!"
+},
+{
+"id": 2377,
+"kind": "s",
+"text": "Kiti žingsniai dar laukia… Kai ateis laikas, aš tau pasakysiu. ✨"
+},
+{
+"id": 2378,
+"kind": "t",
+"text": "🌀 2 įsakymas: Teleportacija · žingsnis <b>${Q26.step}/${TP_STEPS}</b><br><span style=\"opacity:.85\">${c(Q26.berry)} Teleporto uoga (urve) · ${c(Q26.plant)} Teleporto augalas (Kaka, 3000 €) · ${c(Q26.plum)} Susipainiojusi slyva (miške) · ${c(Q26.permit)} Leidimas teleportuotis (Leidimų biuras)<br>${c(Q26.card)} Teleporto kelių kortelė (Pavojaus zona už sosto) · ${c(Q26.tube)} Violetinių spindulių mėgintuvėlis (urve)<br>${c(Q26.pod)} Teleporto ankštis (Ankščių bokštas danguje) · ${c(Q26.crystal)} Portalų lenktynės (Teleportacijos kampas)</span>"
+},
+{
+"id": 2379,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti Teleporto uogą"
+},
+{
+"id": 2380,
+"kind": "s",
+"text": "Bandymų pasaulis: teleportacija"
+},
+{
+"id": 2381,
+"kind": "s",
+"text": "Teleporto uoga – urve, už akmenų"
+},
+{
+"id": 2382,
+"kind": "t",
+"text": "<div class=\"mpIco\" style=\"background:#5a2aaa;width:52px;height:52px\">🪴</div><div style=\"flex:1\"><div style=\"font-weight:800\">Teleporto augalas</div><div class=\"mpSmall\" style=\"padding:0\">Retas augalas iš tolimų žvaigždžių. Jo žiedas virpa ir dingsta. 3000 €</div></div>${Q26.plant ? '<b style=\"color:#3cc86a\">Turi ✅</b>' : '<button class=\"mpBtn gold\" id=\"kkPlant\">3000 €</button>'}"
+},
+{
+"id": 2383,
+"kind": "t",
+"text": "Teleporto augalas kainuoja 3000 €, o tu turi ${Math.floor(money)} €. Taupyk!"
+},
+{
+"id": 2384,
+"kind": "t",
+"text": "Jis atsirado Teleportacijos kampe ant žvaigždės kampo. Žingsnis ${Q26.step} iš ${TP_STEPS}"
+},
+{
+"id": 2385,
+"kind": "s",
+"text": "Painiavų medis"
+},
+{
+"id": 2386,
+"kind": "s",
+"text": "Paėmei SUSIPAINIOJUSIĄ SLYVĄ! Violetinė, o ant jos – juodos, susipainiojusios linijos, lyg kažkas būtų pamiršęs, kur eina keliai…"
+},
+{
+"id": 2387,
+"kind": "t",
+"text": "Ji dingo iš tavo rankų ir atsirado Teleportacijos kampe. Žingsnis ${Q26.step} iš ${TP_STEPS}!"
+},
+{
+"id": 2388,
+"kind": "s",
+"text": "Ant šakos kabo violetinė slyva – bet ją laiko narvas iš JUODŲ VIJOKLIŲ."
+},
+{
+"id": 2389,
+"kind": "t",
+"text": "Narvą laiko 5 juodi mazgai aplink kamieną. Ranka jų neatrišsi… Bet ugnis juos sudegintų! Spausk ${keyLabel(Q25.key) || 'savo ugnies klavišą'} ir taikyk į mazgus. Sudeginta: ${Q26.knots}/5"
+},
+{
+"id": 2390,
+"kind": "s",
+"text": "Narvas sudegė! 🔥"
+},
+{
+"id": 2391,
+"kind": "s",
+"text": "Slyva nukrito ant žemės – paimk ją (E)"
+},
+{
+"id": 2392,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti Susipainiojusią slyvą"
+},
+{
+"id": 2393,
+"kind": "t",
+"text": "Sudegink juodus mazgus! Spausk <kbd>${keyLabel(Q25.key) || '?'}</kbd> – ugnies kamuolys (${Q26.knots}/5) · <kbd>E</kbd> apžiūrėti"
+},
+{
+"id": 2394,
+"kind": "s",
+"text": "Bandymų pasaulis: slyva"
+},
+{
+"id": 2395,
+"kind": "t",
+"text": "Degink mazgus klavišu ${keyLabel(Q25.key)}"
+},
+{
+"id": 2396,
+"kind": "s",
+"text": "LEIDIMŲ BIURAS"
+},
+{
+"id": 2397,
+"kind": "s",
+"text": "Liftas į stogą"
+},
+{
+"id": 2398,
+"kind": "s",
+"text": "Mėlyna"
+},
+{
+"id": 2399,
+"kind": "s",
+"text": "Žalia"
+},
+{
+"id": 2400,
+"kind": "s",
+"text": "Kur auga Susipainiojusi slyva?"
+},
+{
+"id": 2401,
+"kind": "s",
+"text": "Ant Painiavų medžio miške"
+},
+{
+"id": 2402,
+"kind": "s",
+"text": "Urve po žeme"
+},
+{
+"id": 2403,
+"kind": "s",
+"text": "Ant Dievės sosto"
+},
+{
+"id": 2404,
+"kind": "s",
+"text": "Ant dangoraižio stogo"
+},
+{
+"id": 2405,
+"kind": "s",
+"text": "Kiek kainuoja Teleporto augalas „Kaka“ parduotuvėje?"
+},
+{
+"id": 2406,
+"kind": "s",
+"text": "Kiek žingsnių turi Teleportacijos įsakymas?"
+},
+{
+"id": 2407,
+"kind": "s",
+"text": "Kas gyvena ant Žvaigždžių Dievės žvaigždės?"
+},
+{
+"id": 2408,
+"kind": "s",
+"text": "Mažos žvaigždutės"
+},
+{
+"id": 2409,
+"kind": "s",
+"text": "Maži šuniukai"
+},
+{
+"id": 2410,
+"kind": "s",
+"text": "Laikrodžiai"
+},
+{
+"id": 2411,
+"kind": "s",
+"text": "Žaibukai"
+},
+{
+"id": 2412,
+"kind": "s",
+"text": "Kokia raidė parašyta ant Teleporto uogos?"
+},
+{
+"id": 2413,
+"kind": "s",
+"text": "Kuo sudeginai juodus mazgus ant Painiavų medžio?"
+},
+{
+"id": 2414,
+"kind": "s",
+"text": "Kur nukeliauja visi rasti teleportacijos daiktai?"
+},
+{
+"id": 2415,
+"kind": "s",
+"text": "Į Teleportacijos kampą"
+},
+{
+"id": 2416,
+"kind": "s",
+"text": "Į urvą"
+},
+{
+"id": 2417,
+"kind": "s",
+"text": "Į parduotuvę"
+},
+{
+"id": 2418,
+"kind": "s",
+"text": "Į Dievės rūmus"
+},
+{
+"id": 2419,
+"kind": "t",
+"text": "Spausk atsakymą (arba 1–4) · teisingų: ${quiz.ok}"
+},
+{
+"id": 2420,
+"kind": "s",
+"text": "Ponia Antspaudė"
+},
+{
+"id": 2421,
+"kind": "t",
+"text": "${n} iš 4! Išlaikei! Štai PIRMOJI žalia varnelė. ✔"
+},
+{
+"id": 2422,
+"kind": "s",
+"text": "O direktoriaus parašą jau turi! Puiku – ateik, uždėsiu antspaudą."
+},
+{
+"id": 2423,
+"kind": "s",
+"text": "Dabar reikia ANTROSIOS varnelės – direktoriaus parašo. Bet direktorius… ilsisi. Ant AUKŠČIAUSIO dangoraižio stogo. Prie to dangoraižio yra švytintis LIFTAS – lipk juo (E)!"
+},
+{
+"id": 2424,
+"kind": "t",
+"text": "Tik ${n} iš 4… Reikia bent 3. Pasimokyk ir ateik perlaikyti! Klausimai – apie teleportacijos daiktus ir mūsų žvaigždę."
+},
+{
+"id": 2425,
+"kind": "s",
+"text": "Laba diena! Leidimų biuras, klausau. Ko pageidaujate?"
+},
+{
+"id": 2426,
+"kind": "s",
+"text": "LEIDIMO TELEPORTUOTIS? Hmm… Tai labai rimtas dokumentas. Ant jo turi būti DVI žalios varnelės."
+},
+{
+"id": 2427,
+"kind": "s",
+"text": "Pirmoji varnelė – už išlaikytą TELEPORTACIJOS EGZAMINĄ. Keturi klausimai, reikia bent trijų teisingų."
+},
+{
+"id": 2428,
+"kind": "s",
+"text": "Pradedam? Sėkmės!"
+},
+{
+"id": 2429,
+"kind": "s",
+"text": "Pirmoji varnelė yra. Dabar – direktoriaus parašas. Jis deginasi ant AUKŠČIAUSIO dangoraižio stogo. Prie jo apačios yra švytintis LIFTAS (E)."
+},
+{
+"id": 2430,
+"kind": "s",
+"text": "Egzaminas – ✔. Direktoriaus parašas – ✔. Viskas tvarkoje!"
+},
+{
+"id": 2431,
+"kind": "s",
+"text": "BAKST! Štai antspaudas. Sveikinu – tu turi LEIDIMĄ TELEPORTUOTIS!"
+},
+{
+"id": 2432,
+"kind": "t",
+"text": "Jis atsirado Teleportacijos kampe. Žingsnis ${Q26.step} iš ${TP_STEPS}"
+},
+{
+"id": 2433,
+"kind": "s",
+"text": "Mmm… saulutė… Ką? Kas mane žadina? Aš ATOSTOGAUJU!"
+}
+]

@@ -1,0 +1,1097 @@
+[
+{
+"id": 1548,
+"kind": "s",
+"text": "Kartą čia buvo gražiausias žuvų miestas jūroje. Gal kada nors vėl bus."
+},
+{
+"id": 1549,
+"kind": "s",
+"text": "Gal turi bent kelis planktono trupinėlius? …Ne? Nieko tokio. Ačiū, kad pakalbinai."
+},
+{
+"id": 1550,
+"kind": "s",
+"text": "Mažieji žuviukai žaidžia su akmenukais. Žaislų neturime."
+},
+{
+"id": 1551,
+"kind": "s",
+"text": "Jūrų Dievas sako, kad atkeliaus pagalba. Gal tai tu?"
+},
+{
+"id": 1552,
+"kind": "s",
+"text": "Mano pelekas suplyšęs nuo to laiko, kai atėjo banga. Bet aš vis tiek plaukiu."
+},
+{
+"id": 1553,
+"kind": "s",
+"text": "Jūrų pasaulis"
+},
+{
+"id": 1554,
+"kind": "s",
+"text": "Po vandeniu"
+},
+{
+"id": 1555,
+"kind": "s",
+"text": "Viskas po vandeniu. Žuvų Miestas ir Sugriuvęs Miestas, kuriame gyvena vargšės žuvys."
+},
+{
+"id": 1556,
+"kind": "s",
+"text": "Tu po vandeniu – visam laikui!"
+},
+{
+"id": 1557,
+"kind": "s",
+"text": "Kelio atgal nebėra. Space – plaukti aukštyn, pelė – mosuoti rankomis. Nueik pas Jūrų Dievą!"
+},
+{
+"id": 1558,
+"kind": "s",
+"text": "Grįžai namo"
+},
+{
+"id": 1559,
+"kind": "s",
+"text": "Jūros vartai liks atviri – grįžti gali bet kada"
+},
+{
+"id": 1560,
+"kind": "s",
+"text": "Labas!"
+},
+{
+"id": 1561,
+"kind": "s",
+"text": "Vargšė žuvis"
+},
+{
+"id": 1562,
+"kind": "s",
+"text": "Žuvis miestietė"
+},
+{
+"id": 1563,
+"kind": "t",
+"text": "Padėjai ${n} šeimoms iš 18. ${n < 9 ? 'Dar daug darbo, bet tu gali!' : 'Jau daugiau nei pusė! Blub!'}"
+},
+{
+"id": 1564,
+"kind": "s",
+"text": "Maisto duoda turgus Žuvų Mieste, kriauklės švyti rožiškai dugne, perlai – geldelėse ant aukštų uolų, o pasiklydę mažyliai švyti geltonai."
+},
+{
+"id": 1565,
+"kind": "s",
+"text": "Mano vandenynas vėl laimingas. Tu – tikras vandenyno gelbėtojas! Pas mane visada laukiamas."
+},
+{
+"id": 1566,
+"kind": "s",
+"text": "O, Saulės Dievė vis klausia apie tave. Pasižiūrėk mano telefoną!"
+},
+{
+"id": 1567,
+"kind": "s",
+"text": "Ooo! Mažasis žaliasis! Tas pats, kuris nugalėjo demoną? Sveikas atvykęs į mano povandeninį pasaulį!"
+},
+{
+"id": 1568,
+"kind": "s",
+"text": "Čia viskas po vandeniu, o gyvena ne žmonės, o žuvys. Yra du miestai: Žuvų Miestas, kur viskas gerai, ir Sugriuvęs Miestas."
+},
+{
+"id": 1569,
+"kind": "s",
+"text": "Kartą atėjo didžiulė banga ir sugriovė senąjį miestą. Ten dabar gyvena 18 vargšų žuvų šeimų – be namų, be maisto, be šviesos."
+},
+{
+"id": 1570,
+"kind": "s",
+"text": "Prašau, padėk joms! Kiekviena šeima pasakys, ko jai reikia: maisto, kriauklių namui, perlo šviesai arba surasti pasiklydusį mažylį."
+},
+{
+"id": 1571,
+"kind": "s",
+"text": "Jūrų Dievo prašymas: padėk 18 šeimų!"
+},
+{
+"id": 1572,
+"kind": "s",
+"text": "Sugriuvusiame Mieste – šeimos su geltonu „!“. Paklausk, ko joms reikia (E)"
+},
+{
+"id": 1573,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti maisto vargšėms šeimoms"
+},
+{
+"id": 1574,
+"kind": "t",
+"text": "<kbd>E</kbd> kalbėtis: šeima ${fam.name}"
+},
+{
+"id": 1575,
+"kind": "t",
+"text": "<kbd>E</kbd> šeima ${fam.name} – reikia ${famNeed(fam)}"
+},
+{
+"id": 1576,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su vargšų šeima"
+},
+{
+"id": 1577,
+"kind": "t",
+"text": "<kbd>E</kbd> kalbėtis: ${p.poor ? 'vargšė žuvis' : 'žuvis miestietė'}"
+},
+{
+"id": 1578,
+"kind": "s",
+"text": "<kbd>E</kbd> pažiūrėti į Jūrų Dievo telefoną"
+},
+{
+"id": 1579,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su Jūrų Dievu"
+},
+{
+"id": 1580,
+"kind": "s",
+"text": "<kbd>Space</kbd> – plaukti aukštyn · pelės mygtukai – mosuoti rankomis"
+},
+{
+"id": 1581,
+"kind": "s",
+"text": "Žvynai"
+},
+{
+"id": 1582,
+"kind": "s",
+"text": "Bangučiai"
+},
+{
+"id": 1583,
+"kind": "s",
+"text": "Srovėnai"
+},
+{
+"id": 1584,
+"kind": "s",
+"text": "Jūrželiai"
+},
+{
+"id": 1585,
+"kind": "s",
+"text": "Smėliukai"
+},
+{
+"id": 1586,
+"kind": "s",
+"text": "Žiaunaičiai"
+},
+{
+"id": 1587,
+"kind": "s",
+"text": "Lašiukai"
+},
+{
+"id": 1588,
+"kind": "s",
+"text": "Pūkis"
+},
+{
+"id": 1589,
+"kind": "s",
+"text": "Žvynutė"
+},
+{
+"id": 1590,
+"kind": "s",
+"text": "Taškiukas"
+},
+{
+"id": 1591,
+"kind": "s",
+"text": "2 kriauklių"
+},
+{
+"id": 1592,
+"kind": "t",
+"text": "mažylio ${BABY_NAMES[f.baby]}"
+},
+{
+"id": 1593,
+"kind": "t",
+"text": "Šeima ${f.name}"
+},
+{
+"id": 1594,
+"kind": "s",
+"text": "Blub blub! Ačiū tau, gelbėtojau!"
+},
+{
+"id": 1595,
+"kind": "s",
+"text": "Mūsų naujas namas toks gražus!"
+},
+{
+"id": 1596,
+"kind": "s",
+"text": "Dabar mes vėl spalvoti!"
+},
+{
+"id": 1597,
+"kind": "s",
+"text": "Turgaus žuvis"
+},
+{
+"id": 1598,
+"kind": "s",
+"text": "Tavo krepšys jau pilnas maisto! Nunešk jį vargšėms šeimoms."
+},
+{
+"id": 1599,
+"kind": "s",
+"text": "Maisto vargšėms šeimoms? Imk, nemokamai! Štai trys maišeliai planktono."
+},
+{
+"id": 1600,
+"kind": "s",
+"text": "Blub! Ačiū tau dar kartą! Mūsų namuose dabar taip gera."
+},
+{
+"id": 1601,
+"kind": "s",
+"text": "Maistas! Pagaliau! Blub blub, ačiū tau!"
+},
+{
+"id": 1602,
+"kind": "s",
+"text": "Kriauklės! Mūsų namas vėl sveikas – žiūrėk, net stogas yra!"
+},
+{
+"id": 1603,
+"kind": "s",
+"text": "Perlas! Dabar mūsų namuose šviesu kaip dieną!"
+},
+{
+"id": 1604,
+"kind": "t",
+"text": "${BABY_NAMES[f.baby]}! Tu jį suradai! Ačiū, ačiū, ačiū!"
+},
+{
+"id": 1605,
+"kind": "t",
+"text": "Padėjai šeimai ${f.name}!"
+},
+{
+"id": 1606,
+"kind": "t",
+"text": "Padėta šeimų: ${n} / ${FAM_N}"
+},
+{
+"id": 1607,
+"kind": "s",
+"text": "Blub… Mes labai alkani. Žuvų Mieste yra maisto turgus – gal atneštum mums maisto?"
+},
+{
+"id": 1608,
+"kind": "s",
+"text": "Mūsų namą sugriovė banga. Jei atneštum 2 kriaukles, galėtume jį atstatyti. Kriauklės švyti rožiškai jūros dugne."
+},
+{
+"id": 1609,
+"kind": "s",
+"text": "Mūsų namuose taip tamsu… Perlas šviestų kaip lempa. Perlų būna geldelėse ant aukštų uolų – plauk aukštyn!"
+},
+{
+"id": 1610,
+"kind": "t",
+"text": "Mūsų mažylis ${BABY_NAMES[f.baby]} nuplaukė ir pasiklydo! Jis geltonas ir mažytis, švyti. Prašau, surask jį!"
+},
+{
+"id": 1611,
+"kind": "t",
+"text": "Kriauklė! (krepšyje ${Q16.bag.shell})"
+},
+{
+"id": 1612,
+"kind": "s",
+"text": "Šeimai namui atstatyti reikia 2 kriauklių"
+},
+{
+"id": 1613,
+"kind": "t",
+"text": "Perlas! (krepšyje ${Q16.bag.pearl})"
+},
+{
+"id": 1614,
+"kind": "s",
+"text": "Nunešk jį šeimai, kuriai tamsu"
+},
+{
+"id": 1615,
+"kind": "t",
+"text": "Radai mažylį ${BABY_NAMES[b.k]}!"
+},
+{
+"id": 1616,
+"kind": "s",
+"text": "Jis plaukia paskui tave. Nuvesk jį pas jo šeimą Sugriuvusiame Mieste"
+},
+{
+"id": 1617,
+"kind": "s",
+"text": "VISOS AŠTUONIOLIKA ŠEIMŲ LAIMINGOS! Sugriuvęs Miestas vėl spalvotas ir gyvas!"
+},
+{
+"id": 1618,
+"kind": "s",
+"text": "Tu išgelbėjai mano vandenyną, mažasis žaliasis. Tuoj parašysiu apie tai visiems dievams!"
+},
+{
+"id": 1619,
+"kind": "s",
+"text": "Štai tau 2500 € ir ŽUVIES KOSTIUMAS – dabar tu tikra žuvis! Blub!"
+},
+{
+"id": 1620,
+"kind": "s",
+"text": "O dabar… kur mano telefonas? A, štai jis! Parašysiu visiems dievams!"
+},
+{
+"id": 1621,
+"kind": "s",
+"text": "Jūrų Dievas rašo kitiems dievams…"
+},
+{
+"id": 1622,
+"kind": "s",
+"text": "Jis parodo tau savo telefoną – žiūrėk!"
+},
+{
+"id": 1623,
+"kind": "s",
+"text": "— nauja žinutė —"
+},
+{
+"id": 1624,
+"kind": "s",
+"text": "Dievai! Didelė naujiena iš mano vandenyno!"
+},
+{
+"id": 1625,
+"kind": "s",
+"text": "Tas pats žaliasis žmogeliukas atplaukė pas mane ir padėjo VISOMS 18 vargšų žuvų šeimų: atnešė maisto, kriauklių namams, perlų šviesai ir surado pasiklydusius mažylius!"
+},
+{
+"id": 1626,
+"kind": "s",
+"text": "Sugriuvęs Miestas vėl spalvotas. Žaliasis IŠGELBĖJO MANO VANDENYNĄ!"
+},
+{
+"id": 1627,
+"kind": "s",
+"text": "Žinojau! Tai mano didvyris. Jis gelbsti ne tik mano pasaulį."
+},
+{
+"id": 1628,
+"kind": "s",
+"text": "Ir dar daviau jam ŽUVIES KOSTIUMĄ – su pelekais ir uodega! Dabar jis tikra žuvis."
+},
+{
+"id": 1629,
+"kind": "s",
+"text": "BUM! …Tai yra – sveikinu!"
+},
+{
+"id": 1630,
+"kind": "s",
+"text": "Kokia šauni žuvis! Jūrų Dieve, gal paskolinsi jį man? Man labai reikia pagalbos – mano spindulius užpuolė VAIDUOKLIAI!"
+},
+{
+"id": 1631,
+"kind": "s",
+"text": "Gerai jau, gerai… Bet tik pasakyk, kad pas mane visada laukiamas! Blub."
+},
+{
+"id": 1632,
+"kind": "s",
+"text": "Žaliasi! Uždaryk telefoną – siunčiu tau savo auksinį spindulį. Pasiimu tave pas save į SAULĘ!"
+},
+{
+"id": 1633,
+"kind": "s",
+"text": "VALIO VANDENYNO GELBĖTOJUI!"
+},
+{
+"id": 1634,
+"kind": "t",
+"text": "maistas ${b.food} · kriauklės ${b.shell} · perlai ${b.pearl}${b.baby.length ? ' · mažyliai ' + b.baby.length : ''}"
+},
+{
+"id": 1635,
+"kind": "t",
+"text": "${arrow}<div><div class=\"qt\">Jūrų Dievo prašymas: 18 šeimų</div><div class=\"qs\">${mode === 'sea' ? `Padėta <b>${n}/18</b> · krepšyje: ${bagTxt}` : 'Įvažiuok pro Jūros vartus ir padėk vargšėms žuvims'}${dist}</div></div>"
+},
+{
+"id": 1636,
+"kind": "s",
+"text": "Oranžiniai žvynai, pelekai ir uodega. Jūrų Dievo dovana už 18 išgelbėtų žuvų šeimų."
+},
+{
+"id": 1637,
+"kind": "s",
+"text": "Sako, jį duoda Jūrų Dievas tam, kas padeda visoms vargšėms žuvims…"
+},
+{
+"id": 1638,
+"kind": "s",
+"text": "Gavai ŽUVIES KOSTIUMĄ!"
+},
+{
+"id": 1639,
+"kind": "s",
+"text": "Jūrų Dievo dovana – oranžiniai žvynai, pelekai ir uodega"
+},
+{
+"id": 1640,
+"kind": "s",
+"text": "Bandymų pasaulis: jūrų planeta pereita!"
+},
+{
+"id": 1641,
+"kind": "s",
+"text": "Visos 18 žuvų šeimų jau laimingos"
+},
+{
+"id": 1642,
+"kind": "s",
+"text": "Saulės Dievė tave pasiima!"
+},
+{
+"id": 1643,
+"kind": "s",
+"text": "Auksinis saulės spindulys kelia tave iš jūros – tiesiai į SAULĘ!"
+},
+{
+"id": 1644,
+"kind": "s",
+"text": "Mes – spinduliai! Kiekvieną rytą skrendam šviesti į visus pasaulius."
+},
+{
+"id": 1645,
+"kind": "s",
+"text": "Vaiduokliai mus užpuolė! Jie bijo tik Saulės kardo…"
+},
+{
+"id": 1646,
+"kind": "s",
+"text": "Čia, prie Saulės Dievės, saugu. Toliau – pilna vaiduoklių!"
+},
+{
+"id": 1647,
+"kind": "s",
+"text": "Vaiduoklių pilis – toli, už tų ugnies arkų. Ten sėdi Vaiduoklių Karalius."
+},
+{
+"id": 1648,
+"kind": "s",
+"text": "Mano broliukas pasiklydo tarp vaiduoklių… Prašau, padėk mums!"
+},
+{
+"id": 1649,
+"kind": "s",
+"text": "Tu žalias! O mes – geltoni ir šviesūs."
+},
+{
+"id": 1650,
+"kind": "s",
+"text": "Kai vaiduokliai išnyks, mes vėl galėsim šviesti visur!"
+},
+{
+"id": 1651,
+"kind": "s",
+"text": "SAULĖS DIEVĖ"
+},
+{
+"id": 1652,
+"kind": "s",
+"text": "Saulė"
+},
+{
+"id": 1653,
+"kind": "s",
+"text": "Saulės Dievės namai"
+},
+{
+"id": 1654,
+"kind": "s",
+"text": "Karštas auksinis paviršius, ugnies fontanai, spinduliai… ir vaiduokliai, kurie juos užpuolė."
+},
+{
+"id": 1655,
+"kind": "s",
+"text": "Tu SAULĖJE!"
+},
+{
+"id": 1656,
+"kind": "s",
+"text": "Saulės Dievė tave apsaugo – nesudegsi. Nueik pas ją (E)"
+},
+{
+"id": 1657,
+"kind": "s",
+"text": "Pšš!"
+},
+{
+"id": 1658,
+"kind": "s",
+"text": "Šilta!"
+},
+{
+"id": 1659,
+"kind": "s",
+"text": "Kaip tau patinka mano Saulė? Čia niekada nebūna naktis!"
+},
+{
+"id": 1660,
+"kind": "s",
+"text": "Spinduliai tave labai pamilo. Jie sako, kad tu juokingai žalias!"
+},
+{
+"id": 1661,
+"kind": "s",
+"text": "Kiekvieną rytą aš pakeliu saulę virš visų pasaulių. Ir tavo burbulo – irgi!"
+},
+{
+"id": 1662,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su spinduliu"
+},
+{
+"id": 1663,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su Saulės Dieve"
+},
+{
+"id": 1664,
+"kind": "s",
+"text": "<kbd>Space</kbd> – pašokti · pelės mygtukai – mosuoti rankomis"
+},
+{
+"id": 1665,
+"kind": "s",
+"text": "Paukštis"
+},
+{
+"id": 1666,
+"kind": "s",
+"text": "Geltonos plunksnos, oranžinis snapas, raudona skiauterė ir uodegėlė. Slapta viščiukų tėčio dovana."
+},
+{
+"id": 1667,
+"kind": "s",
+"text": "Sako, jį duoda viščiukų tėtis – gaidys mažame ūkyje Grybų Karalystėje…"
+},
+{
+"id": 1668,
+"kind": "s",
+"text": "Ūkis"
+},
+{
+"id": 1669,
+"kind": "s",
+"text": "Gaidys tėtis"
+},
+{
+"id": 1670,
+"kind": "s",
+"text": "kalbėtis su gaidžiu (viščiukų tėčiu)"
+},
+{
+"id": 1671,
+"kind": "s",
+"text": "Kakariekū! Mano vaikai sveiki ir laimingi. Ačiū tau, didvyri!"
+},
+{
+"id": 1672,
+"kind": "s",
+"text": "Kaip tau tinka paukščio kostiumas? Atrodai beveik kaip aš! Kakariekū!"
+},
+{
+"id": 1673,
+"kind": "s",
+"text": "Karvė Margė sako labas. Mūū – taip ji sako."
+},
+{
+"id": 1674,
+"kind": "s",
+"text": "Kakariekū… Demono chaosas išblaškė mano septynis vaikus po visą pasaulį."
+},
+{
+"id": 1675,
+"kind": "s",
+"text": "Jų mama išbėgo jų ieškoti ir dingo. O aš turiu saugoti ūkį… Gal Kūrėjas žino, kur jie?"
+},
+{
+"id": 1676,
+"kind": "s",
+"text": "Mano vaikai jau saugūs pas mamą Kūrėjo Salėje. Ačiū tau! Gaila tik, kad nespėjau jų pamatyti…"
+},
+{
+"id": 1677,
+"kind": "s",
+"text": "Kakariekū! Aš – tų septynių viščiukų TĖTIS! Girdėjau, kad tu juos gelbsti."
+},
+{
+"id": 1678,
+"kind": "s",
+"text": "Prašau, atvesk juos visus čia, pas mane į ūkį – noriu pamatyti, kad jie sveiki. Paskui galėsi nuvesti juos pas mamą."
+},
+{
+"id": 1679,
+"kind": "t",
+"text": "Jau mačiau ${n} iš 7.${fol ? '' : ' Atvesk likusius!'}"
+},
+{
+"id": 1680,
+"kind": "s",
+"text": "Kai atvesi visus – gausi slaptą dovaną!"
+},
+{
+"id": 1681,
+"kind": "s",
+"text": "KAKARIEKŪŪŪ! Visi septyni mano vaikai sveiki! Matau juos visus!"
+},
+{
+"id": 1682,
+"kind": "s",
+"text": "Tu – tikras paukščių draugas. Štai tau mano slapta dovana: PAUKŠČIO KOSTIUMAS su snapu, skiaute ir plunksnomis! Ir 300 €."
+},
+{
+"id": 1683,
+"kind": "s",
+"text": "O dabar nuvesk vaikus pas mamą į Kūrėjo Salę – ji labai laukia!"
+},
+{
+"id": 1684,
+"kind": "s",
+"text": "Ačiū tau!"
+},
+{
+"id": 1685,
+"kind": "s",
+"text": "SLAPTA MISIJA ĮVYKDYTA!"
+},
+{
+"id": 1686,
+"kind": "s",
+"text": "Gavai PAUKŠČIO KOSTIUMĄ su snapu (ir 300 €)"
+},
+{
+"id": 1687,
+"kind": "s",
+"text": "Kur mano vaikai?!"
+},
+{
+"id": 1688,
+"kind": "s",
+"text": "Gaidys šaukia: „Kur mano vaikai?!“"
+},
+{
+"id": 1689,
+"kind": "s",
+"text": "Pakalbink jį (E) – jis viščiukų tėtis"
+},
+{
+"id": 1690,
+"kind": "s",
+"text": "Kakariekū!"
+},
+{
+"id": 1691,
+"kind": "t",
+"text": "Tėtis mato savo vaikus: ${farmCount()} iš 7!"
+},
+{
+"id": 1692,
+"kind": "s",
+"text": "Atvesk likusius viščiukus į ūkį, paskui – pas mamą"
+},
+{
+"id": 1693,
+"kind": "s",
+"text": "Tėtis ūkyje!"
+},
+{
+"id": 1694,
+"kind": "s",
+"text": "Noriu pas tėtį!"
+},
+{
+"id": 1695,
+"kind": "s",
+"text": "Viščiukas cypia: „Mano tėtis – ūkyje netoliese!“"
+},
+{
+"id": 1696,
+"kind": "s",
+"text": "Gal nuvesti juos visus pas tėtį gaidį?"
+},
+{
+"id": 1697,
+"kind": "s",
+"text": "Bandymų pasaulis: viščiukų misija iš naujo"
+},
+{
+"id": 1698,
+"kind": "s",
+"text": "Ūkis – čia pat, Grybų Karalystėje. Surink 7 viščiukus ir atvesk pas tėtį!"
+},
+{
+"id": 1699,
+"kind": "s",
+"text": "Violetiniai drakono sparnai su auksiniais nagučiais. Ore spausk Space – skrisi, laikyk – sklandysi. Slapta drakono mamos dovana."
+},
+{
+"id": 1700,
+"kind": "s",
+"text": "Grrr… VĖL tu?! Jau TREČIĄ kartą mane pažadini!"
+},
+{
+"id": 1701,
+"kind": "s",
+"text": "…Na gerai. Tu toks mažas ir toks užsispyręs. Man tavęs net gaila pasidarė."
+},
+{
+"id": 1702,
+"kind": "s",
+"text": "Štai, imk mano senus sparnus – aš jau per didelė, kad jais skraidyčiau. Tik NEPASAKOK mano vaikams!"
+},
+{
+"id": 1703,
+"kind": "s",
+"text": "O dabar – tyliau. Aš miegu. Grrr…"
+},
+{
+"id": 1704,
+"kind": "s",
+"text": "Ore spausk Space – skrisi. Juos rasi ir kostiumų kioske („Ant nugaros“)"
+},
+{
+"id": 1705,
+"kind": "s",
+"text": "Išeik į pasaulį pėsčiomis"
+},
+{
+"id": 1706,
+"kind": "s",
+"text": "Ir tada vėl įvesk „marsas“"
+},
+{
+"id": 1707,
+"kind": "s",
+"text": "Bandymų pasaulis: Marsas"
+},
+{
+"id": 1708,
+"kind": "s",
+"text": "Drakono kambarys atidarytas. Pažadink drakono mamą 3 kartus (bėk ar šok jos kambaryje)"
+},
+{
+"id": 1709,
+"kind": "s",
+"text": "Tamsiai violetinis, su aštuoniomis raudonomis akimis, iltimis ir aštuoniomis kojomis. Rastas už slaptų durų Senojo Voro urve."
+},
+{
+"id": 1710,
+"kind": "s",
+"text": "Sako, jis paslėptas po žeme – už durų, kurių beveik nesimato, netoli Senojo Voro…"
+},
+{
+"id": 1711,
+"kind": "s",
+"text": "Akmuo nusileido į žemę… Viduje kažkas šviečia"
+},
+{
+"id": 1712,
+"kind": "s",
+"text": "Radai slaptą VORO KOSTIUMĄ!"
+},
+{
+"id": 1713,
+"kind": "s",
+"text": "Aštuonios akys ir aštuonios kojos – jis tavo visam laikui (ir kostiumų kioske)"
+},
+{
+"id": 1714,
+"kind": "s",
+"text": "Cha! Radai mano slaptą sandėliuką! Tas kostiumas – iš mano jaunystės."
+},
+{
+"id": 1715,
+"kind": "s",
+"text": "Dabar tu beveik voras. Tik ne-pink voratinklių mano urve!"
+},
+{
+"id": 1716,
+"kind": "s",
+"text": "<kbd>E</kbd> paliesti keistą plyšį sienoje"
+},
+{
+"id": 1717,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti VORO KOSTIUMĄ"
+},
+{
+"id": 1718,
+"kind": "s",
+"text": "Ir tada vėl įvesk „voras“"
+},
+{
+"id": 1719,
+"kind": "s",
+"text": "Bandymų pasaulis: Voro urvas"
+},
+{
+"id": 1720,
+"kind": "s",
+"text": "Slaptos durys – kažkur prie Senojo Voro…"
+},
+{
+"id": 1721,
+"kind": "s",
+"text": "↑ 2 AUKŠTAS"
+},
+{
+"id": 1722,
+"kind": "s",
+"text": "↑ 3 AUKŠTAS"
+},
+{
+"id": 1723,
+"kind": "s",
+"text": "DEBESŲ PILIS · 1 AUKŠTAS"
+},
+{
+"id": 1724,
+"kind": "s",
+"text": "KARALIUS · KARALIENĖ · PRINCAS – miegamieji"
+},
+{
+"id": 1725,
+"kind": "s",
+"text": "KARALIENĖ"
+},
+{
+"id": 1726,
+"kind": "s",
+"text": "Karalienės"
+},
+{
+"id": 1727,
+"kind": "s",
+"text": "2 AUKŠTAS"
+},
+{
+"id": 1728,
+"kind": "s",
+"text": "3 AUKŠTAS · SOSTO SALĖ"
+},
+{
+"id": 1729,
+"kind": "s",
+"text": "Trys aukštai"
+},
+{
+"id": 1730,
+"kind": "s",
+"text": "1 aukštas – salė, 2 aukštas – miegamieji ir tualetas, 3 aukštas – Karaliaus sosto salė."
+},
+{
+"id": 1731,
+"kind": "s",
+"text": "Laiptai į viršų – dešinėje. Karalius – trečiame aukšte"
+},
+{
+"id": 1732,
+"kind": "s",
+"text": "Tu jau turi debesų kuprinę"
+},
+{
+"id": 1733,
+"kind": "s",
+"text": "Šitą palik – kitaip "
+},
+{
+"id": 1734,
+"kind": "s",
+"text": "Karalienė"
+},
+{
+"id": 1735,
+"kind": "s",
+"text": " neturės kuo skraidyti"
+},
+{
+"id": 1736,
+"kind": "t",
+"text": "Paėmei ${j.name} DEBESŲ KUPRINĘ!"
+},
+{
+"id": 1737,
+"kind": "s",
+"text": "Ji tavo! Laikyk Space – kylsi aukštyn, Shift – greičiau"
+},
+{
+"id": 1738,
+"kind": "s",
+"text": "Ei! Kas paėmė mano kuprinę?!"
+},
+{
+"id": 1739,
+"kind": "s",
+"text": "Hmm… kur mano kuprinė?"
+},
+{
+"id": 1740,
+"kind": "s",
+"text": "Gerai, tegul būna tavo!"
+},
+{
+"id": 1741,
+"kind": "t",
+"text": "<kbd>E</kbd> paimti ${j.name} debesų kuprinę"
+},
+{
+"id": 1742,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su Debesų Karaliumi"
+},
+{
+"id": 1743,
+"kind": "s",
+"text": "<kbd>E</kbd> išeiti iš pilies"
+},
+{
+"id": 1744,
+"kind": "t",
+"text": "${ccFloor()} aukštas"
+},
+{
+"id": 1745,
+"kind": "s",
+"text": "Ir tada vėl įvesk „pilis“"
+},
+{
+"id": 1746,
+"kind": "s",
+"text": "Dėmėtas kailis per petį, kaulas plaukuose ir medinė kuoka ant nugaros. Laimėtas kovoje su šventyklos sargybiniu Bumbu."
+},
+{
+"id": 1747,
+"kind": "s",
+"text": "Sako, jį nešioja šventyklos sargybinis praeityje. Jis labai mėgsta keistas kepures…"
+},
+{
+"id": 1748,
+"kind": "s",
+"text": "Radai keistą BEISBOLKĘ!"
+},
+{
+"id": 1749,
+"kind": "s",
+"text": "Iš kur ji čia? Urviniai praeityje tokios niekada nematė… Gal kas nors jos labai norės?"
+},
+{
+"id": 1750,
+"kind": "s",
+"text": "Žiūrėk, kokia mano kepurė! Visi urviniai pavydi! UGA!"
+},
+{
+"id": 1751,
+"kind": "s",
+"text": "Tu stiprus, žaliasis. Bet mano kepurė gražesnė."
+},
+{
+"id": 1752,
+"kind": "s",
+"text": "Kailis tau tinka. Beveik kaip tikram urviniui!"
+},
+{
+"id": 1753,
+"kind": "s",
+"text": "UGH! Aš – Bumbas, karaliaus šventyklos sargybinis. Niekas manęs neįveiks!"
+},
+{
+"id": 1754,
+"kind": "s",
+"text": "Mano kailis – gražiausias visose džiunglėse. Bet… aš visada norėjau KEPURĖS. Keistos, su snapeliu. Tokios niekas neturi."
+},
+{
+"id": 1755,
+"kind": "s",
+"text": "UGA?! Kas ant tavo galvos?! Tai… tai KEPURĖ SU SNAPELIU!"
+},
+{
+"id": 1756,
+"kind": "s",
+"text": "Noriu jos! Kovojam! Jei laimėsi tu – gausi mano kailį. Jei aš – kepurė mano!"
+},
+{
+"id": 1757,
+"kind": "s",
+"text": "Mušk mane pelės mygtukais. Saugokis mano kuokos! UGA BUGA!"
+},
+{
+"id": 1758,
+"kind": "s",
+"text": "Prieik arti ir mušk (pelės mygtukai). Kai Bumbas užsimoja – atsitrauk!"
+},
+{
+"id": 1759,
+"kind": "s",
+"text": "Laimėjai! Gavai URVINIO KOSTIUMĄ!"
+},
+{
+"id": 1760,
+"kind": "s",
+"text": "Bumbas gavo kepurę, o tu – jo kailį su kaulu plaukuose"
+},
+{
+"id": 1761,
+"kind": "s",
+"text": "Gerai, gerai… UGH. Tu stipresnis už mane."
+},
+{
+"id": 1762,
+"kind": "s",
+"text": "Imk mano kailį. O aš imsiu KEPURĘ! …Na kaip? Gražu?"
+},
+{
+"id": 1763,
+"kind": "s",
+"text": "Karaliau, žiūrėk! Aš dabar madingiausias urvinis!"
+},
+{
+"id": 1764,
+"kind": "s",
+"text": "Bumbas laimėjo šį kartą…"
+},
+{
+"id": 1765,
+"kind": "s",
+"text": "Kepurė vis dar tavo. Pakalbink jį dar kartą ir bandyk iš naujo!"
+},
+{
+"id": 1766,
+"kind": "t",
+"text": "<b>Bumbas</b> ${'♥'.repeat(Math.max(0, CS.guard.hp))} &nbsp;·&nbsp; <b>Tu</b> ${'♥'.repeat(Math.max(0, CS.hp))} &nbsp;– mušk pelės mygtukais!"
+}
+]

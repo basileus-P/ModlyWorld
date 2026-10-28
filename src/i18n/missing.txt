@@ -1,0 +1,176 @@
+s:BUM BUM BUM!!! Bandymų pasaulis: mano planeta jau išgelbėta – lyja visą dieną!
+s:Dabar telefone (P) atidaryk Dievų grupę ir parašyk: „aš išgelbėjau griaustinio planetą“. Tada tave pasiims Vėjo Dievas!
+t:Tavo Teleporto augalas dar auga Teleportacijos kampe. Palauk – liko ${plantLeft()}.
+s:Jis pasodintas Teleportacijos kampe. Dabar jis turi UŽAUGTI – palauk 3 minutes!
+s:Teleporto augalas užaugo! 🪴
+t:Jo žiedas virpa ir mirksi. Žingsnis ${Q26.step} iš ${TP_STEPS}
+s:Jis čia pat urve – violetinis šviesos stulpas. Spausk E!
+s:Slenkančios plytelės
+s:Byrančios plytelės
+s:Besisukančios plytelės
+s:Parkūro pasaulis
+s:Parkūro pasaulis
+s:Lipk iki aukso taurės!
+s:Devynios skirtingos dalys, kiekviena vis aukščiau. Kiekvienos gale – kontrolinio taško vėliava.
+s:PARKŪRO PASAULIS! 🧗
+s:Lipk vis aukščiau. Žalios vėliavos – kontroliniai taškai. E prie portalo – namo
+s:Grįžai į Pradžios Miestą
+s:Parkūro portalas (!) tavęs čia laukia
+t:Kontrolinis taškas ${b.cp}/${PK.cps.length - 1}! 🚩
+t:Grįžai į kontrolinį tašką ${PKS.cp}
+s:Bandyk iš naujo nuo pradžios
+s:Parkūras
+s:<kbd>E</kbd> grįžti namo per portalą
+s:PARKŪRAS ĮVEIKTAS!
+s:Pasiekei aukso taurę pačioje viršūnėje!
+s:Portalas šalia taurės nuneš tave namo
+s:Vėl pavyko! Portalas šalia taurės nuneš namo
+s:<kbd>E</kbd> / įeik – PARKŪRO PASAULIS
+s:Čia teleportuotis negalima!
+s:Parkūras lipamas kojomis 🧗
+s:Čia negalima!
+s:Naudok portalą prie starto arba prie taurės
+s:Surink 8 mėlynus kristalus
+s:Lėktuvo korpusas
+s:Užgesink 5 gaisrus (E)
+s:Surink 4 raktus ir atrakink skrynią aikštėje (E)
+s:Susprogdink 10 balionų (prisiliesk)
+s:Prabėk pro 6 žiedus iš eilės per 60 s
+t:${SR.q + 1} ĮSAKYMAS ĮVYKDYTAS!
+t:Gavai lėktuvo dalį: ${p[0]}
+t:${qq + 1} įsakymas
+s:Bėk į aikštę miesto viduryje ir spausk E ant auksinės aikštelės!
+s:Speedrun užrakintas 🔒
+s:Įveik visą žaidimą (Didįjį šikšnosparnį), ir jis atsirakins!
+s:Vienas didelis miestas. Jokių darbų, parduotuvių ar portalų – tik laikrodis!
+s:Laikmačio Dievas
+s:TIK-TAK! Sveikas SPEEDRUNE! Kai užversi šį langą – pradės eiti laikrodis.
+s:Penki įsakymai – už kiekvieną gausi lėktuvo dalį. Daiktus rasi gatvėse – ieškok šviesos stulpų! Su visomis dalimis lėktuvą pasistatysi aikštėje.
+s:Tada skrisk į debesis ir nugalėk DEBESŲ BOSĄ. Kai jis pavargsta ir nusileidžia – trenk jam! Esc – išeiti iš speedrun.
+s:1 įsakymas
+s:Išėjai iš speedrun
+s:Vėl įprastas žaidimas. Speedrun – Esc meniu
+s:Prieik ir spausk E – skrisk į debesis!
+t:Gaisras užgesintas! ${SR.cnt}/${SR.need}
+s:Skrynia užrakinta
+t:Reikia ${SR.need} raktų – turi ${SR.cnt}
+s:<kbd>E</kbd> gesinti gaisrą
+s:<kbd>E</kbd> atrakinti skrynią
+s:<kbd>E</kbd> statyti lėktuvą
+s:<kbd>E</kbd> sėsti į lėktuvą
+s:Statyk lėktuvą auksinėje aikštelėje aikštėje (E)
+s:Sėsk į lėktuvą (E)
+s:Skrisk į debesis!
+s:Nugalėk Debesų Bosą!
+s:👻 Tu vaiduoklis – skraidyk (WASD, Space/Shift) · Esc – išeiti
+s:Dabar – prie skrynios aikštėje (E)
+t:Pokšt! ${SR.cnt}/${SR.need}
+s:Per lėtai! ⏱
+s:Pradėk nuo 1 žiedo iš naujo
+s:Dar nėra rezultatų
+s:  ← TU
+s:Debesų Bosas
+s:GRRRUMMM! Kas drįsta skristi į MANO debesis?!
+s:Mano žaibai tave nupūs! (Kai pavargsiu – nusileisiu pailsėti… bet tu to nesužinosi!)
+s:Jis supyko ir vėl kyla!
+t:${place} vieta rekordų lentoje!
+s:Tu – VAIDUOKLIS 👻
+s:Skraidyk ir apžiūrėk pasaulį: WASD, Space – aukštyn, Shift – žemyn. Esc – išeiti iš speedrun
+s:Jis leidžiasi – bėk ir trenk jam (LMB arba E)!
+s:Žaibas!
+s:Tave nupūtė! 💨
+s:Širdys grįžo, bet debesis atsigavo (+2). Laikas eina toliau!
+s:⏱ Speedrun – pradėti
+s:🔒 Speedrun (užrakinta – įveik žaidimą)
+s:🔒 Įveik žaidimą, kad atrakintum!
+s:Ne per speedrun!
+s:Esc – išeiti iš speedrun
+s:Per speedrun – ne! ⏱
+s:Dievų misijų per speedrun imti negalima. Daryk Laikmačio Dievo įsakymus!
+s:Laikmačio Dievas
+s:TIK-TAK! Per speedrun dievai misijų neduoda. Bėk daryti mano įsakymų!
+s:Meškiukas
+s:…(pliušinis meškiukas tyli, bet atrodo labai laimingas)
+s:Trikė
+s:Hihi! Aš pati padėjau puodelius!
+s:Kai užaugsiu, būsiu tokia didelė kaip mama!
+s:Zuikutė nori daugiau sausainių!
+s:Zuikutė
+s:…(pliušinė zuikutė žiūri į sausainius)
+s:…(pliušinis drambliukas laiko straublį prie puodelio)
+s:Rrrr! Aš moku urgzti kaip didelis!
+s:Ar tu tikrai nugalėjai šikšnosparnį?! Vau!
+s:Mano arbata su trimis šaukšteliais medaus!
+s:Mamos Dinozaurės namai
+s:Vaikų kambarys, mažas staliukas ir arbata.
+s:Mama Dinozaurė
+s:Sveikas atvykęs, didvyri! Tu išgelbėjai visus pasaulius – dabar laikas ARBATAI! ☕
+s:Čia mano mažylių kambarys. Susipažink: Rexiukas ir Trikė. O čia jų pliušiniai draugai – Meškiukas, Zuikutė ir Drambliukas.
+s:Tavo vieta – priekyje, ten, kur tuščias puodelis. Prieik prie staliuko ir spausk E – įpilsiu arbatos!
+s:Ačiū už arbatą! ☕
+s:Mamos Dinozaurės namus rasi per portalą (5)
+s:Mama Dinozaurė
+s:Ar dar arbatos? Prieik prie staliuko!
+s:Mano mažyliai kalba tik apie tave – didvyrį, kuris nugalėjo šikšnosparnį!
+s:Sausainius iškepiau pati. Su šokoladu!
+s:Gurkšt! ☕
+s:Mmm! Avietinė arbata su medumi!
+s:Šilta ir saldi!
+s:Dinozaurai sako: „Į sveikatą!“
+s:Dar vienas sausainis? Taip!
+s:<kbd>E</kbd> grįžti namo
+s:<kbd>E</kbd> kalbėtis su Mama Dinozaure
+s:<kbd>E</kbd> gerti arbatą ☕
+s:<kbd>E</kbd> gerti arbatą ☕
+s:📱 Nauja žinutė!
+s:Nuo: Mama Dinozaurė
+s:📱 Mama Dinozaurė
+s:Labas, didvyri! 🦕 Girdėjau, kad tu išgelbėjai VISUS pasaulius!
+s:Mano mažyliai labai nori su tavimi susipažinti. Kviečiu tave ARBATOS į mūsų namus! ☕🍪
+s:Užverk žinutę – ir aš tave atsiųsiu pas mus! 💚
+s:Mamos Dinozaurės namai
+s:<kbd>E</kbd> į TUŠTUMĄ
+s:Mama Dinozaurė
+s:O NE! Pažiūrėk pro langą! Tai JUODOJI TUŠTUMA – ji ryja viską, ką tik pasiekia!
+s:Ji pagrobė mažylių pliušinius žaislus – Meškiuką, Zuikutę ir Drambliuką! Rexiukas ir Trikė verkia…
+s:Sakoma, kad Tuštumą gali uždaryti tik tas, kuris turi 5 KŪRIMO ŠVIESAS. Jos plūduriuoja salose prie pat Tuštumos.
+s:Tas, kuris uždarys Tuštumą, taps tikru DIEVU. Prie lango atsivėrė tamsus portalas – E. Saugokis tamsiukų, jie stumdosi!
+s:Tuštuma
+s:Plūduriuojančios salos prie Juodosios Tuštumos. Surink 5 Kūrimo šviesas!
+s:TUŠTUMA 🕳
+s:Šokinėk per salas, rink 5 šviesas ir saugokis tamsiukų!
+s:Juodoji Tuštuma
+t:…ŠŠŠŠŠ… Tau trūksta šviesų. Turi ${GOD.lights.length} iš 5.
+s:TUŠTUMA UŽVERTA!
+s:Tu tapai DIEVU! 👑
+s:Tu uždarei Juodąją Tuštumą. Tokią galią turi tik dievai…
+s:Visi dievai sutinka: Saulės Dievė, Jūrų Dievas, Laiko Dievas, Griaustinio Dievas, Vėjo Dievas ir Žvaigždžių Dievė. Nuo šiandien TU – DIEVAS! 👑
+s:Meškiukas, Zuikutė ir Drambliukas jau grįžo pas Rexiuką ir Trikę. Mama Dinozaurė labai dėkoja!
+s:O dabar – tavo dovana: TAVO PLANETA. Kurk ją, kaip tik nori! Ją visada rasi per portalą (5).
+s:Tamsiukas tave stumtelėjo!
+s:Nukritai į tamsą…
+s:Grįžai ant paskutinės salos
+t:Kūrimo šviesa! ${GOD.lights.length}/5 ✨
+s:Dabar – ant auksinės platformos prie Tuštumos ir spausk E!
+t:<kbd>E</kbd> uždaryti Tuštumą (${GOD.lights.length}/5 šviesų)
+s:<kbd>E</kbd> atgal pas Mamą Dinozaurę
+s:Smėlis
+s:Gėlė
+s:Šviesa
+s:Rožinė
+s:Violetinė
+s:Saulėlydis
+s:Mėtinė
+s:Mano planeta
+s:Dar ne! 🔒
+s:Pirmiausia tapk DIEVU – uždaryk Juodąją Tuštumą
+s:Mano planeta
+s:Tu – dievas. Kurk, ką tik nori!
+s:TAVO PLANETA 👑
+s:Kairysis pelės – dėti · dešinysis arba Trintukas – nuimti · 1–0 – pasirinkti · Q – kitas puslapis (sniegas, auksas, rožinė, violetinė, juoda, dinozauriukas, trintukas) · Space/Shift – aukštyn/žemyn · C – dangus
+s:Savo planetą rasi per portalą (5)
+t:${pg + 1} puslapis · Q – kitas puslapis · skaičiai – pasirinkti
+s:<kbd>E</kbd> grįžti namo
+s:Mano planeta 👑
+s:Dar ne! 🔒
+s:Pirmiausia tapk DIEVU – uždaryk Juodąją Tuštumą

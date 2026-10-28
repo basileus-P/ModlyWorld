@@ -1,0 +1,1047 @@
+[
+{
+"id": 938,
+"kind": "s",
+"text": "Gavai ateivio kostiumą!"
+},
+{
+"id": 939,
+"kind": "s",
+"text": "Jau apsirengei. Jį rasi ir kostiumų kioske"
+},
+{
+"id": 940,
+"kind": "s",
+"text": "Antenėlis – tavo naujas šuo!"
+},
+{
+"id": 941,
+"kind": "s",
+"text": "Žalias ateivių šuo su antena laukia kolekcijoje (I)"
+},
+{
+"id": 942,
+"kind": "s",
+"text": "Slapta misija įvykdyta!"
+},
+{
+"id": 943,
+"kind": "s",
+"text": "Mažas pistoletas grįžo atgal į lėkštę…"
+},
+{
+"id": 944,
+"kind": "t",
+"text": "Spragt! Nutrūko lynas (${S9.hits} / 3)"
+},
+{
+"id": 945,
+"kind": "s",
+"text": "Lėkštė sūpuojasi…"
+},
+{
+"id": 946,
+"kind": "s",
+"text": "Lėkštė kabo ant vieno lyno!"
+},
+{
+"id": 947,
+"kind": "s",
+"text": "Iš jos kažkas iškrito…"
+},
+{
+"id": 948,
+"kind": "s",
+"text": "Kas čia?! Iš dangaus leidžiasi kažkas mažo…"
+},
+{
+"id": 949,
+"kind": "s",
+"text": "Pažiūrėk šalia savęs – mažas pistoletas su parašiutu!"
+},
+{
+"id": 950,
+"kind": "s",
+"text": "Gal juo galima pašaudyti į ateivių lėkštę… muziejuje?"
+},
+{
+"id": 951,
+"kind": "s",
+"text": "Mažas pistoletas"
+},
+{
+"id": 952,
+"kind": "s",
+"text": "paimti mažą pistoletą"
+},
+{
+"id": 953,
+"kind": "s",
+"text": "Atėjo laikas didžiausiam darbui. Naujas įsakymas: LAIKO MAŠINA. Su ja kada nors grįšime į laiką prieš demoną."
+},
+{
+"id": 954,
+"kind": "s",
+"text": "Mašinai reikia dešimties raudono metalo gabalų. Juos turi mano pasaulio gyventojai – padėk dešimčiai žmonių, ir kiekvienas tau duos po gabalą."
+},
+{
+"id": 955,
+"kind": "s",
+"text": "O kai surinksi viską – ateik pas mane. Bet šį kartą nekalbėsiu taip, kaip visada. Turėsi man PARAŠYTI pats. Ir nepamiršk, kaip mandagiai prašoma."
+},
+{
+"id": 956,
+"kind": "t",
+"text": "Padėjai ${Q10.done.length} iš 10 žmonių. Ieškok tų, virš kurių galvos šviečia geltonas šauktukas."
+},
+{
+"id": 957,
+"kind": "s",
+"text": "Laiko mašina stovi mano salėje. Mažą jos kopiją nunešk į muziejų."
+},
+{
+"id": 958,
+"kind": "s",
+"text": "Laiko mašina paruošta. Ačiū tau, mažasis meistre."
+},
+{
+"id": 959,
+"kind": "s",
+"text": "Įsakymas #8: Laiko mašina"
+},
+{
+"id": 960,
+"kind": "s",
+"text": "Padėk 10 žmonių – virš jų galvų šviečia geltonas šauktukas"
+},
+{
+"id": 961,
+"kind": "s",
+"text": "skrybėlę"
+},
+{
+"id": 962,
+"kind": "s",
+"text": "Vėjas nupūtė mano mėgstamiausią skrybėlę! Ji kažkur netoliese… Atneši?"
+},
+{
+"id": 963,
+"kind": "s",
+"text": "Mano skrybėlė! Imk šį raudoną metalo gabalą – ir mano seną plaktuką. Man jo nebereikia."
+},
+{
+"id": 964,
+"kind": "s",
+"text": "Močiutė Onutė"
+},
+{
+"id": 965,
+"kind": "s",
+"text": "Vaikeli, kur aš padėjau akinius? Be jų nematau net savo katino. Gal surasi?"
+},
+{
+"id": 966,
+"kind": "s",
+"text": "Dabar matau tave! Koks tu žalias. Še, raudonas metalo gabalas ir dėžutė vinių."
+},
+{
+"id": 967,
+"kind": "s",
+"text": "kamuolį"
+},
+{
+"id": 968,
+"kind": "s",
+"text": "Mano kamuolys nuriedėjo toli toli! Atneši? Prašau prašau!"
+},
+{
+"id": 969,
+"kind": "s",
+"text": "Ačiū! Turiu raudoną metalo gabalą – radau jį smėlyje. Jis tavo!"
+},
+{
+"id": 970,
+"kind": "s",
+"text": "Paštininkė Rūta"
+},
+{
+"id": 971,
+"kind": "s",
+"text": "laišką"
+},
+{
+"id": 972,
+"kind": "s",
+"text": "Turiu per daug laiškų! Nuneši šį į mėlyną pašto dėžutę? Ji netoli – pamatysi šviesos stulpą."
+},
+{
+"id": 973,
+"kind": "s",
+"text": "Puiku, laiškas pristatytas! Štai tau raudonas metalo gabalas."
+},
+{
+"id": 974,
+"kind": "s",
+"text": "Kepėjas Jonas"
+},
+{
+"id": 975,
+"kind": "s",
+"text": "pyragą"
+},
+{
+"id": 976,
+"kind": "s",
+"text": "Iškepiau pyragą kaimynui, bet negaliu palikti krosnies. Nuneši į jo pašto dėžutę?"
+},
+{
+"id": 977,
+"kind": "s",
+"text": "Kaimynas sako – skanu! Imk raudoną metalo gabalą, jis gulėjo mano kepykloje."
+},
+{
+"id": 978,
+"kind": "s",
+"text": "Ūkininkė Asta"
+},
+{
+"id": 979,
+"kind": "s",
+"text": "kibirą"
+},
+{
+"id": 980,
+"kind": "s",
+"text": "Milžinas spyrė mano kibirą į tolį. Be jo negaliu pamelžti karvės!"
+},
+{
+"id": 981,
+"kind": "s",
+"text": "Ačiū! Karvė irgi dėkoja. Štai raudonas metalo gabalas."
+},
+{
+"id": 982,
+"kind": "s",
+"text": "Žvejys Algis"
+},
+{
+"id": 983,
+"kind": "s",
+"text": "meškerę"
+},
+{
+"id": 984,
+"kind": "s",
+"text": "Pamiršau meškerę kažkur pakeliui. Atneši – duosiu kai ką raudono!"
+},
+{
+"id": 985,
+"kind": "s",
+"text": "Mano meškerė! Kaip ir žadėjau – raudonas metalo gabalas."
+},
+{
+"id": 986,
+"kind": "s",
+"text": "Mokytoja Gintarė"
+},
+{
+"id": 987,
+"kind": "s",
+"text": "knygą"
+},
+{
+"id": 988,
+"kind": "s",
+"text": "Ši knyga – bibliotekai. Nuneši į knygų dėžutę? Ji šviečia netoliese."
+},
+{
+"id": 989,
+"kind": "s",
+"text": "Ačiū, mokinuk! Už gerą darbą – raudonas metalo gabalas."
+},
+{
+"id": 990,
+"kind": "s",
+"text": "vaistinėlę"
+},
+{
+"id": 991,
+"kind": "s",
+"text": "Skubiai! Šią vaistinėlę reikia nunešti į dėžutę prie kelio. Ten ją pasiims ligonis."
+},
+{
+"id": 992,
+"kind": "s",
+"text": "Ligonis sveiksta! Imk raudoną metalo gabalą."
+},
+{
+"id": 993,
+"kind": "s",
+"text": "gitarą"
+},
+{
+"id": 994,
+"kind": "s",
+"text": "Mano gitara! Paliku ją ant kalvos, o dabar nerandu. Be jos negaliu groti!"
+},
+{
+"id": 995,
+"kind": "s",
+"text": "Tilin tilin! Ačiū! Štai paskutinis raudonas metalo gabalas."
+},
+{
+"id": 996,
+"kind": "s",
+"text": "kalbėtis: "
+},
+{
+"id": 997,
+"kind": "s",
+"text": "Ačiū tau dar kartą! Sėkmės statant… ką ten statai?"
+},
+{
+"id": 998,
+"kind": "s",
+"text": "Labas, žaliasis! Gražią dieną šiandien, ar ne?"
+},
+{
+"id": 999,
+"kind": "s",
+"text": "Matau, kad jau kažkam padedi. Kai baigsi – užsuk pas mane!"
+},
+{
+"id": 1000,
+"kind": "t",
+"text": "Dar neradai? ${vg.def.item[0].toUpperCase() + vg.def.item.slice(1)} – ten, kur šviečia geltonas stulpas."
+},
+{
+"id": 1001,
+"kind": "s",
+"text": "Pašto dėžutė – ten, kur šviečia mėlynas stulpas."
+},
+{
+"id": 1002,
+"kind": "t",
+"text": "Nunešk ${vg.def.item}"
+},
+{
+"id": 1003,
+"kind": "s",
+"text": "Ieškok geltono šviesos stulpo netoliese"
+},
+{
+"id": 1004,
+"kind": "s",
+"text": "Ieškok mėlyno šviesos stulpo – ten pašto dėžutė"
+},
+{
+"id": 1005,
+"kind": "s",
+"text": "Visi 10 raudonų metalo gabalų!"
+},
+{
+"id": 1006,
+"kind": "s",
+"text": "Eik pas Kūrėją ir PARAŠYK jam pats. Mandagiai!"
+},
+{
+"id": 1007,
+"kind": "s",
+"text": "Gavai ir plaktuką!"
+},
+{
+"id": 1008,
+"kind": "s",
+"text": "Gavai ir vinių!"
+},
+{
+"id": 1009,
+"kind": "s",
+"text": "Ieškok kitų žmonių su šauktuku"
+},
+{
+"id": 1010,
+"kind": "t",
+"text": "Nunešk atgal: ${vg.def.name}"
+},
+{
+"id": 1011,
+"kind": "t",
+"text": "Grįžk pas: ${vg.def.name}"
+},
+{
+"id": 1012,
+"kind": "s",
+"text": "Taip, mažasis? Dabar tu pats man rašai. Ko tau reikia?"
+},
+{
+"id": 1013,
+"kind": "s",
+"text": "Tu: "
+},
+{
+"id": 1014,
+"kind": "s",
+"text": "Kūrėjas: "
+},
+{
+"id": 1015,
+"kind": "s",
+"text": "Žinoma, gali! Matau, kad išmokai mandagumo. Štai tau kompiuteris – laiko mašinos smegenys. Dabar sudėk visas dalis į savo vietas."
+},
+{
+"id": 1016,
+"kind": "s",
+"text": "Gavai kompiuterį!"
+},
+{
+"id": 1017,
+"kind": "s",
+"text": "Sudėk dalis į tinkamas vietas"
+},
+{
+"id": 1018,
+"kind": "s",
+"text": "Iš nulio dalinti negalima – net Kūrėjui!"
+},
+{
+"id": 1019,
+"kind": "t",
+"text": "${m[1]} ${op} ${m[3]} = ${Math.round(r * 1000) / 1000}. Matematika – mano mėgstamiausia magija."
+},
+{
+"id": 1020,
+"kind": "s",
+"text": "Tau reikia KOMPIUTERIO! Jis – laiko mašinos smegenys. Jį turiu aš. Tik paprašyk mandagiai – su stebuklingu žodžiu."
+},
+{
+"id": 1021,
+"kind": "s",
+"text": "Kompiuterį jau turi. Dabar sudėk visas laiko mašinos dalis į savo vietas."
+},
+{
+"id": 1022,
+"kind": "s",
+"text": "Dabar tau nieko netrūksta. Tu jau viską turi!"
+},
+{
+"id": 1023,
+"kind": "s",
+"text": "Kompiuterį? Hmm… O kaip reikia paprašyti? Prisimink stebuklingą žodį."
+},
+{
+"id": 1024,
+"kind": "s",
+"text": "Kompiuterį tau jau daviau. Jis – laiko mašinos smegenys."
+},
+{
+"id": 1025,
+"kind": "s",
+"text": "Kokia graži „prašau“! Bet ko tu prašai? Pasakyk tiksliai."
+},
+{
+"id": 1026,
+"kind": "s",
+"text": "Labas, mažasis žaliasis!"
+},
+{
+"id": 1027,
+"kind": "s",
+"text": "Sveikas! Smagu, kad rašai."
+},
+{
+"id": 1028,
+"kind": "s",
+"text": "Labas labas! Kaip sekasi keliauti?"
+},
+{
+"id": 1029,
+"kind": "s",
+"text": "Iki, mažasis! Kai reikės – rašyk."
+},
+{
+"id": 1030,
+"kind": "s",
+"text": "Mane visi vadina tiesiog Kūrėju. O tu – mažasis žaliasis."
+},
+{
+"id": 1031,
+"kind": "s",
+"text": "Aš – Kūrėjas. Sukūriau šį pasaulį burbule: miestą, dykumas, ledą, grybus, džiungles ir pikselius. O tu – mano mažasis pagalbininkas."
+},
+{
+"id": 1032,
+"kind": "s",
+"text": "Tu – mažas, plonas, žalias žmogeliukas su antenėle. Ir labai drąsus."
+},
+{
+"id": 1033,
+"kind": "s",
+"text": "Aš senesnis už patį laiką. Bet jaučiuosi visai jaunas!"
+},
+{
+"id": 1034,
+"kind": "s",
+"text": "Čia, Kūrėjo Salėje – pasaulio centre. Iš čia matau viską."
+},
+{
+"id": 1035,
+"kind": "t",
+"text": "Dabar ${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}. Laiką aš žinau visada – juk statome laiko mašiną!"
+},
+{
+"id": 1036,
+"kind": "t",
+"text": "Šiandien ${now.toLocaleDateString('lt-LT')}."
+},
+{
+"id": 1037,
+"kind": "s",
+"text": "Man puikiai! Mano salėje dabar tiek draugų – vienaragiai, vorai, katinas, karvė, debesų karalius…"
+},
+{
+"id": 1038,
+"kind": "s",
+"text": "Žiūriu į pasaulį burbule ir rūpinuosi juo. Ir laukiu, kol baigsi laiko mašiną!"
+},
+{
+"id": 1039,
+"kind": "s",
+"text": "Laiko mašinai jau turi visus dešimt raudonų metalo gabalų. Trūksta tik smegenų – kompiuterio. Jį turiu aš. Tereikia mandagiai paprašyti."
+},
+{
+"id": 1040,
+"kind": "s",
+"text": "Laiko mašina beveik baigta! Sudėk dalis į vietas ir sukalk plaktuku."
+},
+{
+"id": 1041,
+"kind": "s",
+"text": "Užuomina: tau reikia mano kompiuterio. Parašyk, ko nori, ir nepamiršk stebuklingo žodžio, kurį sako mandagūs vaikai."
+},
+{
+"id": 1042,
+"kind": "s",
+"text": "Sudėk laiko mašinos dalis į vietas – kiekviena dalis turi savo formą."
+},
+{
+"id": 1043,
+"kind": "s",
+"text": "Kompiuteris – tai laiko mašinos smegenys. Be jo ji nežinotų, į kurį laiką skristi."
+},
+{
+"id": 1044,
+"kind": "t",
+"text": "Raudonų metalo gabalų turi ${n} iš 10. Juos davė mano pasaulio žmonės – tu jiems padėjai."
+},
+{
+"id": 1045,
+"kind": "s",
+"text": "Plaktuką davė Ponas Petras, vinis – Močiutė Onutė. Jų reikės, kai kalsi laiko mašiną."
+},
+{
+"id": 1046,
+"kind": "s",
+"text": "Demonas… Jis siunčia meteoritus ir milžinus. Bet tu jau tiek daug padarei, kad jis darosi silpnesnis."
+},
+{
+"id": 1047,
+"kind": "s",
+"text": "Vienaragiai laksto mano salėje. Mažieji žaidžia gaudynes su Voratinkle."
+},
+{
+"id": 1048,
+"kind": "s",
+"text": "Senasis Voras mezga voratinklius net čia. Iš įpratimo."
+},
+{
+"id": 1049,
+"kind": "s",
+"text": "Katinas sėdi prie manęs ir murkia. Labai rimtas katinas."
+},
+{
+"id": 1050,
+"kind": "s",
+"text": "Karvė sako „mū“ ir džiaugiasi, kad jos niekas nesiurbia į dangų."
+},
+{
+"id": 1051,
+"kind": "s",
+"text": "Višta su septyniais viščiukais – tavo pirmasis darbas. Prisimeni?"
+},
+{
+"id": 1052,
+"kind": "s",
+"text": "Debesų Karalius ir princas dabar gyvena pas mane. Princas skraido ratu, kai džiaugiasi."
+},
+{
+"id": 1053,
+"kind": "s",
+"text": "Ateivių lėkštė kabo muziejuje. Ateiviai buvo triukšmingi, bet ne pikti."
+},
+{
+"id": 1054,
+"kind": "s",
+"text": "Marsas – už burbulo. Ten drakono pilis ir dinozauriukai. Raketa stovi dykumoje."
+},
+{
+"id": 1055,
+"kind": "s",
+"text": "Muziejus – Pradžios Mieste. Kairėje pusėje dar yra tuščių stendų tavo radiniams."
+},
+{
+"id": 1056,
+"kind": "t",
+"text": "Tu turi ${fmtMoney(money)}. Pinigų gali užsidirbti restorane, dažydamas sienas ar vykdydamas mano įsakymus."
+},
+{
+"id": 1057,
+"kind": "s",
+"text": "Mano mėgstamiausia spalva – žalia. Kaip tu!"
+},
+{
+"id": 1058,
+"kind": "s",
+"text": "Aš nevalgau, bet man patinka kvapas iš restorano „Skanus maistas“. Ypač blynai."
+},
+{
+"id": 1059,
+"kind": "s",
+"text": "Kodėl vienaragis neina į mokyklą? Nes jis jau ragų mokslus baigęs! Cha!"
+},
+{
+"id": 1060,
+"kind": "s",
+"text": "Ką sako grybas grybui? „Tu – fun-gas!“ …Gerai, gal nelabai juokinga."
+},
+{
+"id": 1061,
+"kind": "s",
+"text": "Kodėl voras gerai moka kompiuteriu? Nes jis visada tinkle!"
+},
+{
+"id": 1062,
+"kind": "s",
+"text": "La-la-laa… Laiko mašina, skrisk per laiką! …Daugiau dainuoti nemoku."
+},
+{
+"id": 1063,
+"kind": "s",
+"text": "Žinoma! Tu – mano mėgstamiausias pagalbininkas visame pasaulyje."
+},
+{
+"id": 1064,
+"kind": "s",
+"text": "Aš – Kūrėjas. Šiame pasaulyje esu tikras kaip saulė virš miesto."
+},
+{
+"id": 1065,
+"kind": "s",
+"text": "Mano pasaulyje oras visada geras. Na, jei neskaičiuoti meteoritų."
+},
+{
+"id": 1066,
+"kind": "s",
+"text": "Todėl, kad taip sukūriau pasaulį. O gal todėl, kad taip smagiau!"
+},
+{
+"id": 1067,
+"kind": "s",
+"text": "Kodėl? Nes kiekvienas klausimas turi atsakymą – kartais jį reikia surasti pačiam."
+},
+{
+"id": 1068,
+"kind": "s",
+"text": "Prašom, mažasis."
+},
+{
+"id": 1069,
+"kind": "s",
+"text": "Ko tau duoti? Pasakyk tiksliai – ir mandagiai."
+},
+{
+"id": 1070,
+"kind": "s",
+"text": "Geras klausimas! Manau, atsakymą rasi keliaudamas po pasaulį."
+},
+{
+"id": 1071,
+"kind": "s",
+"text": "Hmm… Į tai atsakyti sunku net Kūrėjui. Paklausk ko nors kito!"
+},
+{
+"id": 1072,
+"kind": "s",
+"text": "To dar niekas manęs neklausė! Turiu pagalvoti."
+},
+{
+"id": 1073,
+"kind": "s",
+"text": "Įdomu…"
+},
+{
+"id": 1074,
+"kind": "s",
+"text": "Supratau. Ir ką toliau?"
+},
+{
+"id": 1075,
+"kind": "s",
+"text": "Tu labai gražiai rašai."
+},
+{
+"id": 1076,
+"kind": "s",
+"text": "Klausau tavęs."
+},
+{
+"id": 1077,
+"kind": "s",
+"text": " (Jei tau kažko reikia – paprašyk. Mandagiai.)"
+},
+{
+"id": 1078,
+"kind": "s",
+"text": "Tempk kiekvieną dalį ant jos vietos brėžinyje."
+},
+{
+"id": 1079,
+"kind": "s",
+"text": "Visos dalys savo vietose! Dabar sukalk jas plaktuku ir vinimis."
+},
+{
+"id": 1080,
+"kind": "t",
+"text": "Ne, ${p.name.toLowerCase()} čia netinka. Pažiūrėk į formą!"
+},
+{
+"id": 1081,
+"kind": "s",
+"text": "Kaukšt kaukšt kaukšt…"
+},
+{
+"id": 1082,
+"kind": "s",
+"text": "LAIKO MAŠINA PASTATYTA!"
+},
+{
+"id": 1083,
+"kind": "s",
+"text": "Laiko mašina pastatyta!"
+},
+{
+"id": 1084,
+"kind": "s",
+"text": "Ji stovi Kūrėjo Salėje. Mažą jos kopiją nunešk į muziejų"
+},
+{
+"id": 1085,
+"kind": "s",
+"text": "Įsakymas #8 įvykdytas!"
+},
+{
+"id": 1086,
+"kind": "s",
+"text": "Laiko mašinos kopija – muziejuje. Apdovanojimas: 800 €"
+},
+{
+"id": 1087,
+"kind": "t",
+"text": "Nunešk ${vg.def.item} į pašto dėžutę"
+},
+{
+"id": 1088,
+"kind": "s",
+"text": "Rask žmogų su geltonu šauktuku"
+},
+{
+"id": 1089,
+"kind": "s",
+"text": "Eik pas Kūrėją ir parašyk jam (E prie Kūrėjo)"
+},
+{
+"id": 1090,
+"kind": "s",
+"text": "Sudėk laiko mašinos dalis (E prie Kūrėjo)"
+},
+{
+"id": 1091,
+"kind": "s",
+"text": "Nunešk laiko mašinos kopiją į muziejų"
+},
+{
+"id": 1092,
+"kind": "t",
+"text": "${arrow}<div><div class=\"qt\">Įsakymas #8: Laiko mašina</div><div class=\"qs\">${step}${dist}</div></div>"
+},
+{
+"id": 1093,
+"kind": "s",
+"text": "Laiko mašina veikia! Ir jau turiu tau naują įsakymą: URVINIŲ KARALIAUS PADĖJĖJAS."
+},
+{
+"id": 1094,
+"kind": "s",
+"text": "Prieš 100 000 metų mūsų pasaulis buvo vien džiunglės. Ten gyveno urviniai žmonės ir jų karalius Ugabugas. Jam labai reikia pagalbos."
+},
+{
+"id": 1095,
+"kind": "s",
+"text": "Prieik prie laiko mašinos mano salėje ir spausk E. Ji nuneš tave į urvinių laikus."
+},
+{
+"id": 1096,
+"kind": "s",
+"text": "Laiko mašina stovi mano salėje. Prieik prie jos ir spausk E."
+},
+{
+"id": 1097,
+"kind": "s",
+"text": "Kokia graži karūna! Nunešk ją į muziejų, kad visi matytų."
+},
+{
+"id": 1098,
+"kind": "s",
+"text": "Urvinių karalius turi gerą padėjėją. O aš – gerą pagalbininką."
+},
+{
+"id": 1099,
+"kind": "s",
+"text": "Karalius Ugabugas tavęs laukia praeityje. Laiko mašina – čia pat, mano salėje."
+},
+{
+"id": 1100,
+"kind": "s",
+"text": "Įsakymas #9: Urvinių karaliaus padėjėjas"
+},
+{
+"id": 1101,
+"kind": "s",
+"text": "Prieik prie laiko mašinos Kūrėjo Salėje ir spausk E"
+},
+{
+"id": 1102,
+"kind": "s",
+"text": "Žvejyba"
+},
+{
+"id": 1103,
+"kind": "s",
+"text": "Laužavietė"
+},
+{
+"id": 1104,
+"kind": "s",
+"text": "Laiko mašina ūžia…"
+},
+{
+"id": 1105,
+"kind": "s",
+"text": "Skrendi atgal laiku – 100 000 metų!"
+},
+{
+"id": 1106,
+"kind": "s",
+"text": "Urvinių laikai"
+},
+{
+"id": 1107,
+"kind": "s",
+"text": "Prieš 100 000 metų"
+},
+{
+"id": 1108,
+"kind": "s",
+"text": "Tas pats pasaulis, bet visur – tik džiunglės. Danguje sklando pterodaktiliai."
+},
+{
+"id": 1109,
+"kind": "s",
+"text": "Prieš 100 000 metų…"
+},
+{
+"id": 1110,
+"kind": "s",
+"text": "Visas pasaulis – vien džiunglės. Šventykloje laukia urvinių karalius!"
+},
+{
+"id": 1111,
+"kind": "s",
+"text": "Grįžai į savo laikus"
+},
+{
+"id": 1112,
+"kind": "s",
+"text": "Nunešk karaliaus karūną į muziejų!"
+},
+{
+"id": 1113,
+"kind": "s",
+"text": "Akmenų užteks laužui"
+},
+{
+"id": 1114,
+"kind": "s",
+"text": "Pagaliukų užteks laužui"
+},
+{
+"id": 1115,
+"kind": "t",
+"text": "Kriauklė! (${Q11.shells.length} / 20)"
+},
+{
+"id": 1116,
+"kind": "s",
+"text": "Užtenka! Nunešk jas vargšui Gugui"
+},
+{
+"id": 1117,
+"kind": "s",
+"text": "Ieškok rožinio švytėjimo"
+},
+{
+"id": 1118,
+"kind": "s",
+"text": "<b>KIMBA! Spausk <kbd>E</kbd>!</b>"
+},
+{
+"id": 1119,
+"kind": "s",
+"text": "Žvejoji… lauk, kol kibs (nespausk per anksti)"
+},
+{
+"id": 1120,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su sargybiniu Bumbu"
+},
+{
+"id": 1121,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su karaliumi Ugabugu"
+},
+{
+"id": 1122,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su vargšu Gugu"
+},
+{
+"id": 1123,
+"kind": "s",
+"text": "<kbd>E</kbd> keliauti namo – į savo laikus"
+},
+{
+"id": 1124,
+"kind": "s",
+"text": "<kbd>E</kbd> mesti lianą – pagauti tigrą!"
+},
+{
+"id": 1125,
+"kind": "s",
+"text": "<kbd>E</kbd> žvejoti"
+},
+{
+"id": 1126,
+"kind": "t",
+"text": "Laužui reikia 5 akmenų ir 5 pagaliukų (${Q11.stones.length}/5 · ${Q11.sticks.length}/5)"
+},
+{
+"id": 1127,
+"kind": "s",
+"text": "<kbd>E</kbd> sukurti laužą"
+},
+{
+"id": 1128,
+"kind": "s",
+"text": "<kbd>E</kbd> kepti žuvį"
+},
+{
+"id": 1129,
+"kind": "s",
+"text": "Laužas dega. Dabar sužvejok žuvį ežerėlyje"
+},
+{
+"id": 1130,
+"kind": "t",
+"text": "<b>APVERSK ŽUVĮ! Spausk <kbd>E</kbd>!</b> · ${pct}%"
+},
+{
+"id": 1131,
+"kind": "t",
+"text": "Žuvis kepa… ${pct}%${c.flipped ? ' · apversta' : ' · pasiruošk apversti'}"
+},
+{
+"id": 1132,
+"kind": "s",
+"text": "UGA! Žalias žmogelis iš ateities! Kūrėjas man sapne sakė, kad ateisi."
+},
+{
+"id": 1133,
+"kind": "s",
+"text": "Aš – Ugabugas, visų džiunglių karalius. Man reikia padėjėjo. Bet padėjėju tampa tik tas, kuris įveikia TRIS iš tiesų sunkias užduotis."
+},
+{
+"id": 1134,
+"kind": "s",
+"text": "Pirma užduotis: noriu keptos žuvies! Surink 5 akmenis ir 5 pagaliukus laužui, sužvejok žuvį ežerėlyje ir iškepk ją ant laužo. Tik nesudegink!"
+},
+{
+"id": 1135,
+"kind": "s",
+"text": "1 užduotis: kepta žuvis"
+},
+{
+"id": 1136,
+"kind": "s",
+"text": "Surink 5 akmenis ir 5 pagaliukus (geltonai švyti), sužvejok ir iškepk žuvį"
+},
+{
+"id": 1137,
+"kind": "s",
+"text": "Mmm… KEPTA ŽUVIS! Uga uga! Niekas niekada man nėra iškepęs tokios gardžios žuvies!"
+},
+{
+"id": 1138,
+"kind": "s",
+"text": "Antra užduotis: mano draugas Gugas labai vargšas. Jis neturi nė vienos kriauklės, o kriauklės pas mus – kaip pinigai."
+},
+{
+"id": 1139,
+"kind": "s",
+"text": "Surask jam 20 kriauklių. Jos išmėtytos po džiungles ir švyti rožiškai. Tada nunešk jas Gugui – jo trobelė prie šventyklos."
+},
+{
+"id": 1140,
+"kind": "s",
+"text": "2 užduotis: 20 kriauklių"
+},
+{
+"id": 1141,
+"kind": "s",
+"text": "Kriauklės švyti rožiškai – rodyklė rodo artimiausią"
+},
+{
+"id": 1142,
+"kind": "s",
+"text": "Žalia žuvis? Fui! Iškepk ją ant laužo. Ir neužmiršk apversti!"
+},
+{
+"id": 1143,
+"kind": "s",
+"text": "Mano pilvas burzgia… Kur mano kepta žuvis? Akmenys, pagaliukai, žvejyba, laužas!"
+},
+{
+"id": 1144,
+"kind": "s",
+"text": "Turi 20 kriauklių? Nešk jas Gugui, ne man!"
+},
+{
+"id": 1145,
+"kind": "t",
+"text": "Tik ${Q11.shells.length} kriauklės? Gugui reikia dvidešimties!"
+},
+{
+"id": 1146,
+"kind": "s",
+"text": "Gugas laimingas – ir aš laimingas. Bet dabar – pati sunkiausia užduotis."
+}
+]

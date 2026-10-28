@@ -1,0 +1,647 @@
+[
+{
+"id": 1959,
+"kind": "t",
+"text": "<div style=\"padding:16px 18px 0\"><div style=\"font-size:44px;font-weight:900\">${$('mpClock').textContent}</div><div class=\"mpSmall\" style=\"padding:0\">Tavo numeris: ${Q19.num}</div>${Q19.stage === 'phone' ? `<div style=\"margin-top:8px;background:#22222e;border-radius:12px;padding:8px 12px;font-size:13px\">🔧 Laikrodžio meistrai: <b>${Q19.invited.length} / 10</b></div>` : ''}${mpNotif ? `<div style=\"margin-top:8px;background:#3a2a5a;border-radius:12px;padding:8px 12px;font-size:13px\">${mpNotif}</div>` : ''}</div>\n  <div class=\"mpGrid\">${apps.map(([id, n, c, ic]) => `<button class=\"mpApp\" data-a=\"${id}\"><div class=\"mpIco\" style=\"background:${c};${c === '#ffffff' ? 'color:#3a7bff' : ''}\">${ic}</div>${n}</button>`).join('')}</div>"
+},
+{
+"id": 1960,
+"kind": "t",
+"text": "<div class=\"mpH\">Mano daiktai</div><div class=\"mpSmall\">Daiktai, kuriuos radai Laiko pasaulyje (praeityje jie šviečia). Juos gali pasiūlyti žmonėms.</div>"
+},
+{
+"id": 1961,
+"kind": "s",
+"text": "dar nerasta"
+},
+{
+"id": 1962,
+"kind": "t",
+"text": "<div class=\"mpH\">Žmonės</div><div class=\"mpSmall\">Atsitiktiniai žmonės iš tikro pasaulio. Paskambink, parašyk – arba pakviesk taisyti laikrodžio!</div>"
+},
+{
+"id": 1963,
+"kind": "t",
+"text": "<div style=\"text-align:center;padding:24px 10px\"><div class=\"mpAva\" style=\"background:${p.col};width:90px;height:90px;font-size:40px;margin:0 auto\">${p.name[0]}</div><div style=\"font-size:24px;font-weight:900;margin-top:10px\">${p.name}</div><div class=\"mpSmall\">${p.num} · ${p.tag}</div>${Q19.invited.includes(p.id) ? '<div style=\"color:#3cc86a;font-weight:800;margin-top:8px\">Sutiko taisyti laikrodį ✅</div>' : ''}\n  <div style=\"margin-top:22px\"><button class=\"mpBtn go\" id=\"mpCallB\">📞 Skambinti</button><button class=\"mpBtn\" id=\"mpChatB\">💬 Rašyti</button></div>${Q19.stage === 'phone' && !Q19.invited.includes(p.id) ? '<div><button class=\"mpBtn gold\" id=\"mpInvB\">🔧 Pakviesti taisyti laikrodį</button></div>' : ''}</div>"
+},
+{
+"id": 1964,
+"kind": "t",
+"text": "Labas! O kas čia?"
+},
+{
+"id": 1965,
+"kind": "t",
+"text": "Sveikas! Iš kur turi mano numerį?"
+},
+{
+"id": 1966,
+"kind": "t",
+"text": "Labas labas! Aš ${p.name}."
+},
+{
+"id": 1967,
+"kind": "t",
+"text": "Aš ${p.name}. Ir aš ${p.tag}. O tu?"
+},
+{
+"id": 1968,
+"kind": "s",
+"text": "Normaliai, tik katinas vėl suvalgė mano sumuštinį."
+},
+{
+"id": 1969,
+"kind": "s",
+"text": "Puikiai, ką tik suvalgiau tris blynus!"
+},
+{
+"id": 1970,
+"kind": "s",
+"text": "Ką?! Mano šaldytuvas BĖGA?! …Ei, palauk. Tai pokštas!"
+},
+{
+"id": 1971,
+"kind": "s",
+"text": "Tai pagausiu jį! …Hmm, jis stovi vietoj. Tu pokštininkas!"
+},
+{
+"id": 1972,
+"kind": "s",
+"text": "Pinigų? Man pačiam trūksta!"
+},
+{
+"id": 1973,
+"kind": "s",
+"text": "Už pinigus aš viską padarysiu! Na… beveik viską."
+},
+{
+"id": 1974,
+"kind": "s",
+"text": "Laikrodis? Praeitis? Apie ką tu kalbi?"
+},
+{
+"id": 1975,
+"kind": "s",
+"text": "Aš moku taisyti laikrodžius! Tiesa, tik plastikinius…"
+},
+{
+"id": 1976,
+"kind": "s",
+"text": "ZOMBIAI?! Kur?! …A, tu apie žaidimą Goosle Play? Aš jame 5 lygyje!"
+},
+{
+"id": 1977,
+"kind": "s",
+"text": "Aš esu banano gerbėjas nuo gimimo!"
+},
+{
+"id": 1978,
+"kind": "s",
+"text": "Kudakudak! Aš moku pagauti vištą per 3 sekundes!"
+},
+{
+"id": 1979,
+"kind": "s",
+"text": "Hmm… gal taip, gal ne."
+},
+{
+"id": 1980,
+"kind": "s",
+"text": "Geras klausimas! Nežinau."
+},
+{
+"id": 1981,
+"kind": "s",
+"text": "Paklausk mano mamos."
+},
+{
+"id": 1982,
+"kind": "s",
+"text": "Taip! …Arba ne."
+},
+{
+"id": 1983,
+"kind": "s",
+"text": "Nėra už ką!"
+},
+{
+"id": 1984,
+"kind": "t",
+"text": "Įdomu… O kodėl rašai apie „${txt.slice(0, 24)}“?"
+},
+{
+"id": 1985,
+"kind": "s",
+"text": "Cha, tu keistas. Bet man patinka!"
+},
+{
+"id": 1986,
+"kind": "s",
+"text": "Aš dabar "
+},
+{
+"id": 1987,
+"kind": "s",
+"text": ", parašyk vėliau!"
+},
+{
+"id": 1988,
+"kind": "s",
+"text": "Kas čia rašo?! Iš kur tu?"
+},
+{
+"id": 1989,
+"kind": "s",
+"text": "Tikrai?! Nebūna!"
+},
+{
+"id": 1990,
+"kind": "t",
+"text": "<div class=\"mpH\"><div class=\"mpAva\" style=\"background:${p.col};width:32px;height:32px\">${p.name[0]}</div>${p.name}</div><div id=\"mpLog\" style=\"display:flex;flex-direction:column;padding-bottom:8px\">${log.map(([w, tx]) => `<div class=\"mpMsg ${w}\">${tx.replace(/</g, '&lt;')}</div>`).join('')}</div>\n  <div style=\"position:sticky;bottom:0;display:flex;gap:6px;padding:8px;background:#0c0c14\"><input id=\"mpIn\" placeholder=\"Rašyk žinutę…\" maxlength=\"120\"><button class=\"mpBtn go\" id=\"mpSend\">➤</button></div>"
+},
+{
+"id": 1991,
+"kind": "s",
+"text": "Ar jūsų šaldytuvas bėga?"
+},
+{
+"id": 1992,
+"kind": "s",
+"text": "Ką? …Palauk, patikrinsiu. NE, jis stovi! …Ei, tai pokštas?!"
+},
+{
+"id": 1993,
+"kind": "s",
+"text": "Taip, bėga! Jau trečią kartą šiandien!"
+},
+{
+"id": 1994,
+"kind": "s",
+"text": "Čia jūsų katinas skambina. Miau."
+},
+{
+"id": 1995,
+"kind": "s",
+"text": "Murkis?! Kaip tu išmokai naudotis telefonu?!"
+},
+{
+"id": 1996,
+"kind": "s",
+"text": "Mano katinas niekada neskambina… jis tik rašo žinutes."
+},
+{
+"id": 1997,
+"kind": "s",
+"text": "Sveiki, jūs laimėjote 1000 bananų!"
+},
+{
+"id": 1998,
+"kind": "s",
+"text": "TIKRAI?! Kur juos pasiimti?! …Alio? Alio?!"
+},
+{
+"id": 1999,
+"kind": "s",
+"text": "Aš net nemėgstu bananų… nors gerai, imsiu."
+},
+{
+"id": 2000,
+"kind": "s",
+"text": "Kalba ateivis iš kosmoso. Bip bup."
+},
+{
+"id": 2001,
+"kind": "s",
+"text": "AAAA! Nevežkit manęs į savo lėkštę!"
+},
+{
+"id": 2002,
+"kind": "s",
+"text": "Bip bup tau irgi. Pasakyk Marsui labų dienų."
+},
+{
+"id": 2003,
+"kind": "s",
+"text": "Ar čia pica? Norėčiau 5 picų su ananasais."
+},
+{
+"id": 2004,
+"kind": "s",
+"text": "Čia ne picerija! …Bet aš irgi norėčiau picos."
+},
+{
+"id": 2005,
+"kind": "s",
+"text": "Ananasai ant picos?! Padėk ragelį!"
+},
+{
+"id": 2006,
+"kind": "t",
+"text": "<div style=\"text-align:center;padding:34px 10px\"><div class=\"mpAva\" style=\"background:${p.col};width:100px;height:100px;font-size:44px;margin:0 auto\">${p.name[0]}</div><div style=\"font-size:24px;font-weight:900;margin-top:12px\">${p.name}</div><div class=\"mpSmall\" id=\"mpCallSt\">Skambinama… ${p.num}</div><div id=\"mpCallTxt\" style=\"min-height:70px;margin:18px 10px;font-size:16px\"></div><div id=\"mpCallOpts\"></div><button class=\"mpBtn no\" id=\"mpHang\" style=\"margin-top:14px\">📵 Padėti ragelį</button></div>"
+},
+{
+"id": 2007,
+"kind": "s",
+"text": "Alio? Kas čia?"
+},
+{
+"id": 2008,
+"kind": "s",
+"text": "Alio?! Kas skambina taip vėlai?"
+},
+{
+"id": 2009,
+"kind": "s",
+"text": "<button class=\"mpBtn gold\" style=\"display:block;width:92%;margin:5px auto\" id=\"mpCallInv\">🔧 Ateik pataisyti laikrodžio!</button>"
+},
+{
+"id": 2010,
+"kind": "t",
+"text": "<i>Tu: ${pr[0]}</i><br><br>${pick(pr[1])}"
+},
+{
+"id": 2011,
+"kind": "t",
+"text": "<div class=\"mpH\"><div class=\"mpAva\" style=\"background:${p.col};width:32px;height:32px\">${p.name[0]}</div>${p.name}</div><div style=\"display:flex;flex-direction:column\">\n    <div class=\"mpMsg me\">Labas! Ar galėtum atvykti į Laiko pasaulį ir pataisyti Praeities Laikrodį? Mums labai reikia!</div>\n    <div class=\"mpMsg them\">${w.money ? (asked ? `Hmm… nu gerai, bet tik už ${price} €.` : `Laiko pasaulis?! Įdomu… Ateisiu, jei sumokėsi ${price} €.`) : `Pinigų man nereikia. Bet jei atneštum man… <b>${itemName(w.item)}</b> – ateisiu!`}</div></div>\n    <div style=\"padding:10px;text-align:center\">${w.money ? `<button class=\"mpBtn go\" id=\"mpPay\">💶 Sumokėti ${price} €</button><button class=\"mpBtn\" id=\"mpHaggle\">Gal pigiau?</button>` : `<button class=\"mpBtn go\" id=\"mpGive\">🎁 Duoti: ${itemName(w.item)}</button>`}<button class=\"mpBtn\" id=\"mpOther\">Pasiūlyti kitą daiktą</button><button class=\"mpBtn no\" id=\"mpNo\">Ne, ačiū</button></div><div class=\"mpSmall\" id=\"mpInvMsg\"></div><div class=\"mpSmall\">Tavo pinigai: ${fmtMoney(money)} · Meistrų: ${Q19.invited.length}/10</div>"
+},
+{
+"id": 2012,
+"kind": "t",
+"text": "<b style=\"color:#3cc86a\">${p.name}: „${how}“ – ateis taisyti laikrodžio! (${Q19.invited.length}/10)</b>"
+},
+{
+"id": 2013,
+"kind": "s",
+"text": "Visi 10 meistrų sutiko!"
+},
+{
+"id": 2014,
+"kind": "s",
+"text": "Uždaryk telefoną – jie jau keliauja pas Praeities Laikrodį!"
+},
+{
+"id": 2015,
+"kind": "s",
+"text": "Neturi tiek pinigų… Gal pasiūlyk daiktą?"
+},
+{
+"id": 2016,
+"kind": "s",
+"text": "Sutarta! Jau lekiu!"
+},
+{
+"id": 2017,
+"kind": "s",
+"text": "Gerai, perpus pigiau – bet tik dėl tavęs!"
+},
+{
+"id": 2018,
+"kind": "t",
+"text": "${p.name}: „Pigiau?! Tai dabar bus dar brangiau!“"
+},
+{
+"id": 2019,
+"kind": "t",
+"text": "${itemName(id)}! Kaip tik to ir norėjau!"
+},
+{
+"id": 2020,
+"kind": "t",
+"text": "Neturi daikto „${itemName(w.item)}“. Paieškok praeityje – daiktai ten šviečia!"
+},
+{
+"id": 2021,
+"kind": "s",
+"text": "Neturi jokių daiktų. Jie šviečia Laiko pasaulyje (praeityje)."
+},
+{
+"id": 2022,
+"kind": "t",
+"text": "${p.name}: „${itemName(id)}? Ne, man to nereikia.“"
+},
+{
+"id": 2023,
+"kind": "t",
+"text": "<div style=\"text-align:center;padding:30px 0 10px;font-size:42px;font-weight:900\"><span style=\"color:#3a7bff\">G</span><span style=\"color:#e8262e\">o</span><span style=\"color:#ffb020\">o</span><span style=\"color:#3a7bff\">s</span><span style=\"color:#3cc86a\">l</span><span style=\"color:#e8262e\">e</span></div>\n  <div style=\"display:flex;gap:6px;padding:8px 14px\"><input id=\"mpQ\" placeholder=\"Ieškok bet ko…\" maxlength=\"60\"><button class=\"mpBtn go\" id=\"mpS\">🔍</button></div><div id=\"mpRes\"></div>"
+},
+{
+"id": 2024,
+"kind": "s",
+"text": "Kaip pataisyti Praeities Laikrodį?"
+},
+{
+"id": 2025,
+"kind": "s",
+"text": "Atsakymas: pakviesk 10 meistrų iš tikro pasaulio. Jie mėgsta pinigus ir saldainius."
+},
+{
+"id": 2026,
+"kind": "s",
+"text": "„Mano laikrodukas verkia jau 3 dienas, ką daryti?“ – 47 atsakymai"
+},
+{
+"id": 2027,
+"kind": "s",
+"text": "Zombių apokalipsė: armija – Goosle Play"
+},
+{
+"id": 2028,
+"kind": "s",
+"text": "Statyk armiją ir apgink miestą! ★★★★★"
+},
+{
+"id": 2029,
+"kind": "s",
+"text": "Mokslininkai sako: NE. Bet žaidime – TAIP."
+},
+{
+"id": 2030,
+"kind": "s",
+"text": "Bananas – žaidimas"
+},
+{
+"id": 2031,
+"kind": "s",
+"text": "Gaudyk bananus, venk supuvusių! Goosle Play"
+},
+{
+"id": 2032,
+"kind": "s",
+"text": "Kodėl bananai lenkti?"
+},
+{
+"id": 2033,
+"kind": "s",
+"text": "Nes jie auga link saulės. Tikrai!"
+},
+{
+"id": 2034,
+"kind": "s",
+"text": "Gaudyk vištas – Goosle Play"
+},
+{
+"id": 2035,
+"kind": "s",
+"text": "Sugaudyk visas vištas į gardą per 45 sekundes!"
+},
+{
+"id": 2036,
+"kind": "s",
+"text": "Prieiga tik dievams… ir vienam žaliam žmogeliukui."
+},
+{
+"id": 2037,
+"kind": "t",
+"text": "${q} – tai labai svarbus dalykas. Apie ${q} žino visi, išskyrus tuos, kurie nežino."
+},
+{
+"id": 2038,
+"kind": "t",
+"text": "10 faktų apie ${q}"
+},
+{
+"id": 2039,
+"kind": "t",
+"text": "3 faktas jus nustebins! (Iš tikro – ne.)"
+},
+{
+"id": 2040,
+"kind": "s",
+"text": "Taip, su kečupu."
+},
+{
+"id": 2041,
+"kind": "s",
+"text": "Ne, bet labai skanu."
+},
+{
+"id": 2042,
+"kind": "s",
+"text": "Zombių apokalipsė: armija"
+},
+{
+"id": 2043,
+"kind": "s",
+"text": "Zombiai puola! Statyk armiją ir apgink miestą."
+},
+{
+"id": 2044,
+"kind": "s",
+"text": "Gaudyk vištas"
+},
+{
+"id": 2045,
+"kind": "s",
+"text": "Sugaudyk visas vištas į gardą!"
+},
+{
+"id": 2046,
+"kind": "s",
+"text": "Beždžionėlė gaudo bananus. Venk supuvusių ir bombų!"
+},
+{
+"id": 2047,
+"kind": "t",
+"text": "<div class=\"mpRow\" data-g=\"${id}\"><div class=\"mpIco\" style=\"background:${c};width:52px;height:52px\">${ic}</div><div style=\"flex:1\"><div style=\"font-weight:800\">${n}</div><div class=\"mpSmall\" style=\"padding:0\">${d}</div></div><button class=\"mpBtn go\">Žaisti</button></div>"
+},
+{
+"id": 2048,
+"kind": "s",
+"text": "<button class=\"mpBtn go\" id=\"zR\">Iš naujo</button>"
+},
+{
+"id": 2049,
+"kind": "t",
+"text": "🪙 ${Math.floor(G2.coins)}   ❤ ${G2.lives}   Banga ${G2.wave}   Zombių: ${G2.kills}"
+},
+{
+"id": 2050,
+"kind": "s",
+"text": "Pasirink karį ir paspausk ant juostos"
+},
+{
+"id": 2051,
+"kind": "s",
+"text": "Zombiai laimėjo!"
+},
+{
+"id": 2052,
+"kind": "t",
+"text": "Nugalėjai ${G2.kills} zombių, ${G2.wave} banga"
+},
+{
+"id": 2053,
+"kind": "s",
+"text": "<button class=\"mpBtn go\" id=\"cR\">Iš naujo</button>"
+},
+{
+"id": 2054,
+"kind": "s",
+"text": "<span class=\"mpSmall\">Paspausk vištą – ji atsiduria rankoje. Paspausk gardą – ji ten lieka.</span>"
+},
+{
+"id": 2055,
+"kind": "t",
+"text": "⏱ ${Math.max(0, Math.ceil(G2.t))}   🐔 gardė: ${G2.ch.filter(k => k.inPen).length}/8"
+},
+{
+"id": 2056,
+"kind": "s",
+"text": "Visos vištos gardė!"
+},
+{
+"id": 2057,
+"kind": "s",
+"text": "<button class=\"mpBtn go\" id=\"bR\">Iš naujo</button>"
+},
+{
+"id": 2058,
+"kind": "s",
+"text": "<span class=\"mpSmall\">Vedžiok pele / pirštu. 🍌 +1 · auksinis +5 · 🟤 supuvęs ir 💣 – atima gyvybę</span>"
+},
+{
+"id": 2059,
+"kind": "t",
+"text": "Bananų: ${G2.score}"
+},
+{
+"id": 2060,
+"kind": "s",
+"text": "Banano šokis"
+},
+{
+"id": 2061,
+"kind": "s",
+"text": "Višta bėga NAMO"
+},
+{
+"id": 2062,
+"kind": "s",
+"text": "Laikrodukas verkia (liūdna)"
+},
+{
+"id": 2063,
+"kind": "s",
+"text": "Sprogo arbūzas!!!"
+},
+{
+"id": 2064,
+"kind": "s",
+"text": "Žalias žmogeliukas šoka"
+},
+{
+"id": 2065,
+"kind": "s",
+"text": "Skraidanti karvė?!"
+},
+{
+"id": 2066,
+"kind": "t",
+"text": "<div class=\"mpH\"><span style=\"background:#e8262e;border-radius:8px;padding:0 8px\">▶</span> JuTūbas</div>\n  <div class=\"mpRow\" id=\"mpV1\"><div style=\"width:120px;height:68px;background:#333;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:24px\">🐶</div><div style=\"flex:1\"><div style=\"font-weight:800\">Streamerio Greitulio LOJIMAS (blogai nupieštas)</div><div class=\"mpSmall\" style=\"padding:0\">GreitulysTV · 2:00 · 1 mlrd. peržiūrų</div></div></div>\n  <div class=\"mpH\" style=\"font-size:16px\">Shorts</div><div class=\"mpGrid\" style=\"grid-template-columns:repeat(2,1fr);padding:4px 12px\">${SHORTS.map(([n], i) => `<button class=\"mpApp\" data-s=\"${i}\" style=\"background:#1c1c28;border-radius:12px;padding:8px\"><div style=\"width:100%;height:100px;background:#2a2a3a;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:30px\">▶</div>${n}</button>`).join('')}</div>"
+},
+{
+"id": 2067,
+"kind": "s",
+"text": "<div style=\"font-weight:800;text-align:left;padding:4px 8px\">Streamerio Greitulio LOJIMAS (blogai nupieštas)</div><div class=\"mpSmall\" style=\"text-align:left\">GreitulysTV · 1 mlrd. peržiūrų · 👍 9 mln.</div><button class=\"mpBtn\" id=\"vP\">⏸</button><input type=\"range\" id=\"vS\" min=\"0\" max=\"120\" value=\"0\" style=\"width:60%;vertical-align:middle\">"
+},
+{
+"id": 2068,
+"kind": "s",
+"text": "ŠOKAM!"
+},
+{
+"id": 2069,
+"kind": "s",
+"text": "Ei, dievai! Žaliasis žmogeliukas dabar irgi mūsų grupėje!"
+},
+{
+"id": 2070,
+"kind": "s",
+"text": "Tik tak! Jis pakvietė 10 meistrų, ir jie pataisė mano Praeities Laikrodį. Laikas vėl eina į abi puses!"
+},
+{
+"id": 2071,
+"kind": "s",
+"text": "Sveikas atvykęs į grupę, didvyri! ☀"
+},
+{
+"id": 2072,
+"kind": "s",
+"text": "BUM! Pagaliau! Žaliasi, TAVĘS man reikia. Mano debesų pasaulyje didelė bėda…"
+},
+{
+"id": 2073,
+"kind": "s",
+"text": "Kai būsi pasiruošęs – parašyk man. BUM BUM!"
+},
+{
+"id": 2074,
+"kind": "t",
+"text": "<div class=\"mpH\">⚡ Dievų grupė</div><div style=\"display:flex;flex-direction:column\">${L.map(([w, t, c]) => `<div style=\"padding:2px 12px;font-size:12px;font-weight:800;color:${c}\">${w}</div><div class=\"mpMsg them\" style=\"margin-top:0\">${t}</div>`).join('')}</div>"
+},
+{
+"id": 2075,
+"kind": "s",
+"text": "Atvyko 10 meistrų iš tikro pasaulio!"
+},
+{
+"id": 2076,
+"kind": "s",
+"text": "Jie taiso Praeities Laikrodį…"
+},
+{
+"id": 2077,
+"kind": "s",
+"text": "⚡ Nauja žinutė Dievų grupėje: Griaustinio Dievas tavęs ieško!"
+},
+{
+"id": 2078,
+"kind": "s",
+"text": "Viskas vėl normaliai. Tave pridėjo į Dievų grupę!"
+},
+{
+"id": 2079,
+"kind": "s",
+"text": "TIK TAK! Dešimt meistrų – ir laikrodis eina į abi puses! Praeitis, šiandiena, ateitis – viskas vėl savo vietose!"
+},
+{
+"id": 2080,
+"kind": "s",
+"text": "Mano laikrodukai nebeverkia. Ačiū tau!"
+},
+{
+"id": 2081,
+"kind": "s",
+"text": "O dabar pažiūrėk į telefoną (P) – tave pridėjo į DIEVŲ GRUPĘ. Rodos, tavęs labai nori Griaustinio Dievas…"
+},
+{
+"id": 2082,
+"kind": "s",
+"text": "⚡ Dievų grupė: nauja žinutė!"
+},
+{
+"id": 2083,
+"kind": "s",
+"text": "Griaustinio Dievas tavęs ieško. Spausk P"
+},
+{
+"id": 2084,
+"kind": "s",
+"text": "Viskas vėl normaliai: kairėje – praeitis, dešinėje – ateitis. Laikrodžiai vėl linksmi!"
+},
+{
+"id": 2085,
+"kind": "s",
+"text": "Bandymų pasaulis: telefonas"
+},
+{
+"id": 2086,
+"kind": "s",
+"text": "Spausk P. Pakviesta: "
+},
+{
+"id": 2087,
+"kind": "s",
+"text": "BUM BUM!!! TAIP! Tai mano slaptas žodis! ATSKRENDU TAVĘS PASIIMTI! ⚡"
+}
+]

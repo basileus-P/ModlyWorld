@@ -1,0 +1,291 @@
+<title>Modly World</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@500;700;800&display=swap">
+<style>
+/* Layout: full-bleed 3D canvas, HUD glass chips pinned to the corners, one modal start card. */
+:root{
+  --ink:#0d1220;
+  --glass:rgba(14,20,36,.72);
+  --glass-edge:rgba(255,255,255,.14);
+  --text:#f6f3ff;
+  --muted:#aab4cc;
+  --green:#7dff6b;
+  --biome:#6cc96a;
+  --warn:#ffb347;
+  --display:'Lilita One','Trebuchet MS',system-ui,sans-serif;
+  --body:'Nunito',system-ui,-apple-system,'Segoe UI',sans-serif;
+  color-scheme:dark;
+}
+html,body{height:100%;margin:0;overflow:hidden;background:var(--ink);color:var(--text);font-family:var(--body)}
+:root{padding:0!important}
+[hidden]{display:none!important}
+#c{position:fixed;inset:0;width:100%;height:100%;display:block;outline:none}
+.hud{position:fixed;inset:0;pointer-events:none;z-index:2}
+.chip{background:var(--glass);border:1px solid var(--glass-edge);border-radius:12px;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+#biome{position:absolute;left:16px;top:calc(16px + env(safe-area-inset-top,0px));padding:12px 16px 12px 14px;max-width:min(360px,calc(100vw - 210px));border-left:4px solid var(--biome)}
+.eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:800}
+#bName{font-family:var(--display);font-size:clamp(20px,3vw,30px);line-height:1.05;color:var(--biome);text-wrap:balance;margin-top:2px}
+#bEn{font-size:12px;color:var(--muted);font-style:italic}
+#bAtm{font-size:13px;margin-top:6px;color:var(--text)}
+#money{position:absolute;white-space:nowrap;max-width:calc(100vw - 200px);overflow:hidden;text-overflow:ellipsis;left:16px;top:calc(160px + env(safe-area-inset-top,0px));padding:6px 14px;font-family:var(--display);font-size:22px;color:#ffd23a;font-variant-numeric:tabular-nums}
+#shiftChip{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(170px + env(safe-area-inset-bottom,0px));padding:8px 16px;font-size:15px;font-weight:700;white-space:nowrap}
+#shiftChip b{font-family:var(--display);font-weight:400;font-size:20px;color:#ffd23a}
+#shiftChip.late b:first-child{color:#ff6b6b}
+#questChip{position:absolute;left:50%;transform:translateX(-50%);top:calc(100px + env(safe-area-inset-top,0px));padding:8px 16px 8px 12px;display:flex;gap:10px;align-items:center;border-left:4px solid #ffd84a;max-width:calc(100vw - 420px)}
+#questChip .qt{font-family:var(--display);font-size:16px;color:#ffd84a;white-space:nowrap}
+#questChip .qs{font-size:13px;color:var(--text);white-space:nowrap}
+#questChip b{color:#ffd84a}
+.qarrow{display:inline-block;font-size:22px;color:#ffd84a;line-height:1;text-shadow:0 0 8px rgba(255,216,74,.6)}
+@media (max-width:760px){#questChip{max-width:calc(100vw - 32px);top:auto;bottom:220px}}
+#marsChip{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(170px + env(safe-area-inset-bottom,0px));padding:8px 16px;display:flex;gap:16px;align-items:center;font-weight:700;font-size:14px;white-space:nowrap}
+#marsChip b{color:#ffd23a}
+#marsChip .hearts{color:#ff4d6d;font-size:20px;letter-spacing:2px}
+#marsChip .hearts .off{color:rgba(255,255,255,.2)}
+#marsChip .noise{display:flex;align-items:center;gap:8px}
+#marsChip .noise .bar{display:block;width:140px;height:10px;border-radius:5px;background:rgba(255,255,255,.14);overflow:hidden}
+#marsChip .noise .bar i{display:block;height:100%;background:linear-gradient(90deg,#7dff6b,#ffd23a 60%,#ff4d4d)}
+#cheat{position:fixed;left:50%;top:30%;transform:translateX(-50%);z-index:8;padding:14px 16px;width:min(460px,calc(100vw - 32px));box-sizing:border-box;background:rgba(14,20,36,.95)}
+#cheat form{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+#cheat label{font-family:var(--display);color:#ffd23a;font-size:18px;width:100%}
+#cheat input{flex:1;min-width:0;font:700 16px var(--body);padding:8px 10px;border-radius:8px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.08);color:var(--text)}
+#cheat button{font:800 14px var(--body);padding:8px 14px;border-radius:8px;border:0;background:#7dff6b;color:#08260a;cursor:pointer}
+#cheat .hint{font-size:12px;color:var(--muted);margin-top:8px}
+#money.pop{animation:pop .5s}
+@keyframes pop{0%{transform:scale(1)}40%{transform:scale(1.35)}100%{transform:scale(1)}}
+#mapWrap{position:absolute;right:16px;top:calc(16px + env(safe-area-inset-top,0px));width:150px;display:flex;flex-direction:column;gap:8px}
+#mapFrame{width:150px;height:150px;border-radius:50%;box-shadow:inset 0 0 0 2px rgba(255,255,255,.25),0 0 30px rgba(120,200,255,.25)}
+#checklist{list-style:none;margin:0;padding:10px 12px;display:flex;flex-direction:column;gap:4px;font-size:12px}
+#checklist li{display:flex;align-items:center;gap:8px;color:var(--muted)}
+#checklist li .dot{width:9px;height:9px;border-radius:50%;flex:none;opacity:.35}
+#checklist li.on{color:var(--text)}
+#checklist li.on .dot{opacity:1;box-shadow:0 0 8px currentColor}
+#checklist li .ok{margin-left:auto;font-weight:800;color:var(--green)}
+#checkHead{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:800;padding:0 0 4px}
+#prompt{position:absolute;left:50%;bottom:calc(120px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);padding:8px 14px;font-weight:800;font-size:15px;white-space:nowrap}
+#prompt kbd,.keys kbd,.ctl kbd{font-family:var(--body);font-weight:800;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);border-bottom-width:3px;border-radius:6px;padding:1px 7px;font-size:13px;color:var(--text)}
+#toast{position:absolute;left:50%;top:calc(22px + env(safe-area-inset-top,0px));transform:translate(-50%,-20px);opacity:0;transition:opacity .4s,transform .4s;text-align:center;padding:12px 22px;min-width:240px;max-width:min(520px,calc(100vw - 380px))}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+#toast .t1{font-family:var(--display);font-size:24px;line-height:1.1}
+#toast .t2{font-size:13px;color:var(--muted);margin-top:3px}
+#card{position:absolute;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);width:min(560px,calc(100vw - 32px));padding:16px 20px;box-sizing:border-box}
+#cardTitle{font-family:var(--display);font-size:22px;color:var(--biome)}
+#cardText{margin:6px 0 8px;font-size:15px;line-height:1.5;max-width:65ch}
+#cardHint{font-size:12px;color:var(--muted)}
+#cardBtns{display:flex;gap:10px;margin-top:12px}#cardBtns[hidden]{display:none}
+#cardBtns button{flex:1;font:inherit;font-family:var(--display);font-size:20px;padding:10px 14px;border-radius:12px;border:2px solid rgba(255,255,255,.25);cursor:pointer;color:#fff;pointer-events:auto}
+#scope{position:fixed;inset:0;z-index:3;pointer-events:none;background:radial-gradient(circle at center,transparent 0,transparent 30vmin,#000 30.5vmin)}#scope[hidden]{display:none}
+#scope .ring{position:absolute;left:50%;top:50%;width:60vmin;height:60vmin;transform:translate(-50%,-50%);border:3px solid #111;border-radius:50%}
+#scope .h{position:absolute;left:calc(50% - 30vmin);top:50%;width:60vmin;height:2px;background:#111}#scope .v{position:absolute;top:calc(50% - 30vmin);left:50%;height:60vmin;width:2px;background:#111}
+#godChat{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:6;width:min(560px,calc(100vw - 32px));padding:16px 18px;box-sizing:border-box;background:rgba(20,16,40,.96);display:flex;flex-direction:column;gap:10px}#godChat[hidden]{display:none}
+.gcHead{display:flex;justify-content:space-between;align-items:center;font-family:var(--display);font-size:22px;color:#ffe98a}.gcHead button,#tmClose{font:800 14px var(--body);color:var(--text);background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:8px 14px;cursor:pointer}
+#gcLog{height:min(320px,45vh);overflow:auto;display:flex;flex-direction:column;gap:8px;padding:4px}
+.gcGod,.gcMe{max-width:85%;padding:8px 12px;border-radius:12px;font-size:15px;line-height:1.4}.gcGod{background:rgba(255,233,138,.14);color:#ffe98a;align-self:flex-start}.gcMe{background:rgba(125,255,107,.15);color:#c8ffc0;align-self:flex-end}
+#gcForm{display:flex;gap:8px}#gcInput{flex:1;font:inherit;font-size:16px;padding:10px 12px;border-radius:10px;border:1px solid rgba(255,255,255,.25);background:rgba(0,0,0,.35);color:#fff}#gcForm button{font:800 15px var(--body);padding:10px 16px;border-radius:10px;border:0;background:#ffd23a;color:#30343e;cursor:pointer}
+#tmBuild{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:6;width:min(900px,calc(100vw - 24px));max-height:calc(100% - 16px);overflow:auto;padding:10px 16px;box-sizing:border-box;background:rgba(20,22,36,.96)}#tmBuild[hidden]{display:none}
+#tmArea{position:relative;width:min(100%,calc((100vh - 290px) * 1.6667));margin:0 auto;aspect-ratio:100/60;border-radius:12px;overflow:hidden;transition:transform .08s}#tmArea.bump{transform:scale(1.01) rotate(-.3deg)}.tmBlue{position:absolute;inset:0;width:100%;height:100%}
+.tmSlot{position:absolute;width:11%;aspect-ratio:1;transform:translate(-50%,-50%);border:2px dashed #bfe0ff;border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center}.tmSlot svg{width:80%;height:70%;opacity:.28;filter:grayscale(1) brightness(2)}.tmSlot span{font-size:10px;color:#bfe0ff;margin-top:-2px}.tmSlot.filled{border:2px solid #7dff6b;background:rgba(125,255,107,.12)}.tmSlot.filled svg{opacity:1;filter:none}
+#tmTray{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin:10px 0}.tmPart{width:62px;height:68px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:grab;touch-action:none;user-select:none}.tmPart svg{width:42px;height:42px}.tmPart span{font-size:11px;color:var(--muted)}.tmPart.placed{opacity:.2;cursor:default}.tmPart.drag{position:fixed;z-index:9;transform:translate(-50%,-50%);pointer-events:none;background:rgba(255,255,255,.2)}.tmPart.shake{animation:tmShake .4s}
+@keyframes tmShake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+#tmHammer{font:inherit;font-family:var(--display);font-size:20px;padding:10px 18px;border-radius:12px;border:0;background:#ff6b4a;color:#fff;cursor:pointer}#tmHammer:disabled{opacity:.35;cursor:default}
+#quizBtns{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}#quizBtns[hidden]{display:none}
+#quizBtns button{font:inherit;font-family:var(--display);font-size:22px;padding:10px;border-radius:12px;border:2px solid rgba(255,255,255,.25);background:#4a6ad8;color:#fff;cursor:pointer;pointer-events:auto}#quizBtns button:hover{filter:brightness(1.15)}#quizBtns small{font-size:12px;opacity:.7;margin-right:6px}
+#btnYes{background:#3fae5a}#btnNo{background:#b8465a}#cardBtns button:hover{filter:brightness(1.12)}
+.keys{position:absolute;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));padding:10px 12px;font-size:12px;color:var(--muted);display:grid;grid-template-columns:auto auto;gap:4px 10px;align-items:center}
+.keys span:nth-child(odd){text-align:right}
+#muteBtn{position:absolute;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));pointer-events:auto;cursor:pointer;color:var(--text);font:800 13px var(--body);padding:8px 12px}
+#muteBtn:focus-visible{outline:2px solid #fff;outline-offset:2px}
+#cross{position:absolute;left:50%;top:50%;width:6px;height:6px;margin:-3px;border-radius:50%;background:rgba(255,255,255,.7);box-shadow:0 0 0 2px rgba(0,0,0,.25)}
+#vignette{position:fixed;inset:0;pointer-events:none;z-index:1;background:radial-gradient(ellipse at center,rgba(0,0,0,0) 55%,rgba(0,0,0,.28) 100%)}
+#fade{position:fixed;inset:0;background:#fffbea;opacity:0;pointer-events:none;transition:opacity .6s;z-index:5}
+#fade.on{opacity:1}
+#flash{position:fixed;inset:0;background:radial-gradient(circle,rgba(255,200,120,.55),rgba(255,90,30,0) 70%);opacity:0;pointer-events:none;z-index:3;transition:opacity .5s}
+/* start screen */
+#start{position:fixed;inset:0;z-index:10;display:flex;align-items:flex-end;justify-content:flex-start;padding:24px;box-sizing:border-box;background:linear-gradient(90deg,rgba(8,10,24,.86) 0%,rgba(8,10,24,.55) 45%,rgba(8,10,24,0) 75%)}
+.startCard{max-width:520px;display:flex;flex-direction:column;gap:14px;padding-block:16px}
+.logo{font-family:var(--display);font-size:clamp(48px,9vw,96px);line-height:.9;letter-spacing:.01em;color:var(--green);text-shadow:0 4px 0 #2a7a22,0 10px 40px rgba(125,255,107,.35)}
+.logo small{display:block;font-size:.3em;color:var(--text);text-shadow:none;letter-spacing:.06em;margin-top:10px}
+.lede{font-size:16px;line-height:1.5;color:var(--text);max-width:52ch;margin:0}
+.ctl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 18px;font-size:14px;color:var(--muted)}
+.ctl div{display:flex;gap:8px;align-items:center;min-width:0}
+.btn{pointer-events:auto;align-self:flex-start;font-family:var(--display);font-size:22px;letter-spacing:.02em;color:#08260a;background:var(--green);border:0;border-radius:14px;padding:12px 26px;box-shadow:0 5px 0 #2a7a22;cursor:pointer;transition:transform .1s}
+.btn:hover{transform:translateY(-2px)}
+.btn:active{transform:translateY(3px);box-shadow:0 2px 0 #2a7a22}
+.btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.btn:disabled{opacity:.6;cursor:wait}
+.note{font-size:12px;color:var(--muted);margin:0}
+#paused{position:fixed;inset:0;z-index:4;display:flex;align-items:center;justify-content:center;background:rgba(8,10,24,.6);padding:16px;box-sizing:border-box;overflow:auto}#paused[hidden]{display:none}
+.pauseCard{width:min(860px,100%);max-height:100%;overflow:auto;box-sizing:border-box;padding:20px 22px;display:flex;flex-direction:column;gap:14px;background:rgba(16,20,40,.95)}
+.pauseTop{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.pauseTitle{font-family:var(--display);font-size:40px;color:var(--green);line-height:1}
+#pmStats{display:flex;gap:8px;flex-wrap:wrap}#pmStats span{background:rgba(255,255,255,.1);border-radius:10px;padding:4px 10px;font-size:14px;font-weight:700}
+.pauseBtns{display:flex;gap:12px;flex-wrap:wrap}.pauseBtns .btn{font-size:20px;padding:10px 22px}.pmNew{background:#c8c0d8 !important;box-shadow:0 5px 0 #7a7488 !important;color:#2a2440 !important}.pmNew[style*="ff6b6b"]{background:#ff6b6b !important;box-shadow:0 5px 0 #a83a3a !important;color:#fff !important}
+.pauseBtns .pmSave{background:#ffd23a;box-shadow:0 5px 0 #a8801a;color:#3a2a00}.pauseBtns .btn:disabled{opacity:.7}
+.pauseBtns.small button{font:inherit;font-size:13px;font-weight:700;color:var(--text);background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:6px 12px;cursor:pointer}.pauseBtns.small button:hover{background:rgba(255,255,255,.2)}
+.pauseCols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:18px}@media (max-width:640px){.pauseCols{grid-template-columns:1fr}}
+.pauseCols h3{margin:0 0 6px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}#pmQuest{font-size:14px;line-height:1.45;margin-bottom:14px}#pmQuest .qarrow{display:none}
+#pmCmds{margin:0;padding-left:22px;font-size:14px;line-height:1.6;color:var(--muted)}#pmCmds li.ok{color:#7dff6b}
+.pmCtl{display:grid;grid-template-columns:auto 1fr;gap:5px 12px;font-size:13px;align-items:center;color:var(--muted)}.pmCtl span:nth-child(odd){white-space:nowrap}.pmCtl kbd{font-family:var(--body);font-weight:800;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);border-bottom-width:3px;border-radius:6px;padding:0 6px;font-size:12px;color:var(--text)}
+.pmNote{font-size:12px;color:var(--muted)}
+@media (max-width:640px){
+  #mapWrap{width:110px}#mapFrame{width:110px;height:110px}
+  #checklist{display:none}
+  .keys{display:none}
+  #toast{max-width:calc(100vw - 32px);top:auto;bottom:180px}
+  #biome{max-width:calc(100vw - 160px)}
+  .ctl{grid-template-columns:1fr}
+}
+
+#shop{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:6;width:min(980px,calc(100vw - 32px));max-height:calc(100% - 48px);overflow:auto;padding:20px 22px;box-sizing:border-box;background:rgba(16,22,40,.94)}
+.shopHead{display:flex;gap:16px;align-items:flex-start;justify-content:space-between;margin-bottom:14px}
+.shopHead h2{font-family:var(--display);font-weight:400;font-size:clamp(26px,4vw,38px);margin:2px 0 4px;color:#ff8fb0;line-height:1}
+.shopHead p{margin:0;color:var(--muted);font-size:14px;max-width:60ch}
+#shopCount{font-size:12px;color:var(--green);font-weight:800;margin-top:6px}
+#shopClose,#furnClose,#petClose,#bookClose,#carClose,#garageClose,#skinClose{flex:none;font:800 14px var(--body);color:var(--text);background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:8px 14px;cursor:pointer}
+#shopGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.hcard{position:relative;display:flex;flex-direction:column;gap:4px;text-align:left;font:inherit;color:var(--text);background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:10px 12px 12px;cursor:pointer;transition:transform .12s,background .12s,border-color .12s;min-width:0}
+.hcard:hover,.hcard:focus-visible{transform:translateY(-3px);background:rgba(255,255,255,.12);border-color:#7dff6b;outline:none}
+.hpic{background:linear-gradient(#bfe6ff,#e8f6ff);border-radius:10px;padding:6px 6px 0}
+.hpic svg{display:block;width:100%;height:auto}
+.hname{font-family:var(--display);font-size:19px;margin-top:4px}
+.hdesc{font-size:12.5px;color:var(--muted);line-height:1.35;flex:1}
+.hfoot{display:flex;justify-content:space-between;align-items:baseline;gap:6px;margin-top:6px;font-size:12px}
+.hsize{color:var(--muted);font-variant-numeric:tabular-nums}
+.hprice{font-weight:800;color:var(--green);font-size:15px}
+.hcard.poor{opacity:.55}
+.hcard.poor .hprice{color:#ff8a8a}
+.hprice s{color:#ff8a8a;font-weight:600;font-size:11px;margin-right:4px}
+.hkey{position:absolute;top:8px;right:8px;font:800 11px var(--body);background:rgba(0,0,0,.45);border-radius:6px;padding:1px 6px;color:#fff}
+#furn{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:6;width:min(1020px,calc(100vw - 32px));max-height:calc(100% - 48px);overflow:auto;padding:20px 22px;box-sizing:border-box;background:rgba(30,22,40,.95)}
+#petShop{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:6;width:min(1020px,calc(100vw - 32px));max-height:calc(100% - 48px);overflow:auto;padding:20px 22px;box-sizing:border-box;background:rgba(14,32,24,.95)}
+#carShop{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:6;width:min(1020px,calc(100vw - 32px));max-height:calc(100% - 48px);overflow:auto;padding:20px 22px;box-sizing:border-box;background:rgba(36,22,22,.95)}
+#garage{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:6;width:min(1020px,calc(100vw - 32px));max-height:calc(100% - 48px);overflow:auto;padding:20px 22px;box-sizing:border-box;background:rgba(30,26,16,.95)}
+#garageGrid .hcard.active{border-color:#ffd23a}
+#skinShop{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:6;width:min(1020px,calc(100vw - 32px));max-height:calc(100% - 48px);overflow:auto;padding:20px 22px;box-sizing:border-box;background:rgba(34,18,40,.95)}
+#skinGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+#skinGrid .hcard.active{border-color:#ff9ee8;background:rgba(255,158,232,.12)}#skinGrid .hcard.locked{opacity:.6}#skinGrid .hcard.locked .hprice{color:#ff9ee8}
+#skinGrid .backHead{grid-column:1/-1;font-family:var(--display);font-size:20px;color:#bfe8ff;margin-top:8px}
+#skinGrid .hpic{background:linear-gradient(#f3e6ff,#fff3fb)}
+@media (max-width:720px){#skinGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+#garageGrid,#carGrid,#petGrid,#furnGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.colors{display:flex;flex-wrap:wrap;gap:18px 32px;margin:4px 0 16px}
+.colors .lbl{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.swrow{display:flex;gap:8px}
+.sw{width:30px;height:30px;border-radius:50%;border:2px solid rgba(255,255,255,.25);cursor:pointer;padding:0}
+.sw.on{border-color:#fff;box-shadow:0 0 0 3px #7dff6b}
+.sw:focus-visible{outline:2px solid #fff;outline-offset:2px}
+#furnCount{font-size:12px;color:var(--green);font-weight:800;margin-top:6px}
+@media (max-width:760px){#garageGrid,#carGrid,#petGrid,#furnGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:760px){#shopGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+#petBook{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:6;width:min(1020px,calc(100vw - 32px));max-height:calc(100% - 48px);overflow:auto;padding:20px 22px;box-sizing:border-box;background:rgba(40,20,34,.95)}
+#bookGrid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.pcard{cursor:default}
+.pcard.active{border-color:#7dff6b;background:rgba(125,255,107,.08)}
+.pstate{font-size:12px;font-weight:800;color:var(--muted)}
+.pcard.active .pstate{color:var(--green)}
+.pbtns{display:flex;gap:6px;margin-top:6px}
+.pb{flex:1;font:800 12px var(--body);color:var(--text);background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:8px;padding:6px 4px;cursor:pointer}
+.pb.main{background:#7dff6b;color:#08260a;border-color:#7dff6b}
+.pcard.active .pb.main{background:rgba(255,255,255,.14);color:var(--text);border-color:rgba(255,255,255,.25)}
+.pb:disabled{opacity:.4;cursor:not-allowed}
+.pb:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.slots{display:flex;gap:6px;margin-top:10px}
+.slot{width:22px;height:22px;border-radius:50%;border:2px dashed rgba(255,255,255,.3)}
+.slot.on{border:2px solid #7dff6b;background:#ffa3c0}
+.empty{grid-column:1/-1;color:var(--muted);font-size:15px}
+@media (max-width:760px){#bookGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (prefers-reduced-motion:reduce){#toast,#fade,#flash{transition:none}}
+</style>
+
+<canvas id="c" tabindex="0"></canvas>
+<div id="flash"></div>
+<div id="vignette" aria-hidden="true"></div>
+<div class="hud" id="hud" hidden>
+  <div id="biome" class="chip">
+    <div class="eyebrow">Biomas</div>
+    <div id="bName">Pradžios Miestas</div>
+    <div id="bEn">The Origin City</div>
+    <div id="bAtm">Spalvinga, linksma ir gyva.</div>
+  </div>
+  <div id="money" class="chip" title="Uždirbti pinigai">0 €</div>
+  <div id="shiftChip" class="chip" hidden></div>
+  <div id="questChip" class="chip" hidden></div>
+  <div id="marsChip" class="chip" hidden></div>
+  <div id="mapWrap">
+    <div id="mapFrame"></div>
+    <div class="chip" style="padding:0"><ol id="checklist"><li id="checkHead">Aplankyta 1 / 8</li></ol></div>
+  </div>
+  <div id="cross"></div>
+  <div id="prompt" class="chip" hidden></div>
+  <div id="toast" class="chip"><div class="t1" id="t1"></div><div class="t2" id="t2"></div></div>
+  <div id="card" class="chip" hidden><div id="cardTitle"></div><p id="cardText"></p><div id="cardHint">E – uždaryti</div><div id="quizBtns" hidden></div><div id="cardBtns" hidden><button id="btnYes" type="button">Taip</button><button id="btnNo" type="button">Ne</button></div></div>
+  <button id="muteBtn" class="chip" aria-pressed="true">Garsas: įj. (M)</button>
+  <div class="keys chip" id="keys">
+    <span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></span><span>vaikščioti</span>
+    <span><kbd>Space</kbd></span><span>pašokti (Vėjo planetoje laikyk – skristi)</span>
+    <span><kbd>LMB</kbd> / <kbd>RMB</kbd></span><span>ištiesti ranką (laikyk): paimti daiktą arba įsikibti</span>
+    <span>Atleisk mygtuką</span><span>mesti daiktą</span>
+    <span><kbd>E</kbd></span><span>apžiūrėti</span>
+    <span><kbd>T</kbd></span><span>mesti pagaliuką (kai turi)</span>
+    <span><kbd>V</kbd></span><span>pažiūrėti į save iš priekio</span>
+    <span><kbd>R</kbd> / <kbd>F</kbd></span><span>sėsti / išsirinkti, ką iškviesti</span>
+    <span><kbd>I</kbd></span><span>mano gyvūnai</span>
+    <span><kbd>M</kbd> / <kbd>G</kbd></span><span>garsas / grafikos kokybė</span>
+    <span><kbd>H</kbd></span><span>slėpti šią lentelę</span>
+  </div>
+</div>
+<div id="paused" hidden>Spustelk, kad tęstum</div>
+<div id="start">
+  <div class="startCard">
+    <div class="logo">Modly World<small>Mažas apvalus pasaulis burbule</small></div>
+    <p class="lede">Tu esi mažas, plonas, žalias žmogeliukas. Burbulo viduje – aštuoni biomai. Keliauk kur nori ir kada nori: tvarkos nėra. Ištiesk ranką, kad pasiimtum daiktų arba įsikibtum į sienas ir uolas. Aplankyk visus septynis biomus, ir miesto aikštės vartai nuves tave pas Kūrėją.</p>
+    <div class="ctl">
+      <div><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> judėti</div>
+      <div><kbd>Space</kbd> pašokti</div>
+      <div><kbd>Pelė</kbd> sukti kamerą</div>
+      <div><kbd>Shift</kbd> bėgti</div>
+      <div><kbd>LMB</kbd> laikyk – kairė ranka ištiesta</div>
+      <div><kbd>RMB</kbd> laikyk – dešinė ranka ištiesta</div>
+      <div><kbd>E</kbd> apžiūrėti daiktą</div>
+      <div><kbd>R</kbd> užsėsti ant kiaulės</div>
+      <div><kbd>F</kbd> iškviesti mašiną ar kiaulę</div>
+      <div><kbd>←</kbd><kbd>→</kbd> kamera be pelės</div>
+      <div><kbd>I</kbd> mano gyvūnai</div>
+      <div><kbd>M</kbd> garsas · <kbd>G</kbd> grafika</div>
+    </div>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center"><button class="btn" id="go" disabled>Kuriamas pasaulis…</button><button class="btn pmNew" id="newGo" type="button" hidden>Pradėti naują kelionę</button></div>
+    <p class="note">Geriausiai veikia kompiuteryje su klaviatūra ir pele. <kbd style="font-size:11px">Esc</kbd> atlaisvina pelę.</p>
+  </div>
+</div>
+<div id="shop" class="chip" hidden role="dialog" aria-label="Namų kioskas">
+  <div class="shopHead"><div><div class="eyebrow">Pradžios Miestas</div><h2>Namų kioskas</h2><p>Paprasčiausi namai pigiausi, prabangiausi – brangiausi. Išsirink namą ir pastatyk jį bet kur pasaulyje – pinigai nuskaičiuojami, kai pastatai.</p><div id="shopCount"></div></div><button id="shopClose">Uždaryti (Esc)</button></div>
+  <div id="shopGrid"></div>
+</div>
+<div id="furn" class="chip" hidden role="dialog" aria-label="Namo įrengimas">
+  <div class="shopHead"><div><div class="eyebrow">Tavo namai</div><h2 style="color:#ffe08a">Įrenk namus</h2><p>Visi baldai nemokami. Išsirink baldą ir padėk jį kambaryje: Q arba ratukas suka, kairysis pelės mygtukas padeda. Prie baldo spausk X, kad jį pasiimtum atgal.</p><div id="furnCount"></div></div><button id="furnClose">Uždaryti (Esc)</button></div>
+  <div class="colors"><div><div class="lbl">Sienos</div><div class="swrow" id="wallSw"></div></div><div><div class="lbl">Grindys</div><div class="swrow" id="floorSw"></div></div></div>
+  <div id="furnGrid"></div>
+</div>
+<div id="petShop" class="chip" hidden role="dialog" aria-label="Gyvūnų kioskas">
+  <div class="shopHead"><div><div class="eyebrow">Pradžios Miestas</div><h2 style="color:#7dff6b">Gyvūnų kioskas</h2><p>Visi gyvūnai tikri, tik atrodo truputį juokingai. Paprasčiausi – pigiausi, įspūdingiausi – brangiausi. Išsirinktas gyvūnas seks paskui tave visur.</p><div id="petCount" style="font-size:12px;color:var(--green);font-weight:800;margin-top:6px"></div></div><button id="petClose" class="closeBtn">Uždaryti (Esc)</button></div>
+  <div id="petGrid" class="grid4"></div>
+</div>
+<div id="petBook" class="chip" hidden role="dialog" aria-label="Mano gyvūnai">
+  <div class="shopHead"><div><div class="eyebrow">Kolekcija</div><h2 style="color:#ffa3c0">Mano gyvūnai</h2><p>Kartu su tavimi gali keliauti iki 5 gyvūnų. Kiti saugiai laukia kolekcijoje, kol juos pasiimsi.</p><div class="slots" id="bookSlots"></div><div id="bookCount" style="font-size:12px;color:var(--green);font-weight:800;margin-top:6px"></div></div><button id="bookClose">Uždaryti (I)</button></div>
+  <div id="bookGrid"></div>
+</div>
+<div id="carShop" class="chip" hidden role="dialog" aria-label="Mašinų parduotuvė">
+  <div class="shopHead"><div><div class="eyebrow">Pradžios Miestas</div><h2 style="color:#ffd23a">Mašinų parduotuvė</h2><p>Lėčiausios mašinos pigiausios, greičiausios – brangiausios. Kartą nusipirktą mašiną F iškviesi nemokamai. Kiekviena turi savo triuką ant Space: sireną, šuolį, melodiją ar raketą.</p><div id="carNow" style="font-size:12px;color:var(--green);font-weight:800;margin-top:6px"></div></div><button id="carClose">Uždaryti (Esc)</button></div>
+  <div id="carGrid"></div>
+</div>
+<div id="skinShop" class="chip" hidden role="dialog" aria-label="Kostiumų kioskas">
+  <div class="shopHead"><div><div class="eyebrow">Pradžios Miestas</div><h2 style="color:#ff9ee8">Kostiumų kioskas</h2><p>Persirenk kada nori. Paprasčiausi kostiumai pigiausi, prabangiausi – brangiausi. Kartą nupirktą kostiumą gali vėl apsirengti nemokamai.</p><div id="skinNow" style="font-size:12px;color:var(--green);font-weight:800;margin-top:6px"></div></div><button id="skinClose">Uždaryti (Esc)</button></div>
+  <div id="skinGrid"></div>
+</div>
+<div id="godChat" class="chip" hidden role="dialog" aria-label="Pokalbis su Kūrėju"><div class="gcHead"><span>Rašai Kūrėjui</span><button id="gcClose" type="button">Uždaryti (Esc)</button></div><div id="gcLog"></div><form id="gcForm"><input id="gcInput" autocomplete="off" spellcheck="false" placeholder="Parašyk Kūrėjui…"><button type="submit">Siųsti</button></form></div>
+<div id="tmBuild" class="chip" hidden role="dialog" aria-label="Laiko mašinos statyba"><div class="shopHead"><div><div class="eyebrow">Kūrėjo Salė</div><h2 style="color:#ff6b4a">Laiko mašinos statyba</h2><p id="tmMsg"></p></div><button id="tmClose" type="button">Uždaryti (Esc)</button></div><div id="tmArea"><svg class="tmBlue" viewBox="0 0 100 60" preserveAspectRatio="none"><defs><pattern id="tmGrid" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M4 0 L0 0 0 4" fill="none" stroke="#5a8acc" stroke-width=".15"/></pattern></defs><rect width="100" height="60" fill="#1d3a6a"/><rect width="100" height="60" fill="url(#tmGrid)"/><rect x="18" y="16" width="64" height="34" rx="2" fill="none" stroke="#bfe0ff" stroke-width=".4" stroke-dasharray="1.5 1"/><path d="M28 16 L50 4 L72 16" fill="none" stroke="#bfe0ff" stroke-width=".4" stroke-dasharray="1.5 1"/></svg></div><div id="tmTray"></div><button id="tmHammer" type="button" disabled>Sukalti plaktuku ir vinimis</button></div>
+<div id="garage" class="chip" hidden role="dialog" aria-label="Mano transportas">
+  <div class="shopHead"><div><div class="eyebrow">F – iškviesti</div><h2 style="color:#ffd23a">Mano transportas</h2><p>Pasirink, ką iškviesti šalia savęs. Čia rodomi tik tavo turimi: kiaulė ir mašinos iš parduotuvės.</p><div id="garageHint" style="font-size:12px;color:var(--green);font-weight:800;margin-top:6px"></div></div><button id="garageClose">Uždaryti (F)</button></div>
+  <div id="garageGrid"></div>
+</div>
+<div id="cheat" class="chip" hidden><form id="cheatForm"><label for="cheatInput">Bandymų komanda</label><input id="cheatInput" autocomplete="off" spellcheck="false" placeholder="pinigai"><button type="submit">Vykdyti</button></form><div class="hint">pinigai – 10 000 000 000 000 000 € · pinigai 5000 – bet kokia suma · kuprine – debesų kuprinė · sparnai – sparnai · viskas – visos mašinos, gyvūnai ir kostiumai · slapta – iškart išbandyti slaptą misiją · pistoletas – numesti pistoletą šalia tavęs · Esc – uždaryti</div></div>
+<div id="fade"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>

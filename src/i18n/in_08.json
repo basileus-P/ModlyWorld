@@ -1,0 +1,962 @@
+[
+{
+"id": 1767,
+"kind": "s",
+"text": "Bandymų pasaulis: urvinio paslaptis"
+},
+{
+"id": 1768,
+"kind": "s",
+"text": "Beisbolkė – už Kūrėjo vartų. Paskui laiko mašina į praeitį (komanda „urviniai“) ir pas sargybinį prie šventyklos"
+},
+{
+"id": 1769,
+"kind": "s",
+"text": "Visas auksinis, su katės ausytėmis, ūsais ir raudonu antkakliu su varpeliu. Ir visada moji letenėle – nešk laimę!"
+},
+{
+"id": 1770,
+"kind": "s",
+"text": "Sako, jį gauna tas, kas paskutinę auksinę katę padeda stovėdamas pačiame rato viduryje…"
+},
+{
+"id": 1771,
+"kind": "s",
+"text": "SLAPTAS AUKSINĖS KATĖS KOSTIUMAS!"
+},
+{
+"id": 1772,
+"kind": "s",
+"text": "Padėjai paskutinę katę pačiame rato viduryje – dabar ir tu visada moji letenėle!"
+},
+{
+"id": 1773,
+"kind": "s",
+"text": "Bandymų pasaulis: paskutinė auksinė katė"
+},
+{
+"id": 1774,
+"kind": "s",
+"text": "Ji tavo rankose. Kūrėjo Salėje stok į rato vidurį (švyti letenėlė) ir spausk E"
+},
+{
+"id": 1775,
+"kind": "s",
+"text": "<div id=\"ghKingRow\"><div style=\"display:flex;justify-content:space-between;color:#9affc8\"><span>VAIDUOKLIŲ KARALIUS</span><span id=\"ghKingN\"></span></div><div style=\"height:14px;background:rgba(0,0,0,.5);border-radius:8px;overflow:hidden\"><div id=\"ghKing\" style=\"height:100%;background:linear-gradient(90deg,#3affa0,#a0fff0)\"></div></div></div>"
+},
+{
+"id": 1776,
+"kind": "s",
+"text": "<div style=\"display:flex;justify-content:space-between;color:#ffe14d\"><span>TU · Saulės kardas</span><span id=\"ghMeN\"></span></div><div style=\"height:12px;background:rgba(0,0,0,.5);border-radius:8px;overflow:hidden\"><div id=\"ghMe\" style=\"height:100%;background:linear-gradient(90deg,#ffb020,#ffe14d)\"></div></div>"
+},
+{
+"id": 1777,
+"kind": "s",
+"text": "VAIDUOKLIŲ PILIS"
+},
+{
+"id": 1778,
+"kind": "s",
+"text": "Mažasis žaliasis! Ačiū, kad atvykai. Aš – Saulės Dievė, o čia gyvena mano vaikai – SPINDULIAI."
+},
+{
+"id": 1779,
+"kind": "s",
+"text": "Bet pas mus labai blogai… Iš tamsos atskrido VAIDUOKLIAI. Jų šimtai! Jie puola mano spindulius ir gesina šviesą."
+},
+{
+"id": 1780,
+"kind": "s",
+"text": "Tik čia, prie manęs, saugu – vaiduokliai bijo mano šviesos. O toli, už ugnies arkų, jie pasistatė VAIDUOKLIŲ PILĮ."
+},
+{
+"id": 1781,
+"kind": "s",
+"text": "Joje sėdi Vaiduoklių Karalius. Jis stiprus kaip demonas, kurį tu nugalėjai. Kol jis gyvas – vaiduokliai niekur nedings."
+},
+{
+"id": 1782,
+"kind": "s",
+"text": "Imk mano SAULĖS KARDĄ. Jis kerta 1, 3, 5, 10 ar 15 – o kartais net 20 daugiau! Bet atsimink: kirsti gali tik iš arti."
+},
+{
+"id": 1783,
+"kind": "s",
+"text": "Prasiveržk iki pilies ir nugalėk karalių. Kai būsi sužeistas – sugrįžk čia, mano šviesa tave išgydys. Sėkmės!"
+},
+{
+"id": 1784,
+"kind": "s",
+"text": "Gavai SAULĖS KARDĄ!"
+},
+{
+"id": 1785,
+"kind": "s",
+"text": "Pelės mygtukai – kirsti (iš arti). Tikslas: Vaiduoklių pilis toli priekyje"
+},
+{
+"id": 1786,
+"kind": "s",
+"text": "Mano šviesa tave išgydė. Pilis – toli priekyje, už ugnies arkų. Eik!"
+},
+{
+"id": 1787,
+"kind": "s",
+"text": "Spinduliai tiki tavimi! Nugalėk Vaiduoklių Karalių!"
+},
+{
+"id": 1788,
+"kind": "s",
+"text": "Vaiduoklius kirsk iš arti, o kai sunku – bėk (Shift) ir grįžk pas mane."
+},
+{
+"id": 1789,
+"kind": "s",
+"text": "Mano Saulė vėl šviečia! Tu išgelbėjai mano spindulius, mažasis didvyri."
+},
+{
+"id": 1790,
+"kind": "s",
+"text": "Spinduliai vėl skrenda šviesti į visus pasaulius – ir į tavo burbulą!"
+},
+{
+"id": 1791,
+"kind": "s",
+"text": "Saulės kardas – tavo visam laikui. Nešiok jį su pasididžiavimu!"
+},
+{
+"id": 1792,
+"kind": "s",
+"text": "Vaiduoklių Karalius šįkart laimėjo…"
+},
+{
+"id": 1793,
+"kind": "s",
+"text": "Vaiduokliai tave įveikė…"
+},
+{
+"id": 1794,
+"kind": "s",
+"text": "Saulės Dievė tave išgydė. Bandyk dar kartą!"
+},
+{
+"id": 1795,
+"kind": "s",
+"text": "VAIDUOKLIŲ KARALIUS"
+},
+{
+"id": 1796,
+"kind": "s",
+"text": "Kirsk jį iš arti! Saugokis žalių kamuolių"
+},
+{
+"id": 1797,
+"kind": "s",
+"text": "VAIDUOKLIAI IŠNYKO!"
+},
+{
+"id": 1798,
+"kind": "s",
+"text": "Saulė vėl šviečia. Apdovanojimas: 5000 €"
+},
+{
+"id": 1799,
+"kind": "s",
+"text": "Saulės Dievės prašymas įvykdytas!"
+},
+{
+"id": 1800,
+"kind": "s",
+"text": "Grįžk pas ją – spinduliai tave sveikina! Saulės kardas lieka tau"
+},
+{
+"id": 1801,
+"kind": "s",
+"text": "Ateikit, mano vaiduokliai!"
+},
+{
+"id": 1802,
+"kind": "s",
+"text": "Kirsk Vaiduoklių Karalių iš arti! (pelės mygtukai)"
+},
+{
+"id": 1803,
+"kind": "t",
+"text": "Vaiduoklių pilis: ${d} m · nugalėta vaiduoklių: ${Q17.kills} · pelė – kirsti kardu"
+},
+{
+"id": 1804,
+"kind": "s",
+"text": "<kbd>Space</kbd> – pašokti · pelės mygtukai – mojuoti Saulės kardu"
+},
+{
+"id": 1805,
+"kind": "s",
+"text": "Saulės Dievė tavęs laukia"
+},
+{
+"id": 1806,
+"kind": "s",
+"text": "Nueik pas ją – pas mus kažkas negerai… (E)"
+},
+{
+"id": 1807,
+"kind": "s",
+"text": "Bandymų pasaulis: vaiduoklių karas"
+},
+{
+"id": 1808,
+"kind": "s",
+"text": "Kardas rankoje. Pilis – tiesiai priekyje (už 200 m)"
+},
+{
+"id": 1809,
+"kind": "s",
+"text": "Dievai! Mano Saulė vėl šviečia!"
+},
+{
+"id": 1810,
+"kind": "s",
+"text": "Šimtai vaiduoklių užpuolė mano mažuosius spindulius. Bet žaliasis žmogeliukas paėmė mano Saulės kardą, prasiveržė pro juos visus iki Vaiduoklių pilies…"
+},
+{
+"id": 1811,
+"kind": "s",
+"text": "…ir NUGALĖJO VAIDUOKLIŲ KARALIŲ! Visi vaiduokliai išnyko kaip rūkas. Mano spinduliai vėl skraido ir šviečia!"
+},
+{
+"id": 1812,
+"kind": "s",
+"text": "Blub blub! Žinojau, kad jis tau padės! Juk jis ir mano vandenyną išgelbėjo."
+},
+{
+"id": 1813,
+"kind": "s",
+"text": "Mano didvyris vėl laimėjo! Demonas, vandenynas, o dabar – Saulė!"
+},
+{
+"id": 1814,
+"kind": "s",
+"text": "Tik… tak… Saulės Dieve, ar galiu pasiskolinti tą didvyrį? Mano pasaulyje didelė bėda."
+},
+{
+"id": 1815,
+"kind": "s",
+"text": "Niekas nebegali keliauti į PRAEITĮ. Didysis Praeities Laikrodis sustojo… Tik tak, tik… tak."
+},
+{
+"id": 1816,
+"kind": "s",
+"text": "Žinoma! Žaliasi, uždaryk telefoną – Laiko Dievas tave pasiims. Ir ačiū tau už mano šviesą!"
+},
+{
+"id": 1817,
+"kind": "s",
+"text": "VALIO SAULĖS GELBĖTOJUI!"
+},
+{
+"id": 1818,
+"kind": "s",
+"text": "Saulės Dievė rašo kitiems dievams…"
+},
+{
+"id": 1819,
+"kind": "s",
+"text": "Žiūrėk – ji parodo tau savo telefoną!"
+},
+{
+"id": 1820,
+"kind": "s",
+"text": "Mano Saulė vėl šviečia – ačiū tau, mažasis didvyri!"
+},
+{
+"id": 1821,
+"kind": "s",
+"text": "Žiūrėk, ką aš parašiau visiems dievams…"
+},
+{
+"id": 1822,
+"kind": "s",
+"text": "Aš ką tik grįžau iš ateities. Ten visi skraido!"
+},
+{
+"id": 1823,
+"kind": "s",
+"text": "Mano senelis – kukučkinis laikrodis. Ku-kū!"
+},
+{
+"id": 1824,
+"kind": "s",
+"text": "Tik… tak… Kodėl negaliu nueiti į vakar?"
+},
+{
+"id": 1825,
+"kind": "s",
+"text": "Čia praeitis ir ateitis gyvena kartu. Ir visi – laikrodžiai!"
+},
+{
+"id": 1826,
+"kind": "s",
+"text": "Tavo laikrodis kur? Neturi?! Kaip tu žinai, kiek valandų?"
+},
+{
+"id": 1827,
+"kind": "s",
+"text": "Didysis Praeities Laikrodis sustojo… Laiko Dievas labai liūdnas."
+},
+{
+"id": 1828,
+"kind": "s",
+"text": "Atsargiai – ten važinėja ir senos, ir dabartinės, ir naujos mašinos!"
+},
+{
+"id": 1829,
+"kind": "s",
+"text": "Kairėje – praeitis, dešinėje – ateitis. Gyventojai – laikrodžiai, keliais rieda senos, dabartinės ir naujos mašinos."
+},
+{
+"id": 1830,
+"kind": "s",
+"text": "Tu LAIKO PASAULYJE!"
+},
+{
+"id": 1831,
+"kind": "s",
+"text": "Kairėje – praeitis, dešinėje – ateitis. Nueik pas Laiko Dievą (E)"
+},
+{
+"id": 1832,
+"kind": "s",
+"text": "Jis tylus. Rodyklės įstrigusios, stiklas suskilęs. Jokio tik-tak."
+},
+{
+"id": 1833,
+"kind": "s",
+"text": "Tik… tak… Be Praeities Laikrodžio niekas negali nukeliauti į praeitį. Net tavo laiko mašina."
+},
+{
+"id": 1834,
+"kind": "s",
+"text": "Mano laikrodukai labai liūdi – jie nebegali aplankyti savo senelių praeityje."
+},
+{
+"id": 1835,
+"kind": "s",
+"text": "Kai sugalvosiu, kaip pataisyti Praeities Laikrodį, – tau pirmam pasakysiu. Tik tak!"
+},
+{
+"id": 1836,
+"kind": "s",
+"text": "Tik tak… Sveikas, mažasis žaliasis! Aš – Laiko Dievas. Ačiū, kad atvykai."
+},
+{
+"id": 1837,
+"kind": "s",
+"text": "Mano pasaulyje laikas sumaišytas: kairėje – praeitis, dešinėje – ateitis, o viduryje – šiandiena. Visi čia gyvena kartu."
+},
+{
+"id": 1838,
+"kind": "s",
+"text": "Visi mano gyventojai – laikrodžiai. O keliais važinėja ir senovinės, ir dabartinės, ir ateities mašinos. Saugokis jų!"
+},
+{
+"id": 1839,
+"kind": "s",
+"text": "Bet pas mane didelė bėda… Žiūrėk – Didysis PRAEITIES LAIKRODIS sustojo. Jo rodyklės įstrigo, stiklas suskilo."
+},
+{
+"id": 1840,
+"kind": "s",
+"text": "Todėl niekas nebegali keliauti į PRAEITĮ. Nei mano laikrodukai, nei tu, nei net tavo laiko mašina. Tik… tak…"
+},
+{
+"id": 1841,
+"kind": "s",
+"text": "Tūt-tūūt!"
+},
+{
+"id": 1842,
+"kind": "s",
+"text": "Vžžžium!"
+},
+{
+"id": 1843,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su laikrodžiu"
+},
+{
+"id": 1844,
+"kind": "s",
+"text": "<kbd>E</kbd> apžiūrėti Praeities Laikrodį"
+},
+{
+"id": 1845,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su Laiko Dievu"
+},
+{
+"id": 1846,
+"kind": "s",
+"text": "<kbd>Space</kbd> – pašokti · visas pasaulis dabar – praeitis!"
+},
+{
+"id": 1847,
+"kind": "s",
+"text": "<kbd>Space</kbd> – pašokti · kairėje – praeitis, dešinėje – ateitis"
+},
+{
+"id": 1848,
+"kind": "s",
+"text": "Laikrodukas mėlynas vaikštinėja po šiandieną."
+},
+{
+"id": 1849,
+"kind": "s",
+"text": "Kokia graži mašinėlė, koks gražus namelis – abudu mirė."
+},
+{
+"id": 1850,
+"kind": "s",
+"text": "Įdomu, iš kur tas smėlis?"
+},
+{
+"id": 1851,
+"kind": "s",
+"text": "Tiesiai, tiesiai kažkas žiūri."
+},
+{
+"id": 1852,
+"kind": "s",
+"text": "O kažkur prie kaulų tyliai vagys ten tipena."
+},
+{
+"id": 1853,
+"kind": "s",
+"text": "Laikrodžiui sutvarkyti dalis lengva surasti – kitapus pasaulio gi guli dalys."
+},
+{
+"id": 1854,
+"kind": "s",
+"text": "Auksinis ratas – ne. Praeities ratas – ratas kairėje."
+},
+{
+"id": 1855,
+"kind": "s",
+"text": "Tik tak! Aš – vienintelis mėlynas laikrodukas visame laiko pasaulyje!"
+},
+{
+"id": 1856,
+"kind": "s",
+"text": "SMĖLIO LAIKRODŽIŲ MIŠKAS"
+},
+{
+"id": 1857,
+"kind": "s",
+"text": "LIFTAS · KITA PASAULIO PUSĖ"
+},
+{
+"id": 1858,
+"kind": "s",
+"text": "Ateityje atsirado LIFTAS į kitą pasaulio pusę!"
+},
+{
+"id": 1859,
+"kind": "s",
+"text": "Nunešk laikrodžio dalis Laiko Dievui!"
+},
+{
+"id": 1860,
+"kind": "s",
+"text": "Tik tak! Praeities Laikrodis vėl eina – ir mes visi praeityje!"
+},
+{
+"id": 1861,
+"kind": "s",
+"text": "Ačiū tau, mažasis laiko meistre. Mano laikrodukai šoka iš džiaugsmo!"
+},
+{
+"id": 1862,
+"kind": "s",
+"text": "Tik tak!!! Tu radai Praeities Laikrodžio dalis! Duok jas čia…"
+},
+{
+"id": 1863,
+"kind": "s",
+"text": "Dabar – mano plaktukas!"
+},
+{
+"id": 1864,
+"kind": "t",
+"text": "Paskutinė užuomina: „${curClue()}“"
+},
+{
+"id": 1865,
+"kind": "s",
+"text": "Kiekvienas lapelis pasako, kur ieškoti kito. Tik tak!"
+},
+{
+"id": 1866,
+"kind": "s",
+"text": "Tik tak… Ar padėsi man pataisyti Praeities Laikrodį?"
+},
+{
+"id": 1867,
+"kind": "s",
+"text": "Mano pasaulyje laikas sumaišytas: kairėje – praeitis, dešinėje – ateitis, o viduryje – šiandiena."
+},
+{
+"id": 1868,
+"kind": "s",
+"text": "Bet pas mane bėda… Didysis PRAEITIES LAIKRODIS sustojo. Todėl niekas nebegali keliauti į praeitį."
+},
+{
+"id": 1869,
+"kind": "s",
+"text": "Laikrodžio dalis kažkas paslėpė. O kelią iki jų rodo LAPELIAI su mįslėmis – kiekvienas pasako, kur kitas."
+},
+{
+"id": 1870,
+"kind": "s",
+"text": "Kai rasi vieną, tik tada atsiras kitas. Štai pirmoji mįslė:"
+},
+{
+"id": 1871,
+"kind": "s",
+"text": "Laiko Dievo prašymas: lapelių paieška!"
+},
+{
+"id": 1872,
+"kind": "s",
+"text": "Vagys tave pamatė!"
+},
+{
+"id": 1873,
+"kind": "s",
+"text": "Prieik tyliau – neik bėgte (be Shift)"
+},
+{
+"id": 1874,
+"kind": "s",
+"text": "Tyliai ištraukei lapelį iš vagies kišenės!"
+},
+{
+"id": 1875,
+"kind": "s",
+"text": "Jie net nepastebėjo"
+},
+{
+"id": 1876,
+"kind": "s",
+"text": "Žmonės ateivių lėkštėje išsigando!"
+},
+{
+"id": 1877,
+"kind": "s",
+"text": "Iš lėkštės iškrito lapelis…"
+},
+{
+"id": 1878,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti lapelį"
+},
+{
+"id": 1879,
+"kind": "s",
+"text": "<kbd>E</kbd> paklausti mėlyno laikroduko"
+},
+{
+"id": 1880,
+"kind": "s",
+"text": "<kbd>E</kbd> tyliai ištraukti lapelį iš vagies kišenės"
+},
+{
+"id": 1881,
+"kind": "s",
+"text": "<kbd>E</kbd> išgąsdinti juos – BŪ!"
+},
+{
+"id": 1882,
+"kind": "s",
+"text": "<kbd>E</kbd> važiuoti liftu į kitą pasaulio pusę"
+},
+{
+"id": 1883,
+"kind": "s",
+"text": "Lubų vaikščiotojas"
+},
+{
+"id": 1884,
+"kind": "s",
+"text": "Žydras kostiumas su oranžiniais siurbtukais ir didžiuliais akiniais – kad galėtum vaikščioti aukštyn kojom. Rastas kitoje pasaulio pusėje."
+},
+{
+"id": 1885,
+"kind": "s",
+"text": "Sako, jis guli mažame kambarėlyje kitoje pasaulio pusėje, ten kur viskas aukštyn kojom…"
+},
+{
+"id": 1886,
+"kind": "s",
+"text": "Liftas leidžiasi… per visą pasaulį!"
+},
+{
+"id": 1887,
+"kind": "s",
+"text": "Kitoje pusėje viskas aukštyn kojom!"
+},
+{
+"id": 1888,
+"kind": "s",
+"text": "Kita pasaulio pusė"
+},
+{
+"id": 1889,
+"kind": "s",
+"text": "Aukštyn kojom"
+},
+{
+"id": 1890,
+"kind": "s",
+"text": "Čia viskas aukštyn kojom – tu vaikštai kaip voras lubomis. Dalys – gatvės viduryje."
+},
+{
+"id": 1891,
+"kind": "s",
+"text": "Tu kitoje pasaulio pusėje!"
+},
+{
+"id": 1892,
+"kind": "s",
+"text": "Viskas aukštyn kojom – kaip voras ant lubų. Laikrodžio dalys – gatvės viduryje"
+},
+{
+"id": 1893,
+"kind": "s",
+"text": "Kairėje – praeitis, dešinėje – ateitis. Gyventojai – laikrodžiai."
+},
+{
+"id": 1894,
+"kind": "s",
+"text": "Grįžai su laikrodžio dalimis!"
+},
+{
+"id": 1895,
+"kind": "s",
+"text": "Nunešk jas Laiko Dievui"
+},
+{
+"id": 1896,
+"kind": "s",
+"text": "Radai Praeities Laikrodžio DALIS!"
+},
+{
+"id": 1897,
+"kind": "s",
+"text": "Krumpliaratis, spyruoklė, stiklas ir rodyklė. Nunešk jas Laiko Dievui (liftas – gatvės pradžioje)"
+},
+{
+"id": 1898,
+"kind": "s",
+"text": "SLAPTAS KOSTIUMAS: LUBŲ VAIKŠČIOTOJAS!"
+},
+{
+"id": 1899,
+"kind": "s",
+"text": "Bet kur spausk X – atsidarys kostiumų parduotuvė"
+},
+{
+"id": 1900,
+"kind": "s",
+"text": "<kbd>E</kbd> važiuoti liftu atgal"
+},
+{
+"id": 1901,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti laikrodžio dalis"
+},
+{
+"id": 1902,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti slaptą kostiumą"
+},
+{
+"id": 1903,
+"kind": "s",
+"text": "Dalys tavo! Liftas atgal – gatvės pradžioje"
+},
+{
+"id": 1904,
+"kind": "s",
+"text": "Viskas aukštyn kojom… Dalys – gatvės viduryje"
+},
+{
+"id": 1905,
+"kind": "s",
+"text": "VISI NUKELIAVOTE Į PRAEITĮ!"
+},
+{
+"id": 1906,
+"kind": "s",
+"text": "Praeities Laikrodis vėl eina. Apdovanojimas: 3000 €"
+},
+{
+"id": 1907,
+"kind": "s",
+"text": "TIK TAK! Laikrodis vėl eina – ir žiūrėk: mes visi PRAEITYJE!"
+},
+{
+"id": 1908,
+"kind": "s",
+"text": "Seni nameliai, senos mašinos… Mano laikrodukai vėl gali aplankyti savo senelius. Ačiū tau!"
+},
+{
+"id": 1909,
+"kind": "s",
+"text": "Visi nukeliavome į praeitį! Seni nameliai, senos mašinos, o laikrodžiai vėl tiksi."
+},
+{
+"id": 1910,
+"kind": "s",
+"text": "Bandymų pasaulis: lapelių paieška"
+},
+{
+"id": 1911,
+"kind": "s",
+"text": "Rūta"
+},
+{
+"id": 1912,
+"kind": "s",
+"text": "Eglė"
+},
+{
+"id": 1913,
+"kind": "s",
+"text": "Austėja"
+},
+{
+"id": 1914,
+"kind": "s",
+"text": "Kamilė"
+},
+{
+"id": 1915,
+"kind": "s",
+"text": "Urtė"
+},
+{
+"id": 1916,
+"kind": "s",
+"text": "mėgsta cepelinus"
+},
+{
+"id": 1917,
+"kind": "s",
+"text": "vairuoja autobusą"
+},
+{
+"id": 1918,
+"kind": "s",
+"text": "groja būgnais"
+},
+{
+"id": 1919,
+"kind": "s",
+"text": "labai mėgsta futbolą"
+},
+{
+"id": 1920,
+"kind": "s",
+"text": "moka žongliruoti"
+},
+{
+"id": 1921,
+"kind": "s",
+"text": "visada pavėluoja"
+},
+{
+"id": 1922,
+"kind": "s",
+"text": "žiūri multikus"
+},
+{
+"id": 1923,
+"kind": "s",
+"text": "bijo vorų"
+},
+{
+"id": 1924,
+"kind": "s",
+"text": "šoka breiką"
+},
+{
+"id": 1925,
+"kind": "s",
+"text": "taiso dviračius"
+},
+{
+"id": 1926,
+"kind": "s",
+"text": "mėgsta žvejoti"
+},
+{
+"id": 1927,
+"kind": "s",
+"text": "piešia komiksus"
+},
+{
+"id": 1928,
+"kind": "s",
+"text": "turi papūgą"
+},
+{
+"id": 1929,
+"kind": "s",
+"text": "bėgioja maratonus"
+},
+{
+"id": 1930,
+"kind": "s",
+"text": "dainuoja duše"
+},
+{
+"id": 1931,
+"kind": "s",
+"text": "Auksinė saga"
+},
+{
+"id": 1932,
+"kind": "s",
+"text": "Žaislinė mašinėlė"
+},
+{
+"id": 1933,
+"kind": "s",
+"text": "Gražus akmenukas"
+},
+{
+"id": 1934,
+"kind": "s",
+"text": "Laikrodžio spyruoklė"
+},
+{
+"id": 1935,
+"kind": "s",
+"text": "…O ne. O NE! Mes praeityje – bet laikrodis dabar eina tik atgal!"
+},
+{
+"id": 1936,
+"kind": "s",
+"text": "Dabar nebegalime grįžti atgal į tikrą mūsų pasaulį… Niekada…"
+},
+{
+"id": 1937,
+"kind": "s",
+"text": "Žiūrėk – visi mano laikrodukai pradėjo verkti…"
+},
+{
+"id": 1938,
+"kind": "s",
+"text": "Bet palauk! Kažkas čia praeityje pametė TELEFONĄ. Girdi, kaip jis skamba? Surask jį!"
+},
+{
+"id": 1939,
+"kind": "s",
+"text": "Surask pamestą telefoną!"
+},
+{
+"id": 1940,
+"kind": "s",
+"text": "Gal kam nors jo reikės? Žmonėms gali jį pasiūlyti už pagalbą"
+},
+{
+"id": 1941,
+"kind": "s",
+"text": "Tik… tak… snirkšt…"
+},
+{
+"id": 1942,
+"kind": "s",
+"text": "📱 Surask pamestą telefoną – klausyk, kur skamba"
+},
+{
+"id": 1943,
+"kind": "t",
+"text": "📱 Spausk <kbd>P</kbd> – pakviesk 10 žmonių pataisyti laikrodį (${Q19.invited.length}/10)"
+},
+{
+"id": 1944,
+"kind": "s",
+"text": "Buuu… Surask tą telefoną – jis kažkur čia skamba!"
+},
+{
+"id": 1945,
+"kind": "t",
+"text": "Pakviesk žmonių iš tikro pasaulio – mums reikia dešimties meistrų! Jau sutiko: ${Q19.invited.length} iš 10."
+},
+{
+"id": 1946,
+"kind": "s",
+"text": "Jiems gali pasiūlyti pinigų… arba ką nors, ką rasi čia praeityje. Spausk P – telefonas."
+},
+{
+"id": 1947,
+"kind": "s",
+"text": "Tik tak! Viskas vėl normaliai – ir praeitis, ir ateitis!"
+},
+{
+"id": 1948,
+"kind": "s",
+"text": "Tavo telefone – Dievų grupė. Rodos, tavęs ieško Griaustinio Dievas…"
+},
+{
+"id": 1949,
+"kind": "s",
+"text": "Radai TELEFONĄ! Jis tavo visam laikui"
+},
+{
+"id": 1950,
+"kind": "s",
+"text": "Spausk P – bet kur ir bet kada"
+},
+{
+"id": 1951,
+"kind": "s",
+"text": "Telefonas! Puiku! Su juo gali paskambinti žmonėms į tikrą pasaulį."
+},
+{
+"id": 1952,
+"kind": "s",
+"text": "Pakviesk DEŠIMT žmonių – jie atvyks ir pataisys laikrodį. Pasiūlyk jiems pinigų… arba ką nors, ką rasi čia praeityje."
+},
+{
+"id": 1953,
+"kind": "t",
+"text": "<div class=\"mpH\">Susikurk savo numerį</div><div class=\"mpSmall\">Lietuvoje numeriai prasideda +370… bet čia – Laiko pasaulis, tad visi numeriai prasideda <b>-123</b>. Nu supranti. Kiti skaičiai – tik nuo 2 iki 6.</div>\n  <div style=\"font-size:30px;font-weight:900;text-align:center;margin:26px 0;letter-spacing:2px\">-123 <span id=\"mpDig\">${mpDigits.padEnd(6, '_')}</span></div>\n  <div style=\"display:grid;grid-template-columns:repeat(3,70px);gap:10px;justify-content:center\">${[2, 3, 4, 5, 6].map(n => `<button class=\"mpBtn\" style=\"font-size:24px;padding:14px\" data-n=\"${n}\">${n}</button>`).join('')}<button class=\"mpBtn no\" style=\"font-size:20px\" data-n=\"del\">⌫</button></div>\n  <div style=\"text-align:center;margin-top:20px\"><button class=\"mpBtn go\" id=\"mpSave\">Išsaugoti numerį</button></div>"
+},
+{
+"id": 1954,
+"kind": "s",
+"text": "Per trumpas numeris"
+},
+{
+"id": 1955,
+"kind": "s",
+"text": "Įvesk bent 4 skaičius (nuo 2 iki 6)"
+},
+{
+"id": 1956,
+"kind": "s",
+"text": "Žmonės"
+},
+{
+"id": 1957,
+"kind": "s",
+"text": "JuTūbas"
+},
+{
+"id": 1958,
+"kind": "s",
+"text": "Mano daiktai"
+}
+]

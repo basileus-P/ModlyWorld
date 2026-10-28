@@ -1,0 +1,822 @@
+[
+{
+"id": 2088,
+"kind": "s",
+"text": "Laikykis tvirtai, žaliasis!"
+},
+{
+"id": 2089,
+"kind": "s",
+"text": "Tik vienas BUM? Griaustinis visada griaudžia DU kartus…"
+},
+{
+"id": 2090,
+"kind": "s",
+"text": "Kas mane šaukia? Jei nori pas mane – parašyk mano slaptą žodį. Jis skamba kaip griaustinis… du kartus!"
+},
+{
+"id": 2091,
+"kind": "s",
+"text": "Labas, didvyri!"
+},
+{
+"id": 2092,
+"kind": "s",
+"text": "Sveikas grupėje!"
+},
+{
+"id": 2093,
+"kind": "s",
+"text": "Labas labas!"
+},
+{
+"id": 2094,
+"kind": "s",
+"text": "Tai MES tau dėkojame! ☀"
+},
+{
+"id": 2095,
+"kind": "s",
+"text": "Tik tak… geras klausimas. Paklausk Griaustinio Dievo – jis tavęs laukia."
+},
+{
+"id": 2096,
+"kind": "s",
+"text": "BUM! …atsiprašau, tai ne aš."
+},
+{
+"id": 2097,
+"kind": "s",
+"text": "Tik tak! Jis pakvietė 10 meistrų, ir jie pataisė mano Praeities Laikrodį!"
+},
+{
+"id": 2098,
+"kind": "s",
+"text": "BUM! Pagaliau! Žaliasi, TAVĘS man reikia. Mano audrų pasaulyje didelė bėda…"
+},
+{
+"id": 2099,
+"kind": "s",
+"text": "Kai būsi pasiruošęs – parašyk man mano slaptą žodį. BUM BUM!"
+},
+{
+"id": 2100,
+"kind": "s",
+"text": "BUM BUM BUM! Žaliasis nukasė iki pat dugno ir susprogdino visus 100 kamščių! Pas mane vėl lyja visą dieną!"
+},
+{
+"id": 2101,
+"kind": "s",
+"text": "Fiuuu… Kas? Kažkas išgelbėjo Griaustinio planetą? Jei tai tu – parašyk čia, ką padarei."
+},
+{
+"id": 2102,
+"kind": "s",
+"text": "Fiuuu! Žaliasis sustabdė mano pasaulio sukimąsi! Dabar tik 3 km/h!"
+},
+{
+"id": 2103,
+"kind": "s",
+"text": "Hmm… Visiems dievams padėjai. Visiems… na, beveik visiems. ✨"
+},
+{
+"id": 2104,
+"kind": "t",
+"text": "<div class=\"mpH\">⚡ Dievų grupė</div><div id=\"mpLog\" style=\"display:flex;flex-direction:column;padding-bottom:6px\">${all.map(([w, t]) => w === 'me' ? `<div class=\"mpMsg me\">${t.replace(/</g, '&lt;')}</div>` : `<div style=\"padding:2px 12px;font-size:12px;font-weight:800;color:${GOD_COL[w] || '#fff'}\">${w}</div><div class=\"mpMsg them\" style=\"margin-top:0\">${t.replace(/</g, '&lt;')}</div>`).join('')}</div>\n  <div style=\"position:sticky;bottom:0;display:flex;gap:6px;padding:8px;background:#0c0c14\"><input id=\"mpIn\" placeholder=\"Rašyk dievams…\" maxlength=\"120\"><button class=\"mpBtn go\" id=\"mpSend\">➤</button></div>"
+},
+{
+"id": 2105,
+"kind": "s",
+"text": "Jis – drakonas iš žaibo!"
+},
+{
+"id": 2106,
+"kind": "s",
+"text": "Bzzzt! Labas! Aš – žaibukas!"
+},
+{
+"id": 2107,
+"kind": "s",
+"text": "Mes gimstame audros debesyse ir lakstome greičiau už garsą!"
+},
+{
+"id": 2108,
+"kind": "s",
+"text": "Griaustinio Dievas – mūsų tėtis. Kai jis supyksta, mes visi išskrendam žaibuoti!"
+},
+{
+"id": 2109,
+"kind": "s",
+"text": "Nelieski manęs – nupurtysiu! …Cha, juokauju. Truputį."
+},
+{
+"id": 2110,
+"kind": "s",
+"text": "Ar žinai, kad griaustinis – tai mūsų juokas? BUM BUM!"
+},
+{
+"id": 2111,
+"kind": "s",
+"text": "Bzzz… Pas mus kažkas negerai. Tėtis labai susirūpinęs."
+},
+{
+"id": 2112,
+"kind": "s",
+"text": "Aš moku apibėgti visą debesį per vieną sekundę!"
+},
+{
+"id": 2113,
+"kind": "s",
+"text": "Lietus mums patinka – tada mes blizgam dar labiau!"
+},
+{
+"id": 2114,
+"kind": "s",
+"text": "Audrų pasaulis"
+},
+{
+"id": 2115,
+"kind": "s",
+"text": "Tamsūs debesys, lietus, žaibai, maži žaibukai – ir drakonas iš žaibo."
+},
+{
+"id": 2116,
+"kind": "s",
+"text": "Tu AUDRŲ PASAULYJE!"
+},
+{
+"id": 2117,
+"kind": "s",
+"text": "Griaustinio Dievas laukia ant didžiojo debesies (E)"
+},
+{
+"id": 2118,
+"kind": "s",
+"text": "Žaibukas"
+},
+{
+"id": 2119,
+"kind": "s",
+"text": "BUM! Patinka mano audros?"
+},
+{
+"id": 2120,
+"kind": "s",
+"text": "Mano žaibai – greičiausi visuose pasauliuose. BUM BUM!"
+},
+{
+"id": 2121,
+"kind": "s",
+"text": "Bėda didelė… Kai būsi pasiruošęs – papasakosiu viską. BUM."
+},
+{
+"id": 2122,
+"kind": "s",
+"text": "BUM BUM! Sveikas mano AUDRŲ PASAULYJE, žaliasis!"
+},
+{
+"id": 2123,
+"kind": "s",
+"text": "Taip, taip – aš atrodau kaip drakonas. Tik ne iš žvynų, o iš ŽAIBO! Mano kūnas – griaustinis, mano sparnai – žaibai."
+},
+{
+"id": 2124,
+"kind": "s",
+"text": "Aš girdėjau apie tave viską: demonas, vandenynas, vaiduokliai, laikrodis… Tu – tikras didvyris."
+},
+{
+"id": 2125,
+"kind": "s",
+"text": "O pas mane… didelė bėda. Bet pirma apsižvalgyk – pašokinėk ant audros debesų. BUM!"
+},
+{
+"id": 2126,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su žaibuku"
+},
+{
+"id": 2127,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su Griaustinio Dievu"
+},
+{
+"id": 2128,
+"kind": "s",
+"text": "<kbd>Space</kbd> – šokinėk ant audros debesų"
+},
+{
+"id": 2129,
+"kind": "s",
+"text": "Bandymų pasaulis: Dievų grupė"
+},
+{
+"id": 2130,
+"kind": "s",
+"text": "Spausk P → Dievų grupė → parašyk „bum bum“"
+},
+{
+"id": 2131,
+"kind": "t",
+"text": "<div class=\"mpH\"><span style=\"background:#8a5a2b;border-radius:8px;padding:0 8px\">🛒</span> Kaka – parduotuvė</div><div class=\"mpSmall\">Viskas, ko reikia kasti. Tavo pinigai: <b>${fmtMoney(money)}</b></div>\n  <div class=\"mpRow\" style=\"cursor:default\"><div class=\"mpIco\" style=\"background:#8a6a4a;width:52px;height:52px\">⛏</div><div style=\"flex:1\"><div style=\"font-weight:800\">Kastuvas</div><div class=\"mpSmall\" style=\"padding:0\">Kasti žemyn, į šonus ir aukštyn. 100 €</div></div>${Q21.shovel ? '<b style=\"color:#3cc86a\">Turi ✅</b>' : '<button class=\"mpBtn go\" id=\"kkS\">100 €</button>'}</div>\n  <div class=\"mpRow\" style=\"cursor:default\"><div class=\"mpIco\" style=\"background:#c8302a;width:52px;height:52px\">🧨</div><div style=\"flex:1\"><div style=\"font-weight:800\">Dinamitas</div><div class=\"mpSmall\" style=\"padding:0\">Susprogdina keistus dalykus, kurių kastuvas neįveikia. 12 € · turi: <b>${Q21.dyn}</b></div></div></div>\n  <div style=\"text-align:center\"><button class=\"mpBtn go\" data-d=\"1\">×1 · 12 €</button><button class=\"mpBtn go\" data-d=\"5\">×5 · 60 €</button><button class=\"mpBtn go\" data-d=\"10\">×10 · 120 €</button><button class=\"mpBtn gold\" data-d=\"25\">×25 · 300 €</button></div><div class=\"mpSmall\" id=\"kkMsg\" style=\"text-align:center;margin-top:8px\"></div>"
+},
+{
+"id": 2132,
+"kind": "s",
+"text": "Neužtenka pinigų…"
+},
+{
+"id": 2133,
+"kind": "t",
+"text": "Reikia ${c} €, o turi ${Math.floor(money)} €. Kasdamas rasi brangakmenių!"
+},
+{
+"id": 2134,
+"kind": "s",
+"text": "Nusipirk jį telefonu: P → programėlė „Kaka“ (100 €)"
+},
+{
+"id": 2135,
+"kind": "s",
+"text": "Po debesimis"
+},
+{
+"id": 2136,
+"kind": "s",
+"text": "Kasi po debesimis!"
+},
+{
+"id": 2137,
+"kind": "s",
+"text": "A/D – į šonus · S – žemyn · W – aukštyn · F – dinamitas · E – išlipti"
+},
+{
+"id": 2138,
+"kind": "t",
+"text": "Išlipai! Gylis: ${Math.max(0, Math.floor(Q21.y))} m"
+},
+{
+"id": 2139,
+"kind": "t",
+"text": "Susprogdinta kamščių: ${Q21.blown.length}/100 · progresas išsaugotas"
+},
+{
+"id": 2140,
+"kind": "s",
+"text": "LIETUS GRĮŽO!"
+},
+{
+"id": 2141,
+"kind": "s",
+"text": "Visi 100 keistų dalykų susprogdinti. Lyja ir griaudžia visą dieną!"
+},
+{
+"id": 2142,
+"kind": "s",
+"text": "BUM BUM BUM!!! Girdi?! Lyja VISĄ DIENĄ – kaip seniau! Ir mano griaustinis vėl griaudžia!"
+},
+{
+"id": 2143,
+"kind": "s",
+"text": "Tu nukasei taip giliai, kaip niekas nekasė, ir susprogdinai visus sausros kamščius. Mano žaibukai šoka iš laimės!"
+},
+{
+"id": 2144,
+"kind": "s",
+"text": "Štai tau 5000 €. Tu – tikras audrų didvyris. BUM!"
+},
+{
+"id": 2145,
+"kind": "s",
+"text": "Čia – pats dugnas. Toliau kasti nebeįmanoma!"
+},
+{
+"id": 2146,
+"kind": "s",
+"text": "Kieta siena – čia nepakasi"
+},
+{
+"id": 2147,
+"kind": "s",
+"text": "Keistas dalykas! Kastuvu neįkasi – reikia DINAMITO (F)"
+},
+{
+"id": 2148,
+"kind": "s",
+"text": "A/D – į šonus · S – kasti žemyn · W – aukštyn · <kbd>F</kbd> dinamitas · <kbd>E</kbd> išlipti"
+},
+{
+"id": 2149,
+"kind": "t",
+"text": "Gylis: ${Math.floor(depth)} m / 5000 m   ·   Kamščiai: ${Q21.blown.length}/100   ·   🧨 ${Q21.dyn}"
+},
+{
+"id": 2150,
+"kind": "t",
+"text": "Giliausiai: ${Math.floor(Q21.best)} m · brangakmenių: ${Q21.gems} · pinigai: ${fmtMoney(money)}"
+},
+{
+"id": 2151,
+"kind": "s",
+"text": "BUM… Štai mano bėda. Anksčiau pas mus lijo VISĄ DIENĄ, o griaustinis griaudė be perstojo."
+},
+{
+"id": 2152,
+"kind": "s",
+"text": "O dabar lyja tik vieną valandą per dieną! Mano žaibukai be lietaus nebeblizga…"
+},
+{
+"id": 2153,
+"kind": "s",
+"text": "Kažkas giliai po debesimis užkimšo audros šaknis – keistais SAUSROS KAMŠČIAIS. Jų ten net šimtas!"
+},
+{
+"id": 2154,
+"kind": "s",
+"text": "Nusipirk telefonu KASTUVĄ (programėlė „Kaka“, 100 €) ir kask kuo giliau – net iki 5 kilometrų! Kasimo vieta – štai ten, prie lentelės."
+},
+{
+"id": 2155,
+"kind": "s",
+"text": "Kamščių kastuvu neįkasi – jiems reikės DINAMITO (12 € vienas). Susprogdink visus 100! Ir nebijok – kai išlipsi, viskas lieka išsaugota."
+},
+{
+"id": 2156,
+"kind": "s",
+"text": "Griaustinio Dievo prašymas: kask!"
+},
+{
+"id": 2157,
+"kind": "s",
+"text": "P → Kaka: kastuvas 100 €, dinamitas 12 €. Kasimo vieta – prie lentelės"
+},
+{
+"id": 2158,
+"kind": "t",
+"text": "Susprogdinta ${Q21.blown.length} iš 100 kamščių. Giliausiai buvai ${Math.floor(Q21.best)} m. Kask toliau! BUM!"
+},
+{
+"id": 2159,
+"kind": "s",
+"text": "BUM BUM! Lyja visą dieną – nuostabu!"
+},
+{
+"id": 2160,
+"kind": "s",
+"text": "Mano žaibukai vėl blizga lietuje. Ačiū, kasėjau!"
+},
+{
+"id": 2161,
+"kind": "s",
+"text": "<kbd>E</kbd> lipti į duobę ir kasti"
+},
+{
+"id": 2162,
+"kind": "s",
+"text": "<kbd>E</kbd> kasti (reikia kastuvo – P → Kaka)"
+},
+{
+"id": 2163,
+"kind": "s",
+"text": "Bandymų pasaulis: kasimas"
+},
+{
+"id": 2164,
+"kind": "s",
+"text": "Kastuvas ir 10 dinamitų. Kasimo vieta prie lentelės"
+},
+{
+"id": 2165,
+"kind": "s",
+"text": "Bandymų pasaulis: paskutinis kamštis!"
+},
+{
+"id": 2166,
+"kind": "s",
+"text": "Susprogdinta 99 iš 100. Lipk į duobę (E) – tu jau prie paskutinio kamščio. Spausk F!"
+},
+{
+"id": 2167,
+"kind": "t",
+"text": "BUM? Dar ne! Susprogdinta tik ${Q21.blown.length} iš 100 kamščių. Kask toliau!"
+},
+{
+"id": 2168,
+"kind": "s",
+"text": "Fiuuuuu! TIKRAI! Girdžiu lietų net iš savo pasaulio! Tu – tikras didvyris!"
+},
+{
+"id": 2169,
+"kind": "s",
+"text": "Mano pasaulyje irgi reikia didvyrio… ATPUČIU TAVĘS PASIIMTI! 🌪"
+},
+{
+"id": 2170,
+"kind": "s",
+"text": "BUM BUM! Sudie, kasėjau! Lėk su vėju!"
+},
+{
+"id": 2171,
+"kind": "s",
+"text": "Fiuuu… Kas mane šaukia? Papasakok grupei, ką padarei Griaustinio planetoje!"
+},
+{
+"id": 2172,
+"kind": "s",
+"text": "Fiuuuu! Atpučia Vėjo Dievas!"
+},
+{
+"id": 2173,
+"kind": "s",
+"text": "Viesulas kelia tave aukštyn!"
+},
+{
+"id": 2174,
+"kind": "s",
+"text": "Vėjelis"
+},
+{
+"id": 2175,
+"kind": "s",
+"text": "Ausytė"
+},
+{
+"id": 2176,
+"kind": "s",
+"text": "Dulkė"
+},
+{
+"id": 2177,
+"kind": "s",
+"text": "Šuniukas Jonas"
+},
+{
+"id": 2178,
+"kind": "s",
+"text": "Pyragėlis"
+},
+{
+"id": 2179,
+"kind": "s",
+"text": "Šokliukas"
+},
+{
+"id": 2180,
+"kind": "s",
+"text": "Lapė"
+},
+{
+"id": 2181,
+"kind": "s",
+"text": "Au au! Labas! Aš vaikštau ant dviejų kojų – visi šuniukai čia taip vaikšto!"
+},
+{
+"id": 2182,
+"kind": "s",
+"text": "Vau! Tu toks žalias! Ar galiu tave apuostyti? …Kvepi audra!"
+},
+{
+"id": 2183,
+"kind": "s",
+"text": "Mano namas su kauliuku ant stogo – gražiausias!"
+},
+{
+"id": 2184,
+"kind": "s",
+"text": "Kai Vėjo Dievas pučia, mano ausys plazda kaip vėliavos! Au!"
+},
+{
+"id": 2185,
+"kind": "s",
+"text": "Mes čia visi skraidom. Bet aš dar mokausi… kartais nukrentu, ir vėjas mane pagauna. Vau!"
+},
+{
+"id": 2186,
+"kind": "s",
+"text": "Ar matei mano dėdę ant šaukšto? Jis sako, kad tai valtis!"
+},
+{
+"id": 2187,
+"kind": "s",
+"text": "Bulvėje labai jauku – ji šilta!"
+},
+{
+"id": 2188,
+"kind": "s",
+"text": "Au au au! Paglostyk mane! (paspausk pelės mygtuką)"
+},
+{
+"id": 2189,
+"kind": "s",
+"text": "Vėjo Dievas – mūsų geriausias draugas. Jis meta mums debesų kamuoliukus!"
+},
+{
+"id": 2190,
+"kind": "s",
+"text": "Mano uodega sukasi kaip vėjo malūnėlis! Žiūrėk!"
+},
+{
+"id": 2191,
+"kind": "s",
+"text": "Kas vakarą mes visi kaukiam į vėją: AUUUUUUU!"
+},
+{
+"id": 2192,
+"kind": "s",
+"text": "Kompiuteryje gyvena mano draugas. Jis žaidžia žaidimus ant klaviatūros – šokinėja per mygtukus!"
+},
+{
+"id": 2193,
+"kind": "s",
+"text": "Šaukštas"
+},
+{
+"id": 2194,
+"kind": "s",
+"text": "Bulvė"
+},
+{
+"id": 2195,
+"kind": "s",
+"text": "Vėjo OS  ☁"
+},
+{
+"id": 2196,
+"kind": "s",
+"text": "Pieštukas"
+},
+{
+"id": 2197,
+"kind": "s",
+"text": "VĖJO DIEVAS"
+},
+{
+"id": 2198,
+"kind": "s",
+"text": "Vėjo pasaulis"
+},
+{
+"id": 2199,
+"kind": "s",
+"text": "Vėjo Dievo namai"
+},
+{
+"id": 2200,
+"kind": "s",
+"text": "Jokios planetos – tik permatomas rutulys su audra viduje. Visi skraido!"
+},
+{
+"id": 2201,
+"kind": "s",
+"text": "Tu VĖJO PASAULYJE!"
+},
+{
+"id": 2202,
+"kind": "s",
+"text": "Laikyk Space ore – vėjas tave neš! Vėjo Dievas – milžinas (E prie jo delno)"
+},
+{
+"id": 2203,
+"kind": "s",
+"text": "Dar!"
+},
+{
+"id": 2204,
+"kind": "s",
+"text": "Fiuuu! Patinka skraidyti? Mano pasaulyje niekas nevaikšto – visi skrenda!"
+},
+{
+"id": 2205,
+"kind": "s",
+"text": "Mano šaukštas, mano bulvė, mano raktas… viską kažkada nupūčiau iš kitų pasaulių. Fiu!"
+},
+{
+"id": 2206,
+"kind": "s",
+"text": "Kai aš pučiu skruostus – kyla audra. Kai juokiuosi – kyla viesulas! Cha-fiu-cha!"
+},
+{
+"id": 2207,
+"kind": "s",
+"text": "FIUUUUU! Sveikas mano VĖJO PASAULYJE, žaliasis didvyri!"
+},
+{
+"id": 2208,
+"kind": "s",
+"text": "Taip – aš milžinas. O tu stovi ant mano delno. Neišsigąsk – aš labai švelniai laikau."
+},
+{
+"id": 2209,
+"kind": "s",
+"text": "Čia nėra jokios planetos. Tik didelis permatomas rutulys, o jame – mano audra. Mes visi tiesiog skraidome. Juk rutulys apvalus – tai irgi planeta!"
+},
+{
+"id": 2210,
+"kind": "s",
+"text": "Mano šuniukai – maži, vaikšto ant dviejų kojų – gyvena ant visko, ką vėjas atpūtė: ant šaukšto, bulvės, rakto, šautuvo, kompiuterio, pieštuko, puodelio ir net sportbačio!"
+},
+{
+"id": 2211,
+"kind": "s",
+"text": "Laikyk Space ore – ir mano vėjas tave neš. O jei nukrisi – pagausiu. Apsižvalgyk, fiu!"
+},
+{
+"id": 2212,
+"kind": "t",
+"text": "Čia gyvena maži šuniukai, kurie vaikšto ant dviejų kojų. Jų namai – ant milžiniško daikto: ${o.name.toLowerCase()}!"
+},
+{
+"id": 2213,
+"kind": "t",
+"text": "${o.name}? Taip, vieną dieną Vėjo Dievas jį atpūtė iš kito pasaulio, ir dabar čia namai."
+},
+{
+"id": 2214,
+"kind": "s",
+"text": "Fiu! Kartais visas daiktas siūbuoja – bet namai laikosi tvirtai!"
+},
+{
+"id": 2215,
+"kind": "s",
+"text": "Fiuu! Vėjas tave pagavo!"
+},
+{
+"id": 2216,
+"kind": "s",
+"text": "Ir atnešė atgal ant didžiosios knygos"
+},
+{
+"id": 2217,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su Vėjo Dievu"
+},
+{
+"id": 2218,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su šuniuku · pelė – paglostyti"
+},
+{
+"id": 2219,
+"kind": "s",
+"text": "<kbd>E</kbd> apžiūrėti · <kbd>Space</kbd> ore – skristi su vėju"
+},
+{
+"id": 2220,
+"kind": "s",
+"text": "<kbd>Space</kbd> – pašokti, laikyk ore – vėjas neš"
+},
+{
+"id": 2221,
+"kind": "s",
+"text": "Laikyk <kbd>Space</kbd> – skrisk su vėju!"
+},
+{
+"id": 2222,
+"kind": "s",
+"text": "Bandymų pasaulis: Griaustinis išgelbėtas"
+},
+{
+"id": 2223,
+"kind": "s",
+"text": "P → Dievų grupė → parašyk „aš išgelbėjau griaustinio planetą“"
+},
+{
+"id": 2224,
+"kind": "s",
+"text": "keista plokštelė"
+},
+{
+"id": 2225,
+"kind": "s",
+"text": "mažas robotas"
+},
+{
+"id": 2226,
+"kind": "s",
+"text": "Tu dar nieko neturi. Keisti daiktai atskrenda patys ir atsitrenkia į tave – tada atnešk juos čia!"
+},
+{
+"id": 2227,
+"kind": "t",
+"text": "${v.small} mažus robotus"
+},
+{
+"id": 2228,
+"kind": "t",
+"text": "${v.plate} plokšteles"
+},
+{
+"id": 2229,
+"kind": "t",
+"text": "Padėjai: ${txt}! Vėjas – ${spinKmh()} km/h"
+},
+{
+"id": 2230,
+"kind": "s",
+"text": "VĖJAS NURIMO!"
+},
+{
+"id": 2231,
+"kind": "s",
+"text": "Viskas sukasi tik 3 km/h – kaip seniau!"
+},
+{
+"id": 2232,
+"kind": "s",
+"text": "Fiuuu… Ahhh. Girdi? Tyla. Mano pasaulis sukasi lėtai, ramiai – tik 3 kilometrai per valandą!"
+},
+{
+"id": 2233,
+"kind": "s",
+"text": "Mano šuniukai vėl gali ramiai vaikščioti, o ne lėkti ratu kaip ant karuselės!"
+},
+{
+"id": 2234,
+"kind": "s",
+"text": "Tavo robotai bėga priešinga kryptimi ir laiko viską ramiai. Štai tau 5000 €, didvyri! FIU!"
+},
+{
+"id": 2235,
+"kind": "s",
+"text": "Fiuuu… Žaliasis, ar jauti? Viskas čia sukasi PER GREITAI!"
+},
+{
+"id": 2236,
+"kind": "s",
+"text": "Anksčiau mano pasaulis sukosi ramiai – 3 kilometrai per valandą. O dabar – 50! Šuniukams svaigsta galvos, namai vos laikosi."
+},
+{
+"id": 2237,
+"kind": "s",
+"text": "Reikia suktis į PRIEŠINGĄ pusę! Tam yra Sukimo stotis – štai ji, už knygos."
+},
+{
+"id": 2238,
+"kind": "s",
+"text": "Į tave nuolat atsitrenks keisti daiktai. Dažniausiai – keistos plokštelės. Jos mažai vertos, bet padėtos stotyje kartais pagauna tau daiktų."
+},
+{
+"id": 2239,
+"kind": "s",
+"text": "Rečiau – maži robotai: jie bėga ratu priešinga kryptimi už tave. O labai retai – DIDELIS robotas: jis dirba už 5 mažus!"
+},
+{
+"id": 2240,
+"kind": "s",
+"text": "Kai stotyje bus 200 mažų robotų darbo – sukimasis sustos. Nešk viską į stotį (E). FIU!"
+},
+{
+"id": 2241,
+"kind": "s",
+"text": "Vėjo Dievo prašymas: sustabdyk sukimąsi!"
+},
+{
+"id": 2242,
+"kind": "s",
+"text": "Gaudyk keistus daiktus ir nešk juos į Sukimo stotį"
+},
+{
+"id": 2243,
+"kind": "t",
+"text": "Fiu… Dar sukasi ${spinKmh()} km/h. Robotų darbas: ${spinWork()} iš ${SPIN_NEED}. Nešk daugiau į Sukimo stotį!"
+},
+{
+"id": 2244,
+"kind": "s",
+"text": "Mano robotai vis dar bėga ratu – tegul bėga, jiems patinka!"
+},
+{
+"id": 2245,
+"kind": "s",
+"text": "Ačiū tau, didvyri. Dabar galiu ramiai pūsti debesėlius."
+},
+{
+"id": 2246,
+"kind": "t",
+"text": "<kbd>E</kbd> padėti daiktus į Sukimo stotį (${n})"
+},
+{
+"id": 2247,
+"kind": "s",
+"text": "Sukimo stotis – atnešk čia keistus daiktus"
+},
+{
+"id": 2248,
+"kind": "s",
+"text": "BUMPT!!! Į tave atsitrenkė DIDELIS ROBOTAS! ★"
+},
+{
+"id": 2249,
+"kind": "t",
+"text": "Bumpt! Į tave atsitrenkė ${ITEM_NAME[f.type]}"
+},
+{
+"id": 2250,
+"kind": "t",
+"text": "Tavo plokštelė pagavo: ${ITEM_NAME[type]}!"
+},
+{
+"id": 2251,
+"kind": "t",
+"text": "🌪 Vėjo greitis: <b style=\"color:${kmh > 20 ? '#ff8a6a' : '#ffe14d'}\">${kmh} km/h</b> <span style=\"opacity:.7\">(turi būti 3)</span> · Robotų darbas: <b>${Math.min(SPIN_NEED, spinWork())}/${SPIN_NEED}</b><br><span style=\"opacity:.85\">Turi: 🔘 ${v.plate} · 🤖 ${v.small} · 🦾 ${v.big}</span>${SPN.msgT > 0 ? `<br><span style=\"color:#ffe14d\">${SPN.msg}</span>` : ''}"
+}
+]

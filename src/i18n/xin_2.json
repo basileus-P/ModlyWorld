@@ -1,0 +1,707 @@
+[
+ {
+  "id": 2,
+  "kind": "s",
+  "text": "Akmeniniai vartai"
+ },
+ {
+  "id": 5,
+  "kind": "s",
+  "text": "Didysis Grybas"
+ },
+ {
+  "id": 8,
+  "kind": "s",
+  "text": "Kamuolys"
+ },
+ {
+  "id": 11,
+  "kind": "s",
+  "text": "Ledo kubas"
+ },
+ {
+  "id": 14,
+  "kind": "s",
+  "text": "Grybo namas"
+ },
+ {
+  "id": 17,
+  "kind": "s",
+  "text": "Namas nugriautas"
+ },
+ {
+  "id": 20,
+  "kind": "s",
+  "text": "Stalas"
+ },
+ {
+  "id": 23,
+  "kind": "s",
+  "text": "Kilimas"
+ },
+ {
+  "id": 26,
+  "kind": "s",
+  "text": "Akvariumas"
+ },
+ {
+  "id": 29,
+  "kind": "s",
+  "text": " paimta"
+ },
+ {
+  "id": 32,
+  "kind": "s",
+  "text": "Miau"
+ },
+ {
+  "id": 35,
+  "kind": "s",
+  "text": "Kamuoliukas"
+ },
+ {
+  "id": 38,
+  "kind": "s",
+  "text": "Kva!"
+ },
+ {
+  "id": 41,
+  "kind": "s",
+  "text": "Trimitas"
+ },
+ {
+  "id": 44,
+  "kind": "t",
+  "text": "Naujas draugas: ${rec.n}!"
+ },
+ {
+  "id": 47,
+  "kind": "s",
+  "text": "Pasiimti"
+ },
+ {
+  "id": 50,
+  "kind": "s",
+  "text": "Pabaisa"
+ },
+ {
+  "id": 53,
+  "kind": "s",
+  "text": "Policija"
+ },
+ {
+  "id": 56,
+  "kind": "s",
+  "text": "Raketinis bolidas"
+ },
+ {
+  "id": 59,
+  "kind": "s",
+  "text": "Miltai"
+ },
+ {
+  "id": 62,
+  "kind": "s",
+  "text": "Morkos"
+ },
+ {
+  "id": 65,
+  "kind": "s",
+  "text": "Blynai"
+ },
+ {
+  "id": 68,
+  "kind": "s",
+  "text": "SKANUS MAISTAS"
+ },
+ {
+  "id": 71,
+  "kind": "s",
+  "text": "Pamaina baigta"
+ },
+ {
+  "id": 74,
+  "kind": "t",
+  "text": "Atlygis: ${o.pay} € + arbatpinigiai"
+ },
+ {
+  "id": 77,
+  "kind": "s",
+  "text": "Patiekimo stalas"
+ },
+ {
+  "id": 80,
+  "kind": "s",
+  "text": "Verda…"
+ },
+ {
+  "id": 83,
+  "kind": "s",
+  "text": "Virti puode"
+ },
+ {
+  "id": 86,
+  "kind": "t",
+  "text": "Pamaina <b>${mmss(shift.t)}</b> · ${shift.dishes} ${dishWord(shift.dishes)} · <b>${shift.earned} €</b>"
+ },
+ {
+  "id": 89,
+  "kind": "s",
+  "text": "Verda… "
+ },
+ {
+  "id": 92,
+  "kind": "s",
+  "text": "Rankose: "
+ },
+ {
+  "id": 95,
+  "kind": "s",
+  "text": "Pvz.: pinigai 5000"
+ },
+ {
+  "id": 98,
+  "kind": "s",
+  "text": "Bandyk: pinigai · pinigai 5000 · kuprine · sparnai · viskas · slapta · urviniai · ateitis · kates · demonas · kosmosas · saule · perejau · ukis · marsas · voras · pilis · kepure · katinas · vaiduokliai · laikas · lapeliai (lapeliai 5) · telefonas (telefonas 9) · griaustinis · kasimas (kasimas 99) · vejas (vejas 2) · sukimas (sukimas 190) · zvaigzde (zvaigzde 2) · ugnis (ugnis 1) · teleportas (teleportas 1) · slyva · leidimas · zona · megintuvelis (megintuvelis 1) · ankstis (ankstis 38) · portalai (portalai 1) · lektuvas (lektuvas 1/2/3) · kardas (kardas 1/2) · siksnosparnis (siksnosparnis 1/2)"
+ },
+ {
+  "id": 101,
+  "kind": "s",
+  "text": "3… 2… 1… Kilimas!"
+ },
+ {
+  "id": 104,
+  "kind": "s",
+  "text": "Muziejus"
+ },
+ {
+  "id": 107,
+  "kind": "s",
+  "text": "Marsas"
+ },
+ {
+  "id": 110,
+  "kind": "s",
+  "text": "Drakono mama pabudo!"
+ },
+ {
+  "id": 113,
+  "kind": "s",
+  "text": "PASAULIO LOBIAI"
+ },
+ {
+  "id": 116,
+  "kind": "s",
+  "text": "Demono lazda"
+ },
+ {
+  "id": 119,
+  "kind": "t",
+  "text": "E – toliau (1 / ${lines.length})"
+ },
+ {
+  "id": 122,
+  "kind": "s",
+  "text": "Voro urvai"
+ },
+ {
+  "id": 125,
+  "kind": "s",
+  "text": "Spalvotas vienaragio ragas – muziejuje. Apdovanojimas: 400 €"
+ },
+ {
+  "id": 128,
+  "kind": "s",
+  "text": "PORTALAS NAMO"
+ },
+ {
+  "id": 131,
+  "kind": "s",
+  "text": "Kvepia cukraus vata"
+ },
+ {
+  "id": 134,
+  "kind": "s",
+  "text": "Mamyte?"
+ },
+ {
+  "id": 137,
+  "kind": "s",
+  "text": "Palauk!"
+ },
+ {
+  "id": 140,
+  "kind": "s",
+  "text": "Miau…"
+ },
+ {
+  "id": 143,
+  "kind": "s",
+  "text": "BASEINAS NAMO"
+ },
+ {
+  "id": 146,
+  "kind": "s",
+  "text": "Nemoku plaukti!"
+ },
+ {
+  "id": 149,
+  "kind": "s",
+  "text": "Egzaminas!"
+ },
+ {
+  "id": 152,
+  "kind": "s",
+  "text": "Vienaragis"
+ },
+ {
+  "id": 155,
+  "kind": "s",
+  "text": "Piratas"
+ },
+ {
+  "id": 158,
+  "kind": "s",
+  "text": "Robotas"
+ },
+ {
+  "id": 161,
+  "kind": "s",
+  "text": "Persirengti"
+ },
+ {
+  "id": 164,
+  "kind": "s",
+  "text": "<div class=\"backHead\">Ant nugaros</div>"
+ },
+ {
+  "id": 167,
+  "kind": "s",
+  "text": "Einu, einu!"
+ },
+ {
+  "id": 170,
+  "kind": "s",
+  "text": "prikabinti / atkabinti"
+ },
+ {
+  "id": 173,
+  "kind": "s",
+  "text": "Marso debesis"
+ },
+ {
+  "id": 176,
+  "kind": "s",
+  "text": "Nusiimti"
+ },
+ {
+  "id": 179,
+  "kind": "s",
+  "text": "Ateivis"
+ },
+ {
+  "id": 182,
+  "kind": "s",
+  "text": "Laikrodis"
+ },
+ {
+  "id": 185,
+  "kind": "s",
+  "text": "Vamzdis"
+ },
+ {
+  "id": 188,
+  "kind": "s",
+  "text": "Kompiuteris"
+ },
+ {
+  "id": 191,
+  "kind": "s",
+  "text": "Muzikantas Lukas"
+ },
+ {
+  "id": 194,
+  "kind": "t",
+  "text": "Radai ${vg.def.item}!"
+ },
+ {
+  "id": 197,
+  "kind": "s",
+  "text": "Gerai, gerai. Nieko tokio."
+ },
+ {
+  "id": 200,
+  "kind": "t",
+  "text": " · metalo gabalai <b>${Q10.done.length}/10</b>"
+ },
+ {
+  "id": 203,
+  "kind": "t",
+  "text": "Akmuo! (${Q11.stones.length} / 5)"
+ },
+ {
+  "id": 206,
+  "kind": "s",
+  "text": "Karalius Ugabugas"
+ },
+ {
+  "id": 209,
+  "kind": "s",
+  "text": "Palauk, kol pasakys „APVERSK“"
+ },
+ {
+  "id": 212,
+  "kind": "s",
+  "text": "Cirkas!"
+ },
+ {
+  "id": 215,
+  "kind": "s",
+  "text": "AUKSAS"
+ },
+ {
+  "id": 218,
+  "kind": "s",
+  "text": "⚠ LAZERIAI ⚠"
+ },
+ {
+  "id": 221,
+  "kind": "s",
+  "text": "Ateities miestas"
+ },
+ {
+  "id": 224,
+  "kind": "s",
+  "text": "STOK!"
+ },
+ {
+  "id": 227,
+  "kind": "t",
+  "text": "Kodas: ${codeShown()} · rasta ${Q12.notes.length} / 4"
+ },
+ {
+  "id": 230,
+  "kind": "s",
+  "text": "Auksinis robotas"
+ },
+ {
+  "id": 233,
+  "kind": "s",
+  "text": "KODAS TEISINGAS!"
+ },
+ {
+  "id": 236,
+  "kind": "s",
+  "text": "Slaptas voras"
+ },
+ {
+  "id": 239,
+  "kind": "s",
+  "text": "Demono ritualas"
+ },
+ {
+  "id": 242,
+  "kind": "s",
+  "text": "Grafika: "
+ },
+ {
+  "id": 245,
+  "kind": "s",
+  "text": "Miau miau!"
+ },
+ {
+  "id": 248,
+  "kind": "s",
+  "text": " (dar viena ranka laisva)"
+ },
+ {
+  "id": 251,
+  "kind": "t",
+  "text": "<button data-buy=\"candles\" style=\"font:inherit;font-weight:800;border:none;border-radius:10px;padding:8px 10px;background:#ff9a3a;color:#3a1a00;cursor:pointer\">Visas (${(10 - Q14.candles) * it.price} €)</button>"
+ },
+ {
+  "id": 254,
+  "kind": "s",
+  "text": "Kosminis tramplinas"
+ },
+ {
+  "id": 257,
+  "kind": "s",
+  "text": "Grįžk namo per portalą NAMO"
+ },
+ {
+  "id": 260,
+  "kind": "s",
+  "text": "Visi dievai"
+ },
+ {
+  "id": 263,
+  "kind": "s",
+  "text": "Jau daugiau nei pusė! Blub!"
+ },
+ {
+  "id": 266,
+  "kind": "s",
+  "text": "Burbuliukai"
+ },
+ {
+  "id": 269,
+  "kind": "s",
+  "text": "Mama?"
+ },
+ {
+  "id": 272,
+  "kind": "s",
+  "text": "Įvažiuok pro Jūros vartus ir padėk vargšėms žuvims"
+ },
+ {
+  "id": 275,
+  "kind": "s",
+  "text": "Drakono sparnai"
+ },
+ {
+  "id": 278,
+  "kind": "s",
+  "text": "Voras"
+ },
+ {
+  "id": 281,
+  "kind": "s",
+  "text": "KARALIUS"
+ },
+ {
+  "id": 284,
+  "kind": "s",
+  "text": "Princo"
+ },
+ {
+  "id": 287,
+  "kind": "s",
+  "text": "Sargybinis Bumbas"
+ },
+ {
+  "id": 290,
+  "kind": "s",
+  "text": "Laikas keliauti! TIK TAK!"
+ },
+ {
+  "id": 293,
+  "kind": "s",
+  "text": "Tik tak! Sveikas, keliautojau!"
+ },
+ {
+  "id": 296,
+  "kind": "s",
+  "text": "Laiko pasaulis"
+ },
+ {
+  "id": 299,
+  "kind": "s",
+  "text": "Tik tak!"
+ },
+ {
+  "id": 302,
+  "kind": "s",
+  "text": "Tyliai ateiviai skraido."
+ },
+ {
+  "id": 305,
+  "kind": "t",
+  "text": "Lapelis ${Q18.step + 1}/${NOTE_N}"
+ },
+ {
+  "id": 308,
+  "kind": "s",
+  "text": "<kbd>E</kbd> atidaryti duris"
+ },
+ {
+  "id": 311,
+  "kind": "t",
+  "text": "Lapelis ${Q18.step + 1}: „${curClue()}“"
+ },
+ {
+  "id": 314,
+  "kind": "s",
+  "text": "augina pomidorus"
+ },
+ {
+  "id": 317,
+  "kind": "s",
+  "text": "Saldainis"
+ },
+ {
+  "id": 320,
+  "kind": "t",
+  "text": "Radai: ${itemName(it.id)}!"
+ },
+ {
+  "id": 323,
+  "kind": "s",
+  "text": "<b style=\"color:#3cc86a\">turi</b>"
+ },
+ {
+  "id": 326,
+  "kind": "s",
+  "text": "Gerai! O tau?"
+ },
+ {
+  "id": 329,
+  "kind": "s",
+  "text": "Kalbama… 00:0"
+ },
+ {
+  "id": 332,
+  "kind": "t",
+  "text": "Hmm… nu gerai, bet tik už ${price} €."
+ },
+ {
+  "id": 335,
+  "kind": "t",
+  "text": "<button class=\"mpBtn go\" id=\"mpPay\">💶 Sumokėti ${price} €</button><button class=\"mpBtn\" id=\"mpHaggle\">Gal pigiau?</button>"
+ },
+ {
+  "id": 338,
+  "kind": "s",
+  "text": "Ar zombiai tikri?"
+ },
+ {
+  "id": 341,
+  "kind": "s",
+  "text": "Priklauso nuo dienos."
+ },
+ {
+  "id": 344,
+  "kind": "t",
+  "text": "🍌 ${G2.score}   ❤ ${G2.lives}   Rekordas: ${G2.best}"
+ },
+ {
+  "id": 347,
+  "kind": "s",
+  "text": "VAU!"
+ },
+ {
+  "id": 350,
+  "kind": "s",
+  "text": "Darbas virs!"
+ },
+ {
+  "id": 353,
+  "kind": "s",
+  "text": "Gerai pasakyta!"
+ },
+ {
+  "id": 356,
+  "kind": "s",
+  "text": "Griaustinio Dievo namai"
+ },
+ {
+  "id": 359,
+  "kind": "s",
+  "text": "Neturi kastuvo!"
+ },
+ {
+  "id": 362,
+  "kind": "s",
+  "text": "Neturi dinamito! Nusipirk telefonu (P → Kaka), 12 € vienas"
+ },
+ {
+  "id": 365,
+  "kind": "s",
+  "text": "Knyga"
+ },
+ {
+  "id": 368,
+  "kind": "s",
+  "text": "Vau!"
+ },
+ {
+  "id": 371,
+  "kind": "t",
+  "text": "${v.big} didelius robotus"
+ },
+ {
+  "id": 374,
+  "kind": "s",
+  "text": "Ugnies eliksyras"
+ },
+ {
+  "id": 377,
+  "kind": "s",
+  "text": "🔥 ugnies kamuolys"
+ },
+ {
+  "id": 380,
+  "kind": "s",
+  "text": "tavo klavišas"
+ },
+ {
+  "id": 383,
+  "kind": "s",
+  "text": "savo ugnies klavišą"
+ },
+ {
+  "id": 386,
+  "kind": "s",
+  "text": "Kokios spalvos Teleporto uoga?"
+ },
+ {
+  "id": 389,
+  "kind": "s",
+  "text": "Ugnies kamuoliu"
+ },
+ {
+  "id": 392,
+  "kind": "t",
+  "text": "Teleportacijos egzaminas · ${quiz.i + 1} / ${quiz.qs.length}"
+ },
+ {
+  "id": 395,
+  "kind": "s",
+  "text": "Zzz… atostogos… zzz…"
+ },
+ {
+  "id": 398,
+  "kind": "t",
+  "text": "Jungiklis ${Q26.zkeys.length}/4!"
+ },
+ {
+  "id": 401,
+  "kind": "s",
+  "text": "VISI 8 PORTALAI!"
+ },
+ {
+  "id": 404,
+  "kind": "s",
+  "text": "🌀 Teleportacija tavyje!"
+ },
+ {
+  "id": 407,
+  "kind": "t",
+  "text": "🌀 Portalas <b>${PR.i + 1}/${PORTAL_N}</b> · ⏱ <b style=\"color:${PR.t < 4 ? '#ff6a6a' : '#fff'}\">${Math.max(0, PR.t).toFixed(1)} s</b> · ${Math.round(dist)} m"
+ },
+ {
+  "id": 410,
+  "kind": "s",
+  "text": "Uodega"
+ },
+ {
+  "id": 413,
+  "kind": "t",
+  "text": "✈ Iki rato: <b>${Math.round(dist)} m</b> · ${Math.abs(a2) < 0.3 ? 'tiesiai ⬆' : a2 > 0 ? '⬅ sukis į kairę (A)' : 'sukis į dešinę (D) ➡'} · ${goal.y - f.pos.y > 8 ? 'kilk aukštyn (W)' : f.pos.y - goal.y > 8 ? 'leiskis žemyn (S)' : 'aukštis gerai'}"
+ },
+ {
+  "id": 416,
+  "kind": "s",
+  "text": "Auksinis kardas rankoje! 🗡"
+ },
+ {
+  "id": 419,
+  "kind": "t",
+  "text": "E – toliau (1 / ${creatorLines.length})"
+ },
+ {
+  "id": 422,
+  "kind": "t",
+  "text": "<kbd>E</kbd> paglostyti: ${pt.name} (${pt.def.kind.toLowerCase()}) · <kbd>X</kbd> paleisti"
+ }
+]

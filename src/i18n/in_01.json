@@ -1,0 +1,1007 @@
+[
+{
+"id": 309,
+"kind": "s",
+"text": "Šį kartą nepagaminai nė vieno patiekalo, todėl atlyginimo nėra."
+},
+{
+"id": 310,
+"kind": "s",
+"text": "Laikas baigėsi!"
+},
+{
+"id": 311,
+"kind": "s",
+"text": " Prie lentos spausk E – nauja pamaina, prie durų – eik namo."
+},
+{
+"id": 312,
+"kind": "s",
+"text": "Nesupratau skaičiaus"
+},
+{
+"id": 313,
+"kind": "s",
+"text": "Bandymų pasaulis"
+},
+{
+"id": 314,
+"kind": "s",
+"text": "kuprinė"
+},
+{
+"id": 315,
+"kind": "s",
+"text": "Debesų kuprinė uždėta!"
+},
+{
+"id": 316,
+"kind": "s",
+"text": "Laikyk Space – skrisi, Shift – greičiau"
+},
+{
+"id": 317,
+"kind": "s",
+"text": "Sparnai uždėti!"
+},
+{
+"id": 318,
+"kind": "s",
+"text": "Ore spausk Space vėl ir vėl"
+},
+{
+"id": 319,
+"kind": "s",
+"text": "Pistoletą jau turi"
+},
+{
+"id": 320,
+"kind": "s",
+"text": "Nueik į muziejų ir pašaudyk į lėkštę"
+},
+{
+"id": 321,
+"kind": "s",
+"text": "Išeik į lauką"
+},
+{
+"id": 322,
+"kind": "s",
+"text": "Pistoletas nukris šalia tavęs"
+},
+{
+"id": 323,
+"kind": "s",
+"text": "Slapta misija paruošta!"
+},
+{
+"id": 324,
+"kind": "s",
+"text": "Išeik iš muziejaus ir įeik vėl"
+},
+{
+"id": 325,
+"kind": "s",
+"text": "Įsakymas #9 paruoštas!"
+},
+{
+"id": 326,
+"kind": "s",
+"text": "Kūrėjo Salėje prieik prie laiko mašinos ir spausk E"
+},
+{
+"id": 327,
+"kind": "s",
+"text": "Įsakymas #10 paruoštas!"
+},
+{
+"id": 328,
+"kind": "s",
+"text": "Kūrėjo Salėje prie laiko mašinos spausk E ir rinkis ATEITĮ"
+},
+{
+"id": 329,
+"kind": "s",
+"text": "katės"
+},
+{
+"id": 330,
+"kind": "s",
+"text": "Įsakymas #11 paruoštas!"
+},
+{
+"id": 331,
+"kind": "s",
+"text": "Ieškok auksinių katinų – rodyklė parodys"
+},
+{
+"id": 332,
+"kind": "s",
+"text": "Įsakymas #12 paruoštas!"
+},
+{
+"id": 333,
+"kind": "s",
+"text": "Ritualų parduotuvė – miesto aikštėje"
+},
+{
+"id": 334,
+"kind": "s",
+"text": "Jis ant kelio prie miesto. Užvažiuok ant jo greitai su mašina"
+},
+{
+"id": 335,
+"kind": "s",
+"text": "žvaigždė"
+},
+{
+"id": 336,
+"kind": "s",
+"text": "kepurė"
+},
+{
+"id": 337,
+"kind": "s",
+"text": "ūkis"
+},
+{
+"id": 338,
+"kind": "s",
+"text": "jūra"
+},
+{
+"id": 339,
+"kind": "s",
+"text": "Jūrų planeta jau pereita"
+},
+{
+"id": 340,
+"kind": "s",
+"text": "Pakalbink Jūrų Dievą (E)"
+},
+{
+"id": 341,
+"kind": "s",
+"text": "Tu jau Saulėje!"
+},
+{
+"id": 342,
+"kind": "s",
+"text": "Bandymų pasaulis: visi Kūrėjo įsakymai įvykdyti!"
+},
+{
+"id": 343,
+"kind": "s",
+"text": "Prie miesto atsivėrė Jūros vartai – įvažiuok mašina (F)"
+},
+{
+"id": 344,
+"kind": "s",
+"text": "saulė"
+},
+{
+"id": 345,
+"kind": "s",
+"text": "Nežinoma komanda"
+},
+{
+"id": 346,
+"kind": "s",
+"text": "Bet prieš duodamas tau užduotis, turiu įsitikinti. Tai – išbandymas. Ar tikrai teisingai tave pasirinkau?"
+},
+{
+"id": 347,
+"kind": "s",
+"text": "Pirmasis įsakymas: IŠGELBĖK VIŠČIUKUS. Demono chaosas išsklaidė septynis mažus viščiukus po visą pasaulį – po vieną kiekviename biome."
+},
+{
+"id": 348,
+"kind": "s",
+"text": "Jų mama višta atbėgo čia, pas mane, ir verkia jau tris dienas. Surask visus septynis ir atnešk juos jai."
+},
+{
+"id": 349,
+"kind": "s",
+"text": "Nebijok – juos rasti lengva. Kiekvienas sėdi prie kelio, o virš jo į dangų šviečia geltonas šviesos stulpas."
+},
+{
+"id": 350,
+"kind": "s",
+"text": "Eik. Aš stebėsiu."
+},
+{
+"id": 351,
+"kind": "t",
+"text": "Višta vis dar laukia. Atnešei ${QUEST.delivered.length} iš 7 viščiukų."
+},
+{
+"id": 352,
+"kind": "s",
+"text": "Rodyklė ekrano viršuje parodys kelią iki artimiausio. Klausyk, kaip jie cypsi."
+},
+{
+"id": 353,
+"kind": "s",
+"text": "Visi septyni. Višta vėl laiminga, o aš… aš nusišypsojau pirmą kartą nuo tada, kai atėjo demonas."
+},
+{
+"id": 354,
+"kind": "s",
+"text": "Tu išlaikei išbandymą. Dabar žinau, kad pasirinkau teisingai."
+},
+{
+"id": 355,
+"kind": "s",
+"text": "Kitas įsakymas bus sunkesnis. Kai būsi pasiruošęs – grįžk."
+},
+{
+"id": 356,
+"kind": "t",
+"text": "Ateik po ${m} ${m === 1 ? 'minutės' : 'minučių'} – tada duosiu tau antrąjį įsakymą."
+},
+{
+"id": 357,
+"kind": "s",
+"text": "Įsakymas #2: Demono ragas"
+},
+{
+"id": 358,
+"kind": "s",
+"text": "Nueik prie raketos Begalinėje Dykumoje ir skrisk į Marsą"
+},
+{
+"id": 359,
+"kind": "s",
+"text": "Pradžios Miesto aikštėje"
+},
+{
+"id": 360,
+"kind": "s",
+"text": "prie kelio Dykumoje"
+},
+{
+"id": 361,
+"kind": "s",
+"text": "prie kelio Ledo Saloje"
+},
+{
+"id": 362,
+"kind": "s",
+"text": "prie kelio Grybų Karalystėje"
+},
+{
+"id": 363,
+"kind": "s",
+"text": "prie kelio Raudonojoje Dykumoje"
+},
+{
+"id": 364,
+"kind": "s",
+"text": "prie kelio Džiunglėse"
+},
+{
+"id": 365,
+"kind": "s",
+"text": "prie kelio Pikselių Pasaulyje"
+},
+{
+"id": 366,
+"kind": "s",
+"text": "Įsakymas #1: Išgelbėk viščiukus"
+},
+{
+"id": 367,
+"kind": "s",
+"text": "Surask 7 viščiukus – po vieną kiekviename biome – ir atnešk vištai čia, Kūrėjo Salėje"
+},
+{
+"id": 368,
+"kind": "t",
+"text": "Viščiukas rastas ${c.spot.where}!"
+},
+{
+"id": 369,
+"kind": "t",
+"text": "Jis seka paskui tave. Su tavimi: ${n}. Nuvesk juos vištai į Kūrėjo Salę (pro vartus aikštėje)"
+},
+{
+"id": 370,
+"kind": "s",
+"text": "Višta liūdi"
+},
+{
+"id": 371,
+"kind": "t",
+"text": "Atnešta ${QUEST.delivered.length} iš 7. Ieškok viščiukų biomuose"
+},
+{
+"id": 372,
+"kind": "s",
+"text": "Įsakymas įvykdytas!"
+},
+{
+"id": 373,
+"kind": "s",
+"text": "Visi 7 viščiukai pas mamą. Kūrėjas nori su tavimi pasikalbėti. Apdovanojimas: 150 €"
+},
+{
+"id": 374,
+"kind": "t",
+"text": "Atnešta ${QUEST.delivered.length} iš 7"
+},
+{
+"id": 375,
+"kind": "s",
+"text": "Višta laiminga! Bet dar trūksta "
+},
+{
+"id": 376,
+"kind": "t",
+"text": "${arrow}<div><div class=\"qt\">Įsakymas #1: Išgelbėk viščiukus</div><div class=\"qs\">Pas vištą: <b>${QUEST.delivered.length}/7</b> · seka paskui: <b>${fol}</b>${dist}</div></div>"
+},
+{
+"id": 377,
+"kind": "s",
+"text": "Grįžk į raketą ir skrisk namo"
+},
+{
+"id": 378,
+"kind": "s",
+"text": "Nugalėk dinozauriukus pilies kieme"
+},
+{
+"id": 379,
+"kind": "s",
+"text": "Tyliai paimk ragą drakono kambaryje"
+},
+{
+"id": 380,
+"kind": "s",
+"text": "Nunešk ragą į muziejų Pradžios Mieste"
+},
+{
+"id": 381,
+"kind": "s",
+"text": "Nueik prie raketos Begalinėje Dykumoje"
+},
+{
+"id": 382,
+"kind": "t",
+"text": "${arrow}<div><div class=\"qt\">Įsakymas #2: Demono ragas</div><div class=\"qs\">${step}${dist}</div></div>"
+},
+{
+"id": 383,
+"kind": "s",
+"text": "Surask Senąjį Vorą – eik tiesiai"
+},
+{
+"id": 384,
+"kind": "s",
+"text": "Nuvesk Voratinklę pas tėtį"
+},
+{
+"id": 385,
+"kind": "s",
+"text": "Surask Voratinklę – kairėje, giliausiame kampe"
+},
+{
+"id": 386,
+"kind": "s",
+"text": "Grįžk liftu aukštyn"
+},
+{
+"id": 387,
+"kind": "s",
+"text": "Leiskis liftu į požemius"
+},
+{
+"id": 388,
+"kind": "s",
+"text": "Išeik ir nunešk musę į muziejų"
+},
+{
+"id": 389,
+"kind": "s",
+"text": "Nunešk musę į muziejų Pradžios Mieste"
+},
+{
+"id": 390,
+"kind": "s",
+"text": "Užlipk ant Didžiojo Grybo – durys pačioje kepurėje"
+},
+{
+"id": 391,
+"kind": "t",
+"text": "${arrow}<div><div class=\"qt\">Įsakymas #3: Slaptas voras</div><div class=\"qs\">${step}${dist}</div></div>"
+},
+{
+"id": 392,
+"kind": "s",
+"text": "Atėjo laikas antrajam įsakymui: DEMONO RAGAS."
+},
+{
+"id": 393,
+"kind": "s",
+"text": "Paskutinėje mūšio su manimi akimirkoje demonas prarado vieną ragą. Jis nulūžo ir nukrito į Marsą – raudonąją planetą už burbulo."
+},
+{
+"id": 394,
+"kind": "s",
+"text": "Ten ragą rado drakono mama ir nusinešė į savo pilį. Pilį saugo jos vaikai – išdykę dinozauriukai."
+},
+{
+"id": 395,
+"kind": "s",
+"text": "Begalinėje Dykumoje stovi raketa. Ji nuskraidins tave į Marsą. Ten gausi lazerinį šautuvą – be jo dinozauriukų neįveiksi."
+},
+{
+"id": 396,
+"kind": "s",
+"text": "Nugalėk dinozauriukus, bet jokiu būdu NEPAŽADINK drakono mamos. Vaikščiok ramiai, nebėgiok, nešokinėk ir nešaudyk jos kambaryje."
+},
+{
+"id": 397,
+"kind": "s",
+"text": "Paimk ragą ir atnešk jį į muziejų Pradžios Mieste. Ten demonas jo nebeatgaus."
+},
+{
+"id": 398,
+"kind": "s",
+"text": "Ragas pas tave. Neškite jį į muziejų Pradžios Mieste – greičiau, kol demonas nepajuto."
+},
+{
+"id": 399,
+"kind": "s",
+"text": "Raketa laukia Begalinėje Dykumoje. Marse rasi pilį, dinozauriukus ir drakono mamą. Tyliai, mažasis."
+},
+{
+"id": 400,
+"kind": "s",
+"text": "Demono ragas saugiai muziejuje. Jaučiu, kaip demonas silpsta."
+},
+{
+"id": 401,
+"kind": "s",
+"text": "Tu drąsus ir protingas – ir neprižadinai drakono mamos. Retas sugebėtų."
+},
+{
+"id": 402,
+"kind": "s",
+"text": "Pailsėk. Kitas įsakymas jau bręsta."
+},
+{
+"id": 403,
+"kind": "s",
+"text": "apžiūrėti raketą"
+},
+{
+"id": 404,
+"kind": "s",
+"text": "Ragas jau pas tave! Neškite jį į muziejų Pradžios Mieste."
+},
+{
+"id": 405,
+"kind": "s",
+"text": "Raketa ilsisi. Marse viskas ramu – drakono mama vis dar miega."
+},
+{
+"id": 406,
+"kind": "s",
+"text": "Raketa paruošta, bet niekas nežino, kur skristi. Gal Kūrėjas žino daugiau?"
+},
+{
+"id": 407,
+"kind": "s",
+"text": "Skrendi į Marsą"
+},
+{
+"id": 408,
+"kind": "s",
+"text": "įeiti į muziejų"
+},
+{
+"id": 409,
+"kind": "s",
+"text": "Įsakymas #2 įvykdytas!"
+},
+{
+"id": 410,
+"kind": "s",
+"text": "Toli už burbulo. Čia stovi drakono pilis."
+},
+{
+"id": 411,
+"kind": "s",
+"text": "Gavai lazerinį šautuvą!"
+},
+{
+"id": 412,
+"kind": "s",
+"text": "Pelės mygtukais šauk į dinozauriukus. Pilis – tiesiai prieš tave"
+},
+{
+"id": 413,
+"kind": "s",
+"text": "Grįžai su ragu!"
+},
+{
+"id": 414,
+"kind": "s",
+"text": "Nunešk jį į muziejų Pradžios Mieste. Rodyklė parodys kelią"
+},
+{
+"id": 415,
+"kind": "s",
+"text": "Visi dinozauriukai nugalėti!"
+},
+{
+"id": 416,
+"kind": "s",
+"text": "Grotelės į drakono kambarį pakilo. Dabar – tyliai…"
+},
+{
+"id": 417,
+"kind": "s",
+"text": "Dinozauriukas nugalėtas!"
+},
+{
+"id": 418,
+"kind": "s",
+"text": "Ji išmetė tave lauk. Jos kambaryje elkis tyliau – nebėk, nešok, nešauk"
+},
+{
+"id": 419,
+"kind": "s",
+"text": "Dinozauriukai tave įveikė"
+},
+{
+"id": 420,
+"kind": "s",
+"text": "Pradedi iš naujo prie raketos. Nugalėti dinozauriukai liko nugalėti"
+},
+{
+"id": 421,
+"kind": "s",
+"text": "Paėmei demono ragą!"
+},
+{
+"id": 422,
+"kind": "s",
+"text": "Tyliai išeik, grįžk į raketą ir nunešk ragą į muziejų Pradžios Mieste"
+},
+{
+"id": 423,
+"kind": "t",
+"text": "<span>Dinozauriukų: <b>${left}</b></span>"
+},
+{
+"id": 424,
+"kind": "t",
+"text": "<span class=\"noise\">Triukšmas <span class=\"bar\"><i style=\"width:${M2.noise}%\"></i></span></span>"
+},
+{
+"id": 425,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti demono ragą"
+},
+{
+"id": 426,
+"kind": "s",
+"text": "Tyliai! Eik lėtai, nebėk ir nešok"
+},
+{
+"id": 427,
+"kind": "s",
+"text": "<kbd>LMB</kbd> šauti lazeriu"
+},
+{
+"id": 428,
+"kind": "s",
+"text": "Rasta Begalinėje Dykumoje, griuvėsių smėlyje. Ant jos išraižyti aštuoni spinduliai – tas pats ženklas kaip Pradžios Miesto aikštėje."
+},
+{
+"id": 429,
+"kind": "s",
+"text": "Moliniai indai iš oazių. Juose kadaise buvo laikomas vanduo, kuris niekada nešyla."
+},
+{
+"id": 430,
+"kind": "s",
+"text": "Amžinas ledo kubas"
+},
+{
+"id": 431,
+"kind": "s",
+"text": "Atgabentas iš Ledo Salos prieš šimtą metų. Jis vis dar netirpsta."
+},
+{
+"id": 432,
+"kind": "s",
+"text": "Pati pirmoji sniego gniūžtė, kurią kas nors kada nors metė. Taip teigia lentelė."
+},
+{
+"id": 433,
+"kind": "s",
+"text": "Grybų Karalystės grybas. Naktį jis tyliai dainuoja – sargai skundžiasi."
+},
+{
+"id": 434,
+"kind": "s",
+"text": "Spora iš Didžiojo Grybo. Ji šviečia jau trejus metus ir nesiruošia nustoti."
+},
+{
+"id": 435,
+"kind": "s",
+"text": "Milžino kaulas"
+},
+{
+"id": 436,
+"kind": "s",
+"text": "Rastas Raudonojoje Dykumoje, prie milžino griaučių. Per lygus, kad būtų tikras."
+},
+{
+"id": 437,
+"kind": "s",
+"text": "Akmuo iš Raudonosios Dykumos. Jei prikiši ausį, girdisi požeminė oazė."
+},
+{
+"id": 438,
+"kind": "s",
+"text": "Atneštas iš Džiunglių. Ant jo kažkas nupiešė veidą ir parašė „Vilius“."
+},
+{
+"id": 439,
+"kind": "s",
+"text": "Džiunglių bananai. Jie čia guli nuo atidarymo dienos ir vis dar geltoni. Keista."
+},
+{
+"id": 440,
+"kind": "s",
+"text": "Kubas iš Pikselių Pasaulio. Kartais jis pamiršta, kokios spalvos turėtų būti."
+},
+{
+"id": 441,
+"kind": "s",
+"text": "Rasta prie pikselių vartų. Mokslininkai mano, kad tai nebaigto pasaulio dalis."
+},
+{
+"id": 442,
+"kind": "s",
+"text": "Nukrito ant Pradžios Miesto per demono chaosą. Vis dar šiltas."
+},
+{
+"id": 443,
+"kind": "s",
+"text": "Dinozauriuko kiaušinis"
+},
+{
+"id": 444,
+"kind": "s",
+"text": "Atgabentas iš Marso. Kartais jis pasijuda. Prašome nebelsti į stiklą."
+},
+{
+"id": 445,
+"kind": "s",
+"text": "Viščiuko plunksna"
+},
+{
+"id": 446,
+"kind": "s",
+"text": "Dovana nuo vištos iš Kūrėjo Salės – už tai, kad kažkas išgelbėjo jos vaikus."
+},
+{
+"id": 447,
+"kind": "s",
+"text": "LAUKIAMA RADINIŲ"
+},
+{
+"id": 448,
+"kind": "s",
+"text": "TUŠČIA"
+},
+{
+"id": 449,
+"kind": "s",
+"text": "Tuščias stendas Nr. "
+},
+{
+"id": 450,
+"kind": "s",
+"text": "Čia dar nieko nėra. Lentelė sako: „Šią vietą užims radinys, kurį atneš drąsus keliautojas.“ Gal tai būsi tu?"
+},
+{
+"id": 451,
+"kind": "s",
+"text": "Nulūžęs demono ragas. Atrastas Marse, drakono mamos pilyje, ir atneštas mažo žalio žmogeliuko. Be jo demonas silpnesnis."
+},
+{
+"id": 452,
+"kind": "s",
+"text": "Pagrindinė muziejaus vieta dar tuščia. Lentelė sako: „Čia stovės Demono ragas.“"
+},
+{
+"id": 453,
+"kind": "s",
+"text": "Dešinėje – 15 pasaulio lobių. Kairėje – 15 tuščių vietų būsimiems radiniams."
+},
+{
+"id": 454,
+"kind": "s",
+"text": "Sveikas atvykęs į muziejų!"
+},
+{
+"id": 455,
+"kind": "s",
+"text": "Prieik prie eksponato ir spausk E, kad paskaitytum"
+},
+{
+"id": 456,
+"kind": "s",
+"text": "<kbd>E</kbd> išeiti į miestą"
+},
+{
+"id": 457,
+"kind": "t",
+"text": "<kbd>E</kbd> apžiūrėti: ${sp2.name}"
+},
+{
+"id": 458,
+"kind": "s",
+"text": "Musė voratinklyje"
+},
+{
+"id": 459,
+"kind": "s",
+"text": "Senojo Voro dovana iš požemių po Didžiuoju Grybu – už tai, kad jo dukra Voratinklė vėl namie. Vorų pasaulyje tai didžiausias lobis."
+},
+{
+"id": 460,
+"kind": "s",
+"text": "Mamos Saulutės ragas iš Saldainių Pasaulio. Nulūžo, kai pro šalį praskrido demonas. Jo spalvos niekada neužgęsta – sako, kad naktį jis tyliai dainuoja vienaragių lopšinę."
+},
+{
+"id": 461,
+"kind": "s",
+"text": "Stebuklingas debesėlis"
+},
+{
+"id": 462,
+"kind": "s",
+"text": "Debesų Karaliaus dovana už sugrąžintą sūnų. Niekada neištirpsta ir niekada nelyja – tik kartais tyliai pasninga ant stiklo."
+},
+{
+"id": 463,
+"kind": "s",
+"text": "Laiko mašinos kopija"
+},
+{
+"id": 464,
+"kind": "s",
+"text": "Maža tikros laiko mašinos kopija. Tikroji stovi Kūrėjo Salėje. Pastatyta iš dešimties raudono metalo gabalų, kuriuos padovanojo pasaulio gyventojai, ir Kūrėjo kompiuterio."
+},
+{
+"id": 465,
+"kind": "s",
+"text": "Urvinių karaliaus karūna"
+},
+{
+"id": 466,
+"kind": "s",
+"text": "Karaliaus Ugabugo karūna iš laikų prieš 100 000 metų: auksas, spalvoti akmenukai ir mamuto dantis. Ją gavo karaliaus padėjėjas – mažas žalias žmogeliukas, kuris iškepė žuvį, surinko 20 kriauklių ir pagavo išprotėjusį cirko tigrą."
+},
+{
+"id": 467,
+"kind": "s",
+"text": "Pirmasis auksinis krepšinio kamuolys"
+},
+{
+"id": 468,
+"kind": "s",
+"text": "Pirmasis pasaulio auksinis krepšinio kamuolys. Ateityje jį pavogė ir paslėpė Vagių banke – už lazerių, sargybinių robotų, seifo su slaptu kodu ir dar slaptos sienos. Parneštas laiko mašina."
+},
+{
+"id": 469,
+"kind": "s",
+"text": "Auksinė mojuojanti katė"
+},
+{
+"id": 470,
+"kind": "s",
+"text": "Viena iš dešimties auksinių laimės kačių. Penkias parnešei rankomis, keturias milžiniškas – traktoriumi, o paskutinę gavai iš miestiečio. Ji moja letenėle visiems muziejaus lankytojams."
+},
+{
+"id": 471,
+"kind": "s",
+"text": "Demono lazda. Ji iškilo iš Demonų ežero Pikselių Pasaulyje, kai demonas pagaliau mirė. Dvasios sprogimas buvo toks stiprus, kad susprogdino šešis tuščius muziejaus stendus. Nuo tos dienos pasaulyje nebėra chaoso."
+},
+{
+"id": 472,
+"kind": "s",
+"text": "Žvaigždė iš kosmoso"
+},
+{
+"id": 473,
+"kind": "s",
+"text": "Tikra žvaigždė iš kosmoso, už burbulo. Ją parnešė mažas žalias žmogeliukas, kuris užvažiavo ant kosminio tramplino ir nušoko iki jos per asteroidus. Ji šypsosi ir naktį apšviečia visą muziejų. Tai paskutinis muziejaus radinys."
+},
+{
+"id": 474,
+"kind": "s",
+"text": "Šį tuščią stendą susprogdino demono dvasios sprogimas. Lentelė apdegusi, bet dar galima perskaityti: „Čia galėjo būti radinys.“"
+},
+{
+"id": 475,
+"kind": "s",
+"text": "Naujas įsakymas #3: Slaptas voras"
+},
+{
+"id": 476,
+"kind": "s",
+"text": "Užlipk ant Didžiojo Grybo Grybų Karalystėje – pačioje jo kepurėje kažkas gyvena"
+},
+{
+"id": 477,
+"kind": "s",
+"text": "Grybų Karalystėje, pačioje Didžiojo Grybo kepurėje, įrengtas slaptas namelis. Jame – paslaptis."
+},
+{
+"id": 478,
+"kind": "s",
+"text": "Po žeme gyvena milžiniškas voras. Jo dukra pasiklydo urvuose. Padėk jam."
+},
+{
+"id": 479,
+"kind": "s",
+"text": "Voras tau padovanojo musę voratinklyje? Nunešk ją į muziejų – ten dar daug tuščių vietų."
+},
+{
+"id": 480,
+"kind": "s",
+"text": "Voras ir jo dukra vėl kartu, o muziejuje – naujas eksponatas. Ačiū tau, mažasis."
+},
+{
+"id": 481,
+"kind": "s",
+"text": "Durys grybo kepurėje"
+},
+{
+"id": 482,
+"kind": "s",
+"text": "įeiti į namelį grybo kepurėje"
+},
+{
+"id": 483,
+"kind": "s",
+"text": "Namelis grybo kepurėje"
+},
+{
+"id": 484,
+"kind": "s",
+"text": "Jauku ir keista. Kažkas čia gyvena… ar gyveno?"
+},
+{
+"id": 485,
+"kind": "s",
+"text": "Kampe stovi liftas į požemius – užlipk ant jo ir spausk E"
+},
+{
+"id": 486,
+"kind": "s",
+"text": "<kbd>E</kbd> išeiti"
+},
+{
+"id": 487,
+"kind": "s",
+"text": "<kbd>E</kbd> leistis liftu į požemius"
+},
+{
+"id": 488,
+"kind": "s",
+"text": "LIFTAS AUKŠTYN"
+},
+{
+"id": 489,
+"kind": "s",
+"text": "Požemiai"
+},
+{
+"id": 490,
+"kind": "s",
+"text": "Po Didžiuoju Grybu"
+},
+{
+"id": 491,
+"kind": "s",
+"text": "Tamsu, šviečia grybai, visur voratinkliai."
+},
+{
+"id": 492,
+"kind": "s",
+"text": "Požemiai po Didžiuoju Grybu"
+},
+{
+"id": 493,
+"kind": "s",
+"text": "Kažkas didelis kvėpuoja tamsoje… Eik tiesiai"
+},
+{
+"id": 494,
+"kind": "s",
+"text": "Liftas grąžino tave atgal į namelį."
+},
+{
+"id": 495,
+"kind": "s",
+"text": "Turi musę voratinklyje!"
+},
+{
+"id": 496,
+"kind": "s",
+"text": "Išeik iš namelio ir nunešk ją į muziejų Pradžios Mieste"
+},
+{
+"id": 497,
+"kind": "s",
+"text": "Ššš… Neišsigąsk, mažas žaliasis. Aš – Senasis Voras. Kūrėjas sakė, kad tu ateisi."
+},
+{
+"id": 498,
+"kind": "s",
+"text": "Mano dukrelė Voratinklė išėjo pažaisti urvuose ir… pasiklydo. Girdžiu ją verkiant, bet mano kojos per senos ilgiems tuneliams."
+},
+{
+"id": 499,
+"kind": "s",
+"text": "Ji nedidukė – na, didesnė už tave, bet vis tiek mažylė. Surask ją ir pasakyk, kad eitų paskui tave. Ji tavęs paklausys."
+},
+{
+"id": 500,
+"kind": "s",
+"text": "Ji turėtų būti kažkur kairėje, giliausiame urvo kampe. Klausyk, kaip ji verkia."
+},
+{
+"id": 501,
+"kind": "s",
+"text": "Dar nerandi? Ji kairėje, giliausiame kampe. Klausyk verkimo."
+},
+{
+"id": 502,
+"kind": "s",
+"text": "Voratinkle! Mano mažyte! Kaip aš jaudinausi!"
+},
+{
+"id": 503,
+"kind": "s",
+"text": "Ačiū tau, mažasis žaliasis. Neturiu daug, bet turiu tai, ką voras brangina labiausiai…"
+},
+{
+"id": 504,
+"kind": "s",
+"text": "Štai – musė mano geriausiame voratinklyje. Tikras lobis. Nunešk ją į muziejų, tegul visi mato, kad vorai irgi geri."
+},
+{
+"id": 505,
+"kind": "s",
+"text": "Surask voro dukrą Voratinklę"
+},
+{
+"id": 506,
+"kind": "s",
+"text": "Ji kažkur kairėje, giliausiame urvų kampe"
+},
+{
+"id": 507,
+"kind": "s",
+"text": "Mudu su Voratinkle tau visada būsim dėkingi. Užsuk kada nors – arbatos su musėmis."
+},
+{
+"id": 508,
+"kind": "s",
+"text": "Voratinklė"
+},
+{
+"id": 509,
+"kind": "s",
+"text": "Ui! Kas tu? …Tave atsiuntė tėtis?"
+}
+]

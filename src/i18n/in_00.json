@@ -1,0 +1,1547 @@
+[
+{
+"id": 0,
+"kind": "s",
+"text": "Pradžios Miestas"
+},
+{
+"id": 1,
+"kind": "s",
+"text": "Spalvinga, linksma ir gyva."
+},
+{
+"id": 2,
+"kind": "s",
+"text": "Pagrindinis kelionių ir pasaulio tyrinėjimo centras."
+},
+{
+"id": 3,
+"kind": "s",
+"text": "Begalinė Dykuma"
+},
+{
+"id": 4,
+"kind": "s",
+"text": "Karšta, sausa ir paslaptinga."
+},
+{
+"id": 5,
+"kind": "s",
+"text": "Nuolat judančios smėlio kopos ir paslėpti griuvėsiai."
+},
+{
+"id": 6,
+"kind": "s",
+"text": "Šalta, rami ir paslaptinga."
+},
+{
+"id": 7,
+"kind": "s",
+"text": "Milžiniški ledo urvai ir paslaptingas pasaulis po ledu."
+},
+{
+"id": 8,
+"kind": "s",
+"text": "Grybų Karalystė"
+},
+{
+"id": 9,
+"kind": "s",
+"text": "Spalvinga, linksma ir keista."
+},
+{
+"id": 10,
+"kind": "s",
+"text": "Milžiniški grybai sudaro beveik visą kraštovaizdį."
+},
+{
+"id": 11,
+"kind": "s",
+"text": "Sausa, laukinė ir paslaptinga."
+},
+{
+"id": 12,
+"kind": "s",
+"text": "Raudonas smėlis ir didžiulės požeminės oazės."
+},
+{
+"id": 13,
+"kind": "s",
+"text": "Džiunglės"
+},
+{
+"id": 14,
+"kind": "s",
+"text": "Laukinė, drėgna ir gyvybinga."
+},
+{
+"id": 15,
+"kind": "s",
+"text": "Tanki augmenija, paslaptingos šventyklos ir daugybė gyvybės."
+},
+{
+"id": 16,
+"kind": "s",
+"text": "Pikselių Pasaulis"
+},
+{
+"id": 17,
+"kind": "s",
+"text": "Linksma, keista ir nenuspėjama."
+},
+{
+"id": 18,
+"kind": "s",
+"text": "Viskas sudaryta iš pikselių, o fizika čia keista."
+},
+{
+"id": 19,
+"kind": "s",
+"text": "Kūrėjo Salė"
+},
+{
+"id": 20,
+"kind": "s",
+"text": "Mistinė, didinga ir nepaaiškinama."
+},
+{
+"id": 21,
+"kind": "s",
+"text": "Pasaulio centras ir didžiausia jo paslaptis."
+},
+{
+"id": 22,
+"kind": "t",
+"text": "uniform vec3 uTop,uHor,uUp,uCam,uSun; uniform float uTime; varying vec3 vW;\n  void main(){ vec3 v=normalize(vW-uCam); vec3 n=normalize(vW);\n    float e=dot(v,uUp);\n    vec3 zen=uTop*0.78;\n    vec3 col=mix(uHor,zen,pow(smoothstep(-0.02,0.9,e),0.7));\n    col=mix(col,uHor*1.06,exp(-max(e,0.)*9.)*0.6);\n    float s=max(dot(v,uSun),0.);\n    col+=vec3(1.,.93,.78)*(pow(s,900.)*7.+pow(s,60.)*.35+pow(s,8.)*.12);\n    float f=pow(1.0-abs(dot(v,n)),3.);\n    vec3 ir=0.5+0.5*cos(6.2831*(f*1.3+dot(n,vec3(.3,.5,.2))*0.6+vec3(0.,.33,.67))+uTime*0.2);\n    col=mix(col,ir,clamp(f*0.25,0.,0.22));\n    gl_FragColor=vec4(col,1.); }"
+},
+{
+"id": 23,
+"kind": "s",
+"text": "Kūrėjo vartai"
+},
+{
+"id": 24,
+"kind": "s",
+"text": "Seni ženklai"
+},
+{
+"id": 25,
+"kind": "s",
+"text": "Aikštės grindinyje iškalti septyni švytintys simboliai. Kiekvienas rodo į skirtingą pasaulio pusę, o aštuntojo vietoje – tuščia dėmė. Kažkas jį ištrynė."
+},
+{
+"id": 26,
+"kind": "s",
+"text": "Seni griuvėsiai"
+},
+{
+"id": 27,
+"kind": "s",
+"text": "Smėlio nugairintos kolonos. Ant vienos išraižytas tas pats simbolis, kurį matei Pradžios Mieste. Kažkas čia buvo seniai prieš miestą."
+},
+{
+"id": 28,
+"kind": "s",
+"text": "Niekas nežino, kas pastatė šiuos vartus ir kur jie veda. Pro juos pučia vėjas, nors kitoje pusėje vėjo nėra. Kartais tarp kolonų sužiba mėlyna šviesa."
+},
+{
+"id": 29,
+"kind": "s",
+"text": "Oazė"
+},
+{
+"id": 30,
+"kind": "s",
+"text": "Mažas vandens telkinys tarp palmių. Vanduo šaltas, nors aplink karšta. Panašu, kad jis ateina iš labai giliai."
+},
+{
+"id": 31,
+"kind": "s",
+"text": "Požeminis tunelis"
+},
+{
+"id": 32,
+"kind": "s",
+"text": "Tamsus įėjimas po smėliu. Iš gilumos sklinda tylus ūžimas, lyg kažkas po žeme kvėpuotų."
+},
+{
+"id": 33,
+"kind": "s",
+"text": "Viduje stovi stalas su dviem puodeliais. Arbata seniai užšalusi. Atrodo, kad gyventojai išėjo labai skubėdami."
+},
+{
+"id": 34,
+"kind": "s",
+"text": "Milžiniškas ledo urvas. Sienos permatomos, o giliai jose sustingę burbulai, panašūs į mažus pasaulius. Gal tai kiti burbulai, kaip tavasis?"
+},
+{
+"id": 35,
+"kind": "s",
+"text": "Šešėlis po ledu"
+},
+{
+"id": 36,
+"kind": "s",
+"text": "Po vandeniu lėtai plaukia kažkas didelio. Kai pasilenki arčiau, šešėlis sustoja, lyg klausytųsi. Tada nuplaukia toliau."
+},
+{
+"id": 37,
+"kind": "s",
+"text": "Šio biomo širdis. Jo kepurė šviečia tuo ryškiau, kuo daugiau sporų aplink. Aplink kamieną spirale kyla lentyniniai grybai – galima užlipti iki pat viršaus."
+},
+{
+"id": 38,
+"kind": "s",
+"text": "Kaulų statinys"
+},
+{
+"id": 39,
+"kind": "s",
+"text": "Milžiniški kaulai, išsikišę iš raudono smėlio. Bet jie per lygūs ir per tvarkingi – lyg kažkas juos ne užkasė, o pastatė."
+},
+{
+"id": 40,
+"kind": "s",
+"text": "Požeminė oazė"
+},
+{
+"id": 41,
+"kind": "s",
+"text": "Pro plyšį matosi žalia šviesa. Po raudonu smėliu – didžiulis vandens ežeras, o aplink jį auga augalai, kurie šviečia patys."
+},
+{
+"id": 42,
+"kind": "s",
+"text": "Senovinė šventykla"
+},
+{
+"id": 43,
+"kind": "s",
+"text": "Akmeninė šventykla, kurią beveik prarijo džiunglės. Viršuje – tamsus įėjimas, o ant sienų tas pats aštuonių spindulių ženklas. Šventykla seniai laukia, kol kas nors užlips."
+},
+{
+"id": 44,
+"kind": "s",
+"text": "Šventyklos viršūnė"
+},
+{
+"id": 45,
+"kind": "s",
+"text": "Tamsoje matosi piešinys: mažas žalias žmogeliukas stovi priešais didžiulę šviesą. Ar tai tu?"
+},
+{
+"id": 46,
+"kind": "s",
+"text": "Paslėptas krioklys"
+},
+{
+"id": 47,
+"kind": "s",
+"text": "Vanduo krenta iš niekur – uolos viršuje nėra jokios upės. Už vandens sienos girdisi tylus dūzgimas."
+},
+{
+"id": 48,
+"kind": "s",
+"text": "Plūduriuojantys akmenys"
+},
+{
+"id": 49,
+"kind": "s",
+"text": "Akmenys kabo ore ir šiek tiek siūbuoja. Fizika čia keista: gali užlipti jais kaip laiptais."
+},
+{
+"id": 50,
+"kind": "s",
+"text": "Vanduo, tekantis į viršų"
+},
+{
+"id": 51,
+"kind": "s",
+"text": "Kvadratiniai vandens lašai kyla aukštyn ir dingsta ore. Kažkur viršuje turbūt yra kitas ežeras – apverstas."
+},
+{
+"id": 52,
+"kind": "s",
+"text": "Kelias niekada nebūna toje pačioje vietoje. Plytelės šokinėja iš vienos pusės į kitą, lyg nežinotų, kur turėtų vesti."
+},
+{
+"id": 53,
+"kind": "s",
+"text": "Pikselių vartai"
+},
+{
+"id": 54,
+"kind": "s",
+"text": "Vartai į nebaigtą pasaulio vietą. Viduje mirga juodi ir rožiniai kvadratai – tekstūros dar neužkrautos. Tai vieta, kurios Kūrėjas dar nespėjo pabaigti."
+},
+{
+"id": 55,
+"kind": "s",
+"text": "Dėžė"
+},
+{
+"id": 56,
+"kind": "s",
+"text": "Statinė"
+},
+{
+"id": 57,
+"kind": "s",
+"text": "Žuvis"
+},
+{
+"id": 58,
+"kind": "s",
+"text": "Senovinė moneta"
+},
+{
+"id": 59,
+"kind": "s",
+"text": "Sniego gniūžtė"
+},
+{
+"id": 60,
+"kind": "s",
+"text": "Mažas grybas"
+},
+{
+"id": 61,
+"kind": "s",
+"text": "Šviečianti spora"
+},
+{
+"id": 62,
+"kind": "s",
+"text": "Bananų kekė"
+},
+{
+"id": 63,
+"kind": "s",
+"text": "Pikselių kubas"
+},
+{
+"id": 64,
+"kind": "s",
+"text": "Pikselių širdelė"
+},
+{
+"id": 65,
+"kind": "s",
+"text": "Kažkas krenta iš burbulo viršaus"
+},
+{
+"id": 66,
+"kind": "s",
+"text": "Milžiniška spurga"
+},
+{
+"id": 67,
+"kind": "s",
+"text": "Milžiniška kėdė"
+},
+{
+"id": 68,
+"kind": "s",
+"text": "Milžiniškas kamuolys"
+},
+{
+"id": 69,
+"kind": "s",
+"text": "Milžiniškas puodelis"
+},
+{
+"id": 70,
+"kind": "s",
+"text": "Milžiniška guminė antis"
+},
+{
+"id": 71,
+"kind": "s",
+"text": "Skrenda per dangų… ir krenta"
+},
+{
+"id": 72,
+"kind": "s",
+"text": "Milžinų ataka!"
+},
+{
+"id": 73,
+"kind": "s",
+"text": "Žemė dreba. Laikykis atokiau nuo jo kojų."
+},
+{
+"id": 74,
+"kind": "s",
+"text": "Daiktų lietus!"
+},
+{
+"id": 75,
+"kind": "s",
+"text": "Iš dangaus krenta visokie daiktai"
+},
+{
+"id": 76,
+"kind": "s",
+"text": "Garsas: išj. (M)"
+},
+{
+"id": 77,
+"kind": "s",
+"text": "Garsas: įj. (M)"
+},
+{
+"id": 78,
+"kind": "s",
+"text": "Mažas namelis"
+},
+{
+"id": 79,
+"kind": "s",
+"text": "Jaukus namelis su raudonu stogu."
+},
+{
+"id": 80,
+"kind": "s",
+"text": "Medinė trobelė"
+},
+{
+"id": 81,
+"kind": "s",
+"text": "Rąstų trobelė su kaminu."
+},
+{
+"id": 82,
+"kind": "s",
+"text": "Bokštelis"
+},
+{
+"id": 83,
+"kind": "s",
+"text": "Aukštas siauras bokštas su smailia viršūne."
+},
+{
+"id": 84,
+"kind": "s",
+"text": "Baltos sienos ir didžiulė dėmėta kepurė."
+},
+{
+"id": 85,
+"kind": "s",
+"text": "Sniego namelis. Viduje stebėtinai šilta."
+},
+{
+"id": 86,
+"kind": "s",
+"text": "Pikselių namas"
+},
+{
+"id": 87,
+"kind": "s",
+"text": "Kvadratinis ir spalvotas, kaip iš Pikselių Pasaulio."
+},
+{
+"id": 88,
+"kind": "s",
+"text": "Didelis namas su kolonomis prie įėjimo."
+},
+{
+"id": 89,
+"kind": "s",
+"text": "Palapinė"
+},
+{
+"id": 90,
+"kind": "s",
+"text": "Lengva, greitai pastatoma ir labai žalia."
+},
+{
+"id": 91,
+"kind": "s",
+"text": "Neužtenka pinigų"
+},
+{
+"id": 92,
+"kind": "t",
+"text": "Kainuoja ${v} €, o tu turi ${money} €. Užsidirbk restorane „Skanus maistas“"
+},
+{
+"id": 93,
+"kind": "s",
+"text": "Jau turi"
+},
+{
+"id": 94,
+"kind": "s",
+"text": "NAMŲ KIOSKAS"
+},
+{
+"id": 95,
+"kind": "s",
+"text": "Namų kioskas"
+},
+{
+"id": 96,
+"kind": "s",
+"text": "atidaryti namų kioską"
+},
+{
+"id": 97,
+"kind": "t",
+"text": "Jau pastatei: ${myHouses.length}"
+},
+{
+"id": 98,
+"kind": "s",
+"text": "Dar neturi nė vieno namo"
+},
+{
+"id": 99,
+"kind": "s",
+"text": "Pasirink vietą ir spausk kairį pelės mygtuką. Pinigai nuskaičiuojami, kai pastatai"
+},
+{
+"id": 100,
+"kind": "s",
+"text": "Statymas atšauktas"
+},
+{
+"id": 101,
+"kind": "s",
+"text": "Namą gali vėl pasiimti kioske"
+},
+{
+"id": 102,
+"kind": "s",
+"text": "Čia per šlapia – namas negali stovėti vandenyje."
+},
+{
+"id": 103,
+"kind": "s",
+"text": "Per statu. Ieškok lygesnės vietos."
+},
+{
+"id": 104,
+"kind": "s",
+"text": "Aikštė turi likti laisva visiems."
+},
+{
+"id": 105,
+"kind": "s",
+"text": "Kažkas trukdo – per arti kito objekto."
+},
+{
+"id": 106,
+"kind": "s",
+"text": "Čia pastatyti negalima"
+},
+{
+"id": 107,
+"kind": "t",
+"text": "${spec.name} dabar tavo (−${price} €). Prieik prie durų ir spausk E, kad įeitum"
+},
+{
+"id": 108,
+"kind": "s",
+"text": "Kioske visada gali pasiimti naują"
+},
+{
+"id": 109,
+"kind": "s",
+"text": "įeiti į namą"
+},
+{
+"id": 110,
+"kind": "s",
+"text": "Šviesus medis"
+},
+{
+"id": 111,
+"kind": "s",
+"text": "Plytelės"
+},
+{
+"id": 112,
+"kind": "s",
+"text": "Mėlynas kilimas"
+},
+{
+"id": 113,
+"kind": "s",
+"text": "Rožinis kilimas"
+},
+{
+"id": 114,
+"kind": "s",
+"text": "Žolė"
+},
+{
+"id": 115,
+"kind": "s",
+"text": "Čia galima miegoti."
+},
+{
+"id": 116,
+"kind": "s",
+"text": "Minkšta ir patogi."
+},
+{
+"id": 117,
+"kind": "s",
+"text": "Pietums ir žaidimams."
+},
+{
+"id": 118,
+"kind": "s",
+"text": "Kėdė"
+},
+{
+"id": 119,
+"kind": "s",
+"text": "Prisėsk."
+},
+{
+"id": 120,
+"kind": "s",
+"text": "Rūbams, kurių dar neturi."
+},
+{
+"id": 121,
+"kind": "s",
+"text": "Knygų lentyna"
+},
+{
+"id": 122,
+"kind": "s",
+"text": "Pilna istorijų apie burbulą."
+},
+{
+"id": 123,
+"kind": "s",
+"text": "Toršeras"
+},
+{
+"id": 124,
+"kind": "s",
+"text": "Šilta šviesa vakarams."
+},
+{
+"id": 125,
+"kind": "s",
+"text": "Žalia draugė, kuri nieko nesako."
+},
+{
+"id": 126,
+"kind": "s",
+"text": "Rodo tik vieną kanalą – spalvas."
+},
+{
+"id": 127,
+"kind": "s",
+"text": "Šaldytuvas"
+},
+{
+"id": 128,
+"kind": "s",
+"text": "Viduje – sniego gniūžtė iš Ledo Salos."
+},
+{
+"id": 129,
+"kind": "s",
+"text": "Žuvytės plaukioja ratu ir neskuba."
+},
+{
+"id": 130,
+"kind": "s",
+"text": "Židinys"
+},
+{
+"id": 131,
+"kind": "s",
+"text": "Traška ir šildo."
+},
+{
+"id": 132,
+"kind": "s",
+"text": "Pliušinė kiaulė"
+},
+{
+"id": 133,
+"kind": "s",
+"text": "Minkšta kopija tavo kiaulės."
+},
+{
+"id": 134,
+"kind": "s",
+"text": "Mirga kaip Pikselių Pasaulyje."
+},
+{
+"id": 135,
+"kind": "s",
+"text": "Tavo kelionės paveikslas ant molberto."
+},
+{
+"id": 136,
+"kind": "s",
+"text": "Tavo namai. B – įrengti, prie lovos E – miegoti"
+},
+{
+"id": 137,
+"kind": "s",
+"text": "Tavo namai"
+},
+{
+"id": 138,
+"kind": "s",
+"text": "Jauku, tylu ir saugu. Chaosas čia neateina."
+},
+{
+"id": 139,
+"kind": "s",
+"text": "Spausk E, kad pabustum"
+},
+{
+"id": 140,
+"kind": "s",
+"text": "Labas rytas!"
+},
+{
+"id": 141,
+"kind": "s",
+"text": "Išsimiegojai. Chaosas minutę leis pailsėti"
+},
+{
+"id": 142,
+"kind": "t",
+"text": "<button class=\"sw\" data-i=\"${i}\" style=\"background:#${new THREE.Color(c).getHexString()}\" aria-label=\"Sienų spalva ${i + 1}\"></button>"
+},
+{
+"id": 143,
+"kind": "t",
+"text": "Baldų name: ${homeRec.furn.length}"
+},
+{
+"id": 144,
+"kind": "s",
+"text": "Netelpa – per arti sienos."
+},
+{
+"id": 145,
+"kind": "s",
+"text": "Neužstatyk durų."
+},
+{
+"id": 146,
+"kind": "s",
+"text": "Čia jau stovi "
+},
+{
+"id": 147,
+"kind": "s",
+"text": "Čia padėti negalima"
+},
+{
+"id": 148,
+"kind": "s",
+"text": " padėta"
+},
+{
+"id": 149,
+"kind": "s",
+"text": "B – dar baldų, X prie baldo – pasiimti atgal"
+},
+{
+"id": 150,
+"kind": "s",
+"text": "Gali ją vėl pasidėti per B meniu"
+},
+{
+"id": 151,
+"kind": "s",
+"text": "<kbd>LMB</kbd> padėti · <kbd>Q</kbd> / ratukas – sukti · <kbd>RMB</kbd> atšaukti"
+},
+{
+"id": 152,
+"kind": "s",
+"text": "<kbd>E</kbd> išeiti į lauką · <kbd>B</kbd> įrengti namą"
+},
+{
+"id": 153,
+"kind": "s",
+"text": "<kbd>E</kbd> miegoti · <kbd>X</kbd> pasiimti lovą · <kbd>B</kbd> įrengti"
+},
+{
+"id": 154,
+"kind": "t",
+"text": "<kbd>X</kbd> pasiimti: ${furnDef(nf.t).name} · <kbd>B</kbd> įrengti"
+},
+{
+"id": 155,
+"kind": "s",
+"text": "<kbd>B</kbd> įrengti namą"
+},
+{
+"id": 156,
+"kind": "s",
+"text": "Šuo, kuris kažkodėl per ilgas."
+},
+{
+"id": 157,
+"kind": "s",
+"text": "Dešrelė"
+},
+{
+"id": 158,
+"kind": "s",
+"text": "Bandelė"
+},
+{
+"id": 159,
+"kind": "s",
+"text": "Labai apvalus katinas su labai mažomis kojytėmis."
+},
+{
+"id": 160,
+"kind": "s",
+"text": "Karvė"
+},
+{
+"id": 161,
+"kind": "s",
+"text": "Tikra karvė, tik galva gerokai per didelė."
+},
+{
+"id": 162,
+"kind": "s",
+"text": "Mūūū"
+},
+{
+"id": 163,
+"kind": "s",
+"text": "Mū?"
+},
+{
+"id": 164,
+"kind": "s",
+"text": "Mūūūūū"
+},
+{
+"id": 165,
+"kind": "s",
+"text": "Pienė"
+},
+{
+"id": 166,
+"kind": "s",
+"text": "Galvutė"
+},
+{
+"id": 167,
+"kind": "s",
+"text": "Mūčia"
+},
+{
+"id": 168,
+"kind": "s",
+"text": "Debesis su kojomis. Bet tikrai avis."
+},
+{
+"id": 169,
+"kind": "s",
+"text": "Bėėė"
+},
+{
+"id": 170,
+"kind": "s",
+"text": "Bė?"
+},
+{
+"id": 171,
+"kind": "s",
+"text": "Bėėėėė"
+},
+{
+"id": 172,
+"kind": "s",
+"text": "Debesėlis"
+},
+{
+"id": 173,
+"kind": "s",
+"text": "Vatelė"
+},
+{
+"id": 174,
+"kind": "s",
+"text": "Žirafa"
+},
+{
+"id": 175,
+"kind": "s",
+"text": "Kaklas toks ilgas, kad kartais pasiklysta debesyse."
+},
+{
+"id": 176,
+"kind": "s",
+"text": "Bokštas"
+},
+{
+"id": 177,
+"kind": "s",
+"text": "Ilgšė"
+},
+{
+"id": 178,
+"kind": "s",
+"text": "Vaikšto lyg būtų apsirengęs per ankštą frakà."
+},
+{
+"id": 179,
+"kind": "s",
+"text": "Varlė"
+},
+{
+"id": 180,
+"kind": "s",
+"text": "Akys didesnės už visą likusią varlę."
+},
+{
+"id": 181,
+"kind": "s",
+"text": "Šokinėlis"
+},
+{
+"id": 182,
+"kind": "s",
+"text": "Mažytis dramblys su milžiniškomis ausimis."
+},
+{
+"id": 183,
+"kind": "s",
+"text": "Tru-tū!"
+},
+{
+"id": 184,
+"kind": "s",
+"text": "Tūūū!"
+},
+{
+"id": 185,
+"kind": "s",
+"text": "Mažylis"
+},
+{
+"id": 186,
+"kind": "s",
+"text": "Višta"
+},
+{
+"id": 187,
+"kind": "s",
+"text": "Bėga labai greitai, bet niekada nežino kur."
+},
+{
+"id": 188,
+"kind": "s",
+"text": "Kudakūū!"
+},
+{
+"id": 189,
+"kind": "s",
+"text": "Kudakė"
+},
+{
+"id": 190,
+"kind": "s",
+"text": "Stovi ant vienos kojos ir labai tuo didžiuojasi."
+},
+{
+"id": 191,
+"kind": "s",
+"text": "Rožytė"
+},
+{
+"id": 192,
+"kind": "s",
+"text": "Žalia galva, oranžinės kojos ir labai rimtas veidas."
+},
+{
+"id": 193,
+"kind": "s",
+"text": "Pliuškis"
+},
+{
+"id": 194,
+"kind": "s",
+"text": "Ančiukas"
+},
+{
+"id": 195,
+"kind": "s",
+"text": "Daugiausia 5 gyvūnai kartu"
+},
+{
+"id": 196,
+"kind": "s",
+"text": "Pirma palik kurį nors namie (I)"
+},
+{
+"id": 197,
+"kind": "t",
+"text": "${pt.def.kind} grįžo į laisvę. Kioske visada rasi naują draugą"
+},
+{
+"id": 198,
+"kind": "s",
+"text": "GYVŪNŲ KIOSKAS"
+},
+{
+"id": 199,
+"kind": "s",
+"text": "Gyvūnų kioskas"
+},
+{
+"id": 200,
+"kind": "s",
+"text": "atidaryti gyvūnų kioską"
+},
+{
+"id": 201,
+"kind": "t",
+"text": "Tavo gyvūnų: ${petBook.length} · kartu su tavimi: ${activeCount()} / ${MAX_ACTIVE}"
+},
+{
+"id": 202,
+"kind": "s",
+"text": "Dar neturi nė vieno gyvūno"
+},
+{
+"id": 203,
+"kind": "s",
+"text": "Daugiausia 60 gyvūnų. Paleisk kurį nors (I)"
+},
+{
+"id": 204,
+"kind": "t",
+"text": "${def.kind} keliaus kartu su tavimi. I – visi tavo gyvūnai"
+},
+{
+"id": 205,
+"kind": "t",
+"text": "Su tavimi jau 5 gyvūnai, tad ${def.kind.toLowerCase()} laukia kolekcijoje. Spausk I"
+},
+{
+"id": 206,
+"kind": "t",
+"text": "Kartu su tavimi: ${n} / ${MAX_ACTIVE} · iš viso: ${petBook.length}"
+},
+{
+"id": 207,
+"kind": "s",
+"text": "<p class=\"empty\">Dar neturi gyvūnų. Nueik į gyvūnų kioską Pradžios Miesto aikštėje – ten jų yra nuo 10 €.</p>"
+},
+{
+"id": 208,
+"kind": "s",
+"text": "Su tavimi"
+},
+{
+"id": 209,
+"kind": "s",
+"text": " disabled title=\"Jau 5 gyvūnai kartu\""
+},
+{
+"id": 210,
+"kind": "s",
+"text": "Mažas, patogus ir visada užsiveda."
+},
+{
+"id": 211,
+"kind": "s",
+"text": "pyptelėti"
+},
+{
+"id": 212,
+"kind": "s",
+"text": "Raudonas Žaibas"
+},
+{
+"id": 213,
+"kind": "s",
+"text": "Žemas, greitas ir labai raudonas."
+},
+{
+"id": 214,
+"kind": "s",
+"text": "Milžiniški ratai. Space – šuolis per viską."
+},
+{
+"id": 215,
+"kind": "s",
+"text": "šuolis"
+},
+{
+"id": 216,
+"kind": "s",
+"text": "Ilgas, geltonas ir lėtas. Vietų – daug."
+},
+{
+"id": 217,
+"kind": "s",
+"text": "Space – sirena ir mirksintys švyturėliai."
+},
+{
+"id": 218,
+"kind": "s",
+"text": "Gaisrinė"
+},
+{
+"id": 219,
+"kind": "s",
+"text": "Raudona, su kopėčiomis ir labai garsi."
+},
+{
+"id": 220,
+"kind": "s",
+"text": "Ledų furgonas"
+},
+{
+"id": 221,
+"kind": "s",
+"text": "Space – groja ledų melodija."
+},
+{
+"id": 222,
+"kind": "s",
+"text": "Mažytis ir labai vikrus. Sukasi vietoje."
+},
+{
+"id": 223,
+"kind": "s",
+"text": "Labai ilgas, juodas ir labai solidus."
+},
+{
+"id": 224,
+"kind": "s",
+"text": "Space – raketos įjungimas. Laikykis!"
+},
+{
+"id": 225,
+"kind": "t",
+"text": "Pelė – kryptis · W/S – greitis · Shift – greičiau · Space – ${auto.spec.trickName}"
+},
+{
+"id": 226,
+"kind": "s",
+"text": "MAŠINŲ PARDUOTUVĖ"
+},
+{
+"id": 227,
+"kind": "s",
+"text": "Mašinų parduotuvė"
+},
+{
+"id": 228,
+"kind": "s",
+"text": "atidaryti mašinų parduotuvę"
+},
+{
+"id": 229,
+"kind": "t",
+"text": "Dabar tavo mašina: ${auto.spec.name}. Nauja ją pakeis."
+},
+{
+"id": 230,
+"kind": "s",
+"text": "Dar neturi mašinos"
+},
+{
+"id": 231,
+"kind": "t",
+"text": "${c.name} – tavo!"
+},
+{
+"id": 232,
+"kind": "t",
+"text": "Nupirkta už ${PRICE.car[c.id]} €. R – sėsti. Bet kada iškviesk ją su F"
+},
+{
+"id": 233,
+"kind": "s",
+"text": "R – sėsti. Visas savo mašinas rasi paspaudęs F"
+},
+{
+"id": 234,
+"kind": "s",
+"text": "Kiaulė"
+},
+{
+"id": 235,
+"kind": "s",
+"text": "Gyva, ėda žolę, joji pele."
+},
+{
+"id": 236,
+"kind": "s",
+"text": "Jau lauke – iškvies čia"
+},
+{
+"id": 237,
+"kind": "s",
+"text": "Iškviesti"
+},
+{
+"id": 238,
+"kind": "t",
+"text": "Tavo mašinų: ${garage.length} iš ${CARS.length}. Daugiau rasi mašinų parduotuvėje aikštėje."
+},
+{
+"id": 239,
+"kind": "s",
+"text": "Kol kas turi tik kiaulę. Mašinas nusipirksi mašinų parduotuvėje Pradžios Miesto aikštėje."
+},
+{
+"id": 240,
+"kind": "t",
+"text": "${c.name} atvažiavo!"
+},
+{
+"id": 241,
+"kind": "s",
+"text": "R – sėsti"
+},
+{
+"id": 242,
+"kind": "s",
+"text": "Grafika: graži"
+},
+{
+"id": 243,
+"kind": "s",
+"text": "Šešėliai, žolė ir atspindžiai įjungti"
+},
+{
+"id": 244,
+"kind": "s",
+"text": "Be šešėlių ir žolės – sklandžiau silpnesniam kompiuteriui"
+},
+{
+"id": 245,
+"kind": "s",
+"text": "Gyventojų namas"
+},
+{
+"id": 246,
+"kind": "s",
+"text": "Durys užrakintos. Viduje kažkas groja radiją."
+},
+{
+"id": 247,
+"kind": "s",
+"text": "Ant durų raštelis: „Išėjau į darbą. Grįšiu, kai demonas nustos mėtyti meteorus.“"
+},
+{
+"id": 248,
+"kind": "s",
+"text": "Pro langą matosi katė, kuri į tave žiūri labai įtariai."
+},
+{
+"id": 249,
+"kind": "s",
+"text": "Kvepia blynais. Bet niekas neatidaro."
+},
+{
+"id": 250,
+"kind": "s",
+"text": "Ant slenksčio guli batai, per maži bet kam, išskyrus tave."
+},
+{
+"id": 251,
+"kind": "s",
+"text": "Kiaušiniai"
+},
+{
+"id": 252,
+"kind": "s",
+"text": "Bulvės"
+},
+{
+"id": 253,
+"kind": "s",
+"text": "Mėsa"
+},
+{
+"id": 254,
+"kind": "s",
+"text": "Sūris"
+},
+{
+"id": 255,
+"kind": "s",
+"text": "Dešrelės"
+},
+{
+"id": 256,
+"kind": "s",
+"text": "Kiaušinienė"
+},
+{
+"id": 257,
+"kind": "s",
+"text": "Kepta žuvis"
+},
+{
+"id": 258,
+"kind": "s",
+"text": "Virtos dešrelės"
+},
+{
+"id": 259,
+"kind": "s",
+"text": "Bulvių sriuba"
+},
+{
+"id": 260,
+"kind": "s",
+"text": "Makaronai su sūriu"
+},
+{
+"id": 261,
+"kind": "s",
+"text": "Pomidorų sriuba"
+},
+{
+"id": 262,
+"kind": "s",
+"text": "patiekalų"
+},
+{
+"id": 263,
+"kind": "s",
+"text": "pradėti darbą: virėjas"
+},
+{
+"id": 264,
+"kind": "s",
+"text": "E prie lentos – nauja 3 min. pamaina"
+},
+{
+"id": 265,
+"kind": "s",
+"text": "E prie durų – eiti namo"
+},
+{
+"id": 266,
+"kind": "s",
+"text": "UŽSAKYMAS #"
+},
+{
+"id": 267,
+"kind": "s",
+"text": "KEPTI KEPTUVĖJE"
+},
+{
+"id": 268,
+"kind": "s",
+"text": "Reikia:"
+},
+{
+"id": 269,
+"kind": "s",
+"text": "Naujas užsakymas: "
+},
+{
+"id": 270,
+"kind": "s",
+"text": "Kepti keptuvėje: "
+},
+{
+"id": 271,
+"kind": "s",
+"text": "Keptuvė"
+},
+{
+"id": 272,
+"kind": "s",
+"text": "Užsakymų lenta"
+},
+{
+"id": 273,
+"kind": "s",
+"text": "Šiukšlių dėžė"
+},
+{
+"id": 274,
+"kind": "s",
+"text": "Darbas: virėjas"
+},
+{
+"id": 275,
+"kind": "s",
+"text": "Paimk ingredientus iš dėžių, įdėk į keptuvę arba puodą ir patiek klientui."
+},
+{
+"id": 276,
+"kind": "s",
+"text": "Pamaina prasidėjo: 3 minutės!"
+},
+{
+"id": 277,
+"kind": "s",
+"text": "Kuo daugiau patiekalų pagaminsi, tuo daugiau uždirbsi. Pažiūrėk į lentelę"
+},
+{
+"id": 278,
+"kind": "s",
+"text": "Keptuvė užimta"
+},
+{
+"id": 279,
+"kind": "s",
+"text": "Puodas užimtas"
+},
+{
+"id": 280,
+"kind": "s",
+"text": "Pirma paimk tai, kas jame"
+},
+{
+"id": 281,
+"kind": "s",
+"text": "Palauk, kol bus paruošta, bet nepervirk!"
+},
+{
+"id": 282,
+"kind": "s",
+"text": " įdėta"
+},
+{
+"id": 283,
+"kind": "t",
+"text": "Dar trūksta ${need - v.items.length}"
+},
+{
+"id": 284,
+"kind": "s",
+"text": " paruošta!"
+},
+{
+"id": 285,
+"kind": "s",
+"text": "Paimk (E) ir nunešk klientui į patiekimo stalą"
+},
+{
+"id": 286,
+"kind": "s",
+"text": "Ne tie ingredientai arba ne tas būdas. Pažiūrėk į lentelę ir išmesk tai į šiukšlių dėžę"
+},
+{
+"id": 287,
+"kind": "s",
+"text": "Sudegė!"
+},
+{
+"id": 288,
+"kind": "s",
+"text": "Per ilgai laikei ant ugnies"
+},
+{
+"id": 289,
+"kind": "t",
+"text": "${K.order.how === 'kepti' ? 'Kepti keptuvėje' : 'Virti puode'}. Reikia: ${K.order.ing.map(k => INGR[k].name).join(', ')}. Atlygis ${K.order.pay} € ir arbatpinigiai, jei paskubėsi."
+},
+{
+"id": 290,
+"kind": "s",
+"text": "E – uždaryti"
+},
+{
+"id": 291,
+"kind": "s",
+"text": "Išmesta"
+},
+{
+"id": 292,
+"kind": "s",
+"text": "Čia kepama. Atnešk ingredientų iš dėžių"
+},
+{
+"id": 293,
+"kind": "s",
+"text": "Čia verdama. Atnešk ingredientų iš dėžių"
+},
+{
+"id": 294,
+"kind": "s",
+"text": "Kol kas nieko"
+},
+{
+"id": 295,
+"kind": "t",
+"text": "Klientas patenkintas! Šioje pamainoje: ${shift.dishes} ${dishWord(shift.dishes)}, ${shift.earned} €. Sumokės pamainos pabaigoje"
+},
+{
+"id": 296,
+"kind": "s",
+"text": "Ne tas patiekalas"
+},
+{
+"id": 297,
+"kind": "s",
+"text": "Klientas užsakė: "
+},
+{
+"id": 298,
+"kind": "s",
+"text": "Klientas išėjo nesulaukęs"
+},
+{
+"id": 299,
+"kind": "t",
+"text": "<kbd>E</kbd> paimti: ${sp2.name}"
+},
+{
+"id": 300,
+"kind": "t",
+"text": "<kbd>E</kbd> paimti iš ${sp2.kind === 'pan' ? 'keptuvės' : 'puodo'}"
+},
+{
+"id": 301,
+"kind": "t",
+"text": "<kbd>E</kbd> įdėti ${INGR[K.held.key].name.toLowerCase()} į ${sp2.kind === 'pan' ? 'keptuvę' : 'puodą'}"
+},
+{
+"id": 302,
+"kind": "t",
+"text": "<kbd>E</kbd> išimti paskutinį · ${sp2.name}: ${v.items.map(i => INGR[i.key].name).join(', ')}"
+},
+{
+"id": 303,
+"kind": "s",
+"text": " tuščia"
+},
+{
+"id": 304,
+"kind": "s",
+"text": "<kbd>E</kbd> išmesti"
+},
+{
+"id": 305,
+"kind": "s",
+"text": "<kbd>E</kbd> skaityti užsakymą"
+},
+{
+"id": 306,
+"kind": "s",
+"text": "<kbd>E</kbd> baigti darbą ir išeiti"
+},
+{
+"id": 307,
+"kind": "s",
+"text": "Kuo daugiau patiekalų pagaminsi, tuo daugiau uždirbsi"
+},
+{
+"id": 308,
+"kind": "t",
+"text": "Pagaminai ${shift.dishes} ${shift.dishes % 10 === 1 && shift.dishes % 100 !== 11 ? 'patiekalą' : dishWord(shift.dishes) === 'patiekalai' ? 'patiekalus' : 'patiekalų'} ir uždirbai ${shift.earned} €."
+}
+]

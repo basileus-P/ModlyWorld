@@ -1,0 +1,1052 @@
+[
+{
+"id": 2434,
+"kind": "s",
+"text": "Leidimas teleportuotis? Ech… Gerai, gerai. Duok čia tą popierių."
+},
+{
+"id": 2435,
+"kind": "s",
+"text": "Brūkšt! Štai, pasirašiau. Antroji varnelė – tavo. ✔ O dabar netrukdyk, man reikia įdegti iki penkių kampų."
+},
+{
+"id": 2436,
+"kind": "s",
+"text": "Direktoriaus parašas ✔"
+},
+{
+"id": 2437,
+"kind": "s",
+"text": "Grįžk į Leidimų biurą – ponia Antspaudė uždės antspaudą"
+},
+{
+"id": 2438,
+"kind": "s",
+"text": "Dar reikia išlaikyti egzaminą Leidimų biure"
+},
+{
+"id": 2439,
+"kind": "s",
+"text": "Zzz… jau pasirašiau… zzz…"
+},
+{
+"id": 2440,
+"kind": "s",
+"text": "Ar tu vėl čia? Aš atostogauju!"
+},
+{
+"id": 2441,
+"kind": "s",
+"text": "Saulutė… sultys… ramybė…"
+},
+{
+"id": 2442,
+"kind": "s",
+"text": "Tavo leidimas galioja amžinai. Sėkmingų teleportacijų!"
+},
+{
+"id": 2443,
+"kind": "s",
+"text": "Leidimų biuras. Leidimus teleportuotis išduodame tik tiems, kas vykdo Dievės įsakymą."
+},
+{
+"id": 2444,
+"kind": "s",
+"text": "<kbd>E</kbd> liftu į stogą"
+},
+{
+"id": 2445,
+"kind": "s",
+"text": "<kbd>E</kbd> liftu žemyn"
+},
+{
+"id": 2446,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su ponia Antspaude (egzaminas)"
+},
+{
+"id": 2447,
+"kind": "s",
+"text": "<kbd>E</kbd> gauti antspaudą"
+},
+{
+"id": 2448,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su ponia Antspaude"
+},
+{
+"id": 2449,
+"kind": "s",
+"text": "<kbd>E</kbd> pažadinti direktorių (parašas)"
+},
+{
+"id": 2450,
+"kind": "s",
+"text": "Bandymų pasaulis: leidimas"
+},
+{
+"id": 2451,
+"kind": "s",
+"text": "Leidimų biuras – priešais tave"
+},
+{
+"id": 2452,
+"kind": "s",
+"text": "BZZZT! Palietei laidą!"
+},
+{
+"id": 2453,
+"kind": "t",
+"text": "Atgal prie vartų… (bandymų: ${Q26.zaps}) Šokinėk per laidus su Space!"
+},
+{
+"id": 2454,
+"kind": "s",
+"text": "Teleporto kelių kortelė"
+},
+{
+"id": 2455,
+"kind": "s",
+"text": "Paėmei TELEPORTO KELIŲ KORTELĘ! Pilka, su geltonu įspėjimo trikampiu ir spalvotais kelių laidais – raudonu, žaliu, mėlynu ir oranžiniu."
+},
+{
+"id": 2456,
+"kind": "t",
+"text": "Laidai nurimo. Kortelė atsirado Teleportacijos kampe. Žingsnis ${Q26.step} iš ${TP_STEPS}!"
+},
+{
+"id": 2457,
+"kind": "s",
+"text": "⚠ PAVOJINGA! Viduje šokinėja spalvoti laidai. Palietei – BZZZT – ir atgal prie vartų."
+},
+{
+"id": 2458,
+"kind": "s",
+"text": "Skraidyti viduje NEGALIMA – tik šokinėti per laidus (Space)."
+},
+{
+"id": 2459,
+"kind": "s",
+"text": "Surink 4 spalvotus jungiklius kampuose – tada atsidarys narvas viduryje. Surinkti jungikliai išlieka, net jei tave trenkia!"
+},
+{
+"id": 2460,
+"kind": "s",
+"text": "Narvas viduryje atsidarė! Paimk kortelę (E)"
+},
+{
+"id": 2461,
+"kind": "s",
+"text": "Laidai truputį pagreitėjo!"
+},
+{
+"id": 2462,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti Teleporto kelių kortelę"
+},
+{
+"id": 2463,
+"kind": "t",
+"text": "⚠ Šokinėk per laidus (<kbd>Space</kbd>) · jungikliai ${Q26.zkeys.length}/4"
+},
+{
+"id": 2464,
+"kind": "s",
+"text": "Bandymų pasaulis: Pavojaus zona"
+},
+{
+"id": 2465,
+"kind": "s",
+"text": "Surink 4 jungiklius ir paimk kortelę"
+},
+{
+"id": 2466,
+"kind": "s",
+"text": "Spinduliai pabėgo! 💨"
+},
+{
+"id": 2467,
+"kind": "s",
+"text": "Laikas baigėsi – visi spinduliai iššoko iš mėgintuvėlio ir išsilakstė. Bandyk iš naujo!"
+},
+{
+"id": 2468,
+"kind": "s",
+"text": "Violetinių spindulių mėgintuvėlis"
+},
+{
+"id": 2469,
+"kind": "s",
+"text": "Paėmei TUŠČIĄ MĖGINTUVĖLĮ. Ant jo parašyta: „10 violetinių spindulių“."
+},
+{
+"id": 2470,
+"kind": "s",
+"text": "Violetiniai spinduliai dabar pasirodė ant žvaigždės paviršiaus. Bet jie TELEPORTUOJASI, vos tik prieini arčiau nei 7 metrai!"
+},
+{
+"id": 2471,
+"kind": "t",
+"text": "Vienintelis būdas: pataikyk į spindulį UGNIES KAMUOLIU (${keyLabel(Q25.key) || 'tavo klavišas'}). Jis sustings 4 sekundėms – tada bėk (Shift) ir pagauk jį!"
+},
+{
+"id": 2472,
+"kind": "s",
+"text": "Ir skubėk: turi tik 5 minutes. Jei nespėsi – spinduliai pabėgs, ir teks pradėti iš naujo."
+},
+{
+"id": 2473,
+"kind": "s",
+"text": "Medžioklė prasidėjo! ⏱ 5:00"
+},
+{
+"id": 2474,
+"kind": "s",
+"text": "Lipk į paviršių ir gaudyk violetinius spindulius"
+},
+{
+"id": 2475,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti tuščią mėgintuvėlį"
+},
+{
+"id": 2476,
+"kind": "t",
+"text": "Pagavai spindulį! ${TB.caught}/${TUBE_N}"
+},
+{
+"id": 2477,
+"kind": "s",
+"text": "Mėgintuvėlis pilnas!"
+},
+{
+"id": 2478,
+"kind": "s",
+"text": "Dar liko: "
+},
+{
+"id": 2479,
+"kind": "s",
+"text": "MĖGINTUVĖLIS PILNAS!"
+},
+{
+"id": 2480,
+"kind": "s",
+"text": "Visi 10 violetinių spindulių pagauti"
+},
+{
+"id": 2481,
+"kind": "s",
+"text": "Greitai – 4 sekundės! Bėk (Shift) ir pagauk!"
+},
+{
+"id": 2482,
+"kind": "s",
+"text": "Bandymų pasaulis: mėgintuvėlis"
+},
+{
+"id": 2483,
+"kind": "s",
+"text": "Medžioklė jau prasidėjo"
+},
+{
+"id": 2484,
+"kind": "s",
+"text": "Tuščias mėgintuvėlis – urve prie aparato"
+},
+{
+"id": 2485,
+"kind": "s",
+"text": "Ankščių bokštas"
+},
+{
+"id": 2486,
+"kind": "s",
+"text": "Nukritai! Sėklos sugrįžo atgal…"
+},
+{
+"id": 2487,
+"kind": "s",
+"text": "Visas 7 sėklas reikia surinkti vienu kopimu. Bandyk dar kartą!"
+},
+{
+"id": 2488,
+"kind": "s",
+"text": "Tuščia ankštis"
+},
+{
+"id": 2489,
+"kind": "t",
+"text": "Čia – tuščia Teleporto ankštis. Jai reikia 7 sėklų, o tu turi ${PD.run}."
+},
+{
+"id": 2490,
+"kind": "s",
+"text": "Sėklas reikia surinkti VIENU kopimu – nukritus jos grįžta atgal ant akmenų."
+},
+{
+"id": 2491,
+"kind": "s",
+"text": "TELEPORTO ANKŠTIS!"
+},
+{
+"id": 2492,
+"kind": "s",
+"text": "Visos 7 sėklos ankštyje, sujungtos žaliu vijokliu"
+},
+{
+"id": 2493,
+"kind": "s",
+"text": "Teleporto ankštis"
+},
+{
+"id": 2494,
+"kind": "t",
+"text": "Ji atsirado Teleportacijos kampe. Žingsnis ${Q26.step} iš ${TP_STEPS}"
+},
+{
+"id": 2495,
+"kind": "s",
+"text": "Aukštai danguje, ant pačio viršutinio akmens, laukia tuščia TELEPORTO ANKŠTIS."
+},
+{
+"id": 2496,
+"kind": "s",
+"text": "Bokšte SKRAIDYTI NEGALIMA – net su kuprine. Tik šokinėti nuo akmens ant akmens (Space, Shift – toliau)."
+},
+{
+"id": 2497,
+"kind": "s",
+"text": "Mėlyni akmenys juda, rožiniai – dingsta ir atsiranda. Ant 7 akmenų guli sėklos – surink VISAS vienu kopimu."
+},
+{
+"id": 2498,
+"kind": "s",
+"text": "Nukrisi ant žemės – ir visos sėklos sugrįš atgal. Sėkmės… tau jos prireiks!"
+},
+{
+"id": 2499,
+"kind": "t",
+"text": "Sėkla ${PD.run}/7!"
+},
+{
+"id": 2500,
+"kind": "s",
+"text": "Visos sėklos! Lipk į pačią viršūnę!"
+},
+{
+"id": 2501,
+"kind": "s",
+"text": "<kbd>E</kbd> sudėti sėklas į ankštį"
+},
+{
+"id": 2502,
+"kind": "t",
+"text": "Tuščia ankštis – reikia 7 sėklų (turi ${PD.run})"
+},
+{
+"id": 2503,
+"kind": "s",
+"text": "<kbd>E</kbd> apžiūrėti · bokšte skraidyti negalima – tik šokinėti!"
+},
+{
+"id": 2504,
+"kind": "t",
+"text": "🌱 Sėklos: ${PD.run}/7 · aukštis ${Math.floor(player.pos.y)} m / ${Math.floor(PD.top.y)} m"
+},
+{
+"id": 2505,
+"kind": "s",
+"text": "Bandymų pasaulis: Ankščių bokštas"
+},
+{
+"id": 2506,
+"kind": "s",
+"text": "Šokinėk aukštyn ir rink sėklas"
+},
+{
+"id": 2507,
+"kind": "s",
+"text": "Portalų lenktynės prasidėjo! 🌀"
+},
+{
+"id": 2508,
+"kind": "s",
+"text": "Bėk (Shift) į violetinį portalą – sek šviesos stulpą!"
+},
+{
+"id": 2509,
+"kind": "s",
+"text": "Portalas užgeso! 💨"
+},
+{
+"id": 2510,
+"kind": "t",
+"text": "Pasiekei ${PR.i} iš ${PORTAL_N}. Tave nuteleportavo atgal į Teleportacijos kampą – spausk E ir bandyk iš naujo"
+},
+{
+"id": 2511,
+"kind": "s",
+"text": "Žingsnis 8 iš 8!"
+},
+{
+"id": 2512,
+"kind": "s",
+"text": "Grįžk į Teleportacijos kampą ir stok į vidurį (E) – visi daiktai laukia tavęs"
+},
+{
+"id": 2513,
+"kind": "s",
+"text": "Visi 8 daiktai skrenda į tave"
+},
+{
+"id": 2514,
+"kind": "s",
+"text": "Tavo TELEPORTACIJA visada bus klavišas 2. Paspausk bet kurį klavišą, kad tęstum."
+},
+{
+"id": 2515,
+"kind": "s",
+"text": "2 ĮSAKYMAS ĮVYKDYTAS!"
+},
+{
+"id": 2516,
+"kind": "s",
+"text": "Teleportacija – klavišas 2"
+},
+{
+"id": 2517,
+"kind": "t",
+"text": "Spausk 2 – ir akimirksniu atsidursi 12 m priekyje. Galima kas 3 sekundes. Veikia visur!"
+},
+{
+"id": 2518,
+"kind": "t",
+"text": "Vėl galėsi po ${left} s"
+},
+{
+"id": 2519,
+"kind": "t",
+"text": "Čia dar trūksta daiktų: ${Q26.step} iš 7. Kai visi 7 bus ant pjedestalų – grįžk."
+},
+{
+"id": 2520,
+"kind": "s",
+"text": "Septyni daiktai sužibo… Kampas dūzgia!"
+},
+{
+"id": 2521,
+"kind": "t",
+"text": "8 ŽINGSNIS – PORTALŲ LENKTYNĖS. Ant žvaigždės atsiras ${PORTAL_N} portalai – vienas po kito. Kiekvieną turi pasiekti, kol neužgeso."
+},
+{
+"id": 2522,
+"kind": "s",
+"text": "Kiekvienam portalui turi po 20 sekundžių. Sek violetinį šviesos stulpą ir bėk (Shift)! Pasiruošęs?"
+},
+{
+"id": 2523,
+"kind": "s",
+"text": "<kbd>E</kbd> pradėti teleportacijos ritualą"
+},
+{
+"id": 2524,
+"kind": "s",
+"text": "<kbd>E</kbd> pradėti portalų lenktynes"
+},
+{
+"id": 2525,
+"kind": "s",
+"text": "Bandymų pasaulis: portalai"
+},
+{
+"id": 2526,
+"kind": "s",
+"text": "Kristalas jau yra – spausk E ritualui"
+},
+{
+"id": 2527,
+"kind": "s",
+"text": "Spausk E – portalų lenktynės"
+},
+{
+"id": 2528,
+"kind": "s",
+"text": "Dešinysis sparnas"
+},
+{
+"id": 2529,
+"kind": "s",
+"text": "Lėktuvo statyba"
+},
+{
+"id": 2530,
+"kind": "s",
+"text": "Žvaigždžių Dievės dirbtuvė"
+},
+{
+"id": 2531,
+"kind": "s",
+"text": "Suveržti varžtus"
+},
+{
+"id": 2532,
+"kind": "s",
+"text": "Tempk kiekvieną lėktuvo dalį ant jos vietos brėžinyje."
+},
+{
+"id": 2533,
+"kind": "s",
+"text": "Visos dalys savo vietose! Dabar suveržk varžtus."
+},
+{
+"id": 2534,
+"kind": "s",
+"text": "Laiko mašinos statyba"
+},
+{
+"id": 2535,
+"kind": "s",
+"text": "Sukalti plaktuku ir vinimis"
+},
+{
+"id": 2536,
+"kind": "s",
+"text": "LĖKTUVAS PASTATYTAS!"
+},
+{
+"id": 2537,
+"kind": "s",
+"text": "Lėktuvas pastatytas! ✈"
+},
+{
+"id": 2538,
+"kind": "s",
+"text": "Jis stovi mieste, netoli Dievės. Lipk į jį (E) ir skrisk pas Griaustinio Dievą!"
+},
+{
+"id": 2539,
+"kind": "s",
+"text": "A/D – sukti · W – aukštyn · S – žemyn · Shift – greičiau. Skrisk į didįjį ratą danguje!"
+},
+{
+"id": 2540,
+"kind": "s",
+"text": "Lėktuvą atmušė atgal – suk (A/D) ir kilk ar leiskis (W/S), kad apskristum meteorus"
+},
+{
+"id": 2541,
+"kind": "s",
+"text": "⬅ sukis į kairę (A)"
+},
+{
+"id": 2542,
+"kind": "s",
+"text": "sukis į dešinę (D) ➡"
+},
+{
+"id": 2543,
+"kind": "s",
+"text": "kilk aukštyn (W)"
+},
+{
+"id": 2544,
+"kind": "s",
+"text": "leiskis žemyn (S)"
+},
+{
+"id": 2545,
+"kind": "s",
+"text": "aukštis gerai"
+},
+{
+"id": 2546,
+"kind": "s",
+"text": "⚡ žaibo smūgis"
+},
+{
+"id": 2547,
+"kind": "s",
+"text": "⚡ ŽAIBO SMŪGIS!"
+},
+{
+"id": 2548,
+"kind": "s",
+"text": "Klavišas 3 – dabar skrisk atgal pas Žvaigždžių Dievę"
+},
+{
+"id": 2549,
+"kind": "t",
+"text": "Spausk 3 – žaibas trenks 10 m priešais tave. Paskui lipk į lėktuvą (E) ir skrisk atgal!"
+},
+{
+"id": 2550,
+"kind": "s",
+"text": "BUM BUM?! Lėktuvu?! Pas MANE?! Tu – beprotiškai drąsus, žaliasis!"
+},
+{
+"id": 2551,
+"kind": "s",
+"text": "Žvaigždžių Dievė tave atsiuntė? Žinau, žinau. Jos trečiasis įsakymas – ŽAIBO SMŪGIS."
+},
+{
+"id": 2552,
+"kind": "s",
+"text": "Gerai. Tu nukasei man 5 kilometrus ir grąžinai lietų. Tu to nusipelnei."
+},
+{
+"id": 2553,
+"kind": "s",
+"text": "Ištiesk ranką… BUUUUM! Štai – dabar tavyje gyvena mano žaibas!"
+},
+{
+"id": 2554,
+"kind": "s",
+"text": "⚡ Žaibas tavyje!"
+},
+{
+"id": 2555,
+"kind": "s",
+"text": "Tavo ŽAIBO SMŪGIS visada bus klavišas 3. Paspausk bet kurį klavišą, kad tęstum."
+},
+{
+"id": 2556,
+"kind": "s",
+"text": "Lėktuvas"
+},
+{
+"id": 2557,
+"kind": "s",
+"text": "Pirma pasikalbėk su Griaustinio Dievu – jis ant didžiojo debesies!"
+},
+{
+"id": 2558,
+"kind": "s",
+"text": "Grįžai ant žvaigždės! ✈"
+},
+{
+"id": 2559,
+"kind": "s",
+"text": "Eik pas Žvaigždžių Dievę (E)"
+},
+{
+"id": 2560,
+"kind": "s",
+"text": "<kbd>E</kbd> lipti į lėktuvą ir skristi atgal"
+},
+{
+"id": 2561,
+"kind": "s",
+"text": "Tavo lėktuvas"
+},
+{
+"id": 2562,
+"kind": "s",
+"text": "Visos lėktuvo dalys! Nešk jas Žvaigždžių Dievei"
+},
+{
+"id": 2563,
+"kind": "s",
+"text": "Lipk aukštyn – kitos dalys dar aukščiau"
+},
+{
+"id": 2564,
+"kind": "s",
+"text": "Atskridai į Audrų pasaulį! ⚡"
+},
+{
+"id": 2565,
+"kind": "s",
+"text": "Eik pas Griaustinio Dievą ant didžiojo debesies (E)"
+},
+{
+"id": 2566,
+"kind": "s",
+"text": "Teleportacija – tavo. Bet trečiasis įsakymas dar sunkesnis: ŽAIBO SMŪGIS."
+},
+{
+"id": 2567,
+"kind": "s",
+"text": "Žaibą turi tik vienas – Griaustinio Dievas. Pas jį reikia NUSKRISTI. Lėktuvu!"
+},
+{
+"id": 2568,
+"kind": "s",
+"text": "Lėktuvo dalys – ant mano Ankščių bokšto. Jis dabar išaugo daug AUKŠČIAU ir pasidarė daug SUNKESNIS. Bet ten yra žalios vėliavėlės – kontroliniai taškai. Nukritęs atsirasi ant paskutinės, kurią pasiekei."
+},
+{
+"id": 2569,
+"kind": "s",
+"text": "Surink 6 lėktuvo dalis, atnešk man – ir pastatysi lėktuvą taip pat, kaip kadaise laiko mašiną."
+},
+{
+"id": 2570,
+"kind": "s",
+"text": "3 įsakymas: Žaibo smūgis"
+},
+{
+"id": 2571,
+"kind": "s",
+"text": "Ankščių bokštas išaugo! Lipk aukštyn ir rink lėktuvo dalis"
+},
+{
+"id": 2572,
+"kind": "t",
+"text": "Lėktuvo dalių: ${Q27.parts.length} iš 6. Lipk aukščiau Ankščių bokštu!"
+},
+{
+"id": 2573,
+"kind": "s",
+"text": "Visos šešios dalys! Štai mano dirbtuvės stalas su brėžiniu. Statyk!"
+},
+{
+"id": 2574,
+"kind": "s",
+"text": "Tavo lėktuvas stovi mieste, netoli manęs. Lipk (E) ir skrisk į didįjį violetinį ratą danguje – jis nuves pas Griaustinio Dievą."
+},
+{
+"id": 2575,
+"kind": "s",
+"text": "Grįžai… ir mano žvaigždės dar niekada taip nešvietė nuo žaibo! ⚡"
+},
+{
+"id": 2576,
+"kind": "s",
+"text": "Trečiasis įsakymas įvykdytas. Žaibo smūgis – tavo. Liko du… ir jie – patys sunkiausi."
+},
+{
+"id": 2577,
+"kind": "s",
+"text": "3 ĮSAKYMAS ĮVYKDYTAS!"
+},
+{
+"id": 2578,
+"kind": "t",
+"text": "Žaibo smūgis – klavišas ${keyLabel(Q27.key)}"
+},
+{
+"id": 2579,
+"kind": "s",
+"text": "<kbd>E</kbd> lipti į lėktuvą ir skristi pas Griaustinio Dievą"
+},
+{
+"id": 2580,
+"kind": "t",
+"text": "Kontrolinis taškas ${i}/${PLN.cps.length - 1}! 🚩"
+},
+{
+"id": 2581,
+"kind": "s",
+"text": "Nukritęs atsirasi čia"
+},
+{
+"id": 2582,
+"kind": "s",
+"text": "Pasiekei viršūnę! 🏆"
+},
+{
+"id": 2583,
+"kind": "s",
+"text": "Dabar gali drąsiai nušokti žemyn – kontrolinis taškas tavęs nebetrauks"
+},
+{
+"id": 2584,
+"kind": "t",
+"text": "Grįžai į kontrolinį tašką ${Q27.cp}"
+},
+{
+"id": 2585,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti lėktuvo dalį"
+},
+{
+"id": 2586,
+"kind": "t",
+"text": "✈ Dalys: ${Q27.parts.length}/6 · 🚩 ${Math.max(0, Q27.cp)}/${PLN.cps.length - 1} · aukštis ${Math.floor(player.pos.y)} m / ${Math.floor(PLN.ext[EXT_N - 1].y)} m"
+},
+{
+"id": 2587,
+"kind": "s",
+"text": "Bandymų pasaulis: lėktuvas"
+},
+{
+"id": 2588,
+"kind": "s",
+"text": "Lipk Ankščių bokštu ir rink dalis"
+},
+{
+"id": 2589,
+"kind": "s",
+"text": "Visos dalys – eik pas Dievę"
+},
+{
+"id": 2590,
+"kind": "s",
+"text": "Lėktuvas pastatytas – lipk (E)"
+},
+{
+"id": 2591,
+"kind": "s",
+"text": "Turi žaibą – eik pas Dievę"
+},
+{
+"id": 2592,
+"kind": "s",
+"text": "Bandymų pasaulis: skrydis atgal ✈"
+},
+{
+"id": 2593,
+"kind": "s",
+"text": "Lipk į lėktuvą (E) – kelias atgal ilgas, pilnas meteorų!"
+},
+{
+"id": 2594,
+"kind": "s",
+"text": "Visi 10! Nešk auksą Žvaigždžių Dievei"
+},
+{
+"id": 2595,
+"kind": "s",
+"text": "Jis buvo paslėptas akmenyje. Ieškok toliau – auksas vos vos blyksteli…"
+},
+{
+"id": 2596,
+"kind": "s",
+"text": "Kirtiklį? Ne, aš neturiu… Bet girdėjau, kad viena žvaigždutė jį slepia. Klausk kitų!"
+},
+{
+"id": 2597,
+"kind": "s",
+"text": "Kirtiklis? Hmm… Aš mačiau jį pas kažką, kas mėgsta šokinėti. Paklausk dar kelių!"
+},
+{
+"id": 2598,
+"kind": "s",
+"text": "Ne pas mane! Mano rankutės per mažos kirtikliui."
+},
+{
+"id": 2599,
+"kind": "s",
+"text": "Kirtiklį turi tik viena žvaigždutė visoje žvaigždėje. Ne aš!"
+},
+{
+"id": 2600,
+"kind": "s",
+"text": "Ach, kirtiklis… Mano senelis turėjo. Bet ne aš. Klausinėk toliau!"
+},
+{
+"id": 2601,
+"kind": "s",
+"text": "Kirtiklis? Taip! Jis pas mane – saugojau jį labai seniai. Imk! ⛏"
+},
+{
+"id": 2602,
+"kind": "s",
+"text": "Kask Žvaigždžių urve. Auksas slepiasi akmenyse… bet jis labai drovus – vos vos blyksteli tik iš arti."
+},
+{
+"id": 2603,
+"kind": "s",
+"text": "Gavai kirtiklį! ⛏"
+},
+{
+"id": 2604,
+"kind": "s",
+"text": "Lipk į Žvaigždžių urvą ir daužyk akmenis pele (3 smūgiai). Surask 10 aukso gabalų"
+},
+{
+"id": 2605,
+"kind": "t",
+"text": " (paklausei jau ${Q28.asked.length})"
+},
+{
+"id": 2606,
+"kind": "s",
+"text": "Žaibas, ugnis, teleportacija… Tu stiprėji. Dabar – KETVIRTASIS įsakymas: AUKSINIS KARDAS."
+},
+{
+"id": 2607,
+"kind": "s",
+"text": "Kardą nukalsiu aš pati. Bet man reikia 10 AUKSO GABALŲ iš mano urvo."
+},
+{
+"id": 2608,
+"kind": "s",
+"text": "Aukso negali iškasti rankomis. Tau reikia KIRTIKLIO. Jį turi viena iš mano žvaigždučių – bet kuri? Kalbinkis su jomis!"
+},
+{
+"id": 2609,
+"kind": "s",
+"text": "Ir žinok: auksas labai gerai slepiasi. Jis viduje akmenų, ir tik iš arti vos vos blyksteli."
+},
+{
+"id": 2610,
+"kind": "s",
+"text": "4 įsakymas: Auksinis kardas"
+},
+{
+"id": 2611,
+"kind": "s",
+"text": "Klausinėk žvaigždučių, kuri turi kirtiklį"
+},
+{
+"id": 2612,
+"kind": "s",
+"text": "Kirtiklį turi viena iš mano žvaigždučių. Kalbinkis su jomis mieste ir miške!"
+},
+{
+"id": 2613,
+"kind": "t",
+"text": "Aukso gabalų: ${Q28.gold} iš ${GOLD_N}. Daužyk akmenis urve – auksas vos vos blyksteli tik iš arti."
+},
+{
+"id": 2614,
+"kind": "s",
+"text": "Dešimt aukso gabalų… Kaip jie šviečia! Duok juos man."
+},
+{
+"id": 2615,
+"kind": "s",
+"text": "Dabar žiūrėk – aš pati nukalsiu tau kardą."
+},
+{
+"id": 2616,
+"kind": "s",
+"text": "4 ĮSAKYMAS ĮVYKDYTAS!"
+},
+{
+"id": 2617,
+"kind": "s",
+"text": "Auksinis kardas – klavišas 4"
+},
+{
+"id": 2618,
+"kind": "s",
+"text": "Auksinis kardas – tavo. Spausk 4 – ir jis atsiras tavo rankoje (dar kartą 4 – paslėpsi). Pelės mygtuku paleisi auksinę bangą."
+},
+{
+"id": 2619,
+"kind": "s",
+"text": "Liko tik vienas, paskutinis įsakymas… patys sunkiausias."
+},
+{
+"id": 2620,
+"kind": "s",
+"text": "🗡 auksinis kardas (išsitraukti / paslėpti · dešinys pelės – banga)"
+},
+{
+"id": 2621,
+"kind": "s",
+"text": "Kardas paslėptas"
+},
+{
+"id": 2622,
+"kind": "s",
+"text": "Kairys pelės mygtukas – kirsti kardu · dešinys – auksinė banga · 4 – paslėpti"
+},
+{
+"id": 2623,
+"kind": "s",
+"text": "4 – vėl išsitraukti kardą"
+},
+{
+"id": 2624,
+"kind": "t",
+"text": "🗡 4 įsakymas: Auksinis kardas<br>⛏ Kuri žvaigždutė turi kirtiklį? Paklausta: ${Q28.asked.length}"
+},
+{
+"id": 2625,
+"kind": "t",
+"text": "🗡 4 įsakymas: Auksinis kardas<br>✨ Aukso gabalai: <b>${Q28.gold}/${GOLD_N}</b> · sudaužyta akmenų: ${Q28.broken.length}"
+},
+{
+"id": 2626,
+"kind": "s",
+"text": "<kbd>E</kbd> paklausti apie kirtiklį"
+},
+{
+"id": 2627,
+"kind": "s",
+"text": "Pelės mygtukas – daužyti akmenį kirtikliu (3 smūgiai)"
+},
+{
+"id": 2628,
+"kind": "s",
+"text": "Bandymų pasaulis: auksinis kardas"
+},
+{
+"id": 2629,
+"kind": "s",
+"text": "Kalbėk su Dieve (E)"
+},
+{
+"id": 2630,
+"kind": "s",
+"text": "Turi kirtiklį – daužyk akmenis urve"
+},
+{
+"id": 2631,
+"kind": "s",
+"text": "Turi 10 aukso – eik pas Dievę"
+},
+{
+"id": 2632,
+"kind": "s",
+"text": "Šikšnosparnis tave nugalėjo…"
+},
+{
+"id": 2633,
+"kind": "s",
+"text": "Tu vėl prie kopėčių su 100 gyvybių. Šikšnosparnis atsigavo 250 gyvybių. Bandyk dar!"
+},
+{
+"id": 2634,
+"kind": "s",
+"text": "Paskutinis, PENKTASIS įsakymas: DIDYSIS ŠIKŠNOSPARNIS."
+},
+{
+"id": 2635,
+"kind": "s",
+"text": "Giliai mano urve atsirado milžiniškas šikšnosparnis. Jis… jis man labai baisus. Jis turi 1000 gyvybių."
+},
+{
+"id": 2636,
+"kind": "s",
+"text": "Tu turėsi 100 gyvybių. Naudok viską: ugnies kamuolį (1), žaibą (3) ir auksinį kardą (4 – išsitraukti, pelė – kirsti, dešinys pelės – banga)."
+},
+{
+"id": 2637,
+"kind": "s",
+"text": "Nugalėk jį… ir tada suprasi, kodėl aš tokia, kokia esu."
+},
+{
+"id": 2638,
+"kind": "s",
+"text": "5 įsakymas: Didysis šikšnosparnis"
+},
+{
+"id": 2639,
+"kind": "s",
+"text": "Lipk žemyn į Žvaigždžių urvą"
+},
+{
+"id": 2640,
+"kind": "s",
+"text": "Didysis šikšnosparnis vis dar mano urve… Būk atsargus."
+},
+{
+"id": 2641,
+"kind": "s",
+"text": "🦇 DIDYSIS ŠIKŠNOSPARNIS!"
+},
+{
+"id": 2642,
+"kind": "s",
+"text": "Jis turi 1000 gyvybių. Tu – 100. Kovok!"
+},
+{
+"id": 2643,
+"kind": "t",
+"text": "<div style=\"display:flex;justify-content:space-between\"><span>🦇 Didysis šikšnosparnis</span><span>${BAT.hp} / ${BAT.max}</span></div><div style=\"height:12px;background:#3a1a4a;border-radius:6px;overflow:hidden;margin:3px 0 7px\"><div style=\"height:100%;width:${hp * 100}%;background:linear-gradient(90deg,#b03ad8,#ff5ad8)\"></div></div><div style=\"display:flex;justify-content:space-between\"><span>💚 Tu</span><span>${BAT.php} / 100</span></div><div style=\"height:10px;background:#1a3a1a;border-radius:6px;overflow:hidden;margin-top:3px\"><div style=\"height:100%;width:${pp * 100}%;background:${pp < 0.3 ? '#ff5a5a' : '#5ae85a'}\"></div></div><div style=\"opacity:.75;font-weight:500;font-size:12px;margin-top:5px\">1 ugnis · 3 žaibas · 4 kardas (pelė – kirsti, dešinys – banga)</div>"
+}
+]

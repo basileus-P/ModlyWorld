@@ -1,0 +1,812 @@
+[
+{
+"id": 1386,
+"kind": "s",
+"text": "Gavai paskutinę auksinę katę!"
+},
+{
+"id": 1387,
+"kind": "s",
+"text": "Ji tavo – bet rankos pilnos, ji keliaus kartu. Nešk pas Kūrėją"
+},
+{
+"id": 1388,
+"kind": "s",
+"text": "Nunešk ją pas Kūrėją"
+},
+{
+"id": 1389,
+"kind": "s",
+"text": "Sudėjai auksines kates į ratą!"
+},
+{
+"id": 1390,
+"kind": "s",
+"text": "Auksinė katė rate!"
+},
+{
+"id": 1391,
+"kind": "s",
+"text": "Gavai auksinį kačiuką Laimiuką!"
+},
+{
+"id": 1392,
+"kind": "s",
+"text": "Jis laukia tavo gyvūnų kolekcijoje (I). O auksinę katę rankoje nunešk į muziejų"
+},
+{
+"id": 1393,
+"kind": "s",
+"text": "Dešimt auksinių katinų! Visi moja kartu – jauti, kiek čia dabar laimės?"
+},
+{
+"id": 1394,
+"kind": "s",
+"text": "Štai tau dovana – mažas auksinis kačiukas. Jis vardu Laimiukas ir visur seks paskui tave."
+},
+{
+"id": 1395,
+"kind": "s",
+"text": "O šitą vieną auksinę katę nunešk į muziejų. Tegul moja visiems lankytojams."
+},
+{
+"id": 1396,
+"kind": "s",
+"text": "Įsakymas #11 įvykdytas!"
+},
+{
+"id": 1397,
+"kind": "s",
+"text": "Auksinė mojuojanti katė – muziejuje. Apdovanojimas: 1500 €"
+},
+{
+"id": 1398,
+"kind": "s",
+"text": "Nunešk auksinę katę į muziejų"
+},
+{
+"id": 1399,
+"kind": "s",
+"text": "Sudėk kates į auksinį ratą (E prie rato)"
+},
+{
+"id": 1400,
+"kind": "t",
+"text": "Rate ${n} / 10 · ieškok kitų katinų pasaulyje"
+},
+{
+"id": 1401,
+"kind": "s",
+"text": "Tempk milžinišką katę prie miesto vartų"
+},
+{
+"id": 1402,
+"kind": "t",
+"text": "Šok prie katės savininko: <b>${danceN} / 5</b> (Space)"
+},
+{
+"id": 1403,
+"kind": "s",
+"text": "Abi rankos pilnos – nešk kates pas Kūrėją per vartus"
+},
+{
+"id": 1404,
+"kind": "t",
+"text": "Paimk auksinę katę rankomis${carry ? ' (dar viena ranka laisva)' : ''}"
+},
+{
+"id": 1405,
+"kind": "s",
+"text": "Nunešk kates pas Kūrėją per miesto vartus"
+},
+{
+"id": 1406,
+"kind": "s",
+"text": "Privažiuok prie milžiniškos katės ir spausk Space"
+},
+{
+"id": 1407,
+"kind": "s",
+"text": "F – iškviesk traktorių ir važiuok prie milžiniškos katės"
+},
+{
+"id": 1408,
+"kind": "s",
+"text": "Grįžk pas katės savininką"
+},
+{
+"id": 1409,
+"kind": "s",
+"text": "Paskutinė katė – pas kažką mieste. Klausinėk praeivių (E)"
+},
+{
+"id": 1410,
+"kind": "t",
+"text": "${arrow}<div><div class=\"qt\">Įsakymas #11: Dešimt auksinių katinų</div><div class=\"qs\">${step}${dist}</div></div>"
+},
+{
+"id": 1411,
+"kind": "s",
+"text": "Mažasis… atėjo laikas. Paskutinis mano įsakymas: DEMONO RITUALAS."
+},
+{
+"id": 1412,
+"kind": "s",
+"text": "Mieste atsidarė Ritualų parduotuvė. Nusipirk ritualo lipduką, dešimt žvakučių ir šautuvą."
+},
+{
+"id": 1413,
+"kind": "s",
+"text": "Kai viską turėsi – grįžk čia, pas mane. Ritualą darysime mano salėje, prieš mane: užklijuok lipduką rato viduryje, sustatyk žvakutes – ir demonas pasirodys. Jis turi 350 gyvybių, o tu – tik 30. Bet tu turi šautuvą. Ir drąsą. O aš būsiu šalia."
+},
+{
+"id": 1414,
+"kind": "s",
+"text": "Kai jį nugalėsi – jo kūną nunešk į Pikselių Pasaulį. Ten atsiras didelis ežeras. Tik ten demonas pagaliau dings visiems laikams."
+},
+{
+"id": 1415,
+"kind": "s",
+"text": "Ritualų parduotuvė – miesto aikštėje. Lipdukas, dešimt žvakučių ir šautuvas."
+},
+{
+"id": 1416,
+"kind": "s",
+"text": "Ritualo ratas – čia, mano salėje, priešais mane. Būk drąsus. Jei pralaimėsi – visada galėsi bandyti dar kartą."
+},
+{
+"id": 1417,
+"kind": "s",
+"text": "Demonas nugalėtas! Dabar jo kūną nunešk į Pikselių Pasaulį – į didįjį ežerą."
+},
+{
+"id": 1418,
+"kind": "s",
+"text": "Jauti? Pasaulis nurimo. Jokio chaoso. Demono lazdą nunešk į muziejų."
+},
+{
+"id": 1419,
+"kind": "s",
+"text": "Žvaigždė iš kosmoso – muziejuje? Tu tikrai viską atradai. Neliko nė vienos paslapties… na, beveik."
+},
+{
+"id": 1420,
+"kind": "s",
+"text": "Tu išgelbėjai pasaulį, mažasis žaliasis. Demonas dingo, chaosas baigėsi. Dabar čia – tik ramybė, draugai ir… tavo nuotykiai. Ačiū tau."
+},
+{
+"id": 1421,
+"kind": "s",
+"text": "Psst… Sako, kad prie miesto atsirado keistas tramplinas. Jei užvažiuotum ant jo labai greitai… kas žino, kur nuskristum."
+},
+{
+"id": 1422,
+"kind": "s",
+"text": "Įsakymas #12: Demono ritualas"
+},
+{
+"id": 1423,
+"kind": "s",
+"text": "Ritualų parduotuvėje mieste nusipirk lipduką, 10 žvakučių ir šautuvą"
+},
+{
+"id": 1424,
+"kind": "s",
+"text": "RITUALŲ PARDUOTUVĖ"
+},
+{
+"id": 1425,
+"kind": "s",
+"text": "Ritualų parduotuvė"
+},
+{
+"id": 1426,
+"kind": "s",
+"text": "atidaryti Ritualų parduotuvę"
+},
+{
+"id": 1427,
+"kind": "s",
+"text": "Demonų ežeras"
+},
+{
+"id": 1428,
+"kind": "s",
+"text": "paimti demono lazdą"
+},
+{
+"id": 1429,
+"kind": "s",
+"text": "Demono kūnas"
+},
+{
+"id": 1430,
+"kind": "s",
+"text": "paimti demono kūną ant pečių"
+},
+{
+"id": 1431,
+"kind": "s",
+"text": "Neši demono kūną!"
+},
+{
+"id": 1432,
+"kind": "s",
+"text": "Keliauk į Pikselių Pasaulį – į didįjį ežerą"
+},
+{
+"id": 1433,
+"kind": "s",
+"text": "Apvalus lipdukas su senoviniais ženklais. Klijuojamas į ritualo rato vidurį."
+},
+{
+"id": 1434,
+"kind": "s",
+"text": "Žvakutė"
+},
+{
+"id": 1435,
+"kind": "s",
+"text": "Reikia dešimties. Jos sustatomos ratu aplink lipduką."
+},
+{
+"id": 1436,
+"kind": "s",
+"text": "Šautuvas"
+},
+{
+"id": 1437,
+"kind": "s",
+"text": "Šviečiantis ritualo šautuvas. Kai turi – jis visada tavo rankoje."
+},
+{
+"id": 1438,
+"kind": "t",
+"text": "<div style=\"display:flex;justify-content:space-between;align-items:center;gap:10px\"><div><div style=\"font-size:12px;letter-spacing:.08em;color:#c8a0a0\">PRADŽIOS MIESTAS</div><div style=\"font-family:var(--display);font-size:30px;color:#ff6b4a\">Ritualų parduotuvė</div></div><div style=\"font-weight:800\">${fmtMoney(money)}</div></div>"
+},
+{
+"id": 1439,
+"kind": "t",
+"text": "<button id=\"ritClose\" style=\"font:inherit;background:none;border:1px solid #888;color:#ddd;border-radius:10px;padding:6px 14px;cursor:pointer;align-self:flex-start\">Uždaryti (Esc)</button>"
+},
+{
+"id": 1440,
+"kind": "s",
+"text": "Eik pas Kūrėją – ritualas bus jo salėje"
+},
+{
+"id": 1441,
+"kind": "s",
+"text": "Lipdukas užklijuotas!"
+},
+{
+"id": 1442,
+"kind": "s",
+"text": "Dabar sustatyk 10 žvakučių (E)"
+},
+{
+"id": 1443,
+"kind": "s",
+"text": "Visos 10 žvakučių dega"
+},
+{
+"id": 1444,
+"kind": "s",
+"text": "E – pradėti ritualą. Demonas ateis…"
+},
+{
+"id": 1445,
+"kind": "s",
+"text": "<div style=\"display:flex;justify-content:space-between;color:#ff6b4a\"><span>DEMONAS</span><span id=\"bbDemN\"></span></div><div style=\"height:14px;background:rgba(0,0,0,.5);border-radius:8px;overflow:hidden\"><div id=\"bbDem\" style=\"height:100%;background:linear-gradient(90deg,#ff2a1a,#ff8a3a)\"></div></div><div style=\"display:flex;justify-content:space-between;color:#7dff6b;margin-top:4px\"><span>TU</span><span id=\"bbMeN\"></span></div><div style=\"height:10px;background:rgba(0,0,0,.5);border-radius:6px;overflow:hidden;width:60%\"><div id=\"bbMe\" style=\"height:100%;background:#7dff6b\"></div></div>"
+},
+{
+"id": 1446,
+"kind": "s",
+"text": "<kbd>E</kbd> užsidėti demono kūną ant pečių"
+},
+{
+"id": 1447,
+"kind": "s",
+"text": "<kbd>E</kbd> užklijuoti ritualo lipduką"
+},
+{
+"id": 1448,
+"kind": "s",
+"text": "<kbd>E</kbd> sustatyti 10 žvakučių"
+},
+{
+"id": 1449,
+"kind": "s",
+"text": "<kbd>E</kbd> pradėti ritualą – iškviesti demoną!"
+},
+{
+"id": 1450,
+"kind": "s",
+"text": "Išeik pro vartus ir keliauk į Pikselių Pasaulį – į didįjį ežerą"
+},
+{
+"id": 1451,
+"kind": "s",
+"text": "DEMONAS PASIRODĖ!"
+},
+{
+"id": 1452,
+"kind": "s",
+"text": "Šauk pele (taikyk į jį). Bėgiok, kad išvengtum ugnies kamuolių!"
+},
+{
+"id": 1453,
+"kind": "s",
+"text": "Pabėgai nuo demono…"
+},
+{
+"id": 1454,
+"kind": "s",
+"text": "Jis grįžo į savo pasaulį. Ritualą Kūrėjo Salėje gali kartoti bet kada"
+},
+{
+"id": 1455,
+"kind": "s",
+"text": "<div style=\"font-family:var(--display);font-size:38px;color:#ff6b4a\">Pralaimėjai…</div><div style=\"color:#e8d0d0\">Demonas buvo stipresnis. Šį kartą.</div><div style=\"display:flex;gap:12px;flex-wrap:wrap;justify-content:center\"><button id=\"loseTry\" class=\"btn\">Try again</button><button id=\"loseNot\" class=\"btn\" style=\"background:#c8c0d0;box-shadow:0 5px 0 #7a7480\">Not now</button></div>"
+},
+{
+"id": 1456,
+"kind": "s",
+"text": "Bandai dar kartą!"
+},
+{
+"id": 1457,
+"kind": "s",
+"text": "Bėgiok ir šauk – tu gali!"
+},
+{
+"id": 1458,
+"kind": "s",
+"text": "TU NUGALĖJAI DEMONĄ!"
+},
+{
+"id": 1459,
+"kind": "s",
+"text": "Užsidėk jo kūną ant pečių (E) ir nunešk į Pikselių Pasaulį – ten atsirado didelis ežeras"
+},
+{
+"id": 1460,
+"kind": "s",
+"text": "PAGALIAU DEMONAS MIRĖ!"
+},
+{
+"id": 1461,
+"kind": "s",
+"text": "Pasaulis išgelbėtas"
+},
+{
+"id": 1462,
+"kind": "s",
+"text": "Chaosas baigėsi!"
+},
+{
+"id": 1463,
+"kind": "s",
+"text": "Daugiau nebekris meteoritai, nebeateis milžinai. Virš ežero kyla demono lazda – paimk ją (E)"
+},
+{
+"id": 1464,
+"kind": "s",
+"text": "Paėmei demono lazdą!"
+},
+{
+"id": 1465,
+"kind": "s",
+"text": "Nunešk ją į muziejų"
+},
+{
+"id": 1466,
+"kind": "s",
+"text": "PASKUTINIS ĮSAKYMAS ĮVYKDYTAS!"
+},
+{
+"id": 1467,
+"kind": "s",
+"text": "Demono lazda – muziejuje. Apdovanojimas: 3000 €. Tu išgelbėjai pasaulį!"
+},
+{
+"id": 1468,
+"kind": "t",
+"text": "žvakutės ${Q14.candles}/10"
+},
+{
+"id": 1469,
+"kind": "s",
+"text": "šautuvas"
+},
+{
+"id": 1470,
+"kind": "t",
+"text": "Ritualų parduotuvėje nusipirk: ${miss}"
+},
+{
+"id": 1471,
+"kind": "s",
+"text": "Užklijuok lipduką ritualo rato viduryje (E)"
+},
+{
+"id": 1472,
+"kind": "s",
+"text": "Sustatyk 10 žvakučių ritualo rate (E)"
+},
+{
+"id": 1473,
+"kind": "s",
+"text": "E – pradėti ritualą. Demonas ateis!"
+},
+{
+"id": 1474,
+"kind": "t",
+"text": "<b>Nugalėk demoną!</b> Taikyk ir šauk pele · demonas ${Math.max(0, DEM.hp)} · tu ${Math.max(0, DEM.php)}"
+},
+{
+"id": 1475,
+"kind": "s",
+"text": "Demonas grimzta į ežerą…"
+},
+{
+"id": 1476,
+"kind": "s",
+"text": "Nunešk demono kūną į didįjį ežerą Pikselių Pasaulyje"
+},
+{
+"id": 1477,
+"kind": "s",
+"text": "Kūrėjo Salėje užsidėk demono kūną ant pečių (E)"
+},
+{
+"id": 1478,
+"kind": "s",
+"text": "Paimk demono lazdą virš ežero (E)"
+},
+{
+"id": 1479,
+"kind": "s",
+"text": "Nunešk demono lazdą į muziejų"
+},
+{
+"id": 1480,
+"kind": "t",
+"text": "${arrow}<div><div class=\"qt\">Įsakymas #12: Demono ritualas</div><div class=\"qs\">${step}${dist}</div></div>"
+},
+{
+"id": 1481,
+"kind": "s",
+"text": "Didelis švytintis tramplinas su užrašu „KOSMOSAS ↑“. Pėsčiomis čia nieko neįvyks… Gal reikia labai greitai užvažiuoti mašina?"
+},
+{
+"id": 1482,
+"kind": "s",
+"text": "Per lėtai!"
+},
+{
+"id": 1483,
+"kind": "s",
+"text": "Įsibėk toliau ir užvažiuok ant tramplino greitai (Shift)"
+},
+{
+"id": 1484,
+"kind": "s",
+"text": "Skrendi pro burbulą – tiesiai į kosmosą!"
+},
+{
+"id": 1485,
+"kind": "s",
+"text": "Už burbulo"
+},
+{
+"id": 1486,
+"kind": "s",
+"text": "Tylu ir labai daug žvaigždžių. Čia sunkis silpnas – šokinėk per asteroidus."
+},
+{
+"id": 1487,
+"kind": "s",
+"text": "Tu kosmose!"
+},
+{
+"id": 1488,
+"kind": "s",
+"text": "Toli virš asteroidų šviečia didelė žvaigždė. Šokinėk iki jos! (sunkis čia silpnas)"
+},
+{
+"id": 1489,
+"kind": "s",
+"text": "Kosmosas. Portalas NAMO – šalia"
+},
+{
+"id": 1490,
+"kind": "s",
+"text": "Grįžai namo!"
+},
+{
+"id": 1491,
+"kind": "s",
+"text": "Nunešk žvaigždę į muziejų"
+},
+{
+"id": 1492,
+"kind": "s",
+"text": "Nukritai į kosmosą!"
+},
+{
+"id": 1493,
+"kind": "s",
+"text": "Kosmosas tave grąžino ant asteroido"
+},
+{
+"id": 1494,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti žvaigždę"
+},
+{
+"id": 1495,
+"kind": "s",
+"text": "Žvaigždė susitraukė ir įšoko tau į rankas!"
+},
+{
+"id": 1496,
+"kind": "s",
+"text": "Keliauk namo per portalą ir nunešk ją į muziejų"
+},
+{
+"id": 1497,
+"kind": "s",
+"text": "Žvaigždė iš kosmoso užėmė paskutinį tuščią muziejaus stendą. Apdovanojimas: 5000 €"
+},
+{
+"id": 1498,
+"kind": "t",
+"text": "${arrow}<div><div class=\"qt\">Slapta misija: Žvaigždė iš kosmoso</div><div class=\"qs\">${mode === 'space' ? 'Grįžk namo per portalą NAMO' : 'Nunešk žvaigždę į muziejų'}${dist}</div></div>"
+},
+{
+"id": 1499,
+"kind": "s",
+"text": "Dievų grupė"
+},
+{
+"id": 1500,
+"kind": "s",
+"text": "1 nauja žinutė"
+},
+{
+"id": 1501,
+"kind": "s",
+"text": "Kūrėjo telefonas vibruoja!"
+},
+{
+"id": 1502,
+"kind": "s",
+"text": "Didelis telefonas salėje – nauja žinutė dievų grupėje (E)"
+},
+{
+"id": 1503,
+"kind": "s",
+"text": "Labas visiems dievams! Turiu labai didelę naujieną."
+},
+{
+"id": 1504,
+"kind": "s",
+"text": "Mano pasaulį burbule ilgai griovė demonas. Meteoritai, milžinai, daiktų lietus… Chaosas kiekvieną dieną."
+},
+{
+"id": 1505,
+"kind": "s",
+"text": "Bet atsirado mažas, plonas, ŽALIAS žmogeliukas. Jis įvykdė visus mano dvylika įsakymų – ir NUGALĖJO DEMONĄ!"
+},
+{
+"id": 1506,
+"kind": "s",
+"text": "Jūrų Dievas"
+},
+{
+"id": 1507,
+"kind": "s",
+"text": "Žalias žmogeliukas?! Tas mažiukas su antenėle? Negali būti!"
+},
+{
+"id": 1508,
+"kind": "s",
+"text": "Saulės Dievė"
+},
+{
+"id": 1509,
+"kind": "s",
+"text": "Kokia graži naujiena! Siunčiu jam daug šilumos ir saulės spindulių."
+},
+{
+"id": 1510,
+"kind": "s",
+"text": "BUM! BUM! …Atsiprašau. Norėjau pasakyti – BRAVO!"
+},
+{
+"id": 1511,
+"kind": "s",
+"text": "Aš jį mačiau ir praeityje pas urvinius, ir ateityje Vagių banke. Šaunuolis visais laikais."
+},
+{
+"id": 1512,
+"kind": "s",
+"text": "Žvaigždžių Dievė"
+},
+{
+"id": 1513,
+"kind": "s",
+"text": "Jis net atskrido pas mane į kosmosą ir pasiėmė vieną mano žvaigždę. Tegul pasilieka – jis nusipelnė!"
+},
+{
+"id": 1514,
+"kind": "s",
+"text": "Mano žvaigždės irgi apie jį šnabžda. Gal kada nors jis ir pas mane atskris…"
+},
+{
+"id": 1515,
+"kind": "s",
+"text": "Vėjo Dievas"
+},
+{
+"id": 1516,
+"kind": "s",
+"text": "Fiuuu! Papūsiu jam į nugarą, kad visada greitai bėgtų."
+},
+{
+"id": 1517,
+"kind": "s",
+"text": "Nuo šiol mano pasaulyje – ramybė. Vienaragiai, katės, vorai, debesų princas – visi saugūs. Ačiū tau, žaliasis!"
+},
+{
+"id": 1518,
+"kind": "s",
+"text": "Kūrėjau, paklausk jo – gal jis ir pas mane norėtų atvykti? Mano pasaulis – vien vanduo, ir ne viskas jame gerai…"
+},
+{
+"id": 1519,
+"kind": "s",
+"text": "Žaliasi, girdėjai? Prie miesto atsivėrė JŪROS VARTAI. Įvažiuok į juos mašina – ir būsi pas Jūrų Dievą."
+},
+{
+"id": 1520,
+"kind": "s",
+"text": "VALIO ŽALIAJAM ŽMOGELIUKUI! VALIO! VALIO!"
+},
+{
+"id": 1521,
+"kind": "s",
+"text": "<div style=\"padding:8px 16px 10px;border-bottom:1px solid #2a2a38;display:flex;align-items:center;gap:10px\"><div id=\"gpAva\" style=\"width:40px;height:40px;border-radius:50%;background:radial-gradient(#fff6c8,#ffd23a);flex:none\"></div><div style=\"flex:1;min-width:0\"><div id=\"gpTitle\" style=\"font-weight:800;font-size:17px;color:#fff\">Dievų grupė</div><div id=\"gpSub\" style=\"font-size:12px;color:#9a9ab0\">7 dievai</div></div><button id=\"gpClose\" style=\"font:inherit;background:#2a2a38;color:#ddd;border:none;border-radius:10px;padding:6px 10px;cursor:pointer\">Uždaryti</button></div>"
+},
+{
+"id": 1522,
+"kind": "s",
+"text": "<div style=\"padding:10px 14px;border-top:1px solid #2a2a38;color:#6a6a80;font-size:13px\">Tik dievai gali rašyti šioje grupėje</div>"
+},
+{
+"id": 1523,
+"kind": "s",
+"text": "Jūrų Dievo telefonas"
+},
+{
+"id": 1524,
+"kind": "s",
+"text": "Saulės Dievės telefonas"
+},
+{
+"id": 1525,
+"kind": "s",
+"text": "Dievų grupė · 7 dievai"
+},
+{
+"id": 1526,
+"kind": "s",
+"text": " rašo…"
+},
+{
+"id": 1527,
+"kind": "s",
+"text": "<svg viewBox=\"0 0 160 120\" width=\"200\" style=\"display:block;border-radius:12px;background:linear-gradient(#6fc4ff,#cdeeff)\"><circle cx=\"130\" cy=\"22\" r=\"12\" fill=\"#ffe14d\"/><rect x=\"0\" y=\"92\" width=\"160\" height=\"28\" fill=\"#6cd85e\"/><circle cx=\"80\" cy=\"44\" r=\"14\" fill=\"#6ff05a\"/><rect x=\"73\" y=\"56\" width=\"14\" height=\"30\" rx=\"5\" fill=\"#6ff05a\"/><rect x=\"66\" y=\"58\" width=\"5\" height=\"22\" rx=\"2\" fill=\"#3fb33a\" transform=\"rotate(25 68 58)\"/><rect x=\"89\" y=\"58\" width=\"5\" height=\"22\" rx=\"2\" fill=\"#3fb33a\" transform=\"rotate(-25 92 58)\"/><rect x=\"74\" y=\"84\" width=\"5\" height=\"16\" rx=\"2\" fill=\"#3fb33a\"/><rect x=\"81\" y=\"84\" width=\"5\" height=\"16\" rx=\"2\" fill=\"#3fb33a\"/><circle cx=\"75\" cy=\"44\" r=\"2\" fill=\"#111\"/><circle cx=\"85\" cy=\"44\" r=\"2\" fill=\"#111\"/><line x1=\"80\" y1=\"30\" x2=\"80\" y2=\"22\" stroke=\"#3fb33a\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"20\" r=\"3\" fill=\"#ffe14d\"/><path d=\"M30 96 l14 -26 l10 26 z\" fill=\"#7a2030\"/><text x=\"80\" y=\"114\" font-size=\"10\" text-anchor=\"middle\" fill=\"#1a3a10\" font-family=\"sans-serif\" font-weight=\"bold\">Mano didvyris!</text></svg>"
+},
+{
+"id": 1528,
+"kind": "s",
+"text": "Prie miesto atsivėrė Jūros vartai!"
+},
+{
+"id": 1529,
+"kind": "s",
+"text": "Įvažiuok į juos mašina – ir būsi pas Jūrų Dievą"
+},
+{
+"id": 1530,
+"kind": "s",
+"text": "JŪROS VARTAI"
+},
+{
+"id": 1531,
+"kind": "s",
+"text": "Jūros vartai"
+},
+{
+"id": 1532,
+"kind": "s",
+"text": "Mėlyni vartai, už kurių ošia jūra. Jūrų Dievas kviečia pas save. Įvažiuok į juos mašina!"
+},
+{
+"id": 1533,
+"kind": "s",
+"text": "Jei įvažiuosi pas Jūrų Dievą, atgal grįžti NEBEGALĖSI – liksi gyventi po vandeniu visam laikui! Važiuoti?"
+},
+{
+"id": 1534,
+"kind": "s",
+"text": "Pas Jūrų Dievą reikia nuvažiuoti!"
+},
+{
+"id": 1535,
+"kind": "s",
+"text": "Įvažiuok į vartus mašina (F – iškviesti)"
+},
+{
+"id": 1536,
+"kind": "s",
+"text": "Pliūkšt!"
+},
+{
+"id": 1537,
+"kind": "s",
+"text": "Važiuoji per Jūros vartus…"
+},
+{
+"id": 1538,
+"kind": "s",
+"text": "Žuvų Miestas"
+},
+{
+"id": 1539,
+"kind": "s",
+"text": "Blub! Sveikas atvykęs į Žuvų Miestą! Čia viskas gerai… beveik."
+},
+{
+"id": 1540,
+"kind": "s",
+"text": "Mes turime namus iš koralų ir kriauklių fontaną. O ten, už tamsaus vandens, – senasis miestas. Jį sugriovė didžiulė banga."
+},
+{
+"id": 1541,
+"kind": "s",
+"text": "Jūrų Dievas mus saugo. Bet senojo miesto žuvims jis nespėjo padėti. Blub."
+},
+{
+"id": 1542,
+"kind": "s",
+"text": "Ar matei mūsų perlą? Jis šviečia net naktį!"
+},
+{
+"id": 1543,
+"kind": "s",
+"text": "Tu toks keistas! Neturi pelekų! Bet kvėpuoji po vandeniu – šaunu!"
+},
+{
+"id": 1544,
+"kind": "s",
+"text": "Mano tėtis plaukia greičiau už ryklį. Na, beveik."
+},
+{
+"id": 1545,
+"kind": "s",
+"text": "Sugriuvęs Miestas"
+},
+{
+"id": 1546,
+"kind": "s",
+"text": "Blub… Mūsų namus sugriovė didžiulė banga. Dabar gyvename čia, tarp griuvėsių."
+},
+{
+"id": 1547,
+"kind": "s",
+"text": "Neturime nei kriauklių, nei maisto. Bet turime vienas kitą."
+}
+]

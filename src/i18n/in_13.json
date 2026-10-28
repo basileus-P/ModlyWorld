@@ -1,0 +1,717 @@
+[
+{
+"id": 2644,
+"kind": "s",
+"text": "Tu"
+},
+{
+"id": 2645,
+"kind": "s",
+"text": "Žvaigždžių Dieve… tu nebe skeletas?! Kas čia buvo?!"
+},
+{
+"id": 2646,
+"kind": "s",
+"text": "Tas didysis šikšnosparnis… jis mane pavertė SKELETU ir pasiėmė mano kūną."
+},
+{
+"id": 2647,
+"kind": "s",
+"text": "Bet aš esu ŽMOGUS. Visada buvau."
+},
+{
+"id": 2648,
+"kind": "s",
+"text": "Tu jį nugalėjai, ir mano kūnas sugrįžo. Ačiū tau, mažasis žaliasis… Tu įvykdei VISUS penkis mano įsakymus."
+},
+{
+"id": 2649,
+"kind": "s",
+"text": "VISI 5 ĮSAKYMAI ĮVYKDYTI!"
+},
+{
+"id": 2650,
+"kind": "s",
+"text": "Žvaigždžių Dievė vėl žmogus · +10 000 €"
+},
+{
+"id": 2651,
+"kind": "s",
+"text": "Bandymų pasaulis: Didysis šikšnosparnis"
+},
+{
+"id": 2652,
+"kind": "s",
+"text": "Dievė jau žmogus"
+},
+{
+"id": 2653,
+"kind": "s",
+"text": "Pradžios planeta"
+},
+{
+"id": 2654,
+"kind": "s",
+"text": "Portalas atsivėrė! 🌀"
+},
+{
+"id": 2655,
+"kind": "s",
+"text": "Įeik į jį arba spausk E – ir pasirink, į kurią planetą keliauti"
+},
+{
+"id": 2656,
+"kind": "t",
+"text": "<div style=\"font-size:22px;font-weight:800;color:#c8a0ff;margin-bottom:4px\">🌀 Kur keliausi?</div><div style=\"opacity:.75;margin-bottom:12px\">Spausk planetą arba skaičių 1–${PG_DEST.length} · Esc – uždaryti</div><div style=\"display:grid;grid-template-columns:repeat(2,1fr);gap:8px\">${PG_DEST.map((w, i) => `<button type=\"button\" data-i=\"${i}\" style=\"padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,.2);background:rgba(154,90,255,.18);color:#fff;font:700 15px system-ui;cursor:pointer;text-align:left\"><small style=\"opacity:.6\">${i + 1}</small> ${w.icon} ${w.name}</button>`).join('')}</div>"
+},
+{
+"id": 2657,
+"kind": "s",
+"text": "Portalas tave nunešė. Spausk 5 – vėl atidaryti portalą"
+},
+{
+"id": 2658,
+"kind": "s",
+"text": "🌀 portalas į bet kurią planetą"
+},
+{
+"id": 2659,
+"kind": "s",
+"text": "Ir dar viena dovana: spausk 5 – šalia tavęs atsivers PORTALAS. Juo gali keliauti į bet kurią planetą!"
+},
+{
+"id": 2660,
+"kind": "s",
+"text": "Čia neskraidysi!"
+},
+{
+"id": 2661,
+"kind": "s",
+"text": "Ant Žvaigždžių Dievės žvaigždės sparnai ir kuprinė neveikia – tik šokinėti"
+},
+{
+"id": 2662,
+"kind": "s",
+"text": "Atgal į pasaulį"
+},
+{
+"id": 2663,
+"kind": "s",
+"text": "Sveikas, mažasis keliautojau. Laukiau tavęs nuo pat pirmojo pikselio."
+},
+{
+"id": 2664,
+"kind": "s",
+"text": "Šį pasaulį sukūriau burbule, kad jis būtų saugus. Iš išorės jis atrodo mažas, bet viduje – didesnis, nei atrodo. Kiekvienas biomas yra atskira mano svajonė."
+},
+{
+"id": 2665,
+"kind": "s",
+"text": "Miestas, kuriame viskas prasideda. Dykuma, kuri niekada nesibaigia. Ledas, saugantis paslaptis. Grybai, kurie šviečia, kai niekas nežiūri."
+},
+{
+"id": 2666,
+"kind": "s",
+"text": "Raudonas smėlis, slepiantis vandenį. Džiunglės, kurios viską prisimena. Ir pikseliai – vieta, kurios dar nespėjau pabaigti."
+},
+{
+"id": 2667,
+"kind": "s",
+"text": "Bet kažkas atėjo iš už burbulo. Demonas, kuris verčia mano pasaulį chaosu. Sprogimai, krentantys daiktai, milžinai – tai jo darbas."
+},
+{
+"id": 2668,
+"kind": "s",
+"text": "Kodėl pasirinkau būtent tave, mažą žalią žmogeliuką? To nepasakysiu. Tai turi suprasti pats."
+},
+{
+"id": 2669,
+"kind": "s",
+"text": "Eik. Daryk darbus, padėk gyventojams, stiprėk. Kai būsi pasiruošęs, grįžk – ir aš duosiu tau pirmąjį įsakymą."
+},
+{
+"id": 2670,
+"kind": "s",
+"text": "Vaizdas iš priekio"
+},
+{
+"id": 2671,
+"kind": "s",
+"text": "Vaizdas iš nugaros"
+},
+{
+"id": 2672,
+"kind": "s",
+"text": "Dabar matai savo veidą ir kostiumą. V – grįžti atgal"
+},
+{
+"id": 2673,
+"kind": "s",
+"text": "V – vėl pažiūrėti iš priekio"
+},
+{
+"id": 2674,
+"kind": "s",
+"text": "Pelės užrakinti nepavyko"
+},
+{
+"id": 2675,
+"kind": "s",
+"text": "Kamerą suk rodyklėmis ← → ↑ ↓"
+},
+{
+"id": 2676,
+"kind": "s",
+"text": "Užsiropštei!"
+},
+{
+"id": 2677,
+"kind": "s",
+"text": "Rankomis gali įsikibti į sienas, kraštus, medžius ir uolas"
+},
+{
+"id": 2678,
+"kind": "s",
+"text": "Kūrėjas nutilo"
+},
+{
+"id": 2679,
+"kind": "s",
+"text": "Kai kuriuos atsakymus turėsi suprasti pats"
+},
+{
+"id": 2680,
+"kind": "s",
+"text": "Visi septyni žiburiai dega. Vartai atsivėrė – įeik į jų šviesą, ir jie nuves tave į pasaulio centrą, pas Kūrėją."
+},
+{
+"id": 2681,
+"kind": "t",
+"text": "Vartai uždaryti. Aplink juos – septyni žiburiai, kiekvienas skirtas vienam biomui. Kai aplankysi visus, vartai atsivers. Dar liko: ${left.join(', ')}."
+},
+{
+"id": 2682,
+"kind": "s",
+"text": "Joji ant kiaulės!"
+},
+{
+"id": 2683,
+"kind": "s",
+"text": "Kiaulė suka ten, kur rodo pelė. W – pirmyn, Shift – greičiau"
+},
+{
+"id": 2684,
+"kind": "s",
+"text": "Kiaulė atspawninta!"
+},
+{
+"id": 2685,
+"kind": "s",
+"text": "Prieik ir spausk R, kad užsėstum ant jos"
+},
+{
+"id": 2686,
+"kind": "s",
+"text": "Kūrėjo vartai atsivėrė"
+},
+{
+"id": 2687,
+"kind": "s",
+"text": "Grįžk į Pradžios Miesto aikštę"
+},
+{
+"id": 2688,
+"kind": "t",
+"text": "${auto.spec.name} · ${Math.round(Math.abs(auto.speed) * 3.6)} km/h · Pelė – kryptis · <kbd>W</kbd>/<kbd>S</kbd> · <kbd>Space</kbd> ${auto.spec.trickName} · <kbd>R</kbd> išlipti"
+},
+{
+"id": 2689,
+"kind": "s",
+"text": "Pelė – kryptis · <kbd>W</kbd> pirmyn · <kbd>Shift</kbd> greičiau · <kbd>Space</kbd> šuolis · <kbd>R</kbd> nulipti"
+},
+{
+"id": 2690,
+"kind": "t",
+"text": "<kbd>R</kbd> sėsti į mašiną: ${auto.spec.name}"
+},
+{
+"id": 2691,
+"kind": "s",
+"text": "<kbd>R</kbd> užsėsti ant kiaulės"
+},
+{
+"id": 2692,
+"kind": "s",
+"text": "Kabai! <kbd>W</kbd>/<kbd>S</kbd> lipti · <kbd>A</kbd>/<kbd>D</kbd> į šonus · <kbd>Space</kbd> atsispirti · atleisk pelę – paleisti"
+},
+{
+"id": 2693,
+"kind": "s",
+"text": " ir "
+},
+{
+"id": 2694,
+"kind": "s",
+"text": " · atleisk mygtuką – mesti"
+},
+{
+"id": 2695,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti viščiuką"
+},
+{
+"id": 2696,
+"kind": "s",
+"text": "<kbd>LMB</kbd> pastatyti · <kbd>Q</kbd> / ratukas – sukti · <kbd>RMB</kbd> atšaukti"
+},
+{
+"id": 2697,
+"kind": "t",
+"text": "<kbd>E</kbd> apžiūrėti: ${nearInspect.name}"
+},
+{
+"id": 2698,
+"kind": "s",
+"text": "<kbd>X</kbd> nugriauti šį namą"
+},
+{
+"id": 2699,
+"kind": "t",
+"text": "Laikyk <kbd>LMB</kbd> / <kbd>RMB</kbd> – paimti: ${g.name}"
+},
+{
+"id": 2700,
+"kind": "s",
+"text": "Leidiesi į pasaulio centrą…"
+},
+{
+"id": 2701,
+"kind": "s",
+"text": "Paskutinė ir paslaptingiausia vieta. Prieik prie šviesos ir spausk E."
+},
+{
+"id": 2702,
+"kind": "s",
+"text": "Kūrėjas laukia"
+},
+{
+"id": 2703,
+"kind": "t",
+"text": "<kbd>E</kbd> atiduoti viščiukus vištai (${followers().length})"
+},
+{
+"id": 2704,
+"kind": "s",
+"text": "Višta laukia savo viščiukų"
+},
+{
+"id": 2705,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti snaiperio šautuvą"
+},
+{
+"id": 2706,
+"kind": "s",
+"text": "<kbd>E</kbd> keliauti laiko mašina"
+},
+{
+"id": 2707,
+"kind": "s",
+"text": "<kbd>E</kbd> sudėti auksines kates į ratą"
+},
+{
+"id": 2708,
+"kind": "s",
+"text": "<kbd>E</kbd> paskaityti dievų pokalbį telefone"
+},
+{
+"id": 2709,
+"kind": "s",
+"text": "<kbd>E</kbd> pažiūrėti į Kūrėjo telefoną – nauja žinutė!"
+},
+{
+"id": 2710,
+"kind": "t",
+"text": "<kbd>E</kbd> kalbėtis: ${nf.name}"
+},
+{
+"id": 2711,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su Kūrėju"
+},
+{
+"id": 2712,
+"kind": "s",
+"text": "Tu pas Žvaigždžių Dievę. Esc – meniu"
+},
+{
+"id": 2713,
+"kind": "s",
+"text": "Tu pas Vėjo Dievą. Esc – meniu"
+},
+{
+"id": 2714,
+"kind": "s",
+"text": "Tu pas Griaustinio Dievą. Esc – meniu"
+},
+{
+"id": 2715,
+"kind": "s",
+"text": "Tu gyveni pas Laiko Dievą. Esc – meniu"
+},
+{
+"id": 2716,
+"kind": "s",
+"text": "Tu gyveni Saulėje pas Saulės Dievą. Esc – meniu"
+},
+{
+"id": 2717,
+"kind": "s",
+"text": "Tu gyveni po vandeniu pas Jūrų Dievą. Esc – meniu"
+},
+{
+"id": 2718,
+"kind": "s",
+"text": "Sveikas sugrįžęs!"
+},
+{
+"id": 2719,
+"kind": "s",
+"text": "Tęsi ten, kur išsaugojai. Esc – meniu"
+},
+{
+"id": 2720,
+"kind": "s",
+"text": "Čia prasideda dauguma kelionių. Apžiūrėk vartus aikštės centre (E). Esc – meniu"
+},
+{
+"id": 2721,
+"kind": "s",
+"text": "Tęsti kelionę"
+},
+{
+"id": 2722,
+"kind": "s",
+"text": "Pradėti kelionę"
+},
+{
+"id": "h0",
+"kind": "h",
+"text": "Atleisk mygtuką"
+},
+{
+"id": "h1",
+"kind": "h",
+"text": "Bandymų komanda"
+},
+{
+"id": "h2",
+"kind": "h",
+"text": "E – uždaryti"
+},
+{
+"id": "h3",
+"kind": "h",
+"text": "F – iškviesti"
+},
+{
+"id": "h4",
+"kind": "h",
+"text": "Garsas: įj. (M)"
+},
+{
+"id": "h5",
+"kind": "h",
+"text": "Geriausiai veikia kompiuteryje su klaviatūra ir pele."
+},
+{
+"id": "h6",
+"kind": "h",
+"text": "Gyvūnų kioskas"
+},
+{
+"id": "h7",
+"kind": "h",
+"text": "Kartu su tavimi gali keliauti iki 5 gyvūnų. Kiti saugiai laukia kolekcijoje, kol juos pasiimsi."
+},
+{
+"id": "h8",
+"kind": "h",
+"text": "Kostiumų kioskas"
+},
+{
+"id": "h9",
+"kind": "h",
+"text": "Kūrėjo Salė"
+},
+{
+"id": "h10",
+"kind": "h",
+"text": "Laiko mašinos statyba"
+},
+{
+"id": "h11",
+"kind": "h",
+"text": "Lėčiausios mašinos pigiausios, greičiausios – brangiausios. Kartą nusipirktą mašiną F iškviesi nemokamai. Kiekviena turi savo triuką ant Space: sireną, šuolį, melodiją ar raketą."
+},
+{
+"id": "h12",
+"kind": "h",
+"text": "Mano gyvūnai"
+},
+{
+"id": "h13",
+"kind": "h",
+"text": "Mano transportas"
+},
+{
+"id": "h14",
+"kind": "h",
+"text": "Mašinų parduotuvė"
+},
+{
+"id": "h15",
+"kind": "h",
+"text": "Mažas apvalus pasaulis burbule"
+},
+{
+"id": "h16",
+"kind": "h",
+"text": "Namo įrengimas"
+},
+{
+"id": "h17",
+"kind": "h",
+"text": "Namų kioskas"
+},
+{
+"id": "h18",
+"kind": "h",
+"text": "Ne"
+},
+{
+"id": "h19",
+"kind": "h",
+"text": "Paprasčiausi namai pigiausi, prabangiausi – brangiausi. Išsirink namą ir pastatyk jį bet kur pasaulyje – pinigai nuskaičiuojami, kai pastatai."
+},
+{
+"id": "h20",
+"kind": "h",
+"text": "Parašyk Kūrėjui…"
+},
+{
+"id": "h21",
+"kind": "h",
+"text": "Pasirink, ką iškviesti šalia savęs. Čia rodomi tik tavo turimi: kiaulė ir mašinos iš parduotuvės."
+},
+{
+"id": "h22",
+"kind": "h",
+"text": "Pelė"
+},
+{
+"id": "h23",
+"kind": "h",
+"text": "Persirenk kada nori. Paprasčiausi kostiumai pigiausi, prabangiausi – brangiausi. Kartą nupirktą kostiumą gali vėl apsirengti nemokamai."
+},
+{
+"id": "h24",
+"kind": "h",
+"text": "Pokalbis su Kūrėju"
+},
+{
+"id": "h25",
+"kind": "h",
+"text": "Pradėti naują kelionę"
+},
+{
+"id": "h26",
+"kind": "h",
+"text": "Pradžios Miestas"
+},
+{
+"id": "h27",
+"kind": "h",
+"text": "Rašai Kūrėjui"
+},
+{
+"id": "h28",
+"kind": "h",
+"text": "Siųsti"
+},
+{
+"id": "h29",
+"kind": "h",
+"text": "Spalvinga, linksma ir gyva."
+},
+{
+"id": "h30",
+"kind": "h",
+"text": "Spustelk, kad tęstum"
+},
+{
+"id": "h31",
+"kind": "h",
+"text": "Sukalti plaktuku ir vinimis"
+},
+{
+"id": "h32",
+"kind": "h",
+"text": "Tavo namai"
+},
+{
+"id": "h33",
+"kind": "h",
+"text": "Tu esi mažas, plonas, žalias žmogeliukas. Burbulo viduje – aštuoni biomai. Keliauk kur nori ir kada nori: tvarkos nėra. Ištiesk ranką, kad pasiimtum daiktų arba įsikibtum į sienas ir uolas. Aplankyk visus septynis biomus, ir miesto aikštės vartai nuves tave pas Kūrėją."
+},
+{
+"id": "h34",
+"kind": "h",
+"text": "Uždaryti (Esc)"
+},
+{
+"id": "h35",
+"kind": "h",
+"text": "Uždaryti (F)"
+},
+{
+"id": "h36",
+"kind": "h",
+"text": "Uždaryti (I)"
+},
+{
+"id": "h37",
+"kind": "h",
+"text": "Uždirbti pinigai"
+},
+{
+"id": "h38",
+"kind": "h",
+"text": "Visi baldai nemokami. Išsirink baldą ir padėk jį kambaryje: Q arba ratukas suka, kairysis pelės mygtukas padeda. Prie baldo spausk X, kad jį pasiimtum atgal."
+},
+{
+"id": "h39",
+"kind": "h",
+"text": "Visi gyvūnai tikri, tik atrodo truputį juokingai. Paprasčiausi – pigiausi, įspūdingiausi – brangiausi. Išsirinktas gyvūnas seks paskui tave visur."
+},
+{
+"id": "h40",
+"kind": "h",
+"text": "apžiūrėti"
+},
+{
+"id": "h41",
+"kind": "h",
+"text": "apžiūrėti daiktą"
+},
+{
+"id": "h42",
+"kind": "h",
+"text": "atlaisvina pelę."
+},
+{
+"id": "h43",
+"kind": "h",
+"text": "bėgti"
+},
+{
+"id": "h44",
+"kind": "h",
+"text": "garsas / grafikos kokybė"
+},
+{
+"id": "h45",
+"kind": "h",
+"text": "iškviesti mašiną ar kiaulę"
+},
+{
+"id": "h46",
+"kind": "h",
+"text": "ištiesti ranką (laikyk): paimti daiktą arba įsikibti"
+},
+{
+"id": "h47",
+"kind": "h",
+"text": "judėti"
+},
+{
+"id": "h48",
+"kind": "h",
+"text": "kamera be pelės"
+},
+{
+"id": "h49",
+"kind": "h",
+"text": "laikyk – dešinė ranka ištiesta"
+},
+{
+"id": "h50",
+"kind": "h",
+"text": "laikyk – kairė ranka ištiesta"
+},
+{
+"id": "h51",
+"kind": "h",
+"text": "mano gyvūnai"
+},
+{
+"id": "h52",
+"kind": "h",
+"text": "mesti daiktą"
+},
+{
+"id": "h53",
+"kind": "h",
+"text": "mesti pagaliuką (kai turi)"
+},
+{
+"id": "h54",
+"kind": "h",
+"text": "pašokti"
+},
+{
+"id": "h55",
+"kind": "h",
+"text": "pašokti (Vėjo planetoje laikyk – skristi)"
+},
+{
+"id": "h56",
+"kind": "h",
+"text": "pažiūrėti į save iš priekio"
+},
+{
+"id": "h57",
+"kind": "h",
+"text": "pinigai – 10 000 000 000 000 000 € · pinigai 5000 – bet kokia suma · kuprine – debesų kuprinė · sparnai – sparnai · viskas – visos mašinos, gyvūnai ir kostiumai · slapta – iškart išbandyti slaptą misiją · pistoletas – numesti pistoletą šalia tavęs · Esc – uždaryti"
+},
+{
+"id": "h58",
+"kind": "h",
+"text": "slėpti šią lentelę"
+},
+{
+"id": "h59",
+"kind": "h",
+"text": "sukti kamerą"
+},
+{
+"id": "h60",
+"kind": "h",
+"text": "sėsti / išsirinkti, ką iškviesti"
+},
+{
+"id": "h61",
+"kind": "h",
+"text": "užsėsti ant kiaulės"
+},
+{
+"id": "h62",
+"kind": "h",
+"text": "vaikščioti"
+},
+{
+"id": "h63",
+"kind": "h",
+"text": "Įrenk namus"
+}
+]

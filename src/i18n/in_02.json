@@ -1,0 +1,1022 @@
+[
+{
+"id": 510,
+"kind": "s",
+"text": "Aš pasiklydau ir labai išsigandau. Čia visi tuneliai vienodi!"
+},
+{
+"id": 511,
+"kind": "s",
+"text": "Gerai, eisiu paskui tave. Tik neik per greitai – mano kojos susipainioja."
+},
+{
+"id": 512,
+"kind": "s",
+"text": "Voratinklė seka paskui tave"
+},
+{
+"id": 513,
+"kind": "s",
+"text": "Nuvesk ją pas Senąjį Vorą"
+},
+{
+"id": 514,
+"kind": "s",
+"text": "Aš pasiklydau… Bet mama sakė nekalbėti su nepažįstamais. Gal pirma pasikalbėk su mano tėčiu?"
+},
+{
+"id": 515,
+"kind": "s",
+"text": "Mano mažyte!"
+},
+{
+"id": 516,
+"kind": "s",
+"text": "Tėti!"
+},
+{
+"id": 517,
+"kind": "s",
+"text": "Gavai musę voratinklyje!"
+},
+{
+"id": 518,
+"kind": "s",
+"text": "Grįžk liftu aukštyn ir nunešk ją į muziejų Pradžios Mieste"
+},
+{
+"id": 519,
+"kind": "s",
+"text": "Įsakymas #3 įvykdytas!"
+},
+{
+"id": 520,
+"kind": "s",
+"text": "Musė voratinklyje – naujas muziejaus eksponatas. Apdovanojimas: 250 €"
+},
+{
+"id": 521,
+"kind": "s",
+"text": "Buhū…"
+},
+{
+"id": 522,
+"kind": "s",
+"text": "Tėti?"
+},
+{
+"id": 523,
+"kind": "s",
+"text": "Kur aš?"
+},
+{
+"id": 524,
+"kind": "s",
+"text": "<kbd>E</kbd> kilti liftu aukštyn"
+},
+{
+"id": 525,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su Senuoju Voru"
+},
+{
+"id": 526,
+"kind": "s",
+"text": "<kbd>E</kbd> kalbėtis su Voratinkle"
+},
+{
+"id": 527,
+"kind": "s",
+"text": "Voratinklė seka paskui tave – nuvesk ją pas tėtį"
+},
+{
+"id": 528,
+"kind": "s",
+"text": "Kūrėjas tavęs laukia"
+},
+{
+"id": 529,
+"kind": "s",
+"text": "Nueik pas jį – jis turi naują įsakymą"
+},
+{
+"id": 530,
+"kind": "s",
+"text": "Tu grįžai. Senasis Voras man papasakojo, kaip padėjai jo dukrai. Tavo širdis gera, mažasis."
+},
+{
+"id": 531,
+"kind": "s",
+"text": "Turiu ketvirtąjį įsakymą: SPALVOTAS VIENARAGIO RAGAS. Jis nuves tave toli – net į kitą pasaulį."
+},
+{
+"id": 532,
+"kind": "s",
+"text": "Ten bus keista, saldu ir truputį baisu. Ar tu pasiruošęs?"
+},
+{
+"id": 533,
+"kind": "s",
+"text": "Žinojau, kad taip pasakysi. Klausyk atidžiai."
+},
+{
+"id": 534,
+"kind": "s",
+"text": "Pikselių Pasaulyje atsivėrė portalas. Už jo – Saldainių Pasaulis. Ten gyvena vienintelė vienaragių šeima visoje visatoje."
+},
+{
+"id": 535,
+"kind": "s",
+"text": "Kai demonas praskrido pro jų pasaulį, Mamos Vienaragės ragas nulūžo. Visa šeima iš baimės išsilakstė į skirtingas puses, o mama be rago labai nusilpo."
+},
+{
+"id": 536,
+"kind": "s",
+"text": "Surask juos. Kiekvienas pasakys, kur ieškoti kito. Paskutinis žinos, kur yra ragas."
+},
+{
+"id": 537,
+"kind": "s",
+"text": "Spalvotą ragą atnešk į muziejų – ten demonas jo niekada nebepavogs. Eik!"
+},
+{
+"id": 538,
+"kind": "s",
+"text": "Nieko tokio. Pasiruošti – irgi drąsa. Kai būsi pasiruošęs, ateik ir pasakyk man."
+},
+{
+"id": 539,
+"kind": "t",
+"text": "Jau suradai ${Q4.met.length} iš 4 vienaragių. Klausyk, ką jie sako – kiekvienas žino, kur kitas."
+},
+{
+"id": 540,
+"kind": "s",
+"text": "Portalas laukia Pikselių Pasaulyje. Už jo – Saldainių Pasaulis ir išsigandusi vienaragių šeima."
+},
+{
+"id": 541,
+"kind": "s",
+"text": "Spalvotas ragas pas tave! Jaučiu jo šviesą net iš čia. Nunešk jį į muziejų Pradžios Mieste."
+},
+{
+"id": 542,
+"kind": "s",
+"text": "Vienaragių šeima vėl kartu, o spalvotas ragas saugus muziejuje. Demonas pyksta – vadinasi, mums sekasi."
+},
+{
+"id": 543,
+"kind": "s",
+"text": "Spausk mygtuką arba klavišą: T – taip, N – ne"
+},
+{
+"id": 544,
+"kind": "s",
+"text": "Kūrėjas"
+},
+{
+"id": 545,
+"kind": "s",
+"text": "Ar tu pasiruošęs ketvirtajam įsakymui „Spalvotas vienaragio ragas“?"
+},
+{
+"id": 546,
+"kind": "s",
+"text": "Įsakymas #4: Spalvotas vienaragio ragas"
+},
+{
+"id": 547,
+"kind": "s",
+"text": "Surask portalą Pikselių Pasaulyje"
+},
+{
+"id": 548,
+"kind": "s",
+"text": "Įsakymas #4 įvykdytas!"
+},
+{
+"id": 549,
+"kind": "s",
+"text": "SALDAINIŲ PASAULIS"
+},
+{
+"id": 550,
+"kind": "s",
+"text": "įeiti į portalą"
+},
+{
+"id": 551,
+"kind": "s",
+"text": "Pikselių Pasaulyje atsirado portalas!"
+},
+{
+"id": 552,
+"kind": "s",
+"text": "Kažkas spalvoto mirga prie kelio…"
+},
+{
+"id": 553,
+"kind": "s",
+"text": "Portalas mirga, bet neatsiveria. Atrodo, jį atidaryti gali tik Kūrėjo įsakymas."
+},
+{
+"id": 554,
+"kind": "s",
+"text": "prie portalo"
+},
+{
+"id": 555,
+"kind": "s",
+"text": "Uiii! Žaliasis žmogeliukas! Tu ne demonas? Tikrai tikrai? Fiuuu…"
+},
+{
+"id": 556,
+"kind": "s",
+"text": "Aš – Blizgutis, mažiausias šeimoje. Kai demonas praskrido, mamytės ragas – KRAKŠT! – ir nulūžo. Visi išsigandom ir išbėgiojom kas kur."
+},
+{
+"id": 557,
+"kind": "s",
+"text": "Mano brolis Cukrinukas visada slepiasi prie LEDŲ KALNO – ten, kairėje, kur didžiuliai ledų kamuoliai su vyšnia viršuje. Surask jį!"
+},
+{
+"id": 558,
+"kind": "s",
+"text": "Cukrinukas – prie Ledų Kalno, kairėje. O aš eisiu pas mamą!"
+},
+{
+"id": 559,
+"kind": "s",
+"text": "Surask Cukrinuką prie Ledų Kalno"
+},
+{
+"id": 560,
+"kind": "s",
+"text": "prie Ledų Kalno"
+},
+{
+"id": 561,
+"kind": "s",
+"text": "Mmm… ai! Neatimk mano ledų! …A, tu ne ledų vagis. Atsiprašau."
+},
+{
+"id": 562,
+"kind": "s",
+"text": "Blizgutis tave atsiuntė? Uf, gerai, kad jis sveikas. Aš iš baimės suvalgiau pusę kalno."
+},
+{
+"id": 563,
+"kind": "s",
+"text": "Tėtis nubėgo per ŠOKOLADO UPĘ – per didžiulį sausainių tiltą dešinėje – į GUMINUKŲ LAUKĄ. Jis ieško mamos rago."
+},
+{
+"id": 564,
+"kind": "s",
+"text": "Tėtis – Guminukų Lauke, už Šokolado Upės, dešinėje. Per sausainių tiltą!"
+},
+{
+"id": 565,
+"kind": "s",
+"text": "Pereik Šokolado Upę ir surask tėtį Guminukų Lauke"
+},
+{
+"id": 566,
+"kind": "s",
+"text": "Tėtis Vaivorykštis"
+},
+{
+"id": 567,
+"kind": "s",
+"text": "Guminukų Lauke"
+},
+{
+"id": 568,
+"kind": "s",
+"text": "Stok! Kas eina? …O, tu ne demonas. Atleisk, mažasis, aš labai sunerimęs."
+},
+{
+"id": 569,
+"kind": "s",
+"text": "Mano berniukai sveiki? Ačiū tau, ačiū! Bet mano žmona, Mama Saulutė… be rago ji visai nusilpo."
+},
+{
+"id": 570,
+"kind": "s",
+"text": "Ji ilsisi CUKRAUS VATOS PIEVOJE – kairėje, už upės, kur purūs rožiniai ir mėlyni medeliai. Eik pas ją, ji žino daugiau."
+},
+{
+"id": 571,
+"kind": "s",
+"text": "Mama – Cukraus Vatos Pievoje, kairėje. Aš tuoj ten ateisiu."
+},
+{
+"id": 572,
+"kind": "s",
+"text": "Surask mamą Cukraus Vatos Pievoje"
+},
+{
+"id": 573,
+"kind": "s",
+"text": "Mama Saulutė"
+},
+{
+"id": 574,
+"kind": "s",
+"text": "Ak… sveikas, mažasis… atleisk, kad nesikeliu. Be rago neturiu jėgų."
+},
+{
+"id": 575,
+"kind": "s",
+"text": "Tu suradai mano vaikus ir vyrą? Kokia laimė… Jie visi ateis čia, pas mane."
+},
+{
+"id": 576,
+"kind": "s",
+"text": "Mano ragas nulūžo, bet jo spalvos neužgeso. Jis nukrito ant DIDŽIOJO TORTO viršaus – ten, kur dega žvakutės. Aplink jį – stebuklingas burbulas, bet dabar jis tave praleis."
+},
+{
+"id": 577,
+"kind": "s",
+"text": "Užlipk tortu laiptais ir paimk ragą. Nunešk jį į savo pasaulio muziejų – ten demonas jo niekada neras. O mano naujas ragas ataugs… po truputį."
+},
+{
+"id": 578,
+"kind": "s",
+"text": "Ragas – ant Didžiojo Torto viršaus. Laiptai – iš priekio. Saugok jį, mažasis."
+},
+{
+"id": 579,
+"kind": "s",
+"text": "Užlipk ant Didžiojo Torto ir paimk ragą"
+},
+{
+"id": 580,
+"kind": "s",
+"text": "LEDŲ KALNAS"
+},
+{
+"id": 581,
+"kind": "s",
+"text": "ŠOKOLADO UPĖ"
+},
+{
+"id": 582,
+"kind": "s",
+"text": "SAUSAINIŲ TILTAS ↓"
+},
+{
+"id": 583,
+"kind": "s",
+"text": "GUMINUKŲ LAUKAS"
+},
+{
+"id": 584,
+"kind": "s",
+"text": "Saldainių Pasaulis"
+},
+{
+"id": 585,
+"kind": "s",
+"text": "Viskas saldu: ledinukai, guminukai, šokolado upė. Čia gyvena vienaragiai."
+},
+{
+"id": 586,
+"kind": "s",
+"text": "Kažkas netoliese verkia… Gal mažas vienaragis?"
+},
+{
+"id": 587,
+"kind": "s",
+"text": "Nunešk jį į muziejų Pradžios Mieste"
+},
+{
+"id": 588,
+"kind": "s",
+"text": "Ačiū tau, mažasis žaliasi! Mūsų šeima vėl kartu."
+},
+{
+"id": 589,
+"kind": "s",
+"text": "Ihaha! Labas! …Kas tu?"
+},
+{
+"id": 590,
+"kind": "s",
+"text": "Tu radai mamos ragą! Ihahaha! Nunešk jį į savo muziejų!"
+},
+{
+"id": 591,
+"kind": "s",
+"text": "Stebuklingas burbulas aplink ragą sprogo!"
+},
+{
+"id": 592,
+"kind": "s",
+"text": "Užlipk ant Didžiojo Torto ir paimk spalvotą ragą"
+},
+{
+"id": 593,
+"kind": "s",
+"text": "Dabar surask mamą Cukraus Vatos Pievoje"
+},
+{
+"id": 594,
+"kind": "s",
+"text": "Ragą saugo stebuklingas burbulas. Gal vienaragių šeima žino, kaip prie jo prieiti? Pirmiausia surask juos visus."
+},
+{
+"id": 595,
+"kind": "s",
+"text": "Gavai spalvotą vienaragio ragą!"
+},
+{
+"id": 596,
+"kind": "s",
+"text": "Grįžk per portalą ir nunešk jį į muziejų Pradžios Mieste"
+},
+{
+"id": 597,
+"kind": "s",
+"text": "<kbd>E</kbd> grįžti per portalą"
+},
+{
+"id": 598,
+"kind": "s",
+"text": "<kbd>E</kbd> paimti spalvotą ragą"
+},
+{
+"id": 599,
+"kind": "t",
+"text": "<kbd>E</kbd> kalbėtis: ${n.m.f.name}"
+},
+{
+"id": 600,
+"kind": "s",
+"text": "Nueik pas Kūrėją – jis turi naują įsakymą"
+},
+{
+"id": 601,
+"kind": "s",
+"text": "Grįžk per portalą"
+},
+{
+"id": 602,
+"kind": "s",
+"text": "Kažkas verkia netoli portalo…"
+},
+{
+"id": 603,
+"kind": "s",
+"text": "Nunešk spalvotą ragą į muziejų Pradžios Mieste"
+},
+{
+"id": 604,
+"kind": "s",
+"text": "Nunešk spalvotą ragą į muziejų"
+},
+{
+"id": 605,
+"kind": "t",
+"text": "${arrow}<div><div class=\"qt\">Įsakymas #4: Spalvotas vienaragio ragas</div><div class=\"qs\">${step}${dist}</div></div>"
+},
+{
+"id": 606,
+"kind": "s",
+"text": "Kūrėjas pakvietė mus gyventi čia, šviesoje. Aš vis tiek mezgu voratinklius – iš įpratimo."
+},
+{
+"id": 607,
+"kind": "s",
+"text": "Žiūrėk, kaip mano Voratinklė laksto su vienaragiukais. Seniai nemačiau jos tokios laimingos."
+},
+{
+"id": 608,
+"kind": "s",
+"text": "Žaidžiam gaudynes! Vienaragiai greiti, bet aš turiu aštuonias kojas!"
+},
+{
+"id": 609,
+"kind": "s",
+"text": "Tėtis sako, kad tu – mano didvyris. Na… mažas didvyris."
+},
+{
+"id": 610,
+"kind": "s",
+"text": "Čia saugu – demonas čia neateina. Ačiū tau, mažasis žaliasi."
+},
+{
+"id": 611,
+"kind": "s",
+"text": "Kai mano berniukai pavargs lakstyti, vešiu juos pasivažinėti ant vaivorykštės."
+},
+{
+"id": 612,
+"kind": "s",
+"text": "Mano naujas ragas jau auga – matai tą mažą kauburėlį? Po truputį, po truputį."
+},
+{
+"id": 613,
+"kind": "s",
+"text": "Kūrėjo šviesa man grąžino jėgas. O senasis ragas tegul švyti tavo muziejuje."
+},
+{
+"id": 614,
+"kind": "s",
+"text": "Aš jau visai nebijau. Na, gal tik truputį – tamsos."
+},
+{
+"id": 615,
+"kind": "s",
+"text": "Ar Kūrėjas turi ledų? Paklausk jo, prašau!"
+},
+{
+"id": 616,
+"kind": "s",
+"text": "Čia nėra Ledų Kalno… bet yra daug vietos lakstyti!"
+},
+{
+"id": 617,
+"kind": "s",
+"text": "Įsakymas #5: Katinas ant kelio"
+},
+{
+"id": 618,
+"kind": "s",
+"text": "Grybų Karalystėje ant kelio sėdi išsigandęs katinas. Nuvesk jį pas Kūrėją"
+},
+{
+"id": 619,
+"kind": "s",
+"text": "Grybų Karalystėje, tiesiai ant kelio, sėdi katinas. Jis bijo ir mašinų, ir šunų."
+},
+{
+"id": 620,
+"kind": "s",
+"text": "Pakalbink jį ir atvesk čia, pas mane. Šunys seks jį visur – bet tu turėsi daug pagaliukų. Šunys pagaliukus myli labiau už katinus."
+},
+{
+"id": 621,
+"kind": "s",
+"text": "Katinas seka paskui tave? Gerai. Mesk šunims pagaliukus (T) ir eik per vartus aikštėje – čia jis bus saugus."
+},
+{
+"id": 622,
+"kind": "s",
+"text": "Katinas čia jau prisijaukino – miega ant mano šviesos, lyg ji būtų saulės lopinėlis. Ačiū tau."
+},
+{
+"id": 623,
+"kind": "s",
+"text": "pakalbinti katiną"
+},
+{
+"id": 624,
+"kind": "s",
+"text": "Šunys!"
+},
+{
+"id": 625,
+"kind": "s",
+"text": "Miau?! …A, tu ne mašina. Ir ne šuo. Fiu."
+},
+{
+"id": 626,
+"kind": "s",
+"text": "Aš čia sėdžiu ant kelio, nes visur aplinkui – šunys. Jie mane vaikosi nuo pat ryto!"
+},
+{
+"id": 627,
+"kind": "s",
+"text": "Pas Kūrėją? Ten šilta ir nėra šunų? …Gerai, eisiu paskui tave. Bet jei šuo prieis arti – aš pabėgsiu atgal čia!"
+},
+{
+"id": 628,
+"kind": "s",
+"text": "Spausk T – mesk pagaliuką, ir šunys nubėgs paskui jį. Vesk katiną į Kūrėjo vartus"
+},
+{
+"id": 629,
+"kind": "s",
+"text": "Šššš!"
+},
+{
+"id": 630,
+"kind": "s",
+"text": "Šuo išgąsdino katiną!"
+},
+{
+"id": 631,
+"kind": "s",
+"text": "Katinas pabėgo atgal ant kelio Grybų Karalystėje. Nueik ir pakalbink jį vėl"
+},
+{
+"id": 632,
+"kind": "s",
+"text": "Kur eiti?"
+},
+{
+"id": 633,
+"kind": "s",
+"text": "Pagaliukų nebeliko!"
+},
+{
+"id": 634,
+"kind": "s",
+"text": "Bėk greičiau (Shift)"
+},
+{
+"id": 635,
+"kind": "s",
+"text": "Įsakymas #5 įvykdytas!"
+},
+{
+"id": 636,
+"kind": "s",
+"text": "Katinas saugus pas Kūrėją ir čia liks. Apdovanojimas: 300 €"
+},
+{
+"id": 637,
+"kind": "s",
+"text": "Murrr… Čia šilta, šviesu ir nė vieno šuns. Geriausia vieta pasaulyje."
+},
+{
+"id": 638,
+"kind": "s",
+"text": "Kūrėjas mane kasdien paglosto. Na, ne ranka – šviesa. Bet vis tiek malonu."
+},
+{
+"id": 639,
+"kind": "s",
+"text": "Ačiū, kad atvedei. Tie pagaliukai buvo genialu."
+},
+{
+"id": 640,
+"kind": "t",
+"text": "Nuvesk katiną į Kūrėjo vartus · pagaliukai: <b>${Q5.sticks}</b> (<kbd>T</kbd> – mesti)"
+},
+{
+"id": 641,
+"kind": "s",
+"text": "Grybų Karalystėje ant kelio sėdi katinas – pakalbink jį"
+},
+{
+"id": 642,
+"kind": "t",
+"text": "${arrow}<div><div class=\"qt\">Įsakymas #5: Katinas ant kelio</div><div class=\"qs\">${step}${dist}</div></div>"
+},
+{
+"id": 643,
+"kind": "s",
+"text": "Ragas ataugo dar gražesnis! O tu – tikras vienaragių draugas. Bet daugiau nevok, gerai?"
+},
+{
+"id": 644,
+"kind": "s",
+"text": "Kur mano ragas?! …Na, nieko. Ataugs. Vienaragių ragai visada ataugą."
+},
+{
+"id": 645,
+"kind": "s",
+"text": "Taip, taip… čia saugu… Ar aš jau sakiau, kad čia saugu?"
+},
+{
+"id": 646,
+"kind": "s",
+"text": "Tu labai daug kalbi, mažasis. Bet man patinka."
+},
+{
+"id": 647,
+"kind": "s",
+"text": "Aaaaach… *žiovauja* …atleisk. Kai daug kalbu, mane apima miegas."
+},
+{
+"id": 648,
+"kind": "s",
+"text": "Mmm… apie ką mes čia… *žiovauja*"
+},
+{
+"id": 649,
+"kind": "s",
+"text": "Zzz… o? Ką sakei? …Zzz…"
+},
+{
+"id": 650,
+"kind": "s",
+"text": "…mano ragas… svajonėse… Zzz…"
+},
+{
+"id": 651,
+"kind": "s",
+"text": "įmesti ragą į vandenį"
+},
+{
+"id": 652,
+"kind": "s",
+"text": "ZZZZZ… *knarkia taip garsiai, kad dreba Kūrėjo Salė* — ir jo ragas – kliukt! – atsiklijuoja ir nukrenta tau į rankas."
+},
+{
+"id": 653,
+"kind": "s",
+"text": "Pavogei Tėčio Vaivorykščio ragą!"
+},
+{
+"id": 654,
+"kind": "s",
+"text": "Ragas virpa ir traukia tave link Ledo Salos… ten yra ledinis ežerėlis"
+},
+{
+"id": 655,
+"kind": "s",
+"text": "LEDINIS EŽERĖLIS"
+},
+{
+"id": 656,
+"kind": "s",
+"text": "Ledinis ežerėlis"
+},
+{
+"id": 657,
+"kind": "s",
+"text": "Vanduo toks šaltas, kad net žuvys čia dėvi šalikus. Keista – atrodo, lyg jis kažko lauktų."
+},
+{
+"id": 658,
+"kind": "s",
+"text": "šokti į spalvotą vandenį"
+},
+{
+"id": 659,
+"kind": "s",
+"text": "Įšok į jį (užlipk ant vandens arba spausk E)"
+},
+{
+"id": 660,
+"kind": "s",
+"text": "VIENARAGIŲ KARALIENĖ"
+},
+{
+"id": 661,
+"kind": "s",
+"text": "SIRUPO EŽERAS"
+},
+{
+"id": 662,
+"kind": "s",
+"text": "DEBESŲ MOKYKLA"
+},
+{
+"id": 663,
+"kind": "s",
+"text": "NEIK ČIA!"
+},
+{
+"id": 664,
+"kind": "s",
+"text": "Vaivorykščių Pasaulis"
+},
+{
+"id": 665,
+"kind": "s",
+"text": "Pusė – saldainiai, pusė – vaivorykštės ir debesys. Čia gyvena šimtai vienaragių."
+},
+{
+"id": 666,
+"kind": "s",
+"text": "Iššokai iš spalvoto vandens… Kur tu? Pasikalbėk su Vienaragių Karaliene"
+},
+{
+"id": 667,
+"kind": "s",
+"text": "Šimtai vienaragių vėl tave sveikina"
+},
+{
+"id": 668,
+"kind": "s",
+"text": "Ihahaa… Žaliasis žmogeliukas, iššokęs iš spalvoto vandens su Vaivorykščio ragu kvapu? Tu – iš Kūrėjo pasaulio!"
+},
+{
+"id": 669,
+"kind": "s",
+"text": "Sveikas atvykęs į Vaivorykščių Pasaulį. Jis toks pat didelis kaip tavasis: kairėje – saldainiai, dešinėje – vaivorykštės ir debesys. Čia gyvena šimtai vienaragių."
+},
+{
+"id": 670,
+"kind": "s",
+"text": "Bet šiandien mano pavaldiniams bėda. Vienas skęsta Sirupo Ežere – kairėje. Kitam Debesų Mokykloje šiandien matematikos egzaminas, o jis nieko nemoka – dešinėje."
+},
+{
+"id": 671,
+"kind": "s",
+"text": "O trečią – mažąją Žvaigždikę – pagrobė vagys ir laiko narve toli šiaurės rytuose. Padėk jiems visiems, ir aš tave apdovanosiu karališkai."
+},
+{
+"id": 672,
+"kind": "s",
+"text": "Vienaragių Karalienė"
+},
+{
+"id": 673,
+"kind": "s",
+"text": "Mūsų karališkasis draugas! Tavo ragas tau tinka. Ateik dar – čia visada laukiami."
+},
+{
+"id": 674,
+"kind": "s",
+"text": "Trys darbai Vaivorykščių Pasaulyje"
+},
+{
+"id": 675,
+"kind": "s",
+"text": "Išgelbėk skęstantį · padaryk egzaminą · išvaduok iš vagių"
+},
+{
+"id": 676,
+"kind": "s",
+"text": "skęstantis vienaragis Sirupo Ežere (kairėje)"
+},
+{
+"id": 677,
+"kind": "s",
+"text": "matematikos egzaminas Debesų Mokykloje (dešinėje)"
+},
+{
+"id": 678,
+"kind": "s",
+"text": "Žvaigždikė vagių narve (toli šiaurės rytuose)"
+},
+{
+"id": 679,
+"kind": "t",
+"text": "Dar ${left === 1 ? 'liko vienas darbas' : `liko ${left} darbai`}: ${todo.join('; ')}."
+},
+{
+"id": 680,
+"kind": "s",
+"text": "Tu padarei viską! Skęstantis – išgelbėtas, egzaminas – išlaikytas, Žvaigždikė – laisva!"
+},
+{
+"id": 681,
+"kind": "s",
+"text": "Todėl skiriu tau karališką apdovanojimą: tikrą vienaragio ragą, vaivorykštinę uodegą ir vienaragių maikę. Nuo šiol tu – vienas iš mūsų."
+},
+{
+"id": 682,
+"kind": "s",
+"text": "Ir dar… štai mažylis vienaragis. Jis nori keliauti su tavimi. Rūpinkis juo!"
+},
+{
+"id": 683,
+"kind": "s",
+"text": "Gavai vienaragio kostiumą ir vienaragį augintinį!"
+},
+{
+"id": 684,
+"kind": "s",
+"text": "Ragas, uodega ir maikė jau tau. Augintinis lauks, kai grįši namo. +500 €"
+},
+{
+"id": 685,
+"kind": "s",
+"text": "Gelbėkit!"
+},
+{
+"id": 686,
+"kind": "s",
+"text": "Lašiukas"
+},
+{
+"id": 687,
+"kind": "s",
+"text": "Kchė kchė… Ačiū! Aš Lašiukas. Bėgiojau per sirupo ledukus ir – pliumpt!"
+},
+{
+"id": 688,
+"kind": "s",
+"text": "Pasakysiu Karalienei, kad tu – tikras didvyris!"
+},
+{
+"id": 689,
+"kind": "s",
+"text": "Vienaragis išgelbėtas!"
+},
+{
+"id": 690,
+"kind": "t",
+"text": "Darbų atlikta: ${Q6_TASKS()} / 3"
+},
+{
+"id": 691,
+"kind": "t",
+"text": "Ganykloje ${a} vienaragiai. Atbėgo dar ${b}. Kiek dabar vienaragių?"
+},
+{
+"id": 692,
+"kind": "t",
+"text": "Kiekvienas vienaragis turi 4 kojas. Kiek kojų turi ${a} vienaragiai?"
+},
+{
+"id": 693,
+"kind": "t",
+"text": "Debesėlis turėjo ${a} saldainius ir ${b} suvalgė. Kiek liko?"
+},
+{
+"id": 694,
+"kind": "t",
+"text": "Spausk atsakymą (arba klavišus 1–4) · teisingų: ${quiz.ok}"
+},
+{
+"id": 695,
+"kind": "t",
+"text": "${ok} iš ${n}!!! Mokytoja sako – PENKETAS! Ihahaha!"
+},
+{
+"id": 696,
+"kind": "s",
+"text": "Ačiū tau, protingasis žaliasis! Dabar ir aš pradėsiu mokytis… rytoj."
+},
+{
+"id": 697,
+"kind": "s",
+"text": "Egzaminas išlaikytas!"
+},
+{
+"id": 698,
+"kind": "t",
+"text": "Tik ${ok} iš ${n}… Reikia bent ${n - 1}. Mokytoja leido perlaikyti – pabandom dar kartą?"
+},
+{
+"id": 699,
+"kind": "s",
+"text": "Bėgam!"
+},
+{
+"id": 700,
+"kind": "s",
+"text": "Visi vagys pabėgo!"
+},
+{
+"id": 701,
+"kind": "s",
+"text": "Atidaryk narvą (E) ir išlaisvink Žvaigždikę"
+},
+{
+"id": 702,
+"kind": "s",
+"text": "Prieik prie kito ir trenk jam (pelės mygtukas)"
+},
+{
+"id": 703,
+"kind": "s",
+"text": "Mūsų vienaragis!"
+},
+{
+"id": 704,
+"kind": "s",
+"text": "Žvaigždikė"
+},
+{
+"id": 705,
+"kind": "s",
+"text": "Laisvė! Ihahaha! Tie vagys norėjo mane parduoti į cirką!"
+},
+{
+"id": 706,
+"kind": "s",
+"text": "Tu toks mažas, o toks drąsus. Bėgu pasakyti Karalienei!"
+},
+{
+"id": 707,
+"kind": "s",
+"text": "Žvaigždikė laisva!"
+},
+{
+"id": 708,
+"kind": "s",
+"text": "grįžti per vaivorykštinį baseiną"
+},
+{
+"id": 709,
+"kind": "s",
+"text": "kalbėtis su Vienaragių Karaliene"
+},
+{
+"id": 710,
+"kind": "s",
+"text": "paimti gelbėjimo ratą"
+},
+{
+"id": 711,
+"kind": "s",
+"text": "mesti gelbėjimo ratą skęstančiam vienaragiui"
+},
+{
+"id": 712,
+"kind": "s",
+"text": "kalbėtis: Lašiukas"
+},
+{
+"id": 713,
+"kind": "s",
+"text": "kalbėtis: Debesėlis"
+}
+]
